@@ -1,0 +1,32 @@
+# Moread Reading Pipeline Configuration
+# =======================================
+
+sources:
+  bbc:
+    enabled: true
+    max_articles: 10
+  voa:
+    enabled: true
+    max_articles: 10
+  newsinlevels:
+    enabled: true
+    max_articles: 10
+
+analyzer:
+  # LLM settings (optional) — leave empty to use rule-based analysis only
+  # Can also be set via env vars: READING_LLM_BASE_URL, READING_LLM_KEY
+  llm_base_url: ""
+  llm_api_key: ""
+  llm_model: "gpt-4o-mini"
+  # Rule-based analysis parameters
+  max_sentence_length_easy: 12
+  max_sentence_length_medium: 20
+  avg_word_length_threshold: 5.0
+
+storage:
+  output_dir: "./output/articles"
+  index_file: "./output/index.json"
+  history_file: "./output/.fetch_history.json"
+
+schedule:
+  interval_minutes: 360  # 6 hours
