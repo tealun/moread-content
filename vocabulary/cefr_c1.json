@@ -1,0 +1,5652 @@
+{
+  "level": "C1",
+  "word_count": 1129,
+  "source": "Octanove Vocabulary Profile C1/C2 1.0 / michigan-musicer/cefr-text-vocab-scanner",
+  "words": [
+    {
+      "word": "exterior",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "cloak",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "timid",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "reluctantly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "complexity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "concur",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "avid",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "marvel",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "wing",
+      "pos": "noun",
+      "zh": "名词：翼，翅膀，翅"
+    },
+    {
+      "word": "enviable",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "organizational",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "psychiatrist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "psychiatric",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "clinical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "corps",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "forensic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "juvenile",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "juvenile",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "jurisdiction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "accustomed",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "trauma",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "traumatic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "constraint",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "revealing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "eccentric",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sanctity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "conform",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "norms",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "quirk",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "oddity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "compel",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "compulsion",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "conceive",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "conceivable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "assertion",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "individuality",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "psyche",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "conformity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unconventional",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "congregate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "rally",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "resent",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "self-conscious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "wary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "stoke",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "dynamically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "hostess",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "perpetuate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "naturalness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "exhibitionist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "isolate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "isolated",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "humble",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "humble",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "refreshingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "effortless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "vegetation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "brief",
+      "pos": "verb",
+      "zh": "形容词：简要，简短，短暂"
+    },
+    {
+      "word": "respite",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "suffice",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "purity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "gruelling",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "cast",
+      "pos": "noun",
+      "zh": "动词：投，投射，抛"
+    },
+    {
+      "word": "cast",
+      "pos": "verb",
+      "zh": "动词：投，投射，抛"
+    },
+    {
+      "word": "cast",
+      "pos": "verb",
+      "zh": "动词：投，投射，抛"
+    },
+    {
+      "word": "comprise",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "plaster",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "plaster",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "darkroom",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "induct",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "induction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "stock",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fossil",
+      "pos": "noun",
+      "zh": "名词：化石"
+    },
+    {
+      "word": "geological",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "geologically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "house",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "specimen",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "enormously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "gem",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "explanatory",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "vertical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "knowledgeable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ordinarily",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "hanging",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "hanging",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tomb",
+      "pos": "noun",
+      "zh": "名词：墓，坟墓，陵墓"
+    },
+    {
+      "word": "formulate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "resin",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sacrifice",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sacrifice",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "cleanly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "endorsement",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "stretching",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "continuity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "shambles",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "claustrophobic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "claustrophobia",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "headstrong",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "tact",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tactful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "tactfully",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "blister",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "blister",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sponsorship",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ego",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "class",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "saloon",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lap",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "beforehand",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "slob",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "coverage",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unplug",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "gadget",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "rediscover",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "subtly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "brainwash",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "brainwashing",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "implicate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "craft",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "malfunction",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "dependent",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "wayside",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "expire",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "con",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "con",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "puzzle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "damply",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "ghostly",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "carrier",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "washtub",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "apt",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "apt to",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "portable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "portable",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ornamental",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "placid",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "placidly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "unmanageable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "appliance",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "relinquish",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "tedious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "tedium",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "exert",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "extortion",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "alleviate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "elaborate",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "elaborate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "elaboration",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "detest",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "detestable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "suds",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "agreeable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "prowl",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "speculate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "speculation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "speculative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "peacock",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "disdain",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "reenact",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "torment",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "torment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "extravagance",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "exploit",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "exploitation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "mechanism",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "hence",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "offspring",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "implicate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fit",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "oblige",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "drive",
+      "pos": "verb",
+      "zh": "动词：驱动，驾驶，带动"
+    },
+    {
+      "word": "drive",
+      "pos": "noun",
+      "zh": "动词：驱动，驾驶，带动"
+    },
+    {
+      "word": "collaborate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "collaborator",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "collaboration",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "collaborative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "showy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "wrangle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "premise",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "advantageous",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "parasite",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "fanciful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "poise",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "customary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "insightful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "notable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "vicious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "viciously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "pupil",
+      "pos": "noun",
+      "zh": "名词：瞳孔，学生，弟子"
+    },
+    {
+      "word": "withdrawn",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "withdrawal",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "torturous",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "depict",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "depiction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "upheaval",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "shortlist",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "shortlist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "uneventful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "pertinent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "pertain to",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "daydream",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "daydream",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "protagonist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "simplicity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "blockbuster",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "resonate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sequel",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "irony",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "acidic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "align",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "alignment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "manipulation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "suitor",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "deceit",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "alienate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "persuasively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "compel",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "confinement",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "minutiae",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "peasant",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "inexplicable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "inexplicably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "pigeon",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "harass",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "harassment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "believably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "readable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "cleverness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "persecute",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "persecution",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "smug",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "smugly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "ferocious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ferociously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "hostile",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "hostility",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "dismay",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "dismay",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "methodical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ruthless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ruthlessness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "talkative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "awe",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "clan",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "privileged",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "crumble",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "crumb",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pace",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "closeness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "rarity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "evoke",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "repel",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "repellant",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "repellant",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "aqua",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "aquarium",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "insightful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "insightfully",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "flashback",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "self-worth",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "agonize",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "cite",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "citation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "recite",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "ecstasy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ecstatic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ecstatically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "pleasurable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "nature",
+      "pos": "noun",
+      "zh": "名词：性质，自然，本质"
+    },
+    {
+      "word": "substantially",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "favorably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "favourably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "diversity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "elitist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "grumble",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "rumble",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "rumble",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "neglectful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "roundup",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "conscientious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "conscientiously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "indefinite",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "indefinitely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "atmospheric",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "fuse",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fusion",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "robust",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "robustly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "dismal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "dismally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "crave",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "craving",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "prospective",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "swap",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "remotely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "splatter",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "automatic",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "automatically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "exhaust",
+      "pos": "verb",
+      "zh": "动词：排气，排出，耗尽"
+    },
+    {
+      "word": "violet",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "bubbly",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "chaotically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "apprehensive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "settee",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "trampoline",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "stamina",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ploy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "dither",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "overalls",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unison",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "snail",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "bliss",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "inexhaustible",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "acre",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "calf",
+      "pos": "noun",
+      "zh": "名词：小牛，犊，腓"
+    },
+    {
+      "word": "heifer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ewe",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "adversary",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "victorious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "victoriously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "profound",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "profoundly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "baldly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "bald",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "bearded",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "professionalism",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "artistically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "popularization",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pendulum",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "predecessor",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "boast",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lapse",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ceaseless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ceaselessly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "climax",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "climactic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "anticlimactic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "scramble",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "forfeit",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "twitch",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "twitch",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "intellect",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "descent",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "shed",
+      "pos": "verb",
+      "zh": "名词：棚子，棚，舍"
+    },
+    {
+      "word": "exodus",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "immortalize",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "genome",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "fraction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "faction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "physique",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "utensil",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "otter",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "clammy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "absolute",
+      "pos": "noun",
+      "zh": "形容词：绝对，独立的"
+    },
+    {
+      "word": "dispense",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "dispensable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "dispensary",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "indispensable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "diverge",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "divergence",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "divergent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "burst",
+      "pos": "noun",
+      "zh": "动词：爆，爆裂，破裂"
+    },
+    {
+      "word": "superficial",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "superficially",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "aesthetic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "aesthetically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "scrutinize",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "scrutinise",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "scrutiny",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "quip",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "quip",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "woo",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "criteria",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "plausible",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "plausibility",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "plausibly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "instinctive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "instinctively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "stylistic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "stylistically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "inheritance",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "inherent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "inherently",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "tune",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "spontaneous",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "spontaneously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "honk",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "honk",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "goose",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "innovate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "innovation",
+      "pos": "noun",
+      "zh": "名词：革新"
+    },
+    {
+      "word": "innovative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "connoisseur",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "abstraction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tantrum",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "institute",
+      "pos": "verb",
+      "zh": "名词：研究所，学院，学会"
+    },
+    {
+      "word": "discard",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fatality",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "angle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "stiffen",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "wooded",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "hostile",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "hostility",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "flatter",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "flattery",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "aimless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "aimlessly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "meaningless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "meaninglessly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "candid",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "candidly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "vitality",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "provoke",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "provocative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "provocatively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "clench",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "haggle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "scorn",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "scornful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "scornfully",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "animatedly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "obscure",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "obscure",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "obscurely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "elevate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "elevation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pose",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "tedious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "tediously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "succession",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "formality",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "jog",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "mountaineer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pioneer",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "pioneer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "quest",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "transatlantic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "rudiments",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "rudimentary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "paddle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "immense",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "immensely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "advisory",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "trying",
+      "pos": "adjective",
+      "zh": "形容词：费劲的，难捱"
+    },
+    {
+      "word": "adrenaline",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tinker",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "tinker",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lavatory",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "expedition",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pinnacle",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "insecure",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "insecurely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "reassure",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "reassurance",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "insensitive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "insensitively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "profess",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "drawback",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "resort",
+      "pos": "verb",
+      "zh": "名词：采取，渡假胜地，娱乐场"
+    },
+    {
+      "word": "resort",
+      "pos": "noun",
+      "zh": "名词：采取，渡假胜地，娱乐场"
+    },
+    {
+      "word": "oversee",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "overseer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "estimation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "commission",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "commission",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "liaison",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "stressfully",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "loom",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "notwithstanding",
+      "pos": "preposition",
+      "zh": ""
+    },
+    {
+      "word": "structurally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "structural",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "chauffer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "chauffer",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sedentary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "rapport",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "landscape",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "consultation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "consultancy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "bloom",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "engineer",
+      "pos": "verb",
+      "zh": "名词：工程师，技师"
+    },
+    {
+      "word": "retention",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "quarry",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "specification",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "contract",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "contract",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "contractor",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "query",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "possessor",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "chill",
+      "pos": "verb",
+      "zh": "名词：寒意，寒冷，寒气"
+    },
+    {
+      "word": "chill",
+      "pos": "noun",
+      "zh": "名词：寒意，寒冷，寒气"
+    },
+    {
+      "word": "chilly",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "frost",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "frosty",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "frostily",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "man",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "unmanned",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "impersonal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "impersonally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "impersonate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "impersonator",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "impersonation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "buzzer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "desert",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "desertion",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unoccupied",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "stuffy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "stuffily",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "stuffiness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "gape",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "gape",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "repute",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "toughness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "recall",
+      "pos": "noun",
+      "zh": "动词：召回，记得，回想"
+    },
+    {
+      "word": "recollection",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "plumbing",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "usher",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "glum",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "glumly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "gamely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "dissect",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "dissection",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "commend",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "commendation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "thereby",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "flick",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "flicker",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unenviable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unenviably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "voice",
+      "pos": "verb",
+      "zh": "名词：语音，声音，声"
+    },
+    {
+      "word": "tread",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "allege",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "allegation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "bribe",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "bribe",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "bribery",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "inclusion",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "inclusive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "inclusively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "unconvincing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unconvincingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "recharge",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "facilitation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "condition",
+      "pos": "verb",
+      "zh": "名词：条件，状态，状况"
+    },
+    {
+      "word": "conditional",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "conditionally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "tone",
+      "pos": "verb",
+      "zh": "名词：音，色调，音调"
+    },
+    {
+      "word": "align",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "alignment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "supple",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "manicure",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "manicure",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "pedicure",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "facial",
+      "pos": "adjective",
+      "zh": "形容词：表面的，表面上的，脸的"
+    },
+    {
+      "word": "facial",
+      "pos": "noun",
+      "zh": "形容词：表面的，表面上的，脸的"
+    },
+    {
+      "word": "bouquet",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "refurbish",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "refurbishment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "grounds",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "grounds",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "grounds",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ground",
+      "pos": "verb",
+      "zh": "名词：地面，地，地基"
+    },
+    {
+      "word": "lethargy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lethargic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "lethargically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "stately",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "conserve",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "conservatory",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "disquieting",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "fiercely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "grapefruit",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "exotic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "exotically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "flask",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "spacious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gourmet",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gourmet",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "rich",
+      "pos": "adjective",
+      "zh": "形容词：丰富，富，富有"
+    },
+    {
+      "word": "conjure",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "creamy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sauna",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "remedial",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "posture",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sedate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sedately",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "sedate",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "clutch",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "clutch",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "stagger",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "staggering",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "dutiful",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "dutifully",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "calorie",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "firm",
+      "pos": "verb",
+      "zh": "名词：公司，企业，厂商"
+    },
+    {
+      "word": "fabulously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "premise",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "premises",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "eclectic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "eclectic",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "eclectically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "revere",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "harbor",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "harbour",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "recognizable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "recognisable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "recognizably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "recognisably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "batter",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "battery",
+      "pos": "noun",
+      "zh": "名词：电池，组，炮台"
+    },
+    {
+      "word": "batter",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "batter",
+      "pos": "",
+      "zh": ""
+    },
+    {
+      "word": "unreliably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "waterfront",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "amply",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "amplification",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "battered",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "battered",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "comply",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "compliance",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "compliant",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "compliantly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "blankness",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "exuberant",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "exuberance",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "exuberantly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "linear",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "linearly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "flourish",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "flourish",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "anchor",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "anchored",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "domination",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "dominant",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "dominantly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "interject",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "interjection",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "gush",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "gushing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gush",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "gushingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "voracious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "voraciously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "sketchbook",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sketch",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "prop",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "prop",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "imp",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "impish",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "impishly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "wicked",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "wickedly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "macabre",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gusto",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tantamount",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "antics",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lapse",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lapse",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "relapse",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "relapse",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "impede",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "impediment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "taut",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "tautly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "jersey",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "jersey",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "startling",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "startlingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "slack",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "slack",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "slack",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "slackly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "unwavering",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unwaveringly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "removed",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "buffoon",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "beguiling",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "beguilingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "blithely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "stray",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "stray",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "stray",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "mythological",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "mythology",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "venerate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "veneration",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ethical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ethically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "heroine",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "refreshing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "refresh",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "refreshingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "zany",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "devotee",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "salve",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "salvation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "salvage",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "staccato",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "staccato",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "verve",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "motley",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "preach",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "preacher",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "behind",
+      "pos": "preposition",
+      "zh": "副词：背后，落后，向后"
+    },
+    {
+      "word": "continuity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "justly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "wry",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "wryly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "poetess",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "confide",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sentient",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sentiment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sentimental",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sentimentally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "tangle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "tangle",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tangled",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "untangle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "untangled",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "perceptive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "perceptively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "outset",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tycoon",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "launch",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "engross",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "engrossing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "plague",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "orphan",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "detritus",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "detriment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "detrimental",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "detrimentally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "domestically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "domesticate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "domestication",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "eccentric",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "eccentric",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "eccentrically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "render",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "rendering",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pathos",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tailor",
+      "pos": "noun",
+      "zh": "名词：裁缝，裁缝师"
+    },
+    {
+      "word": "tailor",
+      "pos": "verb",
+      "zh": "名词：裁缝，裁缝师"
+    },
+    {
+      "word": "personalize",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "personalise",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "personalization",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "personalisation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "personification",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "limitless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "apprentice",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "apprentice",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "apprenticeship",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "precision",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "swap",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "swap",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "perfect",
+      "pos": "verb",
+      "zh": "形容词：完善，完美，健全"
+    },
+    {
+      "word": "silhouette",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "nondescript",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "signal",
+      "pos": "verb",
+      "zh": "名词：信号，暗号，示意"
+    },
+    {
+      "word": "negligible",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "negligent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "negligently",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "principally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "altruism",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "altruistic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "scenario",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "voluntary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "voluntarily",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "reap",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "paternal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "maternal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "maternalistic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "paternalistic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "provisions",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "injustice",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "impoverished",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unsustainable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unsustainably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "sustainable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sustainably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "bypass",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "imperative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "imperative",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "cynic",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "cynical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "cynically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "cynicism",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sarcasm",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sarcastic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sarcastically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "misplace",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "symptomatic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "degrade",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "degrading",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "degradation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "discourse",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "amid",
+      "pos": "preposition",
+      "zh": ""
+    },
+    {
+      "word": "hedgehog",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "nocturnal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "hibernate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "hibernation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "convict",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "convict",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "conviction",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "latent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "snooze",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "classy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "wrench",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "reminisce",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "reminiscent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "intuit",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "intuition",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "intuitive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "intuitively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "marginal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "marginally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "crude",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "crudely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "strap",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "strap",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "strapping",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "scoff",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fiddly",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "fiddler",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "fiddle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fiddle",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unmusical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unmusically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "repertory",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "concerto",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "premier",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "premier",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "fanatic",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "fanatic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "fanatically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "acoustically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "acoustic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "acoustics",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "compromised",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "daunt",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "daunting",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "realist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "realism",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "recess",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "recess",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "recessive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "prolific",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "prolifically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "proliferate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fragmentation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "campaign",
+      "pos": "verb",
+      "zh": "名词：运动，征战，风潮"
+    },
+    {
+      "word": "astray",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "duration",
+      "pos": "noun",
+      "zh": "名词：长短，为期，龄"
+    },
+    {
+      "word": "durable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "durable",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "likelihood",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "naive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "naively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "naivety",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "impervious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ludicrous",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "ludicrously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "cost-effective",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gruesome",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gruesomely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "envisage",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "screenwriter",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "mingle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "churn",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "buffer",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "buffer",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "irate",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "irately",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "docile",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "docilely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "fiend",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "fiendish",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "fiendishly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "transfix",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "gypsy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "temperament",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "temperamental",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "temperamentally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "screenplay",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "disillusionment",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "demise",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "raunchy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "raunchily",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "overdraft",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "overdraft",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "synopsis",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "renown",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "contest",
+      "pos": "verb",
+      "zh": "名词：竞赛，比赛，赛"
+    },
+    {
+      "word": "contested",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "verandah",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "occupational",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "verdict",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "ventilate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "ventilation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "occupant",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "radiator",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "homely",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "bureaucratic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "bureaucratically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "adjustable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "fatigue",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "muscular",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "versatile",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "versatility",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "stimuli",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "uninspiring",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "mutually",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "somber",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "sombre",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "somberly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "sombrely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "clutter",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "clutter",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "lodge",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "dislodge",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "carpenter",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "carpentry",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "transit",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "plummet",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "circulate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "circulation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "demography",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "demographic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "demographic",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "demographically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "phenomenal",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "phenomenally",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "prophet",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "prophetic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "paywall",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "firewall",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "launch",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "invoice",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "demolition",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "demo",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "gig",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "socialization",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "antiquity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "antiquated",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "restoration",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "restorative",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "rotate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "till",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "coupled",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "itinerary",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "charter",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "charter",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "terrain",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "resilient",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "resilience",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "enterprising",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "integral",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "canoe",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "magnetic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "magnetism",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "magnetically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "credible",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "credibly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "credibility",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "credential",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "acutely",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "prohibitive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "prohibitively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "fissure",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pendulum",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "pendulous",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "suspension",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "aboard",
+      "pos": "preposition",
+      "zh": ""
+    },
+    {
+      "word": "drill",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "drill",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "anthropology",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "anthropologist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "squander",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "munch",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "adjoin",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "adjoining",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "wizened",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "graft",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "orchard",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "seedling",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "tract",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "folktale",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sprout",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sprout",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "hypocrisy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "hypocrite",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "hypocritical",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "hypocritically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "midwife",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "harvest",
+      "pos": "verb",
+      "zh": "名词：收成，收，年成"
+    },
+    {
+      "word": "commercially",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "uniformity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "numb",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "numb",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "tastebud",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "amateur",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "amateur",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "retrace",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "chart",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "insubordinate",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "insubordination",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "insubordinately",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "subordinate",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "primitively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "embark",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "expedite",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "contextual",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "contextually",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "whilst",
+      "pos": "conjunction",
+      "zh": ""
+    },
+    {
+      "word": "maneuver",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "manoeuvre",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "maneuver",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "manoeuvre",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "riveting",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "plunge",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "plunge",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "debut",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "debut",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "turmoil",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "scathing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unscathing",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "convoluted",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "undaunted",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gutsy",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "deprivation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "farce",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "portray",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "portrayal",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "elusive",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "elude",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "incisor",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "incision",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "chisel",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "chiselled",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "gnaw",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "elongate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "telltale",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "cavity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "rustle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "rustle",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "glean",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "niche",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "somersault",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "somersault",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "exhilarate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "exhilarating",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "exhilaration",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "physicality",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "hack",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "hack",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "lust",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "unsettling",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unsettle",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "suburban",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "suburbia",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "dramatist",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "characterization",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "characterisation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "quirky",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "quirky",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sprawl",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "sprawl",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "ingenuity",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "panorama",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "panoramic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "benign",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "benignly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "explosively",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "bequeath",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "legacy",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "synthetic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "synthetically",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "lackluster",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "lacklustre",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "elastic",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "elastic",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "appall",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "appal",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "appalling",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "appallingly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "pounce",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "abound",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "sap",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "monotonous",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "monotonously",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "monotony",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "turn to",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "ingenious",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "plaque",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "neutralize",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "neutralise",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "neutralization",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "neutralisation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "salivate",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "cessation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "remorse",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "remorseless",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "remorsefully",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "remorselessly",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "inexcusable",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "inexcusably",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "inexhaustible",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "unassisted",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "heighten",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "fixture",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "bulk",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "bulky",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "bulk up",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "digitalize",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "digitalise",
+      "pos": "verb",
+      "zh": ""
+    },
+    {
+      "word": "digitalization",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "digitalisation",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "mark-up",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "complementary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "complimentary",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "staple",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "wares",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "testament",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "succulent",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "succulent",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "succulently",
+      "pos": "adverb",
+      "zh": ""
+    },
+    {
+      "word": "tranquil",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "tranquility",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "spartan",
+      "pos": "adjective",
+      "zh": ""
+    },
+    {
+      "word": "peninsula",
+      "pos": "noun",
+      "zh": ""
+    },
+    {
+      "word": "billiards",
+      "pos": "noun",
+      "zh": ""
+    }
+  ]
+}
