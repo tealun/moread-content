@@ -1,0 +1,82 @@
+{
+  "publisher": "外研版高中英语",
+  "publisher_code": "fltrp",
+  "level": "senior",
+  "grade": 10,
+  "semester": "required1",
+  "title": "必修第一册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "A New Start",
+      "topic": "新的开始、高中生活",
+      "topic_en": "A new start, senior high school life",
+      "grammar": ["基本句型", "一般现在时"],
+      "grammar_en": ["basic sentence patterns", "simple present tense"],
+      "key_vocabulary": ["senior", "campus", "tradition", "eager", "explore", "orientation", "schedule", "selective", "challenge", "opportunity"],
+      "cefr_level": "A2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Friends for Life",
+      "topic": "友谊",
+      "topic_en": "Friendship, making friends",
+      "grammar": ["一般过去时", "used to"],
+      "grammar_en": ["simple past tense", "used to"],
+      "key_vocabulary": ["friendship", "loyal", "generous", "betray", "forgive", "argument", "trust", "support", "share", "comfort", "sincere", "companion"],
+      "cefr_level": "A2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Family Matters",
+      "topic": "家庭事务",
+      "topic_en": "Family relationships, generation gap",
+      "grammar": ["现在进行时", "过去进行时"],
+      "grammar_en": ["present continuous tense", "past continuous tense"],
+      "key_vocabulary": ["generation", "relationship", "respect", "argue", "disagree", "compromise", "responsibility", "understanding", "communicate", "patience", "nuclear", "extended"],
+      "cefr_level": "A2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Amazing Art",
+      "topic": "艺术魅力",
+      "topic_en": "Amazing art, museums, paintings",
+      "grammar": ["现在完成时"],
+      "grammar_en": ["present perfect tense"],
+      "key_vocabulary": ["gallery", "exhibition", "masterpiece", "sculpture", "inspire", "landscape", "portrait", "abstract", "technique", "creative", "original", "display"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Into the Wild",
+      "topic": "走进自然",
+      "topic_en": "Nature, wildlife, adventure",
+      "grammar": ["定语从句（关系代词）"],
+      "grammar_en": ["relative clauses with relative pronouns"],
+      "key_vocabulary": ["wilderness", "survival", "species", "adapt", "habitat", "endangered", "conservation", "trek", "expedition", "remote", "wilderness", "ecosystem"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "At One with Nature",
+      "topic": "与自然和谐共处",
+      "topic_en": "Living in harmony with nature",
+      "grammar": ["定语从句（关系副词）"],
+      "grammar_en": ["relative clauses with relative adverbs"],
+      "key_vocabulary": ["harmony", "sustainable", "renewable", "ecosystem", "biodiversity", "climate", "landscape", "agriculture", "terraces", "erosion", "fertile", "mineral"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

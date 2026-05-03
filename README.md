@@ -33,14 +33,14 @@ moread-content/
 │
 ├── textbook/                  ← 教材同步库（按课文主题自创平行文章）
 │   ├── README.md              ← 教材版本说明、使用方法
-│   ├── renjiao/               ← 人教版（PEP）
+│   ├── pep/                   ← 人教版（PEP）
 │   │   ├── README.md          ← 覆盖范围说明
 │   │   ├── grade7/
 │   │   │   ├── unit01.json    ← 每单元一个文件
 │   │   │   └── ...
 │   │   ├── grade8/
 │   │   └── grade9/
-│   ├── waiyan/                ← 外研版（未来扩展）
+│   ├── fltrp/                 ← 外研版（FLTRP）
 │   └── textbook.sql           ← 全量 PostgreSQL 导入脚本
 │
 ├── reading/                   ← 分级阅读素材库
@@ -138,7 +138,7 @@ moread-content/
 **JSON 格式**：
 
 ```json
-// textbook/renjiao/grade7/unit01.json
+// textbook/pep/grade7/unit01.json
 {
   "publisher": "人教版",
   "grade": 7,
@@ -224,7 +224,7 @@ moread-content/
 
 ```javascript
 import a2Words from 'moread-content/vocabulary/cefr/a2.json'
-import unit01 from 'moread-content/textbook/renjiao/grade7/unit01.json'
+import unit01 from 'moread-content/textbook/pep/grade7/unit01.json'
 ```
 
 ### 导入 PostgreSQL

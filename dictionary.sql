@@ -1,7 +1,12 @@
 -- Dictionary table for moread-content
 -- Generated from ECDICT (https://github.com/skywind3000/ECDICT)
 -- Total words: 699,895
--- Import: psql -d yourdb -f dictionary.sql
+--
+-- Import: Use tools/import_dictionary.py to load JSON data into PostgreSQL.
+--   DATABASE_URL=postgres://user:pass@host:5432/dbname python tools/import_dictionary.py
+--
+-- Or apply this file first to create the schema:
+--   psql -d yourdb -f dictionary.sql
 
 DROP TABLE IF EXISTS dictionary;
 
@@ -24,7 +29,3 @@ CREATE INDEX idx_dictionary_letter ON dictionary (letter);
 CREATE INDEX idx_dictionary_frequency ON dictionary (frequency DESC);
 CREATE INDEX idx_dictionary_word_trgm ON dictionary USING gin (word gin_trgm_ops);
 CREATE INDEX idx_dictionary_cefr ON dictionary (cefr) WHERE cefr != '';
-
--- Import from TSV:
--- COPY dictionary(word, letter, phonetic, pos, definitions, examples, frequency, cefr, forms)
---   FROM '/path/to/dictionary/dictionary.tsv' WITH (FORMAT text);

@@ -1,0 +1,83 @@
+{
+  "publisher": "外研版高中英语",
+  "publisher_code": "fltrp",
+  "level": "senior",
+  "grade": 11,
+  "semester": "selective1",
+  "title": "选择性必修第一册",
+  "confidence": "estimated",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Nothing Ventured, Nothing Gained",
+      "topic": "冒险精神、勇于尝试",
+      "topic_en": "Risk-taking, courage, adventurous spirit",
+      "grammar": ["动词不定式作目的状语"],
+      "grammar_en": ["infinitive as adverbial of purpose"],
+      "key_vocabulary": ["venture", "risk", "courage", "determination", "overcome", "challenge", "ambition", "failure", "achievement", "reward", "perseverance", "bold"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Growing Up",
+      "topic": "成长历程、人生感悟",
+      "topic_en": "Growing up, life experiences, personal growth",
+      "grammar": ["过去完成时"],
+      "grammar_en": ["past perfect tense"],
+      "key_vocabulary": ["maturity", "adolescent", "independence", "responsibility", "transition", "identity", "experience", "reflection", "wisdom", "milestone", "struggle", "confident"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Caring for the Planet",
+      "topic": "环境保护、可持续发展",
+      "topic_en": "Environmental protection, sustainability",
+      "grammar": ["被动语态（一般现在时和一般过去时）"],
+      "grammar_en": ["passive voice (simple present & past)"],
+      "key_vocabulary": ["sustainable", "emission", "renewable", "conservation", "pollution", "recycle", "carbon", "ecosystem", "biodiversity", "climate", "degrade", "awareness"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Meeting the Muse",
+      "topic": "艺术灵感、创造力",
+      "topic_en": "Artistic inspiration, creativity, imagination",
+      "grammar": ["现在分词作状语"],
+      "grammar_en": ["present participle as adverbial"],
+      "key_vocabulary": ["muse", "inspire", "creativity", "imagination", "masterpiece", "gallery", "sculpture", "originality", "aesthetic", "vivid", "portrait", "abstract"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Revealing Nature",
+      "topic": "揭示自然奥秘",
+      "topic_en": "Discoveries in nature, scientific exploration",
+      "grammar": ["定语从句（that/which/who）复习"],
+      "grammar_en": ["relative clauses (that/which/who) review"],
+      "key_vocabulary": ["reveal", "phenomenon", "species", "evolution", "organism", "habitat", "adaptation", "genetic", "mutation", "fossil", "observation", "hypothesis"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "Nurturing Nature",
+      "topic": "呵护自然、生态平衡",
+      "topic_en": "Nurturing nature, ecological balance",
+      "grammar": ["情态动词表推测"],
+      "grammar_en": ["modal verbs for deduction"],
+      "key_vocabulary": ["nurture", "ecology", "balance", "preserve", "restore", "endangered", "extinct", "wildlife", "refuge", "sanctuary", "thrive", "sustainable"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "publisher": "外研版新标准英语",
+  "publisher_code": "fltrp",
+  "level": "junior",
+  "grade": 7,
+  "semester": "up",
+  "title": "七年级上册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "My classmates",
+      "topic": "同学、自我介绍",
+      "topic_en": "Classmates, self-introduction",
+      "grammar": ["be动词", "人称代词主格"],
+      "grammar_en": ["be verbs", "subject personal pronouns"],
+      "key_vocabulary": ["Chinese", "English", "from", "year", "age", "class", "Ms", "America", "not", "where"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "My family",
+      "topic": "家庭",
+      "topic_en": "Family members",
+      "grammar": ["this/that/these/those", "名词所有格"],
+      "grammar_en": ["demonstrative pronouns", "possessive nouns"],
+      "key_vocabulary": ["aunt", "brother", "daughter", "family", "father", "grandfather", "grandmother", "grandparent", "mother", "parent", "sister", "son", "uncle"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "My school",
+      "topic": "学校",
+      "topic_en": "School, school facilities",
+      "grammar": ["there be句型", "方位介词"],
+      "grammar_en": ["there be structure", "prepositions of place"],
+      "key_vocabulary": ["building", "computer", "desk", "dictionary", "library", "map", "picture", "television", "wall", "furniture"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Healthy food",
+      "topic": "健康饮食",
+      "topic_en": "Healthy food, eating habits",
+      "grammar": ["have got", "some/any"],
+      "grammar_en": ["have got", "some/any"],
+      "key_vocabulary": ["apple", "bean", "beef", "carrot", "chicken", "chocolate", "coffee", "cola", "juice", "milk", "potato", "tomato"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "My school day",
+      "topic": "学校日常",
+      "topic_en": "School day, daily routine",
+      "grammar": ["一般现在时", "时间表达"],
+      "grammar_en": ["simple present tense", "time expressions"],
+      "key_vocabulary": ["breakfast", "homework", "house", "lunch", "minute", "morning", "subject", "talk", "then", "week", "work"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "A trip to the zoo",
+      "topic": "动物园之旅",
+      "topic_en": "Zoo, animals",
+      "grammar": ["一般现在时（第三人称单数）"],
+      "grammar_en": ["simple present tense (third person singular)"],
+      "key_vocabulary": ["animal", "bear", "elephant", "giraffe", "lion", "monkey", "panda", "tiger", "snake", "zebra", "guide", "leaf"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 7,
+      "title": "Computers",
+      "topic": "电脑与科技",
+      "topic_en": "Computers, technology",
+      "grammar": ["一般现在时特殊疑问句"],
+      "grammar_en": ["wh-questions in simple present"],
+      "key_vocabulary": ["connect", "document", "download", "email", "file", "keyboard", "monitor", "mouse", "print", "save", "screen", "internet"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 8,
+      "title": "Choosing presents",
+      "topic": "选择礼物",
+      "topic_en": "Choosing presents, birthdays",
+      "grammar": ["频度副词", "一般现在时综合"],
+      "grammar_en": ["adverbs of frequency", "simple present tense review"],
+      "key_vocabulary": ["birthday", "card", "concert", "dress", "exercise", "magazine", "party", "present", "scarf", "silk", "sing", "weekend"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 9,
+      "title": "People and places",
+      "topic": "人与地方",
+      "topic_en": "People and places, postcards",
+      "grammar": ["现在进行时"],
+      "grammar_en": ["present continuous tense"],
+      "key_vocabulary": ["call", "drive", "enjoy", "lie", "restaurant", "shop", "sleep", "take", "take photos", "wait", "postcard", "trip"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 10,
+      "title": "Spring Festival",
+      "topic": "春节",
+      "topic_en": "Spring Festival, Chinese traditions",
+      "grammar": ["现在进行时（表将来）", "be going to"],
+      "grammar_en": ["present continuous for future", "be going to"],
+      "key_vocabulary": ["celebrate", "Christmas", "cook", "dance", "dragon", "festival", "lucky", "mean", "plane", "ready", "sweep", "tradition"],
+      "cefr_level": "A1",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "publisher": "人教版（PEP）",
+  "publisher_code": "pep",
+  "level": "senior",
+  "grade": 10,
+  "semester": "required2",
+  "title": "必修第二册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Cultural Heritage",
+      "topic": "文化遗产、保护文物",
+      "topic_en": "Cultural heritage, preservation",
+      "grammar": ["限制性定语从句复习", "非限制性定语从句"],
+      "grammar_en": ["restrictive relative clauses review", "non-restrictive relative clauses"],
+      "key_vocabulary": ["heritage", "preserve", "promote", "temple", "mount", "former", "clue", "investigate", "donate", "disappear"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Wildlife Protection",
+      "topic": "野生动植物保护",
+      "topic_en": "Wildlife conservation, endangered species",
+      "grammar": ["现在进行时的被动语态"],
+      "grammar_en": ["present continuous passive voice"],
+      "key_vocabulary": ["wildlife", "endangered", "extinct", "habitat", "species", "diversity", "adapt", "concern", "conserve", "threat"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "The Internet",
+      "topic": "互联网、科技生活",
+      "topic_en": "The Internet, online life, technology",
+      "grammar": ["现在完成时的被动语态"],
+      "grammar_en": ["present perfect passive voice"],
+      "key_vocabulary": ["blog", "engine", "search", "stream", "identity", "database", "software", "network", "convenient", "update", "benefit", "distance"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "History and Traditions",
+      "topic": "历史与传统",
+      "topic_en": "History, traditions, cultural identity",
+      "grammar": ["过去分词作定语和状语"],
+      "grammar_en": ["past participle as attributive and adverbial"],
+      "key_vocabulary": ["philosophy", "individual", "ancestors", "chief", "mansion", "descendant", "charge", "belong", "belong to", "currency"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Music",
+      "topic": "音乐、音乐治疗",
+      "topic_en": "Music, music therapy, virtual choir",
+      "grammar": ["过去分词作宾补", "过去分词作表语"],
+      "grammar_en": ["past participle as object complement", "past participle as predicative"],
+      "key_vocabulary": ["composer", "perform", "performance", "award", "stage", "band", "lyrics", "tune", "string", "instrument", "capable", "relief"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

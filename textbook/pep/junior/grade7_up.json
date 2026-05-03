@@ -1,0 +1,118 @@
+{
+  "publisher": "人教版（PEP）",
+  "publisher_code": "pep",
+  "level": "junior",
+  "grade": 7,
+  "semester": "up",
+  "title": "七年级上册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "My name's Gina",
+      "topic": "自我介绍、个人信息",
+      "topic_en": "Self-introduction, personal information",
+      "grammar": ["be动词的用法", "形容词性物主代词"],
+      "grammar_en": ["be verbs", "possessive adjectives"],
+      "key_vocabulary": ["name", "nice", "meet", "too", "your", "first", "last", "friend", "phone", "number"],
+      "cefr_level": "A1",
+      "skills": ["听：理解自我介绍对话", "说：做自我介绍", "读：理解简短个人信息", "写：写自我介绍"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "This is my sister",
+      "topic": "家庭成员、家庭关系",
+      "topic_en": "Family members, family relationships",
+      "grammar": ["指示代词 this/that/these/those", "名词复数"],
+      "grammar_en": ["demonstrative pronouns", "plural nouns"],
+      "key_vocabulary": ["sister", "mother", "father", "parent", "brother", "grandmother", "grandfather", "friend", "family", "daughter", "son", "cousin"],
+      "cefr_level": "A1",
+      "skills": ["听：理解家庭成员介绍对话", "说：介绍家庭成员", "读：理解家庭介绍短文", "写：写家庭成员介绍"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Is this your pencil?",
+      "topic": "学习用品、寻物启事",
+      "topic_en": "School supplies, lost and found",
+      "grammar": ["一般疑问句及回答", "名词所有格"],
+      "grammar_en": ["yes/no questions and short answers", "possessive nouns"],
+      "key_vocabulary": ["pencil", "book", "eraser", "box", "schoolbag", "dictionary", "teacher", "classroom", "library", "notebook"],
+      "cefr_level": "A1",
+      "skills": ["听：理解寻物对话", "说：询问物品归属", "读：理解寻物启事", "写：写寻物启事"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Where's my schoolbag?",
+      "topic": "方位介词、房间物品",
+      "topic_en": "Prepositions of place, room items",
+      "grammar": ["方位介词 in/on/under", "where引导的特殊疑问句"],
+      "grammar_en": ["prepositions of place (in/on/under)", "where-questions"],
+      "key_vocabulary": ["where", "table", "bed", "sofa", "chair", "on", "under", "come", "desk", "think", "room", "their", "hat", "head"],
+      "cefr_level": "A1",
+      "skills": ["听：理解物品位置对话", "说：描述物品位置", "读：理解房间描述", "写：描述房间布局"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Do you have a soccer ball?",
+      "topic": "体育运动、运动器材",
+      "topic_en": "Sports, sports equipment",
+      "grammar": ["实义动词have的一般现在时", "一般疑问句"],
+      "grammar_en": ["simple present tense with 'have'", "yes/no questions with 'do'"],
+      "key_vocabulary": ["soccer", "ball", "tennis", "ping-pong", "volleyball", "basketball", "let", "play", "sound", "sport", "same", "love", "classmate"],
+      "cefr_level": "A1",
+      "skills": ["听：理解运动话题对话", "说：谈论运动爱好", "读：理解运动相关短文", "写：写运动调查报告"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "Do you like bananas?",
+      "topic": "食物、饮食习惯",
+      "topic_en": "Food, eating habits",
+      "grammar": ["like的用法", "可数名词与不可数名词"],
+      "grammar_en": ["verb 'like'", "countable and uncountable nouns"],
+      "key_vocabulary": ["banana", "hamburger", "tomato", "ice-cream", "salad", "strawberry", "pear", "milk", "bread", "food", "vegetable", "fruit", "apple", "egg", "carrot", "rice", "chicken"],
+      "cefr_level": "A1",
+      "skills": ["听：理解饮食话题对话", "说：谈论食物喜好", "读：理解饮食习惯短文", "写：写饮食调查"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 7,
+      "title": "How much are these socks?",
+      "topic": "购物、价格、服装",
+      "topic_en": "Shopping, prices, clothing",
+      "grammar": ["how much引导的特殊疑问句", "指示代词"],
+      "grammar_en": ["how much questions", "demonstrative pronouns"],
+      "key_vocabulary": ["socks", "T-shirt", "shorts", "sweater", "trousers", "shoe", "skirt", "dollar", "price", "clothes", "store", "buy", "sell", "sale"],
+      "cefr_level": "A1",
+      "skills": ["听：理解购物对话", "说：询问价格和购物", "读：理解促销广告", "写：写促销广告"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 8,
+      "title": "When is your birthday?",
+      "topic": "日期、生日、年龄",
+      "topic_en": "Dates, birthdays, age",
+      "grammar": ["when引导的特殊疑问句", "序数词", "月份表达"],
+      "grammar_en": ["when-questions", "ordinal numbers", "months"],
+      "key_vocabulary": ["birthday", "month", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "happy", "age", "old", "party", "first", "second", "third"],
+      "cefr_level": "A1",
+      "skills": ["听：理解生日话题对话", "说：询问和谈论日期", "读：理解生日相关信息", "写：写生日邀请函"],
+      "parallel_articles": []
+    },
+    {
+      "unit": 9,
+      "title": "My favorite subject is science",
+      "topic": "学校科目、喜好表达",
+      "topic_en": "School subjects, expressing preferences",
+      "grammar": ["特殊疑问句what/why/who/when", "形容词表达喜好"],
+      "grammar_en": ["wh-questions (what/why/who/when)", "adjectives for preferences"],
+      "key_vocabulary": ["favorite", "subject", "science", "music", "math", "Chinese", "geography", "history", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "busy", "useful", "from", "finish", "lesson"],
+      "cefr_level": "A1",
+      "skills": ["听：理解科目话题对话", "说：谈论喜欢的科目和时间表", "读：理解课程表相关短文", "写：写关于学校生活的邮件"],
+      "parallel_articles": []
+    }
+  ]
+}

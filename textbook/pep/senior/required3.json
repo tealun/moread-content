@@ -1,0 +1,70 @@
+{
+  "publisher": "人教版（PEP）",
+  "publisher_code": "pep",
+  "level": "senior",
+  "grade": 11,
+  "semester": "required3",
+  "title": "必修第三册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Festivals and Celebrations",
+      "topic": "节日与庆祝",
+      "topic_en": "Festivals, celebrations, traditions",
+      "grammar": ["情态动词", "may/might/can/could/should"],
+      "grammar_en": ["modal verbs: may/might/can/could/should"],
+      "key_vocabulary": ["lantern", "carnival", "march", "congratulation", "religion", "religious", "figure", "grateful", "gather", "harvest", "atmosphere", "envelope"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Morals and Virtues",
+      "topic": "道德与美德",
+      "topic_en": "Morals, virtues, moral dilemmas",
+      "grammar": ["动词-ing形式作主语和宾语"],
+      "grammar_en": ["v-ing form as subject and object"],
+      "key_vocabulary": ["moral", "virtue", "dilemma", "faint", "illustrate", "precious", "entrust", "tuition", "semester", "physician", "emergency", "response"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Diverse Cultures",
+      "topic": "多元文化",
+      "topic_en": "Cultural diversity, multiculturalism",
+      "grammar": ["省略句", "并列结构中的省略"],
+      "grammar_en": ["ellipsis", "ellipsis in coordinate structures"],
+      "key_vocabulary": ["diverse", "fortune", "fortune cookie", "gumbo", "nachos", "chip", "cheese", "spicy", "ethnic", "diversity", "admit", "definitely"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Space Exploration",
+      "topic": "太空探索",
+      "topic_en": "Space exploration, universe",
+      "grammar": ["不定式作定语和结果状语"],
+      "grammar_en": ["infinitive as attributive and result adverbial"],
+      "key_vocabulary": ["gravity", "frontier", "launch", "orbital", "spacecraft", "data", "desire", "determine", "signal", "recyclable", "gap", "mars"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "The Value of Money",
+      "topic": "金钱的价值",
+      "topic_en": "Value of money, attitudes towards wealth",
+      "grammar": ["名词性从句（宾语从句、表语从句）"],
+      "grammar_en": ["noun clauses: object clauses, predicative clauses"],
+      "key_vocabulary": ["bet", "scene", "narrator", "narration", "bet", "servant", "odd", "dare", "sort", "patience", "intention", "nowhere"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

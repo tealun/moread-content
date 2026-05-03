@@ -1,0 +1,83 @@
+{
+  "publisher": "外研版高中英语",
+  "publisher_code": "fltrp",
+  "level": "senior",
+  "grade": 11,
+  "semester": "selective3",
+  "title": "选择性必修第三册",
+  "confidence": "estimated",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Face Values",
+      "topic": "外貌与内在美、第一印象",
+      "topic_en": "Physical appearance, inner beauty, first impressions",
+      "grammar": ["名词性从句（主语从句、表语从句）"],
+      "grammar_en": ["noun clauses (subject clauses, predicative clauses)"],
+      "key_vocabulary": ["appearance", "attractive", "complexion", "feature", "stereotype", "prejudice", "perceive", "judgment", "genuine", "confidence", "superficial", "personality"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "A Life's Work",
+      "topic": "毕生事业、职业追求",
+      "topic_en": "Career, lifelong dedication, professional calling",
+      "grammar": ["过去完成进行时"],
+      "grammar_en": ["past perfect continuous tense"],
+      "key_vocabulary": ["dedication", "profession", "vocation", "accomplishment", "contribute", "expertise", "passion", "persevere", "retirement", "legacy", "craftsmanship", "commitment"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Food for Thought",
+      "topic": "食物与思考、饮食文化",
+      "topic_en": "Food culture, dietary habits, nutrition",
+      "grammar": ["被动语态（各种时态综合）"],
+      "grammar_en": ["passive voice (mixed tenses)"],
+      "key_vocabulary": ["cuisine", "ingredient", "recipe", "nutrition", "appetite", "delicacy", "flavor", "organic", "gourmet", "ferment", "staple", "cultivate"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "A Glimpse of the Future",
+      "topic": "未来世界、科技展望",
+      "topic_en": "The future, technology outlook, predictions",
+      "grammar": ["将来完成时"],
+      "grammar_en": ["future perfect tense"],
+      "key_vocabulary": ["artificial", "autonomous", "quantum", "virtual", "augment", "predict", "scenario", "breakthrough", "frontier", "robotics", "algorithm", "trajectory"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Learning from Nature",
+      "topic": "向自然学习、仿生学",
+      "topic_en": "Biomimicry, learning from nature",
+      "grammar": ["倒装句"],
+      "grammar_en": ["inversion"],
+      "key_vocabulary": ["biomimicry", "imitate", "mechanism", "efficient", "structure", "纤维", "camouflage", "synthesize", "delicate", "inspire", "principle", "imitation"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "Within Our Reach",
+      "topic": "触手可及的未来、梦想实现",
+      "topic_en": "Achieving dreams, reachable goals",
+      "grammar": ["虚拟语气（与过去事实相反）"],
+      "grammar_en": ["subjunctive mood (unreal past)"],
+      "key_vocabulary": ["attainable", "aspiration", "endeavor", "fulfill", "obstacle", "seize", "determination", "vision", "accomplish", "potential", "milestone", "transform"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

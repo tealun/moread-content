@@ -1,0 +1,71 @@
+{
+  "publisher": "外研版高中英语",
+  "publisher_code": "fltrp",
+  "level": "senior",
+  "grade": 11,
+  "semester": "selective2",
+  "title": "选择性必修第二册",
+  "confidence": "estimated",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Growing Up",
+      "topic": "成长的故事、青春岁月",
+      "topic_en": "Coming of age, teenage life stories",
+      "grammar": ["过去进行时与一般过去时的区别"],
+      "grammar_en": ["contrast between past continuous and simple past"],
+      "key_vocabulary": ["adolescence", "rebellion", "peer", "pressure", "identity", "belong", "mature", "sentiment", "reminisce", "transition", "independence", "responsibility"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Valuable Ideas",
+      "topic": "有价值的想法、创新创业",
+      "topic_en": "Valuable ideas, innovation and entrepreneurship",
+      "grammar": ["虚拟语气（wish / if only）"],
+      "grammar_en": ["subjunctive mood (wish / if only)"],
+      "key_vocabulary": ["innovate", "entrepreneur", "startup", "investment", "patent", "profit", "venture", "brainstorm", "prototype", "negotiate", "strategy", "breakthrough"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Times Change",
+      "topic": "时代变迁、社会变化",
+      "topic_en": "Social change, technological transformation",
+      "grammar": ["现在完成进行时"],
+      "grammar_en": ["present perfect continuous tense"],
+      "key_vocabulary": ["transform", "digital", "era", "revolution", "urbanization", "migration", "tradition", "heritage", "modernize", "automate", "globalization", "sustainable"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Breaking Boundaries",
+      "topic": "突破界限、克服困难",
+      "topic_en": "Breaking boundaries, overcoming obstacles",
+      "grammar": ["as / though 引导的让步状语从句"],
+      "grammar_en": ["concessive clauses with as / though"],
+      "key_vocabulary": ["boundary", "barrier", "obstacle", "prejudice", "discrimination", "equality", "pioneer", "advocate", "campaign", "resolve", "empower", "inclusive"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "A Delicate World",
+      "topic": "脆弱的地球、环境危机",
+      "topic_en": "Environmental crisis, fragile ecosystems",
+      "grammar": ["强调句型 (It is/was ... that ...)"],
+      "grammar_en": ["cleft sentences (It is/was ... that ...)"],
+      "key_vocabulary": ["fragile", "crisis", "deforestation", "drought", "flood", "glacier", "melting", "acid", "ozone", "depletion", "irreversible", "consequence"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

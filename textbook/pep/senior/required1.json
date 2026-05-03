@@ -1,0 +1,70 @@
+{
+  "publisher": "人教版（PEP）",
+  "publisher_code": "pep",
+  "level": "senior",
+  "grade": 10,
+  "semester": "required1",
+  "title": "必修第一册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Teenage Life",
+      "topic": "青少年生活、学校活动",
+      "topic_en": "Teenage life, school activities, clubs",
+      "grammar": ["名词短语", "一般现在时"],
+      "grammar_en": ["noun phrases", "simple present tense"],
+      "key_vocabulary": ["teenager", "volunteer", "debate", "prefer", "content", "suitable", "challenge", "confuse", "recommend", "sign up"],
+      "cefr_level": "A2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Travelling Around",
+      "topic": "旅行、交通",
+      "topic_en": "Travel, transportation, destinations",
+      "grammar": ["现在进行时表将来", "be going to"],
+      "grammar_en": ["present continuous for future", "be going to"],
+      "key_vocabulary": ["castle", "apply", "visa", "pack", "amazing", "narrow", "flat", "destination", "admire", "architecture"],
+      "cefr_level": "A2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Sports and Fitness",
+      "topic": "体育、健身",
+      "topic_en": "Sports, fitness, famous athletes",
+      "grammar": ["反意疑问句", "一般过去时"],
+      "grammar_en": ["tag questions", "simple past tense"],
+      "key_vocabulary": ["stadium", "boxing", "badminton", "marathon", "championship", "champion", "determination", "injure", "injury", "captain"],
+      "cefr_level": "A2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Natural Disasters",
+      "topic": "自然灾害、救援",
+      "topic_en": "Natural disasters, rescue efforts",
+      "grammar": ["定语从句（关系代词）", "that/which/who"],
+      "grammar_en": ["relative clauses with who/which/that"],
+      "key_vocabulary": ["disaster", "tornado", "drought", "landslide", "tsunami", "flood", "destroy", "rescue", "damage", "shelter", "crash", "shock"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Languages Around the World",
+      "topic": "世界语言、语言学习",
+      "topic_en": "Languages, language learning, writing systems",
+      "grammar": ["定语从句（关系副词where/when/why）"],
+      "grammar_en": ["relative clauses with where/when/why"],
+      "key_vocabulary": ["billion", "native", "attitude", "reference", "refer", "appreciate", "specific", "struggle", "point of view", "semester"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "publisher": "外研版高中英语",
+  "publisher_code": "fltrp",
+  "level": "senior",
+  "grade": 12,
+  "semester": "selective4",
+  "title": "选择性必修第四册",
+  "confidence": "estimated",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Looking Forwards",
+      "topic": "展望未来、人生规划",
+      "topic_en": "Looking forward, life planning, future aspirations",
+      "grammar": ["将来进行时"],
+      "grammar_en": ["future continuous tense"],
+      "key_vocabulary": ["aspiration", "prospect", "envision", "anticipate", "horizon", "endeavor", "ambition", "opt", "pursue", "career", "pathway", "destination"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Lessons in Life",
+      "topic": "人生哲理、智慧启示",
+      "topic_en": "Life lessons, wisdom, moral stories",
+      "grammar": ["非限制性定语从句"],
+      "grammar_en": ["non-restrictive relative clauses"],
+      "key_vocabulary": ["wisdom", "philosophy", "reflect", "virtue", "integrity", "compassion", "humility", "gratitude", "resentment", "bitterness", "reconcile", "profound"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "The Wonder of Nature",
+      "topic": "自然奇迹、地球之美",
+      "topic_en": "Wonders of nature, Earth's beauty, natural phenomena",
+      "grammar": ["分词作定语和状语综合"],
+      "grammar_en": ["participles as attributive and adverbial (comprehensive)"],
+      "key_vocabulary": ["magnificent", "spectacular", "phenomenon", "aurora", "volcano", "earthquake", "tsunami", "erosion", "coral", "geyser", "glacier", "wilderness"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Technology and Life",
+      "topic": "科技与生活、数字化时代",
+      "topic_en": "Technology in daily life, digital age",
+      "grammar": ["主语从句与宾语从句综合"],
+      "grammar_en": ["subject and object clauses (comprehensive)"],
+      "key_vocabulary": ["device", "application", "artificial intelligence", "privacy", "surveillance", "convenience", "revolution", "platform", "algorithm", "dependency", "innovation", "digital"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Into the Unknown",
+      "topic": "探索未知、科学发现",
+      "topic_en": "Exploring the unknown, scientific discoveries",
+      "grammar": ["省略与替代"],
+      "grammar_en": ["ellipsis and substitution"],
+      "key_vocabulary": ["unexplored", "expedition", "mysterious", "hypothesis", "probe", "frontier", "cosmos", "telescope", "specimen", "navigation", "discovery", "courage"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "Space and Beyond",
+      "topic": "太空探索、宇宙奥秘",
+      "topic_en": "Space exploration, mysteries of the universe",
+      "grammar": ["复习全部语法项目"],
+      "grammar_en": ["comprehensive grammar review"],
+      "key_vocabulary": ["orbit", "launch", "satellite", "gravity", "astronaut", "galaxy", "constellation", "expedition", "atmosphere", "spacecraft", "orbit", "mission"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

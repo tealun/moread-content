@@ -2,19 +2,37 @@
 
 This directory contains CEFR-graded vocabulary lists and Chinese exam (高考/中考) vocabulary data.
 
+## Directory Structure
+
+```
+vocabulary/
+├── README.md
+├── TODO.json
+├── cefr/                  ← CEFR official levels
+│   ├── a1.json
+│   ├── a2.json
+│   ├── b1.json
+│   ├── b2.json
+│   ├── c1.json
+│   └── c2.json
+└── exam/                  ← Chinese exam syllabi
+    ├── gaokao.json        ← 高考 (College Entrance Exam) vocabulary
+    └── zhongkao.json      ← 中考 (High School Entrance Exam) vocabulary
+```
+
 ## Files
 
-### CEFR Level Vocabulary
-- `cefr_a1.json` - CEFR A1 (Beginner) ~600 words
-- `cefr_a2.json` - CEFR A2 (Elementary) ~600 words  
-- `cefr_b1.json` - CEFR B1 (Intermediate) ~1300 words
-- `cefr_b2.json` - CEFR B2 (Upper-Intermediate) ~2500 words
-- `cefr_c1.json` - CEFR C1 (Advanced) ~1129 words
-- `cefr_c2.json` - CEFR C2 (Proficiency) ~1053 words
+### CEFR Level Vocabulary (`cefr/`)
+- `a1.json` - CEFR A1 (Beginner) ~600 words
+- `a2.json` - CEFR A2 (Elementary) ~600 words  
+- `b1.json` - CEFR B1 (Intermediate) ~1300 words
+- `b2.json` - CEFR B2 (Upper-Intermediate) ~2500 words
+- `c1.json` - CEFR C1 (Advanced) ~1129 words
+- `c2.json` - CEFR C2 (Proficiency) ~1053 words
 
-### Chinese Exam Vocabulary
-- `gaokao_2024.json` - 高考 (College Entrance Exam) ~2288 words (with Chinese translations)
-- `zhongkao_2024.json` - 中考 (High School Entrance Exam) ~1600 words (with Chinese translations)
+### Chinese Exam Vocabulary (`exam/`)
+- `gaokao.json` - 高考 (College Entrance Exam) ~2288 words (with Chinese translations)
+- `zhongkao.json` - 中考 (High School Entrance Exam) ~1600 words (with Chinese translations)
 
 ## Data Sources
 

@@ -1,0 +1,70 @@
+{
+  "publisher": "人教版（PEP）",
+  "publisher_code": "pep",
+  "level": "senior",
+  "grade": 11,
+  "semester": "selective1",
+  "title": "选择性必修第一册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "People of Achievement",
+      "topic": "杰出人物、科学成就",
+      "topic_en": "People of achievement, scientific discoveries",
+      "grammar": ["非限制性定语从句复习"],
+      "grammar_en": ["non-restrictive relative clauses review"],
+      "key_vocabulary": ["crucial", "vital", "committed", "distinct", "acknowledge", "defeat", "obtain", "insist", "academic", "conclusion", "circumstance", "remarkably"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Looking into the Future",
+      "topic": "展望未来、科技发展",
+      "topic_en": "Future technology, smart homes, predictions",
+      "grammar": ["将来进行时"],
+      "grammar_en": ["future continuous tense"],
+      "key_vocabulary": ["persuade", "switch", "distant", "remote", "automatic", "integrated", "sensor", "efficient", "mode", "routine", "innovation", "available"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Fascinating Parks",
+      "topic": "迷人的公园",
+      "topic_en": "National parks, theme parks, outdoor activities",
+      "grammar": ["动词-ing形式作主语"],
+      "grammar_en": ["v-ing form as subject"],
+      "key_vocabulary": ["amusement", "fashion", "roller coaster", "rare", "pipeline", "edge", "blessing", "stretch", "sneeze", "edge", "cottage", "territory"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Body Language",
+      "topic": "肢体语言",
+      "topic_en": "Body language, non-verbal communication",
+      "grammar": ["动词-ing形式作宾语"],
+      "grammar_en": ["v-ing form as object"],
+      "key_vocabulary": ["gesture", "witness", "contrast", "approve", "demonstrate", "interpret", "interaction", "vary", "appropriate", "frown", "pose", "barrier"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Working the Land",
+      "topic": "农业、粮食问题",
+      "topic_en": "Agriculture, food security, farming",
+      "grammar": ["主语从句"],
+      "grammar_en": ["subject clauses"],
+      "key_vocabulary": ["devote", "devotion", "shortage", "tackle", "crisis", "boost", "yield", "convince", "characteristic", "attain", "conventional", "celebrity"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

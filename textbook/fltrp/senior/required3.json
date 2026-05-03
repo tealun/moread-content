@@ -1,0 +1,82 @@
+{
+  "publisher": "外研版高中英语",
+  "publisher_code": "fltrp",
+  "level": "senior",
+  "grade": 11,
+  "semester": "required3",
+  "title": "必修第三册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Knowing Me, Knowing You",
+      "topic": "人际交往",
+      "topic_en": "Interpersonal relationships, communication",
+      "grammar": ["情态动词", "can/could/may/might/must"],
+      "grammar_en": ["modal verbs: can/could/may/might/must"],
+      "key_vocabulary": ["interpersonal", "communicate", "misunderstand", "compromise", "perspective", "empathy", "negotiate", "conflict", "resolve", "genuine", "feedback", "gesture"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Making a Difference",
+      "topic": "做出改变",
+      "topic_en": "Making a difference, volunteering",
+      "grammar": ["动词-ing形式作主语和宾语"],
+      "grammar_en": ["v-ing form as subject and object"],
+      "key_vocabulary": ["volunteer", "contribute", "charity", "community", "impact", "initiative", "dedicate", "campaign", "fundraise", "generous", "selfless", "welfare"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "The World of Science",
+      "topic": "科学世界",
+      "topic_en": "Science, discoveries, experiments",
+      "grammar": ["动词不定式作目的和结果状语"],
+      "grammar_en": ["infinitive as purpose and result adverbial"],
+      "key_vocabulary": ["experiment", "hypothesis", "phenomenon", "laboratory", "theory", "evidence", "analysis", "conclusion", "discovery", "procedure", "observation", "scientific"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Life Behind the Lens",
+      "topic": "镜头背后的生活",
+      "topic_en": "Photography, media, storytelling",
+      "grammar": ["过去分词作定语和状语"],
+      "grammar_en": ["past participle as attributive and adverbial"],
+      "key_vocabulary": ["lens", "photography", "documentary", "capture", "broadcast", "journalist", "editor", "publish", "coverage", "dramatic", "perspective", "visual"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "What an Adventure!",
+      "topic": "冒险",
+      "topic_en": "Adventure, exploration, challenge",
+      "grammar": ["现在完成进行时"],
+      "grammar_en": ["present perfect continuous tense"],
+      "key_vocabulary": ["adventure", "expedition", "courage", "endurance", "extreme", "summit", "wilderness", "survival", "obstacle", "determination", "remarkable", "daring"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 6,
+      "title": "Disaster and Hope",
+      "topic": "灾难与希望",
+      "topic_en": "Disasters, resilience, hope",
+      "grammar": ["时态和语态综合复习"],
+      "grammar_en": ["tenses and voices comprehensive review"],
+      "key_vocabulary": ["disaster", "earthquake", "flood", "hurricane", "rescue", "relief", "recover", "resilience", "solidarity", "rebuild", "emergency", "evacuate"],
+      "cefr_level": "B1",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}

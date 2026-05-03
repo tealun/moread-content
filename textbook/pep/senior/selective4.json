@@ -1,0 +1,70 @@
+{
+  "publisher": "人教版（PEP）",
+  "publisher_code": "pep",
+  "level": "senior",
+  "grade": 12,
+  "semester": "selective4",
+  "title": "选择性必修第四册",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Science Fiction",
+      "topic": "科幻小说",
+      "topic_en": "Science fiction, literature, imagination",
+      "grammar": ["被动语态综合复习"],
+      "grammar_en": ["passive voice comprehensive review"],
+      "key_vocabulary": ["fiction", "bonus", "absurd", "suspicious", "experiment", "dignity", "salary", "dismiss", "ridiculous", "inferior", "superior", "manipulate"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 2,
+      "title": "Iconic Attractions",
+      "topic": "标志性地标",
+      "topic_en": "Iconic attractions, landmarks, tourism",
+      "grammar": ["过去分词作状语复习"],
+      "grammar_en": ["past participle as adverbial review"],
+      "key_vocabulary": ["iconic", "foundation", "political", "locate", "equator", "barbecue", "herb", "hollow", "polar", "shark", "kangaroo", "boomerang"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 3,
+      "title": "Sea Exploration",
+      "topic": "海洋探索",
+      "topic_en": "Sea exploration, ocean, marine life",
+      "grammar": ["不定式综合复习"],
+      "grammar_en": ["infinitives comprehensive review"],
+      "key_vocabulary": ["marine", "navigate", "navigation", "league", "marine", "biodiversity", "corridor", "transaction", "merchant", "fleet", "channel", "capsule"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 4,
+      "title": "Sharing",
+      "topic": "分享、志愿服务",
+      "topic_en": "Sharing, volunteering, community service",
+      "grammar": ["动词-ing形式综合复习"],
+      "grammar_en": ["v-ing form comprehensive review"],
+      "key_vocabulary": ["relevant", "voluntary", "straight", "privilege", "rigid", "sphere", "otherwise", "resign", "circumstance", "distribute", "guarantee", "consult"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    },
+    {
+      "unit": 5,
+      "title": "Launching Your Career",
+      "topic": "职业规划",
+      "topic_en": "Career planning, professions, future",
+      "grammar": ["语法综合复习"],
+      "grammar_en": ["grammar comprehensive review"],
+      "key_vocabulary": ["profession", "career", "resume", "candidate", "profile", "sentence", "profile", "detective", "agent", "cartoonist", "accountant", "receptionist"],
+      "cefr_level": "B2",
+      "skills": [],
+      "parallel_articles": []
+    }
+  ]
+}
