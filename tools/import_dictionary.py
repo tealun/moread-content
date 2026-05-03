@@ -97,14 +97,14 @@ def main():
     """)
     if cur.fetchone()[0] is None:
         print("Table 'dictionary' not found. Creating schema ...")
-        sql_path = REPO_ROOT / "dictionary.sql"
+        sql_path = DICT_DIR / "schema.sql"
         if sql_path.exists():
             with open(sql_path, "r", encoding="utf-8") as f:
                 cur.execute(f.read())
             conn.commit()
-            print("Schema created.")
+            print("Schema created from dictionary/schema.sql.")
         else:
-            print("Error: dictionary.sql not found. Create the table first.")
+            print("Error: dictionary/schema.sql not found. Create the table first.")
             sys.exit(1)
 
     # Clear existing data
