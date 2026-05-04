@@ -60,7 +60,7 @@
     "name": "大学英语六级 CET-6",
     "category": "exam",
     "difficulty": "B2-C1",
-    "word_count": 5975,
+    "word_count": 5974,
     "file": "exam/cet6.json"
   },
   {
@@ -76,7 +76,7 @@
     "name": "GRE 研究生入学",
     "category": "exam",
     "difficulty": "C1-C2",
-    "word_count": 9471,
+    "word_count": 9468,
     "file": "exam/gre.json"
   },
   {
@@ -92,7 +92,7 @@
     "name": "考研英语",
     "category": "exam",
     "difficulty": "B2-C1",
-    "word_count": 5651,
+    "word_count": 5648,
     "file": "exam/kaoyan.json"
   },
   {
@@ -100,14 +100,14 @@
     "name": "托福 TOEFL",
     "category": "exam",
     "difficulty": "B2-C2",
-    "word_count": 10367,
+    "word_count": 10365,
     "file": "exam/toefl.json"
   },
   {
     "id": "exam-zhongkao",
     "name": "中考考纲",
     "category": "exam",
-    "difficulty": "",
+    "difficulty": "A1-A2",
     "word_count": 1600,
     "file": "exam/zhongkao.json"
   },
@@ -115,40 +115,40 @@
     "id": "freq-1000",
     "name": "高频词 Top 1000",
     "category": "frequency",
-    "difficulty": "A1-A2",
-    "word_count": 976,
+    "difficulty": "",
+    "word_count": 1000,
     "file": "frequency/top-1000.json"
   },
   {
     "id": "freq-10000",
     "name": "高频词 Top 10000",
     "category": "frequency",
-    "difficulty": "B2",
-    "word_count": 9870,
+    "difficulty": "",
+    "word_count": 9868,
     "file": "frequency/top-10000.json"
   },
   {
     "id": "freq-2000",
     "name": "高频词 Top 2000",
     "category": "frequency",
-    "difficulty": "A2-B1",
-    "word_count": 1976,
+    "difficulty": "",
+    "word_count": 2000,
     "file": "frequency/top-2000.json"
   },
   {
     "id": "freq-3000",
     "name": "高频词 Top 3000",
     "category": "frequency",
-    "difficulty": "B1",
-    "word_count": 2976,
+    "difficulty": "",
+    "word_count": 3000,
     "file": "frequency/top-3000.json"
   },
   {
     "id": "freq-5000",
     "name": "高频词 Top 5000",
     "category": "frequency",
-    "difficulty": "B1-B2",
-    "word_count": 4976,
+    "difficulty": "",
+    "word_count": 5000,
     "file": "frequency/top-5000.json"
   }
 ]
