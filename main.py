@@ -1,7 +1,7 @@
 """
 Moread Content API — 词库底座服务
 
-启动: uvicorn api.main:app --host 0.0.0.0 --port 8900
+启动: uvicorn main:app --host 0.0.0.0 --port 8900
 测试: curl http://localhost:8900/api/packs
 """
 

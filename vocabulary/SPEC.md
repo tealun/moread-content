@@ -92,9 +92,8 @@ moread-content/
 │   ├── SPEC.md
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
-└── api/                     ← API 服务
-    ├── main.py              ← FastAPI 词库底座服务
-    └── requirements.txt     ← Python 依赖
+├── main.py                  ← FastAPI 词库底座服务
+└── requirements.txt         ← Python 依赖
 ```
 
 ---
@@ -114,7 +113,7 @@ moread-content/
 
 ## 6. API 接口
 
-启动方式：`uvicorn api.main:app --host 0.0.0.0 --port 8900`
+启动方式：`uvicorn main:app --host 0.0.0.0 --port 8900`
 
 ### 6.1 健康检查
 

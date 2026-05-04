@@ -35,9 +35,7 @@ moread-content/
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
 │
-└── api/                     ← API 服务（FastAPI）
-    ├── main.py
-    └── requirements.txt
+└── main.py                  ← FastAPI 词库底座服务
 ```
 
 ---
@@ -99,8 +97,8 @@ moread-content/
 
 ```bash
 # 启动 API 服务
-pip install -r api/requirements.txt
-uvicorn api.main:app --host 0.0.0.0 --port 8900
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8900
 ```
 
 消费端通过 HTTP 接口获取所有数据，详见 `vocabulary/SPEC.md` §6。
