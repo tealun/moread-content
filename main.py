@@ -3,43 +3,106 @@ Moread Content API — 词库底座服务
 
 启动: uvicorn main:app --host 0.0.0.0 --port 8900
 测试: curl http://localhost:8900/api/packs
+
+配置: 根目录 .env 文件
 """
 
-from fastapi import FastAPI, Query, Path
+from fastapi import FastAPI, Query, Path, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
+from dotenv import load_dotenv
 import orjson
 import os
+import ipaddress
 from pathlib import Path as FilePath
 from typing import Optional
+
+# ─── 加载 .env ──────────────────────────────────────────────
+
+load_dotenv(FilePath(__file__).resolve().parent / ".env")
+
+HOST = os.getenv("HOST", "0.0.0.0")
+PORT = int(os.getenv("PORT", "8900"))
+DEBUG = os.getenv("DEBUG", "false").lower() == "true"
+
+# IP 白名单：默认只允许本地访问
+# ALLOWED_IPS=127.0.0.1,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+_raw_ips = os.getenv("ALLOWED_IPS", "127.0.0.1,::1")
+ALLOWED_NETWORKS: list[ipaddress.IPv4Network | ipaddress.IPv6Network] = []
+for entry in _raw_ips.split(","):
+    entry = entry.strip()
+    if not entry:
+        continue
+    try:
+        # 尝试解析为网络（支持 CIDR）或单个 IP（自动转为 /32 或 /128）
+        if "/" in entry:
+            ALLOWED_NETWORKS.append(ipaddress.ip_network(entry, strict=False))
+        else:
+            ALLOWED_NETWORKS.append(ipaddress.ip_network(f"{entry}/32", strict=False))
+    except ValueError:
+        if ":" in entry:
+            # IPv6
+            ALLOWED_NETWORKS.append(ipaddress.ip_network(f"{entry}/128", strict=False))
+        else:
+            print(f"⚠️  忽略无效 IP 配置: {entry}")
+
+# ─── IP 白名单中间件 ─────────────────────────────────────────
+
+class IPWhitelistMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        client_ip = request.client.host if request.client else "unknown"
+
+        try:
+            ip_obj = ipaddress.ip_address(client_ip)
+            allowed = any(ip_obj in net for net in ALLOWED_NETWORKS)
+        except ValueError:
+            allowed = False
+
+        if not allowed:
+            return Response(
+                content=orjson.dumps({"error": "Forbidden", "ip": client_ip}),
+                status_code=403,
+                media_type="application/json",
+            )
+
+        return await call_next(request)
+
+
+# ─── App 初始化 ─────────────────────────────────────────────
 
 app = FastAPI(
     title="Moread Content API",
     description="英语教学内容资源库 API — 词库管理 + 词典查询",
     version="1.0.0",
+    debug=DEBUG,
 )
 
+# IP 白名单（最先执行）
+app.add_middleware(IPWhitelistMiddleware)
+
+# CORS
+cors_origins = [o.strip() for o in os.getenv("CORS_ORIGINS", "*").split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=cors_origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ─── 数据加载 ─────────────────────────────────────────────
 
-BASE_DIR = FilePath(__file__).resolve().parent.parent
+# ─── 数据加载 ────────────────────────────────────────────────
+
+BASE_DIR = FilePath(__file__).resolve().parent
 VOCAB_DIR = BASE_DIR / "vocabulary"
 DICT_DIR = BASE_DIR / "dictionary"
 
 
 def _load_json(path):
-    """Load JSON with fallback to orjson"""
     with open(path, "rb") as f:
         return orjson.loads(f.read())
 
 
 def _load_index():
-    """Load vocabulary index"""
     return _load_json(VOCAB_DIR / "index.json")
 
 
@@ -56,7 +119,6 @@ def get_index():
 
 
 def get_pack(pack_id: str):
-    """Load a specific pack by ID"""
     for entry in get_index():
         if entry["id"] == pack_id:
             return _load_json(VOCAB_DIR / entry["file"])
@@ -64,7 +126,6 @@ def get_pack(pack_id: str):
 
 
 def lookup_word(word: str):
-    """Lookup a word in ECDICT dictionary"""
     if not word:
         return None
     initial = word[0].lower()
@@ -73,13 +134,11 @@ def lookup_word(word: str):
         if not dict_file.exists():
             return None
         data = _load_json(dict_file)
-        # Build lookup table
         _dict_cache[initial] = data
     return _dict_cache.get(initial, {}).get(word.lower())
 
 
 def lookup_words_batch(words: list[str]):
-    """Batch lookup words from ECDICT"""
     results = {}
     for word in words:
         entry = lookup_word(word)
@@ -88,7 +147,7 @@ def lookup_words_batch(words: list[str]):
     return results
 
 
-# ─── API 路由 ─────────────────────────────────────────────
+# ─── API 路由 ────────────────────────────────────────────────
 
 @app.get("/api/health")
 def health():
@@ -192,4 +251,8 @@ def stats():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8900)
+    print(f"🚀 Moread Content API")
+    print(f"   Host: {HOST}:{PORT}")
+    print(f"   Debug: {DEBUG}")
+    print(f"   Allowed IPs: {[str(n) for n in ALLOWED_NETWORKS]}")
+    uvicorn.run(app, host=HOST, port=PORT)
