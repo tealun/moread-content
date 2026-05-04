@@ -63,18 +63,22 @@ textbook/
 
 ### 实际收到的教材清单（19本）
 
-**外研·孙有中（5册）**
+**外研·孙有中（4册，仅初中）**
 - 七年级上册 / 七年级下册 / 八年级上册 / 八年级下册
 - ⚠️ 缺九年级上下册（平台无此资源）
 
-**外研·陈琳（4册）**
-- 八年级上册 / 八年级下册 / 九年级上册 / 九年级下册
+**外研·陈琳（7册，初中+高中）**
+- 初中 4 册：八年级上册 / 八年级下册 / 九年级上册 / 九年级下册
+- 高中 3 册：必修1 / 必修2 / 必修3
 - ⚠️ 缺七年级上下册（平台无此资源）
+- ⚠️ 选择性必修4~7暂不收录
 
-**人教版（10册）**
+**人教版（8册）**
 - 初中 5 册：七上 / 七下 / 八上 / 八下 / 九全
 - 高中 3 册：必修1 / 必修2 / 必修3
 - ⚠️ 选择性必修1~4 暂不收录
+
+**合计：19 本**
 
 ---
 
@@ -207,12 +211,13 @@ textbook/
 
 | type | 含义 | 出现版本 |
 |------|------|----------|
-| `starting_out` | 背景激活/导入 | 外研·孙有中 |
-| `understanding_ideas` | 主题理解（主阅读） | 外研·孙有中 |
-| `using_language` | 功能运用（语法+词汇） | 外研·孙有中(高中) |
-| `developing_ideas` | 思维拓展（听说+读写） | 外研·孙有中 |
-| `presenting_ideas` | 观点表达/主题实践 | 外研·孙有中 |
-| `reflection` | 自我评价 | 外研·孙有中 |
+| `starting_out` | 背景激活/导入 | 外研·孙有中(初中) / 外研·陈琳(高中) |
+| `understanding_ideas` | 主题理解（主阅读） | 外研·孙有中(初中) / 外研·陈琳(高中) |
+| `using_language` | 功能运用（语法+词汇） | 外研·陈琳(高中) |
+| `developing_ideas` | 思维拓展（听说+读写） | 外研·孙有中(初中) / 外研·陈琳(高中) |
+| `presenting_ideas` | 观点表达/主题实践 | 外研·孙有中(初中) / 外研·陈琳(高中) |
+| `reflection` | 自我评价 | 外研·孙有中(初中) |
+| `self_assessment` | 自我评估 | 外研·陈琳(高中) |
 | `listening_vocabulary` | 听力+词汇 | 外研·陈琳 |
 | `pronunciation_speaking` | 发音+口语 | 外研·陈琳 |
 | `reading_vocabulary` | 阅读+词汇 | 外研·陈琳 |
@@ -402,15 +407,15 @@ textbook/
 
 ## 4. 版本差异速查表
 
-| 特征 | 外研·孙有中 | 外研·陈琳 | 人教·初中 | 人教·高中 |
-|------|-------------|-----------|-----------|-----------|
-| 顶层组织 | Unit (6+Starter) | Module (12+2 Revision) | Unit + Starter | Unit + Welcome |
-| 子结构 | 5阶段循环 | 3个Unit/Module | Section A/B | 多板块混合 |
-| 语法位置 | 附录+课内嵌入 | 附录(133-143)+课内 | 课内 Grammar Focus + 附录 | 课内 Discovering Structures + 附录 |
-| 单词表格式 | 按Unit + A-Z | 按Module + A-Z | 按Unit + A-Z + 小学复习 | 按Unit + A-Z |
-| 目录页 | 扁平列表 | Scope & sequence 表 | CONTENTS 页 | CONTENTS 页 |
-| JSON nesting | `units[]` 扁平 | `units[]` 含 `sub_units[]` | `units[]` 扁平 | `units[]` 扁平 |
-| 需要特殊字段 | `sections[]` 5阶段 | `sub_units[]` + `type: "module"` | `sections[]` A/B | `sections[]` 多板块 |
+| 特征 | 外研·孙有中(初中) | 外研·陈琳(初中) | 外研·陈琳(高中) | 人教·初中 | 人教·高中 |
+|------|-------------|-----------|-----------|-----------|-----------|
+| 顶层组织 | Unit (6+Starter) | Module (12+2 Revision) | Unit (6) | Unit + Starter | Unit + Welcome |
+| 子结构 | 5阶段循环 | 3个Unit/Module | 5阶段循环 | Section A/B | 多板块混合 |
+| 语法位置 | 附录+课内嵌入 | 附录+课内 | 课内 Using language | 课内 Grammar Focus + 附录 | 课内 Discovering Structures + 附录 |
+| 单词表格式 | 按Unit + A-Z | 按Module + A-Z | 按Unit + A-Z | 按Unit + A-Z + 小学复习 | 按Unit + A-Z |
+| 目录页 | 扁平列表 | Scope & sequence 表 | Scope & sequence 表 | CONTENTS 页 | CONTENTS 页 |
+| JSON nesting | `units[]` 扁平 | `units[]` 含 `sub_units[]` | `units[]` 扁平 | `units[]` 扁平 | `units[]` 扁平 |
+| 需要特殊字段 | `sections[]` 5阶段 | `sub_units[]` + `type: "module"` | `sections[]` 5阶段 | `sections[]` A/B | `sections[]` 多板块 |
 
 ---
 
