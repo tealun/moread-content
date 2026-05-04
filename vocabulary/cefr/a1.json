@@ -1,3007 +1,608 @@
 {
-  "level": "A1",
-  "word_count": 600,
-  "source": "vocabulary-list-statistics (npm) frequency ranks mapped to CEFR levels; zh translations from HK-SHAO/English-Dictionary",
+  "id": "cefr-a1",
+  "name": "CEFR A1",
+  "category": "cefr",
+  "difficulty": "A1",
   "words": [
-    {
-      "word": "with",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "what",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "all",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "from",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "one",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "know",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "like",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "just",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "get",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "which",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "out",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "about",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "will",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "come",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "who",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "when",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "time",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "right",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "now",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "been",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "want",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "go",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "well",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "see",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "how",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "more",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "think",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "look",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "some",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "good",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "got",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "take",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "only",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "make",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "where",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "other",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "let",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "say",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "why",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "yeah",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "use",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "back",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "work",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "into",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "two",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "man",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "any",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "need",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "may",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "way",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "very",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "new",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "yes",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "over",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "first",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "said",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "because",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "people",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "tell",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "call",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "life",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "even",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "too",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "down",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "give",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "such",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "after",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "thing",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "much",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "day",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "also",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "little",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "really",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "never",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "must",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "something",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "love",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "before",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "made",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "most",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "talk",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "mean",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hey",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "great",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "off",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "year",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "many",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "still",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "through",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "place",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "help",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "try",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "find",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "same",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "long",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "own",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "ask",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "please",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "between",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "again",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "world",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "part",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "guy",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "put",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "thought",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "last",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hand",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "three",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "name",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "wait",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "leave",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "nothing",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "happen",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "home",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "each",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sorry",
-      "pos": "",
-      "zh": "形容词：遗憾，失敬，怆"
-    },
-    {
-      "word": "both",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "old",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "found",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "another",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sure",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "away",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "house",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "thank",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "live",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "always",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "under",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "every",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "stop",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "might",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "state",
-      "pos": "",
-      "zh": "名词：州，国，态"
-    },
-    {
-      "word": "without",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "keep",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "anything",
-      "pos": "",
-      "zh": "代词：诸，无论何事"
-    },
-    {
-      "word": "night",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "while",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "better",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "show",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "kill",
-      "pos": "",
-      "zh": "动词：杀，杀害，杀人"
-    },
-    {
-      "word": "number",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "men",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "start",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "change",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "around",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "told",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "left",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "end",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "turn",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "follow",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "move",
-      "pos": "",
-      "zh": "动词：移动，动，行动"
-    },
-    {
-      "word": "came",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "believe",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "case",
-      "pos": "",
-      "zh": "名词：外壳，例，壳体"
-    },
-    {
-      "word": "family",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "play",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "father",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "money",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "course",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "die",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "ever",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "friend",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "since",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "girl",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "order",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "god",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "feel",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "point",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sir",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "maybe",
-      "pos": "",
-      "zh": "副词：也许，说不定，或许"
-    },
-    {
-      "word": "everything",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "head",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "done",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "won",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "upon",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "kind",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "against",
-      "pos": "",
-      "zh": "介词：针对，抵抗，对着"
-    },
-    {
-      "word": "country",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "however",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "water",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "mother",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "study",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "second",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "mind",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "enough",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "different",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "yet",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "set",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "care",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "few",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "next",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "run",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "stay",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "law",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "line",
-      "pos": "",
-      "zh": "名词：线，线路，系"
-    },
-    {
-      "word": "best",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "form",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "power",
-      "pos": "",
-      "zh": "名词：功率，动力，权力"
-    },
-    {
-      "word": "general",
-      "pos": "",
-      "zh": "形容词：一般，总，通常"
-    },
-    {
-      "word": "school",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "went",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "once",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "idea",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "open",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "during",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "high",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "face",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "system",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "act",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "seem",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "whole",
-      "pos": "",
-      "zh": "形容词：整个，全，整体"
-    },
-    {
-      "word": "lot",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "shall",
-      "pos": "",
-      "zh": "助动词：将，将要"
-    },
-    {
-      "word": "seen",
-      "pos": "",
-      "zh": "动词：看到，见，看"
-    },
-    {
-      "word": "fuck",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "present",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "body",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "big",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "boy",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "together",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "problem",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "children",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "remember",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "war",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "until",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "woman",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "fine",
-      "pos": "",
-      "zh": "形容词：精细，细，精"
-    },
-    {
-      "word": "listen",
-      "pos": "",
-      "zh": "动词：听，倾听，聆"
-    },
-    {
-      "word": "important",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "room",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "already",
-      "pos": "",
-      "zh": "副词：已经，已，就"
-    },
-    {
-      "word": "took",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "later",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "son",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "question",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "understand",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "matter",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "far",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "though",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "real",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "party",
-      "pos": "",
-      "zh": "名词：党，当事人，一行"
-    },
-    {
-      "word": "small",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "today",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hour",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hold",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "women",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "close",
-      "pos": "",
-      "zh": "动词：关闭，合，关"
-    },
-    {
-      "word": "become",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "given",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "government",
-      "pos": "",
-      "zh": "名词：政府，内阁，辖"
-    },
-    {
-      "word": "business",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "city",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "kid",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "saw",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "bad",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "fact",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "word",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "miss",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hear",
-      "pos": "",
-      "zh": "动词：听，听说，听见"
-    },
-    {
-      "word": "control",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "wrong",
-      "pos": "",
-      "zh": "形容词：错误，错，不对"
-    },
-    {
-      "word": "less",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "four",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "person",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "car",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "else",
-      "pos": "",
-      "zh": "副词：其他，否则，还"
-    },
-    {
-      "word": "young",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "himself",
-      "pos": "",
-      "zh": "代词：他自己"
-    },
-    {
-      "word": "true",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "cause",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "nice",
-      "pos": "",
-      "zh": "形容词：和蔼，嘉，可亲"
-    },
-    {
-      "word": "company",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "side",
-      "pos": "",
-      "zh": "名词：侧，侧面，边"
-    },
-    {
-      "word": "area",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "light",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "thanks",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "within",
-      "pos": "",
-      "zh": "介词：内，中，里边"
-    },
-    {
-      "word": "job",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "book",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "stand",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "death",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "public",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "morning",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "brother",
-      "pos": "",
-      "zh": "名词：哥哥，弟弟，哥"
-    },
-    {
-      "word": "human",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "wife",
-      "pos": "",
-      "zh": "名词：妻子，妻，太太"
-    },
-    {
-      "word": "watch",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "include",
-      "pos": "",
-      "zh": "动词：包括，包含，括"
-    },
-    {
-      "word": "knew",
-      "pos": "",
-      "zh": "动词：知道，认识，知"
-    },
-    {
-      "word": "dead",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "lead",
-      "pos": "",
-      "zh": "名词：铅，引线，领导"
-    },
-    {
-      "word": "social",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "learn",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "minute",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "five",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hello",
-      "pos": "",
-      "zh": "感叹词：你好!，喂!"
-    },
-    {
-      "word": "heart",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "speak",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "someone",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "interest",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "often",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "story",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "large",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "heard",
-      "pos": "",
-      "zh": "动词：听，听说，听见"
-    },
-    {
-      "word": "door",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "pass",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "return",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "least",
-      "pos": "",
-      "zh": "形容词：最小，最少"
-    },
-    {
-      "word": "possible",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "bring",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "thus",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "yourself",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "soon",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "group",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "almost",
-      "pos": "",
-      "zh": "副词：几乎，差不多，将近"
-    },
-    {
-      "word": "either",
-      "pos": "",
-      "zh": "副词：或"
-    },
-    {
-      "word": "dad",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "child",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "increase",
-      "pos": "",
-      "zh": "动词：提高，增长，增"
-    },
-    {
-      "word": "rather",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "base",
-      "pos": "",
-      "zh": "名词：基础，基地，基"
-    },
-    {
-      "word": "actually",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hard",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "force",
-      "pos": "",
-      "zh": "名词：力，部队，力量"
-    },
-    {
-      "word": "walk",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "history",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "taken",
-      "pos": "",
-      "zh": "动词：采取，取，拿"
-    },
-    {
-      "word": "consider",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "among",
-      "pos": "",
-      "zh": "介词：其中，中，之间"
-    },
-    {
-      "word": "free",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "alone",
-      "pos": "",
-      "zh": "形容词：单独，独自，独"
-    },
-    {
-      "word": "information",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "pay",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "fire",
-      "pos": "",
-      "zh": "名词：火，炉火，炉"
-    },
-    {
-      "word": "white",
-      "pos": "",
-      "zh": "形容词：白色，白，皓"
-    },
-    {
-      "word": "report",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "provide",
-      "pos": "",
-      "zh": "动词：提供，规定，给"
-    },
-    {
-      "word": "baby",
-      "pos": "",
-      "zh": "名词：宝宝，婴儿，宝贝"
-    },
-    {
-      "word": "example",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "class",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "probably",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "early",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "land",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "eye",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sit",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "reason",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "write",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "plan",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "worry",
-      "pos": "",
-      "zh": "动词：担心，愁，担忧"
-    },
-    {
-      "word": "clear",
-      "pos": "",
-      "zh": "形容词：明确，清楚，明显"
-    },
-    {
-      "word": "age",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "lost",
-      "pos": "",
-      "zh": "形容词：迷"
-    },
-    {
-      "word": "known",
-      "pos": "",
-      "zh": "形容词：大家都知道的"
-    },
-    {
-      "word": "half",
-      "pos": "",
-      "zh": "名词：半，一半，半数"
-    },
-    {
-      "word": "sound",
-      "pos": "",
-      "zh": "名词：声音，声，音"
-    },
-    {
-      "word": "ready",
-      "pos": "",
-      "zh": "动词：准备，预备，备"
-    },
-    {
-      "word": "meet",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hope",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "answer",
-      "pos": "",
-      "zh": "动词：回答，答，应答"
-    },
-    {
-      "word": "gave",
-      "pos": "",
-      "zh": "动词：给，给予，赐给"
-    },
-    {
-      "word": "carry",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "quite",
-      "pos": "",
-      "zh": "副词：相当，很，比较"
-    },
-    {
-      "word": "continue",
-      "pos": "",
-      "zh": "动词：继续，续，持续"
-    },
-    {
-      "word": "suppose",
-      "pos": "",
-      "zh": "名词：假设，假说"
-    },
-    {
-      "word": "marry",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "per",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "full",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "black",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "able",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "week",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hell",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "myself",
-      "pos": "",
-      "zh": "代词：我，本人，独自"
-    },
-    {
-      "word": "deal",
-      "pos": "",
-      "zh": "名词：合同，合约，交"
-    },
-    {
-      "word": "late",
-      "pos": "",
-      "zh": "形容词：晚，迟，深"
-    },
-    {
-      "word": "lady",
-      "pos": "",
-      "zh": "名词：夫人，女士，贵妇"
-    },
-    {
-      "word": "court",
-      "pos": "",
-      "zh": "名词：法庭，球场，庭"
-    },
-    {
-      "word": "result",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "certain",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "eat",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "gone",
-      "pos": "",
-      "zh": "形容词：过去的，离去的，入迷的"
-    },
-    {
-      "word": "support",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sense",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "happy",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "along",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "check",
-      "pos": "",
-      "zh": "动词：校验，查，检"
-    },
-    {
-      "word": "read",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "bit",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "although",
-      "pos": "",
-      "zh": "连词：虽然，尽管，虽"
-    },
-    {
-      "word": "office",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "lie",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "development",
-      "pos": "",
-      "zh": "名词：发育，显影，展开"
-    },
-    {
-      "word": "whether",
-      "pos": "",
-      "zh": "连词：是否，不论"
-    },
-    {
-      "word": "moment",
-      "pos": "",
-      "zh": "名词：时刻，瞬间，片刻"
-    },
-    {
-      "word": "rest",
-      "pos": "",
-      "zh": "动词：休息，放心，安息"
-    },
-    {
-      "word": "political",
-      "pos": "",
-      "zh": "形容词：政治，政治性"
-    },
-    {
-      "word": "brought",
-      "pos": "",
-      "zh": "动词：带来，产生，促使"
-    },
-    {
-      "word": "save",
-      "pos": "",
-      "zh": "动词：保存，节省，节约"
-    },
-    {
-      "word": "cut",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "several",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "national",
-      "pos": "",
-      "zh": "形容词：国民，国，国立"
-    },
-    {
-      "word": "laugh",
-      "pos": "",
-      "zh": "动词：笑，嘲笑，嗤笑"
-    },
-    {
-      "word": "fight",
-      "pos": "",
-      "zh": "动词：斗争，打，战斗"
-    },
-    {
-      "word": "nature",
-      "pos": "",
-      "zh": "名词：性质，自然，本质"
-    },
-    {
-      "word": "perhaps",
-      "pos": "",
-      "zh": "副词：也许，或许，或者"
-    },
-    {
-      "word": "above",
-      "pos": "",
-      "zh": "介词：以上，上，在 ... 之上"
-    },
-    {
-      "word": "test",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "experience",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "mom",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "paper",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "value",
-      "pos": "",
-      "zh": "名词：值，价值，价"
-    },
-    {
-      "word": "society",
-      "pos": "",
-      "zh": "名词：社会，学会，协会"
-    },
-    {
-      "word": "process",
-      "pos": "",
-      "zh": "动词：处理，提炼，顺"
-    },
-    {
-      "word": "ago",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "receive",
-      "pos": "",
-      "zh": "动词：接收，收到，获得"
-    },
-    {
-      "word": "blood",
-      "pos": "",
-      "zh": "名词：血液，血，成分"
-    },
-    {
-      "word": "wish",
-      "pos": "",
-      "zh": "动词：希望，愿望，祝"
-    },
-    {
-      "word": "sometimes",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "everyone",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "begin",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "service",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "air",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "pretty",
-      "pos": "",
-      "zh": "形容词：漂亮，美丽，俏"
-    },
-    {
-      "word": "music",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "view",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "church",
-      "pos": "",
-      "zh": "名词：教会，教堂，礼拜"
-    },
-    {
-      "word": "police",
-      "pos": "",
-      "zh": "名词：警察，警方，警"
-    },
-    {
-      "word": "note",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sleep",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "guess",
-      "pos": "",
-      "zh": "动词：猜测，猜，猜想"
-    },
-    {
-      "word": "special",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "expect",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "data",
-      "pos": "",
-      "zh": "名词：数据，资料，材料"
-    },
-    {
-      "word": "therefore",
-      "pos": "",
-      "zh": "副词：因此，所以，因而"
-    },
-    {
-      "word": "allow",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "truth",
-      "pos": "",
-      "zh": "名词：真相，真理，实话"
-    },
-    {
-      "word": "effect",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "century",
-      "pos": "",
-      "zh": "名词：世纪，百年，百个"
-    },
-    {
-      "word": "require",
-      "pos": "",
-      "zh": "动词：要求，需求，需"
-    },
-    {
-      "word": "anyone",
-      "pos": "",
-      "zh": "代词：谁，任何人，重要人物"
-    },
-    {
-      "word": "phone",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "level",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "food",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "common",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "town",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "appear",
-      "pos": "",
-      "zh": "动词：出现，似乎，呈现"
-    },
-    {
-      "word": "doctor",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "produce",
-      "pos": "",
-      "zh": "动词：产生，生产，产"
-    },
-    {
-      "word": "action",
-      "pos": "",
-      "zh": "名词：行动，动作，作用"
-    },
-    {
-      "word": "period",
-      "pos": "",
-      "zh": "名词：期，时期，期间"
-    },
-    {
-      "word": "develop",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "arm",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "policy",
-      "pos": "",
-      "zh": "名词：政策，方针，学说"
-    },
-    {
-      "word": "shit",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "six",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "concern",
-      "pos": "",
-      "zh": "动词：关心，忧虑，有关"
-    },
-    {
-      "word": "position",
-      "pos": "",
-      "zh": "名词：位置，定位，地位"
-    },
-    {
-      "word": "behind",
-      "pos": "",
-      "zh": "副词：背后，落后，向后"
-    },
-    {
-      "word": "itself",
-      "pos": "",
-      "zh": "代词：本身，自身，它本身"
-    },
-    {
-      "word": "reach",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "month",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "beautiful",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "themselves",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "remain",
-      "pos": "",
-      "zh": "动词：仍，留，残留"
-    },
-    {
-      "word": "break",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "activity",
-      "pos": "",
-      "zh": "名词：活动，活度，行为"
-    },
-    {
-      "word": "subject",
-      "pos": "",
-      "zh": "名词：主题，科目，主体"
-    },
-    {
-      "word": "tomorrow",
-      "pos": "",
-      "zh": "副词：明天，明日，翌"
-    },
-    {
-      "word": "date",
-      "pos": "",
-      "zh": "名词：日期，约会，日"
-    },
-    {
-      "word": "create",
-      "pos": "",
-      "zh": "动词：创建，创造，制造"
-    },
-    {
-      "word": "type",
-      "pos": "",
-      "zh": "名词：类型，型，式"
-    },
-    {
-      "word": "fall",
-      "pos": "",
-      "zh": "名词：秋季，秋天，秋"
-    },
-    {
-      "word": "further",
-      "pos": "",
-      "zh": "副词：进一步，更，且"
-    },
-    {
-      "word": "past",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "whatever",
-      "pos": "",
-      "zh": "连词：任何，无论如何，不拘"
-    },
-    {
-      "word": "ground",
-      "pos": "",
-      "zh": "名词：地面，地，地基"
-    },
-    {
-      "word": "cover",
-      "pos": "",
-      "zh": "动词：覆盖，盖，罩"
-    },
-    {
-      "word": "easy",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "daughter",
-      "pos": "",
-      "zh": "名词：女儿，女孩儿，女"
-    },
-    {
-      "word": "tonight",
-      "pos": "",
-      "zh": "副词：今晚"
-    },
-    {
-      "word": "front",
-      "pos": "",
-      "zh": "名词：前，前面，正面"
-    },
-    {
-      "word": "share",
-      "pos": "",
-      "zh": "动词：分享，共享，共"
-    },
-    {
-      "word": "necessary",
-      "pos": "",
-      "zh": "形容词：必要，须"
-    },
-    {
-      "word": "feeling",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "whose",
-      "pos": "",
-      "zh": "代词：谁"
-    },
-    {
-      "word": "add",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "became",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "short",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "research",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "pick",
-      "pos": "",
-      "zh": "动词：挑，选择，选"
-    },
-    {
-      "word": "decide",
-      "pos": "",
-      "zh": "动词：决定，判断，判定"
-    },
-    {
-      "word": "excuse",
-      "pos": "",
-      "zh": "名词：原谅，辩解，挡箭牌"
-    },
-    {
-      "word": "game",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "outside",
-      "pos": "",
-      "zh": "形容词：外，以外，表面的"
-    },
-    {
-      "word": "accord",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "inside",
-      "pos": "",
-      "zh": "名词：内，里面，里"
-    },
-    {
-      "word": "felt",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "field",
-      "pos": "",
-      "zh": "名词：领域，场，田"
-    },
-    {
-      "word": "property",
-      "pos": "",
-      "zh": "名词：属性，性能，财产"
-    },
-    {
-      "word": "chance",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "hit",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "future",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "husband",
-      "pos": "",
-      "zh": "名词：丈夫，夫，男人"
-    },
-    {
-      "word": "evidence",
-      "pos": "",
-      "zh": "名词：证据，明显，表明"
-    },
-    {
-      "word": "exactly",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "drink",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "theory",
-      "pos": "",
-      "zh": "名词：理论，论，原理"
-    },
-    {
-      "word": "poor",
-      "pos": "",
-      "zh": "形容词：贫困，差，贫穷"
-    },
-    {
-      "word": "sign",
-      "pos": "",
-      "zh": "名词：符号，标志，迹象"
-    },
-    {
-      "word": "drive",
-      "pos": "",
-      "zh": "动词：驱动，驾驶，带动"
-    },
-    {
-      "word": "community",
-      "pos": "",
-      "zh": "名词：社区，社会，共同体"
-    },
-    {
-      "word": "send",
-      "pos": "",
-      "zh": "动词：发送，寄送，送"
-    },
-    {
-      "word": "single",
-      "pos": "",
-      "zh": "形容词：单，单个，单一"
-    },
-    {
-      "word": "sent",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "explain",
-      "pos": "",
-      "zh": "动词：说明，讲解，阐释"
-    },
-    {
-      "word": "major",
-      "pos": "",
-      "zh": "形容词：主要，重大，大"
-    },
-    {
-      "word": "promise",
-      "pos": "",
-      "zh": "名词：承诺，诺言，誓言"
-    },
-    {
-      "word": "wanna",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "letter",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "self",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "rule",
-      "pos": "",
-      "zh": "名词：规则，统治，法则"
-    },
-    {
-      "word": "local",
-      "pos": "",
-      "zh": "形容词：本地，当地，地方"
-    },
-    {
-      "word": "forget",
-      "pos": "",
-      "zh": "动词：忘记，忘，忘掉"
-    },
-    {
-      "word": "step",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "involve",
-      "pos": "",
-      "zh": "动词：涉及，包括，包含"
-    },
-    {
-      "word": "red",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "total",
-      "pos": "",
-      "zh": "形容词：总，总额，共计"
-    },
-    {
-      "word": "trust",
-      "pos": "",
-      "zh": "动词：信任，相信，信赖"
-    },
-    {
-      "word": "art",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "education",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "met",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "near",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "record",
-      "pos": "",
-      "zh": "动词：记录，录音，录"
-    },
-    {
-      "word": "hurt",
-      "pos": "",
-      "zh": "名词：伤害，坏处"
-    },
-    {
-      "word": "earth",
-      "pos": "",
-      "zh": "名词：地，土，泥土"
-    },
-    {
-      "word": "usually",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "economic",
-      "pos": "",
-      "zh": "形容词：经济，实用的"
-    },
-    {
-      "word": "section",
-      "pos": "",
-      "zh": "名词：部分，部，截面"
-    },
-    {
-      "word": "especially",
-      "pos": "",
-      "zh": "副词：特别，尤其，尤"
-    },
-    {
-      "word": "describe",
-      "pos": "",
-      "zh": "动词：描述，形容，描绘"
-    },
-    {
-      "word": "offer",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "design",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "low",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "account",
-      "pos": "",
-      "zh": "名词：帐户，帐，记事"
-    },
-    {
-      "word": "complete",
-      "pos": "",
-      "zh": "动词：完成，完毕，毕"
-    },
-    {
-      "word": "finally",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "third",
-      "pos": "",
-      "zh": "：第三，三次，丙"
-    },
-    {
-      "word": "language",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "gotta",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "charge",
-      "pos": "",
-      "zh": "名词：收费，费用，冲锋"
-    },
-    {
-      "word": "buy",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "determine",
-      "pos": "",
-      "zh": "动词：确定，决定，判断"
-    },
-    {
-      "word": "top",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "mine",
-      "pos": "",
-      "zh": "名词：矿，矿山，矿井"
-    },
-    {
-      "word": "strong",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "individual",
-      "pos": "",
-      "zh": "形容词：个人，个体，个别"
-    },
-    {
-      "word": "sister",
-      "pos": "",
-      "zh": "名词：妹妹，姐姐，姐"
-    },
-    {
-      "word": "ten",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "voice",
-      "pos": "",
-      "zh": "名词：语音，声音，声"
-    },
-    {
-      "word": "feet",
-      "pos": "",
-      "zh": "名词：脚，足，英尺"
-    },
-    {
-      "word": "serve",
-      "pos": "",
-      "zh": "动词：服务，服侍，服"
-    },
-    {
-      "word": "touch",
-      "pos": "",
-      "zh": "动词：触摸，触，联系"
-    },
-    {
-      "word": "mark",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "stuff",
-      "pos": "",
-      "zh": "名词：东西，材料，填塞"
-    },
-    {
-      "word": "dear",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "figure",
-      "pos": "",
-      "zh": "名词：数字，人物，图形"
-    },
-    {
-      "word": "held",
-      "pos": "",
-      "zh": "形容词：保持"
-    },
-    {
-      "word": "trouble",
-      "pos": "",
-      "zh": "名词：麻烦，问题，烦恼"
-    },
-    {
-      "word": "lose",
-      "pos": "",
-      "zh": "动词：失去，输，丢失"
-    },
-    {
-      "word": "particular",
-      "pos": "",
-      "zh": "形容词：特定，特别，特殊"
-    },
-    {
-      "word": "longer",
-      "pos": "",
-      "zh": "形容词：长，长期，长远"
-    },
-    {
-      "word": "rate",
-      "pos": "",
-      "zh": "名词：率，速率，速度"
-    },
-    {
-      "word": "dream",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "bed",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "sort",
-      "pos": "",
-      "zh": "名词：分类，类，种类"
-    },
-    {
-      "word": "picture",
-      "pos": "",
-      "zh": "名词：图片，图像，照片"
-    },
-    {
-      "word": "shot",
-      "pos": "",
-      "zh": "名词：射击，镜头，开枪"
-    },
-    {
-      "word": "knowledge",
-      "pos": "",
-      "zh": "名词：知识，认识，知道"
-    },
-    {
-      "word": "accept",
-      "pos": "",
-      "zh": "动词：接受，接收，承认"
-    },
-    {
-      "word": "respect",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "goes",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "finish",
-      "pos": "",
-      "zh": "动词：完，结束，完毕"
-    },
-    {
-      "word": "damn",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "various",
-      "pos": "",
-      "zh": "形容词：各个，诸，杂"
-    },
-    {
-      "word": "health",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "pull",
-      "pos": "",
-      "zh": "动词：拉，拔，扳"
-    },
-    {
-      "word": "building",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "regard",
-      "pos": "",
-      "zh": "动词：看待，视，关心"
-    },
-    {
-      "word": "whom",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "personal",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "operation",
-      "pos": "",
-      "zh": "名词：行动，作业，手术"
-    },
-    {
-      "word": "shut",
-      "pos": "",
-      "zh": "动词：关闭，关，闭"
-    },
-    {
-      "word": "drop",
-      "pos": "",
-      "zh": "动词：下降，降，降低"
-    },
-    {
-      "word": "situation",
-      "pos": "",
-      "zh": "名词：情况，形势，状况"
-    },
-    {
-      "word": "establish",
-      "pos": "",
-      "zh": "动词：建立，设立，成立"
-    },
-    {
-      "word": "attack",
-      "pos": "",
-      "zh": "动词：攻击，攻，攻打"
-    },
-    {
-      "word": "cry",
-      "pos": "",
-      "zh": ""
-    },
-    {
-      "word": "everybody",
-      "pos": "",
-      "zh": "代词：各位，个个，谁"
-    },
-    {
-      "word": "issue",
-      "pos": "",
-      "zh": "名词：问题，发出，发行"
-    },
-    {
-      "word": "cost",
-      "pos": "",
-      "zh": "名词：成本，花费，费"
-    },
-    {
-      "word": "model",
-      "pos": "",
-      "zh": "名词：模型，型号，型"
-    },
-    {
-      "word": "term",
-      "pos": "",
-      "zh": "名词：术语，项，词"
-    }
+    "able",
+    "about",
+    "above",
+    "accept",
+    "accord",
+    "account",
+    "act",
+    "action",
+    "activity",
+    "actually",
+    "add",
+    "after",
+    "again",
+    "against",
+    "age",
+    "ago",
+    "air",
+    "all",
+    "allow",
+    "almost",
+    "alone",
+    "along",
+    "already",
+    "also",
+    "although",
+    "always",
+    "among",
+    "another",
+    "answer",
+    "any",
+    "anyone",
+    "anything",
+    "appear",
+    "area",
+    "arm",
+    "around",
+    "art",
+    "ask",
+    "attack",
+    "away",
+    "baby",
+    "back",
+    "bad",
+    "base",
+    "beautiful",
+    "became",
+    "because",
+    "become",
+    "bed",
+    "been",
+    "before",
+    "begin",
+    "behind",
+    "believe",
+    "best",
+    "better",
+    "between",
+    "big",
+    "bit",
+    "black",
+    "blood",
+    "body",
+    "book",
+    "both",
+    "boy",
+    "break",
+    "bring",
+    "brother",
+    "brought",
+    "building",
+    "business",
+    "buy",
+    "call",
+    "came",
+    "car",
+    "care",
+    "carry",
+    "case",
+    "cause",
+    "century",
+    "certain",
+    "chance",
+    "change",
+    "charge",
+    "check",
+    "child",
+    "children",
+    "church",
+    "city",
+    "class",
+    "clear",
+    "close",
+    "come",
+    "common",
+    "community",
+    "company",
+    "complete",
+    "concern",
+    "consider",
+    "continue",
+    "control",
+    "cost",
+    "country",
+    "course",
+    "court",
+    "cover",
+    "create",
+    "cry",
+    "cut",
+    "dad",
+    "damn",
+    "data",
+    "date",
+    "daughter",
+    "day",
+    "dead",
+    "deal",
+    "dear",
+    "death",
+    "decide",
+    "describe",
+    "design",
+    "determine",
+    "develop",
+    "development",
+    "die",
+    "different",
+    "doctor",
+    "done",
+    "door",
+    "down",
+    "dream",
+    "drink",
+    "drive",
+    "drop",
+    "during",
+    "each",
+    "early",
+    "earth",
+    "easy",
+    "eat",
+    "economic",
+    "education",
+    "effect",
+    "either",
+    "else",
+    "end",
+    "enough",
+    "especially",
+    "establish",
+    "even",
+    "ever",
+    "every",
+    "everybody",
+    "everyone",
+    "everything",
+    "evidence",
+    "exactly",
+    "example",
+    "excuse",
+    "expect",
+    "experience",
+    "explain",
+    "eye",
+    "face",
+    "fact",
+    "fall",
+    "family",
+    "far",
+    "father",
+    "feel",
+    "feeling",
+    "feet",
+    "felt",
+    "few",
+    "field",
+    "fight",
+    "figure",
+    "finally",
+    "find",
+    "fine",
+    "finish",
+    "fire",
+    "first",
+    "five",
+    "follow",
+    "food",
+    "force",
+    "forget",
+    "form",
+    "found",
+    "four",
+    "free",
+    "friend",
+    "from",
+    "front",
+    "fuck",
+    "full",
+    "further",
+    "future",
+    "game",
+    "gave",
+    "general",
+    "get",
+    "girl",
+    "give",
+    "given",
+    "go",
+    "god",
+    "goes",
+    "gone",
+    "good",
+    "got",
+    "gotta",
+    "government",
+    "great",
+    "ground",
+    "group",
+    "guess",
+    "guy",
+    "half",
+    "hand",
+    "happen",
+    "happy",
+    "hard",
+    "head",
+    "health",
+    "hear",
+    "heard",
+    "heart",
+    "held",
+    "hell",
+    "hello",
+    "help",
+    "hey",
+    "high",
+    "himself",
+    "history",
+    "hit",
+    "hold",
+    "home",
+    "hope",
+    "hour",
+    "house",
+    "how",
+    "however",
+    "human",
+    "hurt",
+    "husband",
+    "idea",
+    "important",
+    "include",
+    "increase",
+    "individual",
+    "information",
+    "inside",
+    "interest",
+    "into",
+    "involve",
+    "issue",
+    "itself",
+    "job",
+    "just",
+    "keep",
+    "kid",
+    "kill",
+    "kind",
+    "knew",
+    "know",
+    "knowledge",
+    "known",
+    "lady",
+    "land",
+    "language",
+    "large",
+    "last",
+    "late",
+    "later",
+    "laugh",
+    "law",
+    "lead",
+    "learn",
+    "least",
+    "leave",
+    "left",
+    "less",
+    "let",
+    "letter",
+    "level",
+    "lie",
+    "life",
+    "light",
+    "like",
+    "line",
+    "listen",
+    "little",
+    "live",
+    "local",
+    "long",
+    "longer",
+    "look",
+    "lose",
+    "lost",
+    "lot",
+    "love",
+    "low",
+    "made",
+    "major",
+    "make",
+    "man",
+    "many",
+    "mark",
+    "marry",
+    "matter",
+    "may",
+    "maybe",
+    "mean",
+    "meet",
+    "men",
+    "met",
+    "might",
+    "mind",
+    "mine",
+    "minute",
+    "miss",
+    "model",
+    "mom",
+    "moment",
+    "money",
+    "month",
+    "more",
+    "morning",
+    "most",
+    "mother",
+    "move",
+    "much",
+    "music",
+    "must",
+    "myself",
+    "name",
+    "national",
+    "nature",
+    "near",
+    "necessary",
+    "need",
+    "never",
+    "new",
+    "next",
+    "nice",
+    "night",
+    "note",
+    "nothing",
+    "now",
+    "number",
+    "off",
+    "offer",
+    "office",
+    "often",
+    "old",
+    "once",
+    "one",
+    "only",
+    "open",
+    "operation",
+    "order",
+    "other",
+    "out",
+    "outside",
+    "over",
+    "own",
+    "paper",
+    "part",
+    "particular",
+    "party",
+    "pass",
+    "past",
+    "pay",
+    "people",
+    "per",
+    "perhaps",
+    "period",
+    "person",
+    "personal",
+    "phone",
+    "pick",
+    "picture",
+    "place",
+    "plan",
+    "play",
+    "please",
+    "point",
+    "police",
+    "policy",
+    "political",
+    "poor",
+    "position",
+    "possible",
+    "power",
+    "present",
+    "pretty",
+    "probably",
+    "problem",
+    "process",
+    "produce",
+    "promise",
+    "property",
+    "provide",
+    "public",
+    "pull",
+    "put",
+    "question",
+    "quite",
+    "rate",
+    "rather",
+    "reach",
+    "read",
+    "ready",
+    "real",
+    "really",
+    "reason",
+    "receive",
+    "record",
+    "red",
+    "regard",
+    "remain",
+    "remember",
+    "report",
+    "require",
+    "research",
+    "respect",
+    "rest",
+    "result",
+    "return",
+    "right",
+    "room",
+    "rule",
+    "run",
+    "said",
+    "same",
+    "save",
+    "saw",
+    "say",
+    "school",
+    "second",
+    "section",
+    "see",
+    "seem",
+    "seen",
+    "self",
+    "send",
+    "sense",
+    "sent",
+    "serve",
+    "service",
+    "set",
+    "several",
+    "shall",
+    "share",
+    "shit",
+    "short",
+    "shot",
+    "show",
+    "shut",
+    "side",
+    "sign",
+    "since",
+    "single",
+    "sir",
+    "sister",
+    "sit",
+    "situation",
+    "six",
+    "sleep",
+    "small",
+    "social",
+    "society",
+    "some",
+    "someone",
+    "something",
+    "sometimes",
+    "son",
+    "soon",
+    "sorry",
+    "sort",
+    "sound",
+    "speak",
+    "special",
+    "stand",
+    "start",
+    "state",
+    "stay",
+    "step",
+    "still",
+    "stop",
+    "story",
+    "strong",
+    "study",
+    "stuff",
+    "subject",
+    "such",
+    "support",
+    "suppose",
+    "sure",
+    "system",
+    "take",
+    "taken",
+    "talk",
+    "tell",
+    "ten",
+    "term",
+    "test",
+    "thank",
+    "thanks",
+    "themselves",
+    "theory",
+    "therefore",
+    "thing",
+    "think",
+    "third",
+    "though",
+    "thought",
+    "three",
+    "through",
+    "thus",
+    "time",
+    "today",
+    "together",
+    "told",
+    "tomorrow",
+    "tonight",
+    "too",
+    "took",
+    "top",
+    "total",
+    "touch",
+    "town",
+    "trouble",
+    "true",
+    "trust",
+    "truth",
+    "try",
+    "turn",
+    "two",
+    "type",
+    "under",
+    "understand",
+    "until",
+    "upon",
+    "use",
+    "usually",
+    "value",
+    "various",
+    "very",
+    "view",
+    "voice",
+    "wait",
+    "walk",
+    "wanna",
+    "want",
+    "war",
+    "watch",
+    "water",
+    "way",
+    "week",
+    "well",
+    "went",
+    "what",
+    "whatever",
+    "when",
+    "where",
+    "whether",
+    "which",
+    "while",
+    "white",
+    "who",
+    "whole",
+    "whom",
+    "whose",
+    "why",
+    "wife",
+    "will",
+    "wish",
+    "with",
+    "within",
+    "without",
+    "woman",
+    "women",
+    "won",
+    "word",
+    "work",
+    "world",
+    "worry",
+    "write",
+    "wrong",
+    "yeah",
+    "year",
+    "yes",
+    "yet",
+    "young",
+    "yourself"
   ]
 }

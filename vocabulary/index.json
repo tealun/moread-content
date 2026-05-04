@@ -1,0 +1,154 @@
+[
+  {
+    "id": "cefr-a1",
+    "name": "CEFR A1",
+    "category": "cefr",
+    "difficulty": "A1",
+    "word_count": 600,
+    "file": "cefr/a1.json"
+  },
+  {
+    "id": "cefr-a2",
+    "name": "CEFR A2",
+    "category": "cefr",
+    "difficulty": "A2",
+    "word_count": 600,
+    "file": "cefr/a2.json"
+  },
+  {
+    "id": "cefr-b1",
+    "name": "CEFR B1",
+    "category": "cefr",
+    "difficulty": "B1",
+    "word_count": 1300,
+    "file": "cefr/b1.json"
+  },
+  {
+    "id": "cefr-b2",
+    "name": "CEFR B2",
+    "category": "cefr",
+    "difficulty": "B2",
+    "word_count": 2500,
+    "file": "cefr/b2.json"
+  },
+  {
+    "id": "cefr-c1",
+    "name": "CEFR C1",
+    "category": "cefr",
+    "difficulty": "C1",
+    "word_count": 1026,
+    "file": "cefr/c1.json"
+  },
+  {
+    "id": "cefr-c2",
+    "name": "CEFR C2",
+    "category": "cefr",
+    "difficulty": "C2",
+    "word_count": 999,
+    "file": "cefr/c2.json"
+  },
+  {
+    "id": "exam-cet4",
+    "name": "大学英语四级 CET-4",
+    "category": "exam",
+    "difficulty": "B1-B2",
+    "word_count": 3320,
+    "file": "exam/cet4.json"
+  },
+  {
+    "id": "exam-cet6",
+    "name": "大学英语六级 CET-6",
+    "category": "exam",
+    "difficulty": "B2-C1",
+    "word_count": 3991,
+    "file": "exam/cet6.json"
+  },
+  {
+    "id": "exam-gaokao",
+    "name": "高考考纲",
+    "category": "exam",
+    "difficulty": "",
+    "word_count": 2288,
+    "file": "exam/gaokao.json"
+  },
+  {
+    "id": "exam-gre",
+    "name": "GRE 研究生入学",
+    "category": "exam",
+    "difficulty": "C1-C2",
+    "word_count": 9471,
+    "file": "exam/gre.json"
+  },
+  {
+    "id": "exam-ielts",
+    "name": "雅思 IELTS",
+    "category": "exam",
+    "difficulty": "B1-C1",
+    "word_count": 1991,
+    "file": "exam/ielts.json"
+  },
+  {
+    "id": "exam-kaoyan",
+    "name": "考研英语",
+    "category": "exam",
+    "difficulty": "B2-C1",
+    "word_count": 5047,
+    "file": "exam/kaoyan.json"
+  },
+  {
+    "id": "exam-toefl",
+    "name": "托福 TOEFL",
+    "category": "exam",
+    "difficulty": "B2-C2",
+    "word_count": 10367,
+    "file": "exam/toefl.json"
+  },
+  {
+    "id": "exam-zhongkao",
+    "name": "中考考纲",
+    "category": "exam",
+    "difficulty": "",
+    "word_count": 1600,
+    "file": "exam/zhongkao.json"
+  },
+  {
+    "id": "freq-1000",
+    "name": "高频词 Top 1000",
+    "category": "frequency",
+    "difficulty": "A1-A2",
+    "word_count": 1000,
+    "file": "frequency/top-1000.json"
+  },
+  {
+    "id": "freq-10000",
+    "name": "高频词 Top 10000",
+    "category": "frequency",
+    "difficulty": "B2",
+    "word_count": 9894,
+    "file": "frequency/top-10000.json"
+  },
+  {
+    "id": "freq-2000",
+    "name": "高频词 Top 2000",
+    "category": "frequency",
+    "difficulty": "A2-B1",
+    "word_count": 2000,
+    "file": "frequency/top-2000.json"
+  },
+  {
+    "id": "freq-3000",
+    "name": "高频词 Top 3000",
+    "category": "frequency",
+    "difficulty": "B1",
+    "word_count": 3000,
+    "file": "frequency/top-3000.json"
+  },
+  {
+    "id": "freq-5000",
+    "name": "高频词 Top 5000",
+    "category": "frequency",
+    "difficulty": "B1-B2",
+    "word_count": 5000,
+    "file": "frequency/top-5000.json"
+  }
+]
