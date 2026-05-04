@@ -97,6 +97,7 @@ moread-content/
 │   ├── vocabulary.py        ← 词库路由（packs/words/stats/health）
 │   └── dictionary.py        ← 词典路由（lookup/batch/search）
 ├── main.py                  ← 启动入口（创建 app + 挂载路由）
+├── DATA_API_SPEC.md         ← 本文件（数据端完整规格）
 └── requirements.txt         ← Python 依赖
 ```
 

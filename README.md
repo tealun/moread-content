@@ -23,7 +23,6 @@ moread-content/
 │   └── schema.sql           ← PostgreSQL 建表语句
 │
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
-│   ├── SPEC.md              ← 词汇模块完整设计文档（含 API 文档）
 │   ├── index.json           ← 词库索引（19 个词库）
 │   ├── cefr/                ← CEFR 分级（6 个：A1~C2）
 │   ├── exam/                ← 考试考纲（8 个：中考/高考/CET-4/CET-6/考研/雅思/托福/GRE）
@@ -41,6 +40,7 @@ moread-content/
 │   ├── vocabulary.py        ← 词库路由（packs/words/stats/health）
 │   └── dictionary.py        ← 词典路由（lookup/batch/search）
 ├── main.py                  ← 启动入口（创建 app + 挂载路由）
+├── DATA_API_SPEC.md         ← 数据端完整规格（API 文档 + 消费端集成方式）
 ├── requirements.txt         ← Python 依赖（fastapi/uvicorn/orjson/python-dotenv）
 └── .env.example             ← 配置模板
 ```
@@ -108,7 +108,7 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8900
 ```
 
-消费端通过 HTTP 接口获取所有数据，详见 `vocabulary/SPEC.md` §6。
+消费端通过 HTTP 接口获取所有数据，详见 `DATA_API_SPEC.md` §6。
 
 ### 方式二：直接读 JSON
 
@@ -137,5 +137,5 @@ import gaokao from 'moread-content/vocabulary/exam/gaokao.json'
 
 ## 详细设计文档
 
-- `vocabulary/SPEC.md` — 词库模块完整设计（架构、格式、API 文档、集成方式）
+- `DATA_API_SPEC.md` — 数据端完整规格（架构、词库格式、API 文档、消费端集成方式）
 - `textbook/SPEC.md` — 教材同步数据设计（JSON Schema、学段隔离原则）
