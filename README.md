@@ -35,7 +35,9 @@ moread-content/
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
 │
-└── main.py                  ← FastAPI 词库底座服务
+├── main.py                  ← FastAPI 词库底座服务
+├── requirements.txt         ← Python 依赖（fastapi/uvicorn/orjson/python-dotenv）
+└── .env.example             ← 配置模板
 ```
 
 ---

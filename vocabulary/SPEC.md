@@ -12,11 +12,11 @@
 
 **词库**（`vocabulary/`）：只有词单——告诉消费端"这个词库包含哪些单词"。不存释义、不存音标，释义由底座统一提供。
 
-**API**（`api/`）：FastAPI 服务，提供 HTTP 接口查询词库列表、词单、单词释义。消费端不需要直接读文件，通过 API 获取所有数据。
+**API**：FastAPI 服务（`main.py`，根目录），提供 HTTP 接口查询词库列表、词单、单词释义。消费端不需要直接读文件，通过 API 获取所有数据。
 
 ```
 消费端 → GET /api/packs → 拿到词库列表
-消费端 → GET /api/packs/{id} → 拿到词单
+消费端 → GET /api/packs/{pack_id} → 拿到词单
 消费端 → GET /api/dictionary/{word} → 拿到完整释义
 ```
 
@@ -86,8 +86,7 @@ moread-content/
 │   ├── index.json           ← 词库索引（19 个词库）
 │   ├── cefr/                ← CEFR 分级词单（6 个）
 │   ├── exam/                ← 考试考纲词单（8 个）
-│   ├── frequency/           ← 词频词单（5 个，按 Google 10K 真实词频排序）
-│   └── textbook/            ← 教材词单（待追加，目前为空）
+│   └── frequency/           ← 词频词单（5 个，按 Google 10K 真实词频排序）
 ├── textbook/                ← 教材同步数据
 │   ├── SPEC.md
 │   ├── pep/                 ← 人教版（待提取）
@@ -102,7 +101,7 @@ moread-content/
 
 | 类别 | 数量 | 说明 |
 |------|------|------|
-| **CEFR** | 6 | A1~C2 分级，各级独立无重叠，累计 7,023 词 |
+| **CEFR** | 6 | A1~C2 分级，各级有少量跨级重叠，去重累计 6,780 词 |
 | **考试** | 8 | 中考/高考/CET-4/CET-6/考研/雅思/托福/GRE，双源合并去重 |
 | **词频** | 5 | Top 1k~10k，按真实词频排序（Google 10K 语料），含嵌套关系 |
 | **教材** | 待定 | 从 textbook/ 提取后追加 |
@@ -198,7 +197,7 @@ GET /api/dictionary/{word}
 }
 ```
 
-查不到时返回：`{ "error": "Word not found", "word": "xxx" }`
+查不到时返回 HTTP 404：`{ "error": "Word not found", "word": "xxx" }`
 
 ### 6.6 批量单词释义
 
@@ -255,7 +254,7 @@ GET /api/stats
 
 消费端部署 moread-content 的 API 服务，通过 HTTP 接口获取所有词库和释义数据。Moread 后端只需要：
 1. 调用 `/api/packs` 获取词库列表 → 展示给用户选择
-2. 调用 `/api/packs/{id}` 获取词单 → 抽词出题
+2. 调用 `/api/packs/{pack_id}` 获取词单 → 抽词出题
 3. 调用 `/api/dictionary/{word}` 获取释义 → 展示给用户
 
 ### 方式二：直接读 JSON

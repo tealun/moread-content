@@ -8,6 +8,7 @@ Moread Content API — 词库底座服务
 """
 
 from fastapi import FastAPI, Query, Path, Request, Response
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware
 from dotenv import load_dotenv
@@ -25,31 +26,39 @@ HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", "8900"))
 DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 
-# IP 白名单：默认只允许本地访问
-# ALLOWED_IPS=127.0.0.1,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
-_raw_ips = os.getenv("ALLOWED_IPS", "127.0.0.1,::1")
+# IP 白名单：
+#   不配置或留空 → 放行所有请求
+#   配置具体 IP/CIDR → 只放行匹配的来源，其余拒绝
+#   示例：127.0.0.1,::1 → 仅本地
+#   示例：127.0.0.1,10.0.0.5,172.16.0.0/12 → 本地 + 指定 IP + 内网段
+_raw_ips = os.getenv("ALLOWED_IPS", "").strip()
 ALLOWED_NETWORKS: list[ipaddress.IPv4Network | ipaddress.IPv6Network] = []
-for entry in _raw_ips.split(","):
-    entry = entry.strip()
-    if not entry:
-        continue
-    try:
-        # 尝试解析为网络（支持 CIDR）或单个 IP（自动转为 /32 或 /128）
-        if "/" in entry:
-            ALLOWED_NETWORKS.append(ipaddress.ip_network(entry, strict=False))
-        else:
-            ALLOWED_NETWORKS.append(ipaddress.ip_network(f"{entry}/32", strict=False))
-    except ValueError:
-        if ":" in entry:
-            # IPv6
-            ALLOWED_NETWORKS.append(ipaddress.ip_network(f"{entry}/128", strict=False))
-        else:
+_WHITELIST_ENABLED = False
+
+if _raw_ips:
+    _WHITELIST_ENABLED = True
+    for entry in _raw_ips.split(","):
+        entry = entry.strip()
+        if not entry:
+            continue
+        try:
+            if "/" in entry:
+                ALLOWED_NETWORKS.append(ipaddress.ip_network(entry, strict=False))
+            elif ":" in entry:
+                ALLOWED_NETWORKS.append(ipaddress.ip_network(f"{entry}/128", strict=False))
+            else:
+                ALLOWED_NETWORKS.append(ipaddress.ip_network(f"{entry}/32", strict=False))
+        except ValueError:
             print(f"⚠️  忽略无效 IP 配置: {entry}")
 
 # ─── IP 白名单中间件 ─────────────────────────────────────────
 
 class IPWhitelistMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
+        # 未配置白名单 → 放行所有
+        if not _WHITELIST_ENABLED:
+            return await call_next(request)
+
         client_ip = request.client.host if request.client else "unknown"
 
         try:
@@ -165,7 +174,7 @@ def get_pack_detail(pack_id: str = Path(..., description="词库ID")):
     """获取词库详情（包含完整词单）"""
     pack = get_pack(pack_id)
     if not pack:
-        return {"error": "Pack not found"}
+        return JSONResponse({"error": "Pack not found"}, status_code=404)
     return pack
 
 
@@ -178,7 +187,7 @@ def get_pack_words(
     """分页获取词库单词"""
     pack = get_pack(pack_id)
     if not pack:
-        return {"error": "Pack not found"}
+        return JSONResponse({"error": "Pack not found"}, status_code=404)
     words = pack["words"][offset:offset + limit]
     return {
         "pack_id": pack_id,
@@ -194,7 +203,7 @@ def lookup(word: str = Path(..., description="单词")):
     """查询单个单词的完整释义（ECDICT 底座）"""
     entry = lookup_word(word)
     if not entry:
-        return {"error": "Word not found", "word": word}
+        return JSONResponse({"error": "Word not found", "word": word}, status_code=404)
     return {"word": word.lower(), **entry}
 
 
@@ -254,5 +263,8 @@ if __name__ == "__main__":
     print(f"🚀 Moread Content API")
     print(f"   Host: {HOST}:{PORT}")
     print(f"   Debug: {DEBUG}")
-    print(f"   Allowed IPs: {[str(n) for n in ALLOWED_NETWORKS]}")
+    if _WHITELIST_ENABLED:
+        print(f"   IP Whitelist: {[str(n) for n in ALLOWED_NETWORKS]}")
+    else:
+        print(f"   IP Whitelist: disabled (all allowed)")
     uvicorn.run(app, host=HOST, port=PORT)
