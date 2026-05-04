@@ -52,7 +52,7 @@
     "name": "大学英语四级 CET-4",
     "category": "exam",
     "difficulty": "B1-B2",
-    "word_count": 3320,
+    "word_count": 5183,
     "file": "exam/cet4.json"
   },
   {
@@ -60,15 +60,15 @@
     "name": "大学英语六级 CET-6",
     "category": "exam",
     "difficulty": "B2-C1",
-    "word_count": 3991,
+    "word_count": 5975,
     "file": "exam/cet6.json"
   },
   {
     "id": "exam-gaokao",
     "name": "高考考纲",
     "category": "exam",
-    "difficulty": "",
-    "word_count": 2285,
+    "difficulty": "A2-B2",
+    "word_count": 3837,
     "file": "exam/gaokao.json"
   },
   {
@@ -92,7 +92,7 @@
     "name": "考研英语",
     "category": "exam",
     "difficulty": "B2-C1",
-    "word_count": 5045,
+    "word_count": 5651,
     "file": "exam/kaoyan.json"
   },
   {
