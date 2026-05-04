@@ -15,9 +15,9 @@
 **API**（`api/`）：FastAPI 模块化服务，`main.py` 为启动入口。路由拆分为词库（vocabulary.py）和词典（dictionary.py），中间件和数据加载层各自独立。
 
 ```
-消费端 → GET /api/packs → 拿到词库列表
-消费端 → GET /api/packs/{pack_id} → 拿到词单
-消费端 → GET /api/dictionary/{word} → 拿到完整释义
+消费端 → GET /api/packs → 拿到词库列表（缓存到本地）
+消费端 → GET /api/packs/{pack_id} → 拿到词单（缓存 JSON 文件）
+消费端 → POST /api/dictionary/batch → 批量拿释义
 ```
 
 ---
@@ -253,33 +253,48 @@ GET /api/stats
 
 ## 7. 消费端集成方式
 
-消费端有两种方式获取数据：
+### 推荐方式：API + 本地 JSON 缓存
 
-### 方式一：API（推荐）
+消费端部署 moread-content API 服务，启动时将词库数据缓存为本地 JSON 文件，运行时从缓存抽词、从 API 查释义。
 
-消费端部署 moread-content 的 API 服务，通过 HTTP 接口获取所有词库和释义数据。Moread 后端只需要：
-1. 调用 `/api/packs` 获取词库列表 → 展示给用户选择
-2. 调用 `/api/packs/{pack_id}` 获取词单 → 抽词出题
-3. 调用 `/api/dictionary/{word}` 获取释义 → 展示给用户
+**启动时同步（系统行为，一次性）**：
+1. `GET /api/packs` → 拿到词库列表，存为 `cache/packs.json`
+2. 对每个词库 `GET /api/packs/{pack_id}` → 拿到词单，存为 `cache/{pack_id}.json`
+3. 对比本地缓存与远端数据：若词库数量或总词数不一致，重新拉取覆盖
 
-### 方式二：直接读 JSON
+**运行时**：
+- **抽词出题**：读本地缓存 JSON，内存中过滤已背词，`random.sample` 抽词
+- **查释义**：`POST /api/dictionary/batch` 批量获取释义
+- **用户选词库**：消费端只写一条用户记录（pack_id 字符串），不触发同步
 
-消费端直接 clone 仓库，读 JSON 文件。适合离线场景或需要极致性能的场景。
+**缓存更新**：
+- 启动时自动检查：`GET /api/stats` 对比 `total_packs` + `total_words`，有变化则重新拉取
+- 也可手动触发：管理接口清除缓存，下次请求自动重新拉取
 
-### 方式三：导入数据库
-
-消费端自行编写导入脚本，把 JSON 数据灌入自己的数据库。`dictionary/` 下已提供 SQL 格式（a.sql ~ z.sql）和建表语句（schema.sql），可直接使用。
-
-```sql
--- 消费端导入后的典型查询
-SELECT w.word, d.phonetic, d.pos, d.definitions, d.cefr
-FROM word_pack_words w
-JOIN dictionary d ON w.word = d.word
-WHERE w.pack_id = 'exam-gaokao'
-  AND w.word NOT IN (SELECT word FROM vocabulary_book WHERE user_id = $1)
-ORDER BY RANDOM()
-LIMIT 20;
+**缓存文件结构**（消费端本地）：
 ```
+data/cache/
+├── packs.json                    ← GET /api/packs 的返回结果
+├── exam-gaokao.json              ← 高考考纲词单
+├── exam-cet4.json                ← 四级词单
+├── ...（共 19 个词库 JSON）
+```
+
+**量级**：19 个 JSON 文件，总计约 2~3 MB（最大的托福 10,365 词约 100 KB）。
+
+### 离线方式：直接读 JSON
+
+消费端直接 clone 仓库，读 JSON 文件。适合完全离线场景。
+
+### 对接关键接口
+
+| 消费端需求 | 数据端接口 | 返回内容 |
+|---|---|---|
+| 词库列表（缓存） | `GET /api/packs` | 19 个词库的 id/name/category/word_count |
+| 词单（缓存） | `GET /api/packs/{pack_id}` | `{id, name, words: [...]}` |
+| 批量释义 | `POST /api/dictionary/batch` | `{word: {phonetic, pos, zh, ...}}` |
+| 缓存校验 | `GET /api/stats` | `{total_packs, total_words}` |
+| 单词释义 | `GET /api/dictionary/{word}` | 完整词条（单查用） |
 
 ---
 
