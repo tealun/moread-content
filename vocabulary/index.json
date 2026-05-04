@@ -20,7 +20,7 @@
     "name": "CEFR B1",
     "category": "cefr",
     "difficulty": "B1",
-    "word_count": 1300,
+    "word_count": 1298,
     "file": "cefr/b1.json"
   },
   {
@@ -68,7 +68,7 @@
     "name": "高考考纲",
     "category": "exam",
     "difficulty": "",
-    "word_count": 2288,
+    "word_count": 2285,
     "file": "exam/gaokao.json"
   },
   {
@@ -92,7 +92,7 @@
     "name": "考研英语",
     "category": "exam",
     "difficulty": "B2-C1",
-    "word_count": 5047,
+    "word_count": 5045,
     "file": "exam/kaoyan.json"
   },
   {
@@ -116,7 +116,7 @@
     "name": "高频词 Top 1000",
     "category": "frequency",
     "difficulty": "A1-A2",
-    "word_count": 1000,
+    "word_count": 976,
     "file": "frequency/top-1000.json"
   },
   {
@@ -124,7 +124,7 @@
     "name": "高频词 Top 10000",
     "category": "frequency",
     "difficulty": "B2",
-    "word_count": 9894,
+    "word_count": 9870,
     "file": "frequency/top-10000.json"
   },
   {
@@ -132,7 +132,7 @@
     "name": "高频词 Top 2000",
     "category": "frequency",
     "difficulty": "A2-B1",
-    "word_count": 2000,
+    "word_count": 1976,
     "file": "frequency/top-2000.json"
   },
   {
@@ -140,7 +140,7 @@
     "name": "高频词 Top 3000",
     "category": "frequency",
     "difficulty": "B1",
-    "word_count": 3000,
+    "word_count": 2976,
     "file": "frequency/top-3000.json"
   },
   {
@@ -148,7 +148,7 @@
     "name": "高频词 Top 5000",
     "category": "frequency",
     "difficulty": "B1-B2",
-    "word_count": 5000,
+    "word_count": 4976,
     "file": "frequency/top-5000.json"
   }
 ]
