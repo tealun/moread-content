@@ -2,7 +2,7 @@
 
 > **状态**: 🟡 草案 — 待用户确认
 > **创建**: 2026-05-04
-> **更新**: 2026-05-04（简化架构：词单+底座分离）
+> **更新**: 2026-05-04（全量词库 19 个，73,542 词）
 
 ---
 
@@ -26,7 +26,6 @@
 {
   "id": "exam-gaokao",
   "name": "高考考纲",
-  "description": "高考英语核心词汇",
   "category": "exam",
   "difficulty": "B1-B2",
   "words": [
@@ -47,70 +46,25 @@
 
 ```json
 [
-  {
-    "id": "cefr-a1",
-    "name": "CEFR A1 入门",
-    "category": "cefr",
-    "difficulty": "A1",
-    "word_count": 600,
-    "file": "cefr/a1.json"
-  },
-  {
-    "id": "cefr-a2",
-    "name": "CEFR A2 基础",
-    "category": "cefr",
-    "difficulty": "A2",
-    "word_count": 600,
-    "file": "cefr/a2.json"
-  },
-  {
-    "id": "cefr-b1",
-    "name": "CEFR B1 中级",
-    "category": "cefr",
-    "difficulty": "B1",
-    "word_count": 1300,
-    "file": "cefr/b1.json"
-  },
-  {
-    "id": "cefr-b2",
-    "name": "CEFR B2 中高级",
-    "category": "cefr",
-    "difficulty": "B2",
-    "word_count": 2500,
-    "file": "cefr/b2.json"
-  },
-  {
-    "id": "cefr-c1",
-    "name": "CEFR C1 高级",
-    "category": "cefr",
-    "difficulty": "C1",
-    "word_count": 1129,
-    "file": "cefr/c1.json"
-  },
-  {
-    "id": "cefr-c2",
-    "name": "CEFR C2 精通",
-    "category": "cefr",
-    "difficulty": "C2",
-    "word_count": 1053,
-    "file": "cefr/c2.json"
-  },
-  {
-    "id": "exam-zhongkao",
-    "name": "中考考纲",
-    "category": "exam",
-    "difficulty": "A2-B1",
-    "word_count": 1600,
-    "file": "exam/zhongkao.json"
-  },
-  {
-    "id": "exam-gaokao",
-    "name": "高考考纲",
-    "category": "exam",
-    "difficulty": "B1-B2",
-    "word_count": 2288,
-    "file": "exam/gaokao.json"
-  }
+  { "id": "cefr-a1",      "name": "CEFR A1",              "category": "cefr",      "difficulty": "A1",    "word_count": 600,   "file": "cefr/a1.json" },
+  { "id": "cefr-a2",      "name": "CEFR A2",              "category": "cefr",      "difficulty": "A2",    "word_count": 600,   "file": "cefr/a2.json" },
+  { "id": "cefr-b1",      "name": "CEFR B1",              "category": "cefr",      "difficulty": "B1",    "word_count": 1298,  "file": "cefr/b1.json" },
+  { "id": "cefr-b2",      "name": "CEFR B2",              "category": "cefr",      "difficulty": "B2",    "word_count": 2500,  "file": "cefr/b2.json" },
+  { "id": "cefr-c1",      "name": "CEFR C1",              "category": "cefr",      "difficulty": "C1",    "word_count": 1026,  "file": "cefr/c1.json" },
+  { "id": "cefr-c2",      "name": "CEFR C2",              "category": "cefr",      "difficulty": "C2",    "word_count": 999,   "file": "cefr/c2.json" },
+  { "id": "exam-cet4",    "name": "大学英语四级 CET-4",   "category": "exam",      "difficulty": "B1-B2", "word_count": 5183,  "file": "exam/cet4.json" },
+  { "id": "exam-cet6",    "name": "大学英语六级 CET-6",   "category": "exam",      "difficulty": "B2-C1", "word_count": 5974,  "file": "exam/cet6.json" },
+  { "id": "exam-gaokao",  "name": "高考考纲",             "category": "exam",      "difficulty": "B1-B2", "word_count": 3837,  "file": "exam/gaokao.json" },
+  { "id": "exam-gre",     "name": "GRE 研究生入学",       "category": "exam",      "difficulty": "C1-C2", "word_count": 9468,  "file": "exam/gre.json" },
+  { "id": "exam-ielts",   "name": "雅思 IELTS",           "category": "exam",      "difficulty": "B2-C1", "word_count": 3576,  "file": "exam/ielts.json" },
+  { "id": "exam-kaoyan",  "name": "考研英语",             "category": "exam",      "difficulty": "B2-C1", "word_count": 5648,  "file": "exam/kaoyan.json" },
+  { "id": "exam-toefl",   "name": "托福 TOEFL",           "category": "exam",      "difficulty": "B2-C1", "word_count": 10365, "file": "exam/toefl.json" },
+  { "id": "exam-zhongkao","name": "中考考纲",             "category": "exam",      "difficulty": "A1-A2", "word_count": 1600,  "file": "exam/zhongkao.json" },
+  { "id": "freq-1000",    "name": "高频词 Top 1000",      "category": "frequency", "difficulty": "",      "word_count": 1000,  "file": "frequency/top-1000.json" },
+  { "id": "freq-2000",    "name": "高频词 Top 2000",      "category": "frequency", "difficulty": "",      "word_count": 2000,  "file": "frequency/top-2000.json" },
+  { "id": "freq-3000",    "name": "高频词 Top 3000",      "category": "frequency", "difficulty": "",      "word_count": 3000,  "file": "frequency/top-3000.json" },
+  { "id": "freq-5000",    "name": "高频词 Top 5000",      "category": "frequency", "difficulty": "",      "word_count": 5000,  "file": "frequency/top-5000.json" },
+  { "id": "freq-10000",   "name": "高频词 Top 10000",     "category": "frequency", "difficulty": "",      "word_count": 9868,  "file": "frequency/top-10000.json" }
 ]
 ```
 
@@ -125,17 +79,29 @@ moread-content/
 │   ├── a.sql ~ z.sql        ← SQL 格式（对称）
 │   └── schema.sql
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
-│   ├── index.json           ← 词库索引
-│   ├── cefr/                ← CEFR 分级词单
+│   ├── index.json           ← 词库索引（19 个词库）
+│   ├── cefr/                ← CEFR 分级词单（6 个）
 │   │   ├── a1.json
 │   │   ├── a2.json
 │   │   ├── b1.json
 │   │   ├── b2.json
 │   │   ├── c1.json
 │   │   └── c2.json
-│   ├── exam/                ← 考试考纲词单
-│   │   ├── zhongkao.json
-│   │   └── gaokao.json
+│   ├── exam/                ← 考试考纲词单（8 个）
+│   │   ├── zhongkao.json    ← 中考 1600
+│   │   ├── gaokao.json      ← 高考 3837
+│   │   ├── cet4.json        ← 四级 5183
+│   │   ├── cet6.json        ← 六级 5974
+│   │   ├── kaoyan.json      ← 考研 5648
+│   │   ├── ielts.json       ← 雅思 3576
+│   │   ├── toefl.json       ← 托福 10365
+│   │   └── gre.json         ← GRE 9468
+│   ├── frequency/           ← 词频词单（5 个，按 Google 10K 真实词频排序）
+│   │   ├── top-1000.json
+│   │   ├── top-2000.json
+│   │   ├── top-3000.json
+│   │   ├── top-5000.json
+│   │   └── top-10000.json
 │   └── textbook/            ← 教材词单（教材提取后追加）
 │       └── ...
 ├── textbook/                ← 教材同步数据（待讨论）
@@ -145,15 +111,16 @@ moread-content/
 
 ---
 
-## 5. 现有文件需要做的变更
+## 5. 词库分类说明
 
-**cefr/*.json**：从现在的 `{level, word_count, words: [{word, pos, zh}]}` 简化为 `{id, name, category, difficulty, words: ["word1", "word2", ...]}`
+| 类别 | 数量 | 说明 |
+|------|------|------|
+| **CEFR** | 6 | A1~C2 分级，各级独立无重叠，累计 6,823 词 |
+| **考试** | 8 | 中考/高考/CET-4/CET-6/考研/雅思/托福/GRE，双源合并去重 |
+| **词频** | 5 | Top 1k~10k，按真实词频排序（Google 10K 语料），含嵌套关系 |
+| **教材** | 待定 | 从 textbook/ 提取后追加 |
 
-**exam/*.json**：同上简化
-
-**dictionary/**：不动，已经是底座
-
-**新增 index.json**：词库索引
+**词频系列的嵌套关系**：Top-1000 ⊂ Top-2000 ⊂ Top-3000 ⊂ Top-5000 ⊂ Top-10000
 
 ---
 
@@ -184,11 +151,10 @@ LIMIT 20;
 
 ---
 
-## 7. 待办
+## 7. 数据质量
 
-- [ ] 简化 cefr/*.json 格式（去掉 pos/phonetic/zh，只留单词列表）
-- [ ] 简化 exam/*.json 格式
-- [ ] 创建 vocabulary/index.json
-- [ ] 更新 vocabulary/README.md
-- [ ] 教材词单（textbook 提取后追加）
-- [ ] 教材同步数据设计（待讨论）
+- 全部 19 个词库结构完整，无内部重复
+- 考试词库为 mahavivo（教育部考纲）+ KyleBing（官方词表）双源合并
+- 词频系列按 Google 10K 真实词频排序，已清理网页残留和非单词垃圾
+- 所有拼写错误已修正（GRE/TOEFL/CET-6）
+- 每个词库随机抽检 20 词，在 dictionary/ 底座中命中率 > 99%
