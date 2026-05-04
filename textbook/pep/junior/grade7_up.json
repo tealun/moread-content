@@ -1,0 +1,1094 @@
+{
+  "meta": {
+    "publisher": "人教版（PEP）",
+    "publisher_code": "pep",
+    "editor": "pep",
+    "editor_name": "人教版",
+    "level": "junior",
+    "grade": 7,
+    "semester": "up",
+    "title": "七年级上",
+    "source_pdf": "(PEP根据2022年版课程标准修订)义务教育教科书 英语 七年级 上册.pdf",
+    "extracted_at": "2026-05-04"
+  },
+  "vocabulary": {
+    "starter-1": [
+      {
+        "word": "bell",
+        "pos": "n.",
+        "cn": "铃（声）；钟（声）",
+        "page": 4
+      },
+      {
+        "word": "Emma",
+        "pos": "",
+        "cn": "埃玛",
+        "page": 1
+      }
+    ],
+    "starter-2": [
+      {
+        "word": "bottle",
+        "pos": "n.",
+        "cn": "瓶子",
+        "page": 7
+      },
+      {
+        "word": "raser",
+        "pos": "n.",
+        "cn": "橡皮",
+        "page": 7
+      },
+      {
+        "word": "key",
+        "pos": "n.",
+        "cn": "钥匙；关键",
+        "page": 7
+      },
+      {
+        "word": "hing",
+        "pos": "n.",
+        "cn": "东西；事情",
+        "page": 10
+      },
+      {
+        "word": "need",
+        "pos": "v.",
+        "cn": "& n. 需要",
+        "page": 10
+      }
+    ],
+    "starter-3": [
+      {
+        "word": "yard",
+        "pos": "n.",
+        "cn": "院子；园圃",
+        "page": 13
+      },
+      {
+        "word": "arrot",
+        "pos": "n.",
+        "cn": "胡萝卜",
+        "page": 13
+      },
+      {
+        "word": "oose",
+        "pos": "n.",
+        "cn": "(pl. geese /ɡiːs/) 鹅",
+        "page": 14
+      },
+      {
+        "word": "ount",
+        "pos": "v.",
+        "cn": "数数",
+        "page": 16
+      },
+      {
+        "word": "lse",
+        "pos": "adv.",
+        "cn": "其他的；别的",
+        "page": 17
+      },
+      {
+        "word": "ircle",
+        "pos": "v.",
+        "cn": "圈出 n. 圆形；圆圈",
+        "page": 17
+      },
+      {
+        "word": "ook at",
+        "pos": "",
+        "cn": "看；瞧",
+        "page": 17
+      }
+    ],
+    "unit-1": [
+      {
+        "word": "make friends",
+        "pos": "",
+        "cn": "交朋友",
+        "page": 19
+      },
+      {
+        "word": "et to know",
+        "pos": "",
+        "cn": "认识；了解",
+        "page": 20
+      },
+      {
+        "word": "ull",
+        "pos": "adj.",
+        "cn": "完整的；满的",
+        "page": 20
+      },
+      {
+        "word": "ull name",
+        "pos": "",
+        "cn": "全名",
+        "page": 20
+      },
+      {
+        "word": "grade",
+        "pos": "n.",
+        "cn": "年级；等级",
+        "page": 20
+      },
+      {
+        "word": "ast name",
+        "pos": "",
+        "cn": "姓氏",
+        "page": 20
+      },
+      {
+        "word": "lassmate",
+        "pos": "n.",
+        "cn": "同班同学",
+        "page": 21
+      },
+      {
+        "word": "lass teacher",
+        "pos": "",
+        "cn": "班主任",
+        "page": 21
+      },
+      {
+        "word": "first name",
+        "pos": "",
+        "cn": "名字",
+        "page": 21
+      },
+      {
+        "word": "mistake",
+        "pos": "n.",
+        "cn": "错误；失误",
+        "page": 21
+      },
+      {
+        "word": "country",
+        "pos": "n.",
+        "cn": "国家",
+        "page": 22
+      },
+      {
+        "word": "same",
+        "pos": "adj.",
+        "cn": "相同的",
+        "page": 23
+      },
+      {
+        "word": "band",
+        "pos": "n.",
+        "cn": "乐队",
+        "page": 23
+      },
+      {
+        "word": "pot",
+        "pos": "n.",
+        "cn": "锅",
+        "page": 23
+      },
+      {
+        "word": "a lot",
+        "pos": "",
+        "cn": "很；非常",
+        "page": 23
+      },
+      {
+        "word": "tofu",
+        "pos": "n.",
+        "cn": "豆腐",
+        "page": 23
+      },
+      {
+        "word": "parrot",
+        "pos": "n.",
+        "cn": "鹦鹉",
+        "page": 24
+      },
+      {
+        "word": "guitar",
+        "pos": "n.",
+        "cn": "吉他",
+        "page": 24
+      },
+      {
+        "word": "tennis",
+        "pos": "n.",
+        "cn": "网球运动",
+        "page": 24
+      },
+      {
+        "word": "page",
+        "pos": "n.",
+        "cn": "页面；（书刊或纸张）页",
+        "page": 24
+      },
+      {
+        "word": "even",
+        "pos": "adv.",
+        "cn": "甚至；连；愈加",
+        "page": 24
+      },
+      {
+        "word": "hey",
+        "pos": "interj.",
+        "cn": "嘿；喂",
+        "page": 24
+      },
+      {
+        "word": "play the guitar",
+        "pos": "",
+        "cn": "弹吉他",
+        "page": 24
+      },
+      {
+        "word": "hobby",
+        "pos": "n.",
+        "cn": "业余爱好",
+        "page": 25
+      },
+      {
+        "word": "Green",
+        "pos": "",
+        "cn": "格林",
+        "page": 20
+      },
+      {
+        "word": "UK",
+        "pos": "",
+        "cn": "英国",
+        "page": 20
+      },
+      {
+        "word": "US",
+        "pos": "",
+        "cn": "美国",
+        "page": 20
+      },
+      {
+        "word": "Smith",
+        "pos": "",
+        "cn": "史密斯",
+        "page": 20
+      },
+      {
+        "word": "Lisa",
+        "pos": "",
+        "cn": "莉萨",
+        "page": 23
+      },
+      {
+        "word": "1 Tom",
+        "pos": "",
+        "cn": "汤姆",
+        "page": 23
+      },
+      {
+        "word": "2 Sally",
+        "pos": "",
+        "cn": "萨莉",
+        "page": 23
+      },
+      {
+        "word": "3 Wood",
+        "pos": "",
+        "cn": "伍德",
+        "page": 23
+      },
+      {
+        "word": "Sydney",
+        "pos": "",
+        "cn": "悉尼（澳大利亚城市）",
+        "page": 23
+      },
+      {
+        "word": "3 Australia",
+        "pos": "",
+        "cn": "澳大利亚",
+        "page": 23
+      },
+      {
+        "word": "Singapore",
+        "pos": "",
+        "cn": "新加坡",
+        "page": 24
+      },
+      {
+        "word": "the Great Wall",
+        "pos": "",
+        "cn": "长城",
+        "page": 24
+      },
+      {
+        "word": "Pauline",
+        "pos": "",
+        "cn": "保利娜",
+        "page": 24
+      },
+      {
+        "word": "Lee",
+        "pos": "",
+        "cn": "李",
+        "page": 24
+      },
+      {
+        "word": "Coco",
+        "pos": "",
+        "cn": "科科",
+        "page": 24
+      },
+      {
+        "word": "London",
+        "pos": "",
+        "cn": "伦敦（英国首都）",
+        "page": 24
+      }
+    ],
+    "unit-2": [
+      {
+        "word": "mean",
+        "pos": "v.",
+        "cn": "意思是；打算",
+        "page": 27
+      },
+      {
+        "word": "husband",
+        "pos": "n.",
+        "cn": "丈夫",
+        "page": 28
+      },
+      {
+        "word": "bat",
+        "pos": "n.",
+        "cn": "球棒；球拍",
+        "page": 29
+      },
+      {
+        "word": "ping-pong bat",
+        "pos": "",
+        "cn": "乒乓球拍",
+        "page": 29
+      },
+      {
+        "word": "play ping-pong",
+        "pos": "",
+        "cn": "打乒乓球",
+        "page": 29
+      },
+      {
+        "word": "every day",
+        "pos": "",
+        "cn": "每天",
+        "page": 29
+      },
+      {
+        "word": "fishing rod",
+        "pos": "",
+        "cn": "钓竿",
+        "page": 29
+      },
+      {
+        "word": "5 spend",
+        "pos": "v.",
+        "cn": "花（时间、钱等）",
+        "page": 29
+      },
+      {
+        "word": "0 really",
+        "pos": "adv.",
+        "cn": "非常；确实；真正地",
+        "page": 29
+      },
+      {
+        "word": "0 member",
+        "pos": "n.",
+        "cn": "成员；会员",
+        "page": 30
+      },
+      {
+        "word": "0 activity",
+        "pos": "n.",
+        "cn": "活动",
+        "page": 30
+      },
+      {
+        "word": "0 chess",
+        "pos": "n.",
+        "cn": "国际象棋",
+        "page": 30
+      },
+      {
+        "word": "have fun",
+        "pos": "",
+        "cn": "玩得高兴",
+        "page": 31
+      },
+      {
+        "word": "knee",
+        "pos": "n.",
+        "cn": "膝；膝盖",
+        "page": 32
+      },
+      {
+        "word": "in the middle",
+        "pos": "",
+        "cn": "在中间",
+        "page": 32
+      },
+      {
+        "word": "David",
+        "pos": "",
+        "cn": "戴维",
+        "page": 28
+      },
+      {
+        "word": "Ireland",
+        "pos": "",
+        "cn": "爱尔兰",
+        "page": 32
+      },
+      {
+        "word": "Sam",
+        "pos": "",
+        "cn": "萨姆",
+        "page": 32
+      }
+    ],
+    "unit-3": [
+      {
+        "word": "hall",
+        "pos": "n.",
+        "cn": "礼堂；大厅",
+        "page": 36
+      },
+      {
+        "word": "dining",
+        "pos": "",
+        "cn": "hall 餐厅",
+        "page": 36
+      },
+      {
+        "word": "building",
+        "pos": "n.",
+        "cn": "建筑物；房子",
+        "page": 36
+      },
+      {
+        "word": "cross from",
+        "pos": "",
+        "cn": "在对面",
+        "page": 36
+      },
+      {
+        "word": "ield",
+        "pos": "n.",
+        "cn": "场地；田地",
+        "page": 36
+      },
+      {
+        "word": "ports field",
+        "pos": "",
+        "cn": "运动场",
+        "page": 36
+      },
+      {
+        "word": "office",
+        "pos": "n.",
+        "cn": "办公室",
+        "page": 36
+      },
+      {
+        "word": "arge",
+        "pos": "adj.",
+        "cn": "大的；大号的",
+        "page": 37
+      },
+      {
+        "word": "pecial",
+        "pos": "adj.",
+        "cn": "特别的；特殊的",
+        "page": 37
+      },
+      {
+        "word": "mart",
+        "pos": "adj.",
+        "cn": "智能的；聪明的",
+        "page": 37
+      },
+      {
+        "word": "put up",
+        "pos": "",
+        "cn": "张贴；搭建",
+        "page": 37
+      },
+      {
+        "word": "mportant",
+        "pos": "adj.",
+        "cn": "重要的",
+        "page": 37
+      },
+      {
+        "word": "drawer",
+        "pos": "n.",
+        "cn": "抽屉",
+        "page": 37
+      },
+      {
+        "word": "orner",
+        "pos": "n.",
+        "cn": "角；墙角；街角",
+        "page": 38
+      },
+      {
+        "word": "bookcase",
+        "pos": "n.",
+        "cn": "书架；书柜",
+        "page": 39
+      },
+      {
+        "word": "creen",
+        "pos": "n.",
+        "cn": "屏幕；银幕",
+        "page": 39
+      },
+      {
+        "word": "t school",
+        "pos": "",
+        "cn": "在学校",
+        "page": 40
+      },
+      {
+        "word": "modern",
+        "pos": "adj.",
+        "cn": "现代的；当代的",
+        "page": 40
+      },
+      {
+        "word": "do exercises",
+        "pos": "",
+        "cn": "做体操",
+        "page": 40
+      },
+      {
+        "word": "raise",
+        "pos": "v.",
+        "cn": "使升高；提高",
+        "page": 40
+      },
+      {
+        "word": "flag",
+        "pos": "n.",
+        "cn": "旗；旗帜",
+        "page": 40
+      },
+      {
+        "word": "change",
+        "pos": "v.",
+        "cn": "& n. 改变；变化",
+        "page": 40
+      },
+      {
+        "word": "seat",
+        "pos": "n.",
+        "cn": "座位",
+        "page": 40
+      },
+      {
+        "word": "send",
+        "pos": "v.",
+        "cn": "发送；邮寄",
+        "page": 40
+      },
+      {
+        "word": "similar to",
+        "pos": "",
+        "cn": "类似的；相像的",
+        "page": 41
+      },
+      {
+        "word": "bye for now",
+        "pos": "",
+        "cn": "再见",
+        "page": 41
+      },
+      {
+        "word": "Flora",
+        "pos": "",
+        "cn": "弗洛拉",
+        "page": 40
+      }
+    ],
+    "unit-4": [
+      {
+        "word": "biology",
+        "pos": "n.",
+        "cn": "生物学",
+        "page": 44
+      },
+      {
+        "word": "geography",
+        "pos": "n.",
+        "cn": "地理（学）",
+        "page": 44
+      },
+      {
+        "word": "history",
+        "pos": "n.",
+        "cn": "历史；历史课",
+        "page": 44
+      },
+      {
+        "word": "0 useful",
+        "pos": "adj.",
+        "cn": "有用的；有益的",
+        "page": 44
+      },
+      {
+        "word": "0 number",
+        "pos": "n.",
+        "cn": "数字；号码",
+        "page": 45
+      },
+      {
+        "word": "0 reason",
+        "pos": "n.",
+        "cn": "原因；理由",
+        "page": 46
+      },
+      {
+        "word": "listen to",
+        "pos": "",
+        "cn": "听；倾听",
+        "page": 47
+      },
+      {
+        "word": "0 AM",
+        "pos": "",
+        "cn": "(= a.m.) 上午",
+        "page": 48
+      },
+      {
+        "word": "PM",
+        "pos": "",
+        "cn": "(= p.m.) 下午；午后",
+        "page": 48
+      },
+      {
+        "word": "0 singer",
+        "pos": "n.",
+        "cn": "歌手",
+        "page": 48
+      },
+      {
+        "word": "future",
+        "pos": "n.",
+        "cn": "将来；未来",
+        "page": 48
+      },
+      {
+        "word": "in the future",
+        "pos": "",
+        "cn": "将来；未来",
+        "page": 48
+      },
+      {
+        "word": "4 term",
+        "pos": "n.",
+        "cn": "学期",
+        "page": 48
+      },
+      {
+        "word": "work out",
+        "pos": "",
+        "cn": "计算出；解决",
+        "page": 48
+      },
+      {
+        "word": "problem",
+        "pos": "n.",
+        "cn": "难题；困难",
+        "page": 48
+      },
+      {
+        "word": "life",
+        "pos": "n.",
+        "cn": "生活；生命",
+        "page": 48
+      },
+      {
+        "word": "Baker",
+        "pos": "",
+        "cn": "贝克",
+        "page": 47
+      }
+    ],
+    "unit-5": [
+      {
+        "word": "feeling",
+        "pos": "n.",
+        "cn": "感觉；情感",
+        "page": 52
+      },
+      {
+        "word": "news",
+        "pos": "n.",
+        "cn": "消息；新闻",
+        "page": 53
+      },
+      {
+        "word": "more",
+        "pos": "adj.",
+        "cn": "& pron. 更多（的）",
+        "page": 55
+      },
+      {
+        "word": "at home",
+        "pos": "",
+        "cn": "在家里",
+        "page": 56
+      },
+      {
+        "word": "oon",
+        "pos": "adv.",
+        "cn": "不久；很快",
+        "page": 56
+      },
+      {
+        "word": "more than",
+        "pos": "",
+        "cn": "多于",
+        "page": 56
+      },
+      {
+        "word": "mind",
+        "pos": "n.",
+        "cn": "头脑；心思",
+        "page": 56
+      },
+      {
+        "word": "ake photos",
+        "pos": "",
+        "cn": "拍照",
+        "page": 56
+      },
+      {
+        "word": "ollect",
+        "pos": "v.",
+        "cn": "收集；采集",
+        "page": 56
+      },
+      {
+        "word": "nsect",
+        "pos": "n.",
+        "cn": "昆虫",
+        "page": 56
+      },
+      {
+        "word": "discover",
+        "pos": "v.",
+        "cn": "发现；发觉",
+        "page": 56
+      },
+      {
+        "word": "Linda",
+        "pos": "",
+        "cn": "琳达",
+        "page": 55
+      },
+      {
+        "word": "Alice",
+        "pos": "",
+        "cn": "爱丽丝",
+        "page": 56
+      },
+      {
+        "word": "Bill",
+        "pos": "",
+        "cn": "比尔",
+        "page": 56
+      },
+      {
+        "word": "enny",
+        "pos": "",
+        "cn": "珍妮",
+        "page": 56
+      }
+    ],
+    "unit-6": [
+      {
+        "word": "ake a shower",
+        "pos": "",
+        "cn": "淋浴",
+        "page": 60
+      },
+      {
+        "word": "et dressed",
+        "pos": "",
+        "cn": "穿衣服",
+        "page": 60
+      },
+      {
+        "word": "ooth",
+        "pos": "n.",
+        "cn": "(pl. teeth /tiːθ/) 牙齿",
+        "page": 60
+      },
+      {
+        "word": "duty",
+        "pos": "n.",
+        "cn": "值班；职责",
+        "page": 60
+      },
+      {
+        "word": "on duty",
+        "pos": "",
+        "cn": "值班",
+        "page": 60
+      },
+      {
+        "word": "usually",
+        "pos": "adv.",
+        "cn": "通常地；一般地",
+        "page": 60
+      },
+      {
+        "word": "get up",
+        "pos": "",
+        "cn": "起床；站起",
+        "page": 60
+      },
+      {
+        "word": "reporter",
+        "pos": "n.",
+        "cn": "记者",
+        "page": 61
+      },
+      {
+        "word": "homework",
+        "pos": "n.",
+        "cn": "家庭作业",
+        "page": 61
+      },
+      {
+        "word": "go to bed",
+        "pos": "",
+        "cn": "上床睡觉",
+        "page": 61
+      },
+      {
+        "word": "saying",
+        "pos": "n.",
+        "cn": "谚语；格言",
+        "page": 61
+      },
+      {
+        "word": "stay",
+        "pos": "v.",
+        "cn": "停留；待",
+        "page": 62
+      },
+      {
+        "word": "routine",
+        "pos": "n.",
+        "cn": "常规",
+        "page": 62
+      },
+      {
+        "word": "restaurant",
+        "pos": "n.",
+        "cn": "餐馆；餐厅",
+        "page": 63
+      },
+      {
+        "word": "housework",
+        "pos": "n.",
+        "cn": "家务劳动",
+        "page": 63
+      },
+      {
+        "word": "weekend",
+        "pos": "n.",
+        "cn": "周末",
+        "page": 63
+      },
+      {
+        "word": "at weekends",
+        "pos": "",
+        "cn": "在周末",
+        "page": 63
+      },
+      {
+        "word": "daily",
+        "pos": "adj.",
+        "cn": "每日的；日常的",
+        "page": 64
+      },
+      {
+        "word": "daily routine",
+        "pos": "",
+        "cn": "日常生活",
+        "page": 64
+      },
+      {
+        "word": "only",
+        "pos": "adv.",
+        "cn": "只；仅",
+        "page": 64
+      },
+      {
+        "word": "finish",
+        "pos": "v.",
+        "cn": "结束；完成",
+        "page": 64
+      },
+      {
+        "word": "hockey",
+        "pos": "n.",
+        "cn": "曲棍球",
+        "page": 64
+      },
+      {
+        "word": "ice hockey",
+        "pos": "",
+        "cn": "冰球运动；冰上曲棍球",
+        "page": 64
+      },
+      {
+        "word": "already",
+        "pos": "adv.",
+        "cn": "已经；早已",
+        "page": 64
+      },
+      {
+        "word": "dark",
+        "pos": "adj.",
+        "cn": "昏暗的；深色的",
+        "page": 64
+      },
+      {
+        "word": "part",
+        "pos": "n.",
+        "cn": "部分",
+        "page": 64
+      },
+      {
+        "word": "1 Timo",
+        "pos": "",
+        "cn": "蒂莫",
+        "page": 64
+      },
+      {
+        "word": "1 Halla",
+        "pos": "",
+        "cn": "哈拉",
+        "page": 64
+      },
+      {
+        "word": "1 Finland",
+        "pos": "",
+        "cn": "芬兰",
+        "page": 64
+      },
+      {
+        "word": "celebrate",
+        "pos": "v.",
+        "cn": "庆祝；庆贺",
+        "page": 67
+      },
+      {
+        "word": "4 sale",
+        "pos": "n.",
+        "cn": "出售；销售",
+        "page": 69
+      },
+      {
+        "word": "yogurt",
+        "pos": "",
+        "cn": "(= yoghurt) n. 酸奶",
+        "page": 69
+      },
+      {
+        "word": "4 price",
+        "pos": "n.",
+        "cn": "价格",
+        "page": 70
+      },
+      {
+        "word": "4 balloon",
+        "pos": "n.",
+        "cn": "气球",
+        "page": 70
+      },
+      {
+        "word": "4 chocolate",
+        "pos": "n.",
+        "cn": "巧克力",
+        "page": 70
+      },
+      {
+        "word": "4 pizza",
+        "pos": "n.",
+        "cn": "比萨饼",
+        "page": 70
+      },
+      {
+        "word": "4 example",
+        "pos": "n.",
+        "cn": "例子；范例",
+        "page": 71
+      },
+      {
+        "word": "grow",
+        "pos": "v.",
+        "cn": "成长；长大；增长",
+        "page": 72
+      },
+      {
+        "word": "blow",
+        "pos": "v.",
+        "cn": "吹；刮",
+        "page": 72
+      },
+      {
+        "word": "blow out",
+        "pos": "",
+        "cn": "吹灭",
+        "page": 72
+      },
+      {
+        "word": "height",
+        "pos": "n.",
+        "cn": "身高；高度",
+        "page": 72
+      },
+      {
+        "word": "next time",
+        "pos": "",
+        "cn": "下次",
+        "page": 72
+      },
+      {
+        "word": "whom",
+        "pos": "pron.",
+        "cn": "谁；什么人",
+        "page": 73
+      },
+      {
+        "word": "udy",
+        "pos": "",
+        "cn": "朱迪",
+        "page": 72
+      },
+      {
+        "word": "Clark",
+        "pos": "",
+        "cn": "克拉克",
+        "page": 72
+      }
+    ]
+  },
+  "stats": {
+    "total_words": 176,
+    "units": 9
+  }
+}

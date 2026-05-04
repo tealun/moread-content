@@ -1,0 +1,1891 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "sun",
+    "editor_name": "孙有中",
+    "standard": "2022年版课程标准",
+    "level": "junior",
+    "grade": 7,
+    "semester": "up",
+    "title": "七年级上册",
+    "pages": 178,
+    "source_pdf": "(FLTRP孙有中根据2022年版课程标准修订)义务教育教科书·英语 七年级上册.pdf",
+    "extracted_at": "2026-05-04",
+    "confidence": "verified"
+  },
+  "toc": [
+    {
+      "id": "starter",
+      "type": "starter",
+      "title": "Welcome to junior high!",
+      "page": 2,
+      "grammar_preview": [
+        "nouns",
+        "numbers",
+        "articles",
+        "simple future tense"
+      ]
+    },
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "The first lesson",
+      "page": 14,
+      "topic": "初中生活、第一课",
+      "topic_en": "Learning to think: Understanding a famous saying",
+      "grammar_preview": [
+        "Pronouns"
+      ],
+      "cefr_level": "A1"
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Rock music meets the erhu",
+      "page": 30,
+      "topic": "音乐与文化融合",
+      "topic_en": "Learning to think: Judging the writer's feeling",
+      "grammar_preview": [
+        "there be"
+      ],
+      "cefr_level": "A1"
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "Silent love",
+      "page": 46,
+      "topic": "亲情、父子关系",
+      "topic_en": "Learning to think: Making comments about a character",
+      "grammar_preview": [
+        "Possessive nouns"
+      ],
+      "cefr_level": "A2"
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "An unusual Spring Festival",
+      "page": 62,
+      "topic": "节日文化、文化差异",
+      "topic_en": "Learning to think: Exploring differences",
+      "grammar_preview": [
+        "Adverbs of frequency",
+        "simple present tense"
+      ],
+      "cefr_level": "A2"
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Pigeon surprise",
+      "page": 78,
+      "topic": "动物、人与自然",
+      "topic_en": "Learning to think: Understanding people's thoughts and feelings",
+      "grammar_preview": [
+        "Present continuous tense"
+      ],
+      "cefr_level": "A2"
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "Within a plant",
+      "page": 94,
+      "topic": "植物、自然科学",
+      "topic_en": "Learning to think: Paying attention to a pun",
+      "grammar_preview": [
+        "Simple future tense"
+      ],
+      "cefr_level": "A2"
+    }
+  ],
+  "units": [
+    {
+      "id": "starter",
+      "type": "starter",
+      "title": "Welcome to junior high!",
+      "page_start": 2,
+      "page_end": 13,
+      "topic": "小初衔接、学校生活",
+      "grammar": [
+        {
+          "name": "可数名词和不可数名词",
+          "name_en": "Countable and uncountable nouns"
+        },
+        {
+          "name": "基数词和冠词",
+          "name_en": "Cardinal numbers and articles"
+        },
+        {
+          "name": "一般现在时",
+          "name_en": "Simple present tense"
+        },
+        {
+          "name": "基本句型结构",
+          "name_en": "Basic sentence structures"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "junior high",
+          "pos": "",
+          "cn": "初级中学",
+          "page": 2
+        },
+        {
+          "word": "ready",
+          "pos": "adj.",
+          "cn": "准备好（做某事）的",
+          "page": 3
+        },
+        {
+          "word": "eraser",
+          "pos": "n.",
+          "cn": "橡皮",
+          "page": 3
+        },
+        {
+          "word": "history",
+          "pos": "n.",
+          "cn": "历史",
+          "page": 3
+        },
+        {
+          "word": "geography",
+          "pos": "n.",
+          "cn": "地理",
+          "page": 3
+        },
+        {
+          "word": "biology",
+          "pos": "n.",
+          "cn": "生物",
+          "page": 3
+        },
+        {
+          "word": "physics",
+          "pos": "n.",
+          "cn": "物理",
+          "page": 3
+        },
+        {
+          "word": "information technology",
+          "pos": "",
+          "cn": "信息技术",
+          "page": 3
+        },
+        {
+          "word": "chemistry",
+          "pos": "n.",
+          "cn": "化学",
+          "page": 3
+        },
+        {
+          "word": "jacket",
+          "pos": "n.",
+          "cn": "夹克，短上衣",
+          "page": 4
+        },
+        {
+          "word": "red scarf",
+          "pos": "",
+          "cn": "红领巾",
+          "page": 4
+        },
+        {
+          "word": "hat",
+          "pos": "n.",
+          "cn": "帽子",
+          "page": 4
+        },
+        {
+          "word": "grey",
+          "pos": "adj.",
+          "cn": "灰色的",
+          "page": 4
+        },
+        {
+          "word": "uniform",
+          "pos": "n.",
+          "cn": "制服",
+          "page": 5
+        },
+        {
+          "word": "teaching building",
+          "pos": "",
+          "cn": "教学楼",
+          "page": 6
+        },
+        {
+          "word": "dining hall",
+          "pos": "",
+          "cn": "食堂",
+          "page": 6
+        },
+        {
+          "word": "lab",
+          "pos": "n.",
+          "cn": "实验室",
+          "page": 7
+        },
+        {
+          "word": "hold",
+          "pos": "v.",
+          "cn": "召开，举行；进行",
+          "page": 7
+        },
+        {
+          "word": "event",
+          "pos": "n.",
+          "cn": "活动",
+          "page": 7
+        },
+        {
+          "word": "join",
+          "pos": "v.",
+          "cn": "参与，加入（某项活动）",
+          "page": 8
+        },
+        {
+          "word": "club",
+          "pos": "n.",
+          "cn": "俱乐部",
+          "page": 8
+        },
+        {
+          "word": "introduce",
+          "pos": "v.",
+          "cn": "介绍",
+          "page": 9
+        },
+        {
+          "word": "holiday",
+          "pos": "n.",
+          "cn": "假期，休假日",
+          "page": 9
+        },
+        {
+          "word": "classmate",
+          "pos": "n.",
+          "cn": "同班同学",
+          "page": 9
+        },
+        {
+          "word": "hobby",
+          "pos": "n.",
+          "cn": "业余爱好，嗜好",
+          "page": 10
+        },
+        {
+          "word": "need",
+          "pos": "v.",
+          "cn": "需要",
+          "page": 12
+        },
+        {
+          "word": "activity",
+          "pos": "n.",
+          "cn": "活动",
+          "page": 12
+        },
+        {
+          "word": "decoration",
+          "pos": "n.",
+          "cn": "装饰物",
+          "page": 12
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Get ready",
+          "page": 2
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Know your school",
+          "page": 6
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Introduce yourself",
+          "page": 8
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Hold a party",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "unit-1",
+      "number": 1,
+      "title": "A new start",
+      "page_start": 14,
+      "page_end": 29,
+      "topic": "初中生活、第一课",
+      "topic_en": "Junior high life, the first lesson",
+      "cefr_level": "A1",
+      "grammar": [
+        {
+          "name": "人称代词和物主代词",
+          "name_en": "Personal pronouns and possessive pronouns",
+          "details": "主格与宾格的区分，形容词性物主代词和名词性物主代词"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "without",
+          "pos": "prep.",
+          "cn": "缺乏；没有",
+          "page": 16
+        },
+        {
+          "word": "sentence",
+          "pos": "n.",
+          "cn": "句子",
+          "page": 17
+        },
+        {
+          "word": "start",
+          "pos": "v.",
+          "cn": "开始（做某事）",
+          "page": 17
+        },
+        {
+          "word": "point out",
+          "pos": "",
+          "cn": "指出，指明",
+          "page": 17
+        },
+        {
+          "word": "mistake",
+          "pos": "n.",
+          "cn": "错误",
+          "page": 17
+        },
+        {
+          "word": "polite",
+          "pos": "adj.",
+          "cn": "有礼貌的，客气的",
+          "page": 17
+        },
+        {
+          "word": "mind",
+          "pos": "n.",
+          "cn": "头脑；思想，思维",
+          "page": 17
+        },
+        {
+          "word": "hers",
+          "pos": "pron.",
+          "cn": "她的",
+          "page": 17
+        },
+        {
+          "word": "dry",
+          "pos": "adj.",
+          "cn": "干的，干燥的",
+          "page": 17
+        },
+        {
+          "word": "fact",
+          "pos": "n.",
+          "cn": "事实；真相",
+          "page": 17
+        },
+        {
+          "word": "in fact",
+          "pos": "",
+          "cn": "事实上",
+          "page": 17
+        },
+        {
+          "word": "remember",
+          "pos": "v.",
+          "cn": "记住，记得",
+          "page": 17
+        },
+        {
+          "word": "really",
+          "pos": "adv.",
+          "cn": "很，十分",
+          "page": 17
+        },
+        {
+          "word": "task",
+          "pos": "n.",
+          "cn": "工作，任务",
+          "page": 23
+        },
+        {
+          "word": "of course",
+          "pos": "",
+          "cn": "当然，自然",
+          "page": 24
+        },
+        {
+          "word": "pool",
+          "pos": "n.",
+          "cn": "水塘，水洼",
+          "page": 24
+        },
+        {
+          "word": "sail",
+          "pos": "v.",
+          "cn": "起航",
+          "page": 24
+        },
+        {
+          "word": "away",
+          "pos": "adv.",
+          "cn": "朝另一方向",
+          "page": 24
+        },
+        {
+          "word": "thought",
+          "pos": "n.",
+          "cn": "意见，主意，观点",
+          "page": 24
+        },
+        {
+          "word": "life",
+          "pos": "n.",
+          "cn": "生活",
+          "page": 25
+        },
+        {
+          "word": "primary school",
+          "pos": "",
+          "cn": "小学",
+          "page": 25
+        },
+        {
+          "word": "protect",
+          "pos": "v.",
+          "cn": "保护；防护",
+          "page": 25
+        },
+        {
+          "word": "wind",
+          "pos": "n.",
+          "cn": "风",
+          "page": 25
+        },
+        {
+          "word": "wide",
+          "pos": "adj.",
+          "cn": "宽的，宽阔的",
+          "page": 25
+        },
+        {
+          "word": "storm",
+          "pos": "n.",
+          "cn": "暴风雨（雪）",
+          "page": 25
+        },
+        {
+          "word": "hope",
+          "pos": "v.",
+          "cn": "希望，期望，指望",
+          "page": 25
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 15
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 17,
+          "content": {
+            "reading": {
+              "title": "The first lesson",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 22,
+          "content": {
+            "listening": {
+              "topic": "New student problems"
+            },
+            "reading_for_writing": {
+              "title": "Dad and Mum's letter",
+              "genre": "书信"
+            }
+          }
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 27,
+          "content": {
+            "task": "Make a poster about your first week"
+          }
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "unit-2",
+      "number": 2,
+      "title": "More than fun",
+      "page_start": 30,
+      "page_end": 45,
+      "topic": "音乐、爱好与文化",
+      "topic_en": "Rock music meets the erhu",
+      "cefr_level": "A1",
+      "grammar": [
+        {
+          "name": "there be 句型",
+          "name_en": "there be structure",
+          "details": "There is/are 的肯定、否定和疑问形式"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "rock music",
+          "pos": "",
+          "cn": "摇滚乐",
+          "page": 32
+        },
+        {
+          "word": "electric",
+          "pos": "adj.",
+          "cn": "用电的；电动的",
+          "page": 32
+        },
+        {
+          "word": "guitar",
+          "pos": "n.",
+          "cn": "吉他",
+          "page": 32
+        },
+        {
+          "word": "band",
+          "pos": "n.",
+          "cn": "乐队，乐团",
+          "page": 32
+        },
+        {
+          "word": "fun",
+          "pos": "n.",
+          "cn": "乐趣",
+          "page": 32
+        },
+        {
+          "word": "sound",
+          "pos": "n.",
+          "cn": "声音",
+          "page": 32
+        },
+        {
+          "word": "hit",
+          "pos": "v.",
+          "cn": "使（某人）突然意识到",
+          "page": 32
+        },
+        {
+          "word": "check",
+          "pos": "v.",
+          "cn": "检查，核查",
+          "page": 33
+        },
+        {
+          "word": "rush",
+          "pos": "v.",
+          "cn": "冲，奔",
+          "page": 33
+        },
+        {
+          "word": "practice",
+          "pos": "n.",
+          "cn": "练习",
+          "page": 33
+        },
+        {
+          "word": "stage",
+          "pos": "n.",
+          "cn": "舞台",
+          "page": 33
+        },
+        {
+          "word": "nod",
+          "pos": "v.",
+          "cn": "点头",
+          "page": 33
+        },
+        {
+          "word": "instrument",
+          "pos": "n.",
+          "cn": "乐器",
+          "page": 33
+        },
+        {
+          "word": "skate",
+          "pos": "v.",
+          "cn": "滑冰，溜冰",
+          "page": 35
+        },
+        {
+          "word": "volleyball",
+          "pos": "n.",
+          "cn": "排球（运动）",
+          "page": 35
+        },
+        {
+          "word": "photography",
+          "pos": "n.",
+          "cn": "摄影",
+          "page": 35
+        },
+        {
+          "word": "tradition",
+          "pos": "n.",
+          "cn": "传统",
+          "page": 35
+        },
+        {
+          "word": "paper-cutting",
+          "pos": "",
+          "cn": "剪纸",
+          "page": 35
+        },
+        {
+          "word": "social media",
+          "pos": "",
+          "cn": "社交媒体，社会化媒体",
+          "page": 35
+        },
+        {
+          "word": "wild",
+          "pos": "adj.",
+          "cn": "野生的",
+          "page": 37
+        },
+        {
+          "word": "nature",
+          "pos": "n.",
+          "cn": "大自然，自然界",
+          "page": 37
+        },
+        {
+          "word": "adventure",
+          "pos": "n.",
+          "cn": "历险，奇遇",
+          "page": 41
+        },
+        {
+          "word": "awake",
+          "pos": "adj.",
+          "cn": "醒着的",
+          "page": 40
+        },
+        {
+          "word": "midnight",
+          "pos": "n.",
+          "cn": "午夜",
+          "page": 40
+        },
+        {
+          "word": "heart",
+          "pos": "n.",
+          "cn": "心（脏）",
+          "page": 40
+        },
+        {
+          "word": "almost",
+          "pos": "adv.",
+          "cn": "几乎，差不多",
+          "page": 40
+        },
+        {
+          "word": "shake",
+          "pos": "v.",
+          "cn": "摇动",
+          "page": 40
+        },
+        {
+          "word": "bit",
+          "pos": "adv.",
+          "cn": "有点儿，稍微",
+          "page": 40
+        },
+        {
+          "word": "lonely",
+          "pos": "adj.",
+          "cn": "孤单的，寂寞的",
+          "page": 40
+        },
+        {
+          "word": "joy",
+          "pos": "n.",
+          "cn": "欢欣，愉快，喜悦",
+          "page": 40
+        },
+        {
+          "word": "notebook",
+          "pos": "n.",
+          "cn": "笔记本",
+          "page": 41
+        },
+        {
+          "word": "shelf",
+          "pos": "n.",
+          "cn": "隔板，架子",
+          "page": 41
+        },
+        {
+          "word": "leave",
+          "pos": "v.",
+          "cn": "离开",
+          "page": 41
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 31
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 33,
+          "content": {
+            "reading": {
+              "title": "Rock music meets the erhu",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 38,
+          "content": {
+            "listening": {
+              "topic": "Hobbies and interests"
+            },
+            "reading_for_writing": {
+              "title": "Making friends through sharing a hobby",
+              "genre": "短文"
+            }
+          }
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 43,
+          "content": {
+            "task": "Make a plan for a school club"
+          }
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "number": 3,
+      "title": "Family ties",
+      "page_start": 46,
+      "page_end": 61,
+      "topic": "亲情、家庭关系",
+      "topic_en": "Silent love",
+      "cefr_level": "A2",
+      "grammar": [
+        {
+          "name": "名词所有格",
+          "name_en": "Possessive nouns",
+          "details": "'s 所有格和 of 所有格"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "silent",
+          "pos": "adj.",
+          "cn": "不作声的",
+          "page": 48
+        },
+        {
+          "word": "along",
+          "pos": "prep.",
+          "cn": "顺着；沿着",
+          "page": 48
+        },
+        {
+          "word": "mountain",
+          "pos": "n.",
+          "cn": "高山，山岳",
+          "page": 48
+        },
+        {
+          "word": "road",
+          "pos": "n.",
+          "cn": "路，道路，公路",
+          "page": 48
+        },
+        {
+          "word": "strict",
+          "pos": "adj.",
+          "cn": "严格的，严厉的",
+          "page": 48
+        },
+        {
+          "word": "follow",
+          "pos": "v.",
+          "cn": "跟着，跟随",
+          "page": 48
+        },
+        {
+          "word": "son",
+          "pos": "n.",
+          "cn": "儿子",
+          "page": 48
+        },
+        {
+          "word": "serve",
+          "pos": "v.",
+          "cn": "为……工作；供职",
+          "page": 48
+        },
+        {
+          "word": "absent",
+          "pos": "adj.",
+          "cn": "不在的，缺席的",
+          "page": 48
+        },
+        {
+          "word": "position",
+          "pos": "n.",
+          "cn": "职位，职务",
+          "page": 48
+        },
+        {
+          "word": "across",
+          "pos": "prep.",
+          "cn": "横跨，跨越",
+          "page": 49
+        },
+        {
+          "word": "memory",
+          "pos": "n.",
+          "cn": "记忆，回忆",
+          "page": 49
+        },
+        {
+          "word": "tear",
+          "pos": "n.",
+          "cn": "眼泪；泪水",
+          "page": 49
+        },
+        {
+          "word": "hide",
+          "pos": "v.",
+          "cn": "把……藏起来，隐藏",
+          "page": 49
+        },
+        {
+          "word": "care",
+          "pos": "n.",
+          "cn": "担心；忧虑",
+          "page": 49
+        },
+        {
+          "word": "hug",
+          "pos": "n.",
+          "cn": "拥抱",
+          "page": 49
+        },
+        {
+          "word": "kiss",
+          "pos": "n.",
+          "cn": "吻",
+          "page": 49
+        },
+        {
+          "word": "reason",
+          "pos": "n.",
+          "cn": "原因，理由",
+          "page": 50
+        },
+        {
+          "word": "marry",
+          "pos": "v.",
+          "cn": "结婚；娶；嫁",
+          "page": 51
+        },
+        {
+          "word": "harmony",
+          "pos": "n.",
+          "cn": "融洽相处",
+          "page": 53
+        },
+        {
+          "word": "solve",
+          "pos": "v.",
+          "cn": "解决（问题）",
+          "page": 53
+        },
+        {
+          "word": "parent",
+          "pos": "n.",
+          "cn": "父，母",
+          "page": 53
+        },
+        {
+          "word": "finish",
+          "pos": "v.",
+          "cn": "完成，做完",
+          "page": 56
+        },
+        {
+          "word": "serious",
+          "pos": "adj.",
+          "cn": "严重的",
+          "page": 56
+        },
+        {
+          "word": "disease",
+          "pos": "n.",
+          "cn": "疾病，病",
+          "page": 56
+        },
+        {
+          "word": "trailer",
+          "pos": "n.",
+          "cn": "拖车，挂车",
+          "page": 57
+        },
+        {
+          "word": "pull",
+          "pos": "v.",
+          "cn": "拉；扯；拖",
+          "page": 57
+        },
+        {
+          "word": "refuse",
+          "pos": "v.",
+          "cn": "拒绝，回绝",
+          "page": 57
+        },
+        {
+          "word": "result",
+          "pos": "n.",
+          "cn": "结果，后果",
+          "page": 57
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 47
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 49,
+          "content": {
+            "reading": {
+              "title": "Silent love",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 54,
+          "content": {
+            "listening": {
+              "topic": "Family stories"
+            },
+            "reading_for_writing": {
+              "title": "Saving the bird",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 59,
+          "content": {
+            "task": "Make a photo album about your family"
+          }
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 60
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "number": 4,
+      "title": "Time to celebrate",
+      "page_start": 62,
+      "page_end": 77,
+      "topic": "节日文化、文化差异",
+      "topic_en": "An unusual Spring Festival",
+      "cefr_level": "A2",
+      "grammar": [
+        {
+          "name": "频度副词",
+          "name_en": "Adverbs of frequency",
+          "details": "always, usually, often, sometimes, never"
+        },
+        {
+          "name": "一般现在时",
+          "name_en": "Simple present tense",
+          "details": "be动词和行为动词的一般现在时"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "unusual",
+          "pos": "adj.",
+          "cn": "不平常的",
+          "page": 64
+        },
+        {
+          "word": "treat",
+          "pos": "v.",
+          "cn": "请客，款待，招待",
+          "page": 64
+        },
+        {
+          "word": "dumpling",
+          "pos": "n.",
+          "cn": "水饺",
+          "page": 64
+        },
+        {
+          "word": "whole",
+          "pos": "adj.",
+          "cn": "全部的，整个的",
+          "page": 64
+        },
+        {
+          "word": "become",
+          "pos": "v.",
+          "cn": "成为，变成",
+          "page": 64
+        },
+        {
+          "word": "chef",
+          "pos": "n.",
+          "cn": "厨师",
+          "page": 64
+        },
+        {
+          "word": "cucumber",
+          "pos": "n.",
+          "cn": "黄瓜",
+          "page": 64
+        },
+        {
+          "word": "hang",
+          "pos": "v.",
+          "cn": "悬挂",
+          "page": 64
+        },
+        {
+          "word": "balloon",
+          "pos": "n.",
+          "cn": "气球",
+          "page": 64
+        },
+        {
+          "word": "lantern",
+          "pos": "n.",
+          "cn": "提灯；灯笼",
+          "page": 64
+        },
+        {
+          "word": "joke",
+          "pos": "v.",
+          "cn": "说笑话；开玩笑",
+          "page": 65
+        },
+        {
+          "word": "shocked",
+          "pos": "adj.",
+          "cn": "震惊的",
+          "page": 65
+        },
+        {
+          "word": "laugh",
+          "pos": "v.",
+          "cn": "发出笑声，（大）笑",
+          "page": 65
+        },
+        {
+          "word": "pork",
+          "pos": "n.",
+          "cn": "猪肉",
+          "page": 65
+        },
+        {
+          "word": "round",
+          "pos": "adj.",
+          "cn": "圆形的，环形的",
+          "page": 65
+        },
+        {
+          "word": "shape",
+          "pos": "n.",
+          "cn": "形，形状，外形",
+          "page": 65
+        },
+        {
+          "word": "reunion",
+          "pos": "n.",
+          "cn": "团圆，团聚",
+          "page": 65
+        },
+        {
+          "word": "piece",
+          "pos": "n.",
+          "cn": "片；块；段；截",
+          "page": 65
+        },
+        {
+          "word": "knife",
+          "pos": "n.",
+          "cn": "刀",
+          "page": 65
+        },
+        {
+          "word": "smell",
+          "pos": "n.",
+          "cn": "气味",
+          "page": 65
+        },
+        {
+          "word": "laughter",
+          "pos": "n.",
+          "cn": "笑；笑声",
+          "page": 65
+        },
+        {
+          "word": "fill",
+          "pos": "v.",
+          "cn": "（ 使）充满；装满",
+          "page": 65
+        },
+        {
+          "word": "meal",
+          "pos": "n.",
+          "cn": "一餐；饭",
+          "page": 66
+        },
+        {
+          "word": "taste",
+          "pos": "n.",
+          "cn": "味道，滋味",
+          "page": 66
+        },
+        {
+          "word": "celebrate",
+          "pos": "v.",
+          "cn": "庆祝",
+          "page": 66
+        },
+        {
+          "word": "culture",
+          "pos": "n.",
+          "cn": "文化",
+          "page": 67
+        },
+        {
+          "word": "pollution",
+          "pos": "n.",
+          "cn": "污染",
+          "page": 69
+        },
+        {
+          "word": "plastic",
+          "pos": "adj.",
+          "cn": "塑料制的",
+          "page": 70
+        },
+        {
+          "word": "shine",
+          "pos": "v.",
+          "cn": "发光，发亮",
+          "page": 73
+        },
+        {
+          "word": "break",
+          "pos": "n.",
+          "cn": "中断，暂停",
+          "page": 72
+        },
+        {
+          "word": "thirsty",
+          "pos": "adj.",
+          "cn": "渴的，口渴的",
+          "page": 72
+        },
+        {
+          "word": "patient",
+          "pos": "n.",
+          "cn": "病人，患者",
+          "page": 72
+        },
+        {
+          "word": "decision",
+          "pos": "n.",
+          "cn": "决定，抉择",
+          "page": 73
+        },
+        {
+          "word": "support",
+          "pos": "n.",
+          "cn": "支持",
+          "page": 73
+        },
+        {
+          "word": "bright",
+          "pos": "adv.",
+          "cn": "光明地；明亮地",
+          "page": 73
+        },
+        {
+          "word": "festive",
+          "pos": "adj.",
+          "cn": "欢乐的，欢庆的",
+          "page": 73
+        },
+        {
+          "word": "firework",
+          "pos": "n.",
+          "cn": "烟火，烟花",
+          "page": 73
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 63
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 65,
+          "content": {
+            "reading": {
+              "title": "An unusual Spring Festival",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 70,
+          "content": {
+            "listening": {
+              "topic": "Festival experiences"
+            },
+            "reading_for_writing": {
+              "title": "When duty shines",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 75,
+          "content": {
+            "task": "Make a poster about a festival or holiday"
+          }
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "number": 5,
+      "title": "Fantastic friends",
+      "page_start": 78,
+      "page_end": 93,
+      "topic": "动物、人与自然",
+      "topic_en": "Pigeon surprise",
+      "cefr_level": "A2",
+      "grammar": [
+        {
+          "name": "现在进行时",
+          "name_en": "Present continuous tense",
+          "details": "be + doing 的肯定、否定和疑问形式"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "view",
+          "pos": "n.",
+          "cn": "观点，意见",
+          "page": 80
+        },
+        {
+          "word": "pigeon",
+          "pos": "n.",
+          "cn": "鸽子",
+          "page": 80
+        },
+        {
+          "word": "surprise",
+          "pos": "n.",
+          "cn": "意想不到的事",
+          "page": 80
+        },
+        {
+          "word": "mirror",
+          "pos": "n.",
+          "cn": "镜子",
+          "page": 81
+        },
+        {
+          "word": "itself",
+          "pos": "pron.",
+          "cn": "自己，自身",
+          "page": 81
+        },
+        {
+          "word": "kilometre",
+          "pos": "n.",
+          "cn": "千米，公里",
+          "page": 81
+        },
+        {
+          "word": "get lost",
+          "pos": "",
+          "cn": "迷路",
+          "page": 81
+        },
+        {
+          "word": "speed",
+          "pos": "n.",
+          "cn": "速度，速率",
+          "page": 81
+        },
+        {
+          "word": "change",
+          "pos": "n.",
+          "cn": "变化，改变",
+          "page": 82
+        },
+        {
+          "word": "dolphin",
+          "pos": "n.",
+          "cn": "海豚",
+          "page": 83
+        },
+        {
+          "word": "beaver",
+          "pos": "n.",
+          "cn": "河狸，海狸",
+          "page": 83
+        },
+        {
+          "word": "no wonder",
+          "pos": "",
+          "cn": "难怪",
+          "page": 83
+        },
+        {
+          "word": "hero",
+          "pos": "n.",
+          "cn": "英雄；偶像",
+          "page": 85
+        },
+        {
+          "word": "rescue",
+          "pos": "n.",
+          "cn": "营救，救援",
+          "page": 86
+        },
+        {
+          "word": "missing",
+          "pos": "adj.",
+          "cn": "找不到的",
+          "page": 86
+        },
+        {
+          "word": "dead",
+          "pos": "adj.",
+          "cn": "死的，去世的",
+          "page": 88
+        },
+        {
+          "word": "dodo",
+          "pos": "n.",
+          "cn": "渡渡鸟",
+          "page": 89
+        },
+        {
+          "word": "as dead as a dodo",
+          "pos": "",
+          "cn": "彻底死亡",
+          "page": 88
+        },
+        {
+          "word": "island",
+          "pos": "n.",
+          "cn": "岛，岛屿",
+          "page": 88
+        },
+        {
+          "word": "ocean",
+          "pos": "n.",
+          "cn": "海洋，大海",
+          "page": 88
+        },
+        {
+          "word": "arrive",
+          "pos": "v.",
+          "cn": "到达，抵达",
+          "page": 89
+        },
+        {
+          "word": "forest",
+          "pos": "n.",
+          "cn": "森林，林区",
+          "page": 89
+        },
+        {
+          "word": "hunt",
+          "pos": "v.",
+          "cn": "打猎；猎杀",
+          "page": 89
+        },
+        {
+          "word": "soon",
+          "pos": "adv.",
+          "cn": "不久，即刻，很快",
+          "page": 89
+        },
+        {
+          "word": "die out",
+          "pos": "",
+          "cn": "消失；绝迹，灭绝",
+          "page": 89
+        },
+        {
+          "word": "full",
+          "pos": "adj.",
+          "cn": "满的；满是……的",
+          "page": 89
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 79
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 81,
+          "content": {
+            "reading": {
+              "title": "Pigeon surprise",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 86,
+          "content": {
+            "listening": {
+              "topic": "Animal rescue"
+            },
+            "reading_for_writing": {
+              "title": "As dead as a dodo",
+              "genre": "说明文"
+            }
+          }
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 91,
+          "content": {
+            "task": "Make a profile of an animal"
+          }
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 92
+        }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "number": 6,
+      "title": "The power of plants",
+      "page_start": 94,
+      "page_end": 109,
+      "topic": "植物、自然科学",
+      "topic_en": "Within a plant",
+      "cefr_level": "A2",
+      "grammar": [
+        {
+          "name": "一般将来时",
+          "name_en": "Simple future tense",
+          "details": "will + 动词原形，be going to + 动词原形"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "workshop",
+          "pos": "n.",
+          "cn": "车间，工场",
+          "page": 97
+        },
+        {
+          "word": "leaf",
+          "pos": "n.",
+          "cn": "叶，叶子",
+          "page": 97
+        },
+        {
+          "word": "sunlight",
+          "pos": "n.",
+          "cn": "阳光",
+          "page": 97
+        },
+        {
+          "word": "root",
+          "pos": "n.",
+          "cn": "根",
+          "page": 97
+        },
+        {
+          "word": "send",
+          "pos": "v.",
+          "cn": "送出，发出",
+          "page": 97
+        },
+        {
+          "word": "rise",
+          "pos": "v.",
+          "cn": "升高，上升",
+          "page": 97
+        },
+        {
+          "word": "stem",
+          "pos": "n.",
+          "cn": "（ 植物的）茎，梗，柄",
+          "page": 97
+        },
+        {
+          "word": "mix",
+          "pos": "v.",
+          "cn": "（ 使）混合，拌和",
+          "page": 97
+        },
+        {
+          "word": "sugar",
+          "pos": "n.",
+          "cn": "糖",
+          "page": 97
+        },
+        {
+          "word": "oxygen",
+          "pos": "n.",
+          "cn": "氧",
+          "page": 97
+        },
+        {
+          "word": "though",
+          "pos": "adv.",
+          "cn": "可是，不过，然而",
+          "page": 97
+        },
+        {
+          "word": "breathe",
+          "pos": "v.",
+          "cn": "呼吸",
+          "page": 97
+        },
+        {
+          "word": "dark",
+          "pos": "adj.",
+          "cn": "昏暗的；黑暗的",
+          "page": 97
+        },
+        {
+          "word": "rest",
+          "pos": "n.",
+          "cn": "休息（时间）",
+          "page": 97
+        },
+        {
+          "word": "enter",
+          "pos": "v.",
+          "cn": "进入",
+          "page": 98
+        },
+        {
+          "word": "sunflower",
+          "pos": "n.",
+          "cn": "向日葵",
+          "page": 99
+        },
+        {
+          "word": "seed",
+          "pos": "n.",
+          "cn": "种子，籽",
+          "page": 99
+        },
+        {
+          "word": "grow",
+          "pos": "v.",
+          "cn": "生长",
+          "page": 99
+        },
+        {
+          "word": "rainforest",
+          "pos": "n.",
+          "cn": "（ 热带）雨林",
+          "page": 99
+        },
+        {
+          "word": "climate",
+          "pos": "n.",
+          "cn": "气候",
+          "page": 99
+        },
+        {
+          "word": "corn silk",
+          "pos": "",
+          "cn": "玉米须",
+          "page": 103
+        },
+        {
+          "word": "rose",
+          "pos": "n.",
+          "cn": "玫瑰；蔷薇",
+          "page": 103
+        },
+        {
+          "word": "cotton",
+          "pos": "n.",
+          "cn": "棉花",
+          "page": 103
+        },
+        {
+          "word": "bamboo",
+          "pos": "n.",
+          "cn": "竹，竹子",
+          "page": 103
+        },
+        {
+          "word": "health",
+          "pos": "n.",
+          "cn": "健康（状况）",
+          "page": 104
+        },
+        {
+          "word": "news",
+          "pos": "n.",
+          "cn": "消息",
+          "page": 105
+        },
+        {
+          "word": "coffee",
+          "pos": "n.",
+          "cn": "咖啡",
+          "page": 105
+        },
+        {
+          "word": "secret",
+          "pos": "n.",
+          "cn": "秘密",
+          "page": 105
+        },
+        {
+          "word": "husband",
+          "pos": "n.",
+          "cn": "丈夫",
+          "page": 105
+        },
+        {
+          "word": "adult",
+          "pos": "n.",
+          "cn": "成人，成年人",
+          "page": 105
+        },
+        {
+          "word": "weekend",
+          "pos": "n.",
+          "cn": "周末",
+          "page": 105
+        },
+        {
+          "word": "chat",
+          "pos": "v.",
+          "cn": "闲聊，闲谈，聊天",
+          "page": 105
+        },
+        {
+          "word": "relax",
+          "pos": "v.",
+          "cn": "放松，休息",
+          "page": 105
+        },
+        {
+          "word": "yard",
+          "pos": "n.",
+          "cn": "庭院",
+          "page": 105
+        },
+        {
+          "word": "biscuit",
+          "pos": "n.",
+          "cn": "饼干",
+          "page": 105
+        },
+        {
+          "word": "connect",
+          "pos": "v.",
+          "cn": "联结，连接",
+          "page": 105
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 95
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 97,
+          "content": {
+            "reading": {
+              "title": "Within a plant",
+              "genre": "说明文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 102,
+          "content": {
+            "listening": {
+              "topic": "Plants and nature"
+            },
+            "reading_for_writing": {
+              "title": "What's your cup of tea?",
+              "genre": "说明文"
+            }
+          }
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 107,
+          "content": {
+            "task": "Make a poster about plants"
+          }
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 108
+        }
+      ]
+    }
+  ],
+  "appendix": {
+    "phonetics_in_use": {
+      "page_start": 116,
+      "page_end": 116
+    },
+    "communication_bank": {
+      "page_start": 117,
+      "page_end": 118
+    },
+    "language_notes": {
+      "page_start": 119,
+      "page_end": 134
+    },
+    "grammar_guide": {
+      "page_start": 135,
+      "page_end": 154,
+      "title": "Guide to the language use",
+      "topics": [
+        "可数名词和不可数名词",
+        "基数词和冠词",
+        "一般现在时",
+        "并列连词and, or和but",
+        "基本句型结构",
+        "be动词的过去式",
+        "形容词",
+        "人称代词和物主代词",
+        "there be句型",
+        "频度副词",
+        "一般现在时（行为动词）",
+        "现在进行时",
+        "一般将来时"
+      ]
+    },
+    "words_by_unit": {
+      "page_start": 155,
+      "page_end": 162
+    },
+    "proper_nouns": {
+      "page_start": 163,
+      "page_end": 164
+    },
+    "vocabulary_az": {
+      "page_start": 165,
+      "page_end": 173
+    },
+    "pronunciation_guide": {
+      "page_start": 174,
+      "page_end": 176
+    }
+  }
+}

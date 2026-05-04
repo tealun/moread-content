@@ -1,0 +1,1592 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "chenlin",
+    "editor_name": "陈琳",
+    "level": "junior",
+    "grade": 9,
+    "semester": "up",
+    "title": "九年级上册",
+    "source_pdf": "(FLTRP陈琳)义务教育教科书·英语九年级上册.pdf",
+    "extracted_at": "2026-05-04"
+  },
+  "vocabulary": {
+    "module-1": [
+      {
+        "word": "man-made",
+        "pos": "adj.",
+        "cn": "人造的",
+        "page": 2
+      },
+      {
+        "word": "natural",
+        "pos": "adj.",
+        "cn": "大自然的",
+        "page": 2
+      },
+      {
+        "word": "wonder",
+        "pos": "n.",
+        "cn": "奇观；奇迹",
+        "page": 2
+      },
+      {
+        "word": "discussion",
+        "pos": "n.",
+        "cn": "讨论；商讨",
+        "page": 2
+      },
+      {
+        "word": "though",
+        "pos": "conj.",
+        "cn": "虽然；但是",
+        "page": 2
+      },
+      {
+        "word": "loud",
+        "pos": "adj.",
+        "cn": "（声音）响亮的",
+        "page": 2
+      },
+      {
+        "word": "opinion",
+        "pos": "n.",
+        "cn": "看法；主张",
+        "page": 2
+      },
+      {
+        "word": "electricity",
+        "pos": "n.",
+        "cn": "电",
+        "page": 2
+      },
+      {
+        "word": "sign",
+        "pos": "n.",
+        "cn": "迹象；标志；招牌",
+        "page": 4
+      },
+      {
+        "word": "silent",
+        "pos": "adj.",
+        "cn": "寂静的",
+        "page": 4
+      },
+      {
+        "word": "silver",
+        "pos": "adj.",
+        "cn": "银灰色的；银制的",
+        "page": 4
+      },
+      {
+        "word": "sky",
+        "pos": "n.",
+        "cn": "天；天空",
+        "page": 4
+      },
+      {
+        "word": "grey",
+        "pos": "adj.",
+        "cn": "灰色的；（天气）阴沉的",
+        "page": 4
+      },
+      {
+        "word": "reply",
+        "pos": "v.",
+        "cn": "回答；答复",
+        "page": 4
+      },
+      {
+        "word": "clear",
+        "pos": "v.",
+        "cn": "（烟雾等）开始消失",
+        "page": 4
+      },
+      {
+        "word": "stream",
+        "pos": "n.",
+        "cn": "小河；小溪",
+        "page": 4
+      },
+      {
+        "word": "nearly",
+        "pos": "adv.",
+        "cn": "几乎；差不多",
+        "page": 4
+      },
+      {
+        "word": "canyon",
+        "pos": "n.",
+        "cn": "峡谷",
+        "page": 4
+      },
+      {
+        "word": "remain",
+        "pos": "v.",
+        "cn": "逗留；留下",
+        "page": 4
+      },
+      {
+        "word": "by",
+        "pos": "prep.",
+        "cn": "在……旁边；靠近",
+        "page": 4
+      }
+    ],
+    "module-2": [
+      {
+        "word": "found",
+        "pos": "v.",
+        "cn": "创立；创建",
+        "page": 10
+      },
+      {
+        "word": "since then",
+        "pos": "",
+        "cn": "从那以后",
+        "page": 10
+      },
+      {
+        "word": "flag",
+        "pos": "n.",
+        "cn": "旗；旗帜",
+        "page": 10
+      },
+      {
+        "word": "off",
+        "pos": "adv.",
+        "cn": "不上课；休息；不工作",
+        "page": 10
+      },
+      {
+        "word": "all kinds of",
+        "pos": "",
+        "cn": "各种各样的",
+        "page": 10
+      },
+      {
+        "word": "vacation",
+        "pos": "n.",
+        "cn": "假期；假日",
+        "page": 10
+      },
+      {
+        "word": "season",
+        "pos": "n.",
+        "cn": "度假旺季；节期",
+        "page": 10
+      },
+      {
+        "word": "kid",
+        "pos": "n.",
+        "cn": "小孩",
+        "page": 10
+      },
+      {
+        "word": "have fun",
+        "pos": "",
+        "cn": "玩得高兴；有乐趣",
+        "page": 10
+      },
+      {
+        "word": "band",
+        "pos": "n.",
+        "cn": "乐队",
+        "page": 10
+      },
+      {
+        "word": "fourth",
+        "pos": "num.",
+        "cn": "第四",
+        "page": 11
+      },
+      {
+        "word": "sixth",
+        "pos": "num.",
+        "cn": "第六",
+        "page": 11
+      },
+      {
+        "word": "seventh",
+        "pos": "num.",
+        "cn": "第七",
+        "page": 11
+      },
+      {
+        "word": "eighth",
+        "pos": "num.",
+        "cn": "第八",
+        "page": 11
+      },
+      {
+        "word": "ninth",
+        "pos": "num.",
+        "cn": "第九",
+        "page": 11
+      },
+      {
+        "word": "tenth",
+        "pos": "num.",
+        "cn": "第十",
+        "page": 11
+      },
+      {
+        "word": "twelfth",
+        "pos": "num.",
+        "cn": "第十二",
+        "page": 11
+      },
+      {
+        "word": "twentieth",
+        "pos": "num.",
+        "cn": "第二十",
+        "page": 11
+      },
+      {
+        "word": "among",
+        "pos": "prep.",
+        "cn": "在……之中",
+        "page": 12
+      },
+      {
+        "word": "speech",
+        "pos": "n.",
+        "cn": "演说；讲演",
+        "page": 12
+      },
+      {
+        "word": "pioneer",
+        "pos": "n.",
+        "cn": "开拓者；先驱者",
+        "page": 12
+      },
+      {
+        "word": "grow",
+        "pos": "v.",
+        "cn": "种植，栽培（植物）",
+        "page": 12
+      },
+      {
+        "word": "corn",
+        "pos": "n.",
+        "cn": "谷物；玉米",
+        "page": 12
+      },
+      {
+        "word": "lay",
+        "pos": "v.",
+        "cn": "(laid /le!d/, laid)摆放（餐桌）",
+        "page": 12
+      },
+      {
+        "word": "over",
+        "pos": "adj.",
+        "cn": "完了的；结束的",
+        "page": 12
+      },
+      {
+        "word": "dish",
+        "pos": "n.",
+        "cn": "盘；碟",
+        "page": 12
+      },
+      {
+        "word": "parade",
+        "pos": "n.",
+        "cn": "（庆祝）游行",
+        "page": 12
+      },
+      {
+        "word": "ourselves",
+        "pos": "pron.",
+        "cn": "我们自己",
+        "page": 12
+      }
+    ],
+    "module-3": [
+      {
+        "word": "medal",
+        "pos": "n.",
+        "cn": "奖牌；奖章",
+        "page": 18
+      },
+      {
+        "word": "degree",
+        "pos": "n.",
+        "cn": "课程；学位",
+        "page": 18
+      },
+      {
+        "word": "will",
+        "pos": "n.",
+        "cn": "意志；决心",
+        "page": 18
+      },
+      {
+        "word": "give up",
+        "pos": "",
+        "cn": "放弃（努力）",
+        "page": 18
+      },
+      {
+        "word": "including",
+        "pos": "prep.",
+        "cn": "包含；包括",
+        "page": 18
+      },
+      {
+        "word": "once again",
+        "pos": "",
+        "cn": "再一次",
+        "page": 18
+      },
+      {
+        "word": "abroad",
+        "pos": "adv.",
+        "cn": "在国外；到国外",
+        "page": 18
+      },
+      {
+        "word": "simply",
+        "pos": "adv.",
+        "cn": "实在；的确",
+        "page": 18
+      },
+      {
+        "word": "victory",
+        "pos": "n.",
+        "cn": "成功；胜利",
+        "page": 18
+      },
+      {
+        "word": "sick",
+        "pos": "adj.",
+        "cn": "（感觉）不适的，生病的",
+        "page": 20
+      },
+      {
+        "word": "soldier",
+        "pos": "n.",
+        "cn": "军人；士兵",
+        "page": 20
+      },
+      {
+        "word": "treat",
+        "pos": "v.",
+        "cn": "医治；治疗",
+        "page": 20
+      },
+      {
+        "word": "war",
+        "pos": "n.",
+        "cn": "战争",
+        "page": 20
+      },
+      {
+        "word": "wound",
+        "pos": "n.",
+        "cn": "伤；伤口",
+        "page": 20
+      },
+      {
+        "word": "wounded",
+        "pos": "adj.",
+        "cn": "受伤的",
+        "page": 20
+      },
+      {
+        "word": "realise",
+        "pos": "v.",
+        "cn": "了解；意识到",
+        "page": 20
+      },
+      {
+        "word": "dying",
+        "pos": "adj.",
+        "cn": "垂死的；即将死亡的",
+        "page": 20
+      },
+      {
+        "word": "care",
+        "pos": "n.",
+        "cn": "照顾；照料",
+        "page": 20
+      },
+      {
+        "word": "tool",
+        "pos": "n.",
+        "cn": "工具；器械",
+        "page": 20
+      },
+      {
+        "word": "invention",
+        "pos": "n.",
+        "cn": "发明；发明物",
+        "page": 20
+      },
+      {
+        "word": "useful",
+        "pos": "adj.",
+        "cn": "有用的；有益的",
+        "page": 20
+      },
+      {
+        "word": "rest",
+        "pos": "v.",
+        "cn": "休息；睡眠",
+        "page": 20
+      },
+      {
+        "word": "himself",
+        "pos": "pron.",
+        "cn": "他自己",
+        "page": 20
+      },
+      {
+        "word": "operation",
+        "pos": "n.",
+        "cn": "手术",
+        "page": 20
+      },
+      {
+        "word": "continue",
+        "pos": "v.",
+        "cn": "（使）继续",
+        "page": 20
+      }
+    ],
+    "module-4": [
+      {
+        "word": "meeting",
+        "pos": "n.",
+        "cn": "会议；集会",
+        "page": 26
+      },
+      {
+        "word": "miss",
+        "pos": "v.",
+        "cn": "未出席；未出现",
+        "page": 26
+      },
+      {
+        "word": "shut",
+        "pos": "v.",
+        "cn": "(shut, shut)关上；合上",
+        "page": 26
+      },
+      {
+        "word": "lock",
+        "pos": "v.",
+        "cn": "锁；锁住",
+        "page": 26
+      },
+      {
+        "word": "simple",
+        "pos": "adj.",
+        "cn": "简单的；容易的",
+        "page": 26
+      },
+      {
+        "word": "anybody",
+        "pos": "pron.",
+        "cn": "任何人",
+        "page": 26
+      },
+      {
+        "word": "clock",
+        "pos": "n.",
+        "cn": "钟；时钟",
+        "page": 26
+      },
+      {
+        "word": "passenger",
+        "pos": "n.",
+        "cn": "乘客；旅客",
+        "page": 26
+      },
+      {
+        "word": "address",
+        "pos": "n.",
+        "cn": "地址",
+        "page": 26
+      },
+      {
+        "word": "text",
+        "pos": "n.",
+        "cn": "文本；正文",
+        "page": 26
+      },
+      {
+        "word": "couple",
+        "pos": "n.",
+        "cn": "一对；两个",
+        "page": 26
+      },
+      {
+        "word": "a couple of",
+        "pos": "",
+        "cn": "两个",
+        "page": 26
+      },
+      {
+        "word": "actually",
+        "pos": "adv.",
+        "cn": "事实上",
+        "page": 28
+      },
+      {
+        "word": "manage",
+        "pos": "v.",
+        "cn": "管理；支配",
+        "page": 28
+      },
+      {
+        "word": "unhappy",
+        "pos": "adj.",
+        "cn": "不高兴的",
+        "page": 28
+      },
+      {
+        "word": "turn off",
+        "pos": "",
+        "cn": "关掉；关闭（设备）",
+        "page": 28
+      },
+      {
+        "word": "order",
+        "pos": "n.",
+        "cn": "命令；指示",
+        "page": 28
+      },
+      {
+        "word": "be worried about",
+        "pos": "",
+        "cn": "担心",
+        "page": 28
+      },
+      {
+        "word": "business",
+        "pos": "n.",
+        "cn": "工作",
+        "page": 28
+      },
+      {
+        "word": "on business",
+        "pos": "",
+        "cn": "出差",
+        "page": 28
+      },
+      {
+        "word": "sofa",
+        "pos": "n.",
+        "cn": "（长）沙发",
+        "page": 28
+      },
+      {
+        "word": "snack",
+        "pos": "n.",
+        "cn": "点心；小吃",
+        "page": 28
+      },
+      {
+        "word": "midnight",
+        "pos": "n.",
+        "cn": "午夜；子夜",
+        "page": 28
+      },
+      {
+        "word": "wake up",
+        "pos": "",
+        "cn": "醒；醒来",
+        "page": 28
+      },
+      {
+        "word": "hand in",
+        "pos": "",
+        "cn": "提交；上交",
+        "page": 28
+      },
+      {
+        "word": "empty",
+        "pos": "adj.",
+        "cn": "空的",
+        "page": 28
+      },
+      {
+        "word": "unable",
+        "pos": "adj.",
+        "cn": "不能做某事的",
+        "page": 28
+      },
+      {
+        "word": "all day long",
+        "pos": "",
+        "cn": "整天",
+        "page": 28
+      },
+      {
+        "word": "cup",
+        "pos": "n.",
+        "cn": "杯子；一杯饮料",
+        "page": 28
+      },
+      {
+        "word": "task",
+        "pos": "n.",
+        "cn": "任务；工作",
+        "page": 28
+      }
+    ],
+    "module-5": [
+      {
+        "word": "exhibition",
+        "pos": "n.",
+        "cn": "展览；展览会",
+        "page": 34
+      },
+      {
+        "word": "rule",
+        "pos": "n.",
+        "cn": "规则；法则",
+        "page": 34
+      },
+      {
+        "word": "against the rules",
+        "pos": "",
+        "cn": "违反规定",
+        "page": 34
+      },
+      {
+        "word": "tail",
+        "pos": "n.",
+        "cn": "尾；尾巴",
+        "page": 34
+      },
+      {
+        "word": "rope",
+        "pos": "n.",
+        "cn": "粗绳；绳索",
+        "page": 34
+      },
+      {
+        "word": "entry",
+        "pos": "n.",
+        "cn": "进入权；进入许可",
+        "page": 34
+      },
+      {
+        "word": "no good",
+        "pos": "",
+        "cn": "不合适的；不方便的",
+        "page": 34
+      },
+      {
+        "word": "punish",
+        "pos": "v.",
+        "cn": "惩罚；惩处",
+        "page": 34
+      },
+      {
+        "word": "physics",
+        "pos": "n.",
+        "cn": "物理学",
+        "page": 36
+      },
+      {
+        "word": "chemistry",
+        "pos": "n.",
+        "cn": "化学",
+        "page": 36
+      },
+      {
+        "word": "coal",
+        "pos": "n.",
+        "cn": "煤",
+        "page": 36
+      },
+      {
+        "word": "energy",
+        "pos": "n.",
+        "cn": "能量；能源",
+        "page": 36
+      },
+      {
+        "word": "X-ray",
+        "pos": "n.",
+        "cn": "X射线；X光",
+        "page": 36
+      },
+      {
+        "word": "experiment",
+        "pos": "n.",
+        "cn": "实验",
+        "page": 36
+      },
+      {
+        "word": "sand",
+        "pos": "n.",
+        "cn": "沙；沙子",
+        "page": 36
+      },
+      {
+        "word": "control",
+        "pos": "v.",
+        "cn": "操作；操纵",
+        "page": 36
+      },
+      {
+        "word": "truck",
+        "pos": "n.",
+        "cn": "卡车；货车",
+        "page": 36
+      },
+      {
+        "word": "wheel",
+        "pos": "n.",
+        "cn": "轮子；车轮",
+        "page": 36
+      },
+      {
+        "word": "whole",
+        "pos": "adj.",
+        "cn": "全部的；整个的",
+        "page": 36
+      }
+    ],
+    "module-6": [
+      {
+        "word": "deal",
+        "pos": "n.",
+        "cn": "协议",
+        "page": 42
+      },
+      {
+        "word": "exam",
+        "pos": "n.",
+        "cn": "考试",
+        "page": 42
+      },
+      {
+        "word": "fail",
+        "pos": "v.",
+        "cn": "未能及格；未能达到",
+        "page": 42
+      },
+      {
+        "word": "guitar",
+        "pos": "n.",
+        "cn": "吉他",
+        "page": 42
+      },
+      {
+        "word": "instrument",
+        "pos": "n.",
+        "cn": "乐器；仪器",
+        "page": 42
+      },
+      {
+        "word": "musical",
+        "pos": "adj.",
+        "cn": "音乐的",
+        "page": 42
+      },
+      {
+        "word": "habit",
+        "pos": "n.",
+        "cn": "习惯",
+        "page": 42
+      },
+      {
+        "word": "volunteer",
+        "pos": "n.",
+        "cn": "志愿者",
+        "page": 42
+      },
+      {
+        "word": "shame",
+        "pos": "n.",
+        "cn": "可惜；遗憾",
+        "page": 42
+      },
+      {
+        "word": "instead",
+        "pos": "adv.",
+        "cn": "代替；而不是",
+        "page": 42
+      },
+      {
+        "word": "knowledge",
+        "pos": "n.",
+        "cn": "知识；学识",
+        "page": 42
+      },
+      {
+        "word": "consider",
+        "pos": "v.",
+        "cn": "考虑；斟酌",
+        "page": 42
+      },
+      {
+        "word": "reason",
+        "pos": "n.",
+        "cn": "原因；理由",
+        "page": 44
+      },
+      {
+        "word": "angry",
+        "pos": "adj.",
+        "cn": "愤怒的；生气的",
+        "page": 44
+      },
+      {
+        "word": "truth",
+        "pos": "n.",
+        "cn": "事实；真相",
+        "page": 44
+      },
+      {
+        "word": "least",
+        "pos": "pron.",
+        "cn": "最少；最小",
+        "page": 44
+      },
+      {
+        "word": "honest",
+        "pos": "adj.",
+        "cn": "诚实的；老实的",
+        "page": 44
+      },
+      {
+        "word": "apologise",
+        "pos": "v.",
+        "cn": "认错；道歉",
+        "page": 44
+      },
+      {
+        "word": "bill",
+        "pos": "n.",
+        "cn": "账单；账款",
+        "page": 44
+      }
+    ],
+    "module-7": [
+      {
+        "word": "discuss",
+        "pos": "v.",
+        "cn": "讨论；谈论",
+        "page": 56
+      },
+      {
+        "word": "thinker",
+        "pos": "n.",
+        "cn": "思想家",
+        "page": 56
+      },
+      {
+        "word": "wise",
+        "pos": "adj.",
+        "cn": "有判断力的；明智的",
+        "page": 56
+      },
+      {
+        "word": "review",
+        "pos": "n.",
+        "cn": "评论（文章）",
+        "page": 56
+      },
+      {
+        "word": "influence",
+        "pos": "v.",
+        "cn": "影响；作用于",
+        "page": 56
+      },
+      {
+        "word": "sense",
+        "pos": "n.",
+        "cn": "道理；意义；合理性",
+        "page": 56
+      },
+      {
+        "word": "adventure",
+        "pos": "n.",
+        "cn": "冒险（经历）",
+        "page": 58
+      },
+      {
+        "word": "escape",
+        "pos": "v.",
+        "cn": "逃离；逃脱",
+        "page": 58
+      },
+      {
+        "word": "cave",
+        "pos": "n.",
+        "cn": "洞穴",
+        "page": 58
+      },
+      {
+        "word": "dead",
+        "pos": "adj.",
+        "cn": "死的；去世的",
+        "page": 58
+      },
+      {
+        "word": "neighbour",
+        "pos": "n.",
+        "cn": "邻居",
+        "page": 58
+      },
+      {
+        "word": "funeral",
+        "pos": "n.",
+        "cn": "葬礼",
+        "page": 58
+      },
+      {
+        "word": "alive",
+        "pos": "adj.",
+        "cn": "活着的",
+        "page": 58
+      },
+      {
+        "word": "southern",
+        "pos": "adj.",
+        "cn": "南方的",
+        "page": 58
+      },
+      {
+        "word": "state",
+        "pos": "n.",
+        "cn": "州；邦",
+        "page": 58
+      },
+      {
+        "word": "action",
+        "pos": "n.",
+        "cn": "举止；行为；情节",
+        "page": 58
+      },
+      {
+        "word": "dialogue",
+        "pos": "n.",
+        "cn": "对话",
+        "page": 58
+      }
+    ],
+    "module-8": [
+      {
+        "word": "memory",
+        "pos": "n.",
+        "cn": "记忆；回忆",
+        "page": 64
+      },
+      {
+        "word": "point",
+        "pos": "n.",
+        "cn": "比分",
+        "page": 64
+      },
+      {
+        "word": "decision",
+        "pos": "n.",
+        "cn": "决定",
+        "page": 64
+      },
+      {
+        "word": "noon",
+        "pos": "n.",
+        "cn": "中午；正午",
+        "page": 64
+      },
+      {
+        "word": "seat",
+        "pos": "n.",
+        "cn": "座椅；座位",
+        "page": 64
+      },
+      {
+        "word": "fair",
+        "pos": "adj.",
+        "cn": "公平的；合理的",
+        "page": 64
+      },
+      {
+        "word": "kick",
+        "pos": "v.",
+        "cn": "踢",
+        "page": 64
+      },
+      {
+        "word": "mad",
+        "pos": "adj.",
+        "cn": "生气的；恼火的",
+        "page": 64
+      },
+      {
+        "word": "ability",
+        "pos": "n.",
+        "cn": "能力",
+        "page": 66
+      },
+      {
+        "word": "hurdling",
+        "pos": "n.",
+        "cn": "跨栏赛跑",
+        "page": 66
+      },
+      {
+        "word": "race",
+        "pos": "n.",
+        "cn": "赛跑；比赛",
+        "page": 66
+      },
+      {
+        "word": "method",
+        "pos": "n.",
+        "cn": "方法；办法",
+        "page": 66
+      },
+      {
+        "word": "hurdles",
+        "pos": "n.",
+        "cn": "跨栏赛跑",
+        "page": 66
+      },
+      {
+        "word": "break",
+        "pos": "v.",
+        "cn": "打破（纪录）；打碎",
+        "page": 66
+      },
+      {
+        "word": "sportsperson",
+        "pos": "n.",
+        "cn": "运动员",
+        "page": 66
+      },
+      {
+        "word": "suffer",
+        "pos": "v.",
+        "cn": "患有（疾病等）；经受",
+        "page": 66
+      },
+      {
+        "word": "courage",
+        "pos": "n.",
+        "cn": "勇气；胆量",
+        "page": 66
+      },
+      {
+        "word": "pride",
+        "pos": "n.",
+        "cn": "自豪感；骄傲",
+        "page": 66
+      }
+    ],
+    "module-9": [
+      {
+        "word": "borrow",
+        "pos": "v.",
+        "cn": "借入；借来",
+        "page": 72
+      },
+      {
+        "word": "website",
+        "pos": "n.",
+        "cn": "网站",
+        "page": 72
+      },
+      {
+        "word": "mail",
+        "pos": "n.",
+        "cn": "邮件；信件",
+        "page": 72
+      },
+      {
+        "word": "textbook",
+        "pos": "n.",
+        "cn": "教科书；课本",
+        "page": 72
+      },
+      {
+        "word": "mainly",
+        "pos": "adv.",
+        "cn": "大部分地；主要地",
+        "page": 72
+      },
+      {
+        "word": "page",
+        "pos": "n.",
+        "cn": "页；一页（纸）",
+        "page": 72
+      },
+      {
+        "word": "electronic",
+        "pos": "adj.",
+        "cn": "电子的",
+        "page": 72
+      },
+      {
+        "word": "technology",
+        "pos": "n.",
+        "cn": "科技；技术",
+        "page": 72
+      },
+      {
+        "word": "memory",
+        "pos": "n.",
+        "cn": "存储器；存储量",
+        "page": 72
+      },
+      {
+        "word": "full",
+        "pos": "adj.",
+        "cn": "满的；充满的",
+        "page": 72
+      },
+      {
+        "word": "fix",
+        "pos": "v.",
+        "cn": "修补；挽救",
+        "page": 72
+      },
+      {
+        "word": "printing",
+        "pos": "n.",
+        "cn": "印刷",
+        "page": 74
+      },
+      {
+        "word": "trade",
+        "pos": "n.",
+        "cn": "买卖；交易",
+        "page": 74
+      },
+      {
+        "word": "amount",
+        "pos": "n.",
+        "cn": "量；数量",
+        "page": 74
+      },
+      {
+        "word": "store",
+        "pos": "v.",
+        "cn": "存储；储藏",
+        "page": 74
+      },
+      {
+        "word": "single",
+        "pos": "adj.",
+        "cn": "仅一个的；单个的",
+        "page": 74
+      },
+      {
+        "word": "direction",
+        "pos": "n.",
+        "cn": "方向",
+        "page": 74
+      },
+      {
+        "word": "replace",
+        "pos": "v.",
+        "cn": "替换；取代",
+        "page": 74
+      }
+    ],
+    "module-10": [
+      {
+        "word": "here we go",
+        "pos": "",
+        "cn": "我们这就看看",
+        "page": 80
+      },
+      {
+        "word": "magical",
+        "pos": "adj.",
+        "cn": "神奇的；迷人的",
+        "page": 80
+      },
+      {
+        "word": "height",
+        "pos": "n.",
+        "cn": "高度；身高",
+        "page": 80
+      },
+      {
+        "word": "northeast",
+        "pos": "adj.",
+        "cn": "在东北的",
+        "page": 80
+      },
+      {
+        "word": "sheep",
+        "pos": "n.",
+        "cn": "羊；绵羊",
+        "page": 80
+      },
+      {
+        "word": "hat",
+        "pos": "n.",
+        "cn": "帽子",
+        "page": 80
+      },
+      {
+        "word": "fly",
+        "pos": "n.",
+        "cn": "苍蝇",
+        "page": 80
+      },
+      {
+        "word": "scissors",
+        "pos": "n.",
+        "cn": "[复数]剪刀",
+        "page": 80
+      },
+      {
+        "word": "wool",
+        "pos": "n.",
+        "cn": "羊毛",
+        "page": 80
+      },
+      {
+        "word": "diary",
+        "pos": "n.",
+        "cn": "日记；日记簿",
+        "page": 80
+      },
+      {
+        "word": "hate",
+        "pos": "v.",
+        "cn": "憎恨；讨厌",
+        "page": 80
+      },
+      {
+        "word": "ant",
+        "pos": "n.",
+        "cn": "蚂蚁",
+        "page": 80
+      },
+      {
+        "word": "brush",
+        "pos": "v.",
+        "cn": "（用刷子）刷",
+        "page": 80
+      },
+      {
+        "word": "at the time",
+        "pos": "",
+        "cn": "那时；在那段时间",
+        "page": 80
+      },
+      {
+        "word": "period",
+        "pos": "n.",
+        "cn": "阶段；时期",
+        "page": 82
+      },
+      {
+        "word": "spirit",
+        "pos": "n.",
+        "cn": "精灵；神灵；精神",
+        "page": 82
+      },
+      {
+        "word": "relationship",
+        "pos": "n.",
+        "cn": "关系",
+        "page": 82
+      },
+      {
+        "word": "relative",
+        "pos": "n.",
+        "cn": "亲戚",
+        "page": 82
+      },
+      {
+        "word": "ham",
+        "pos": "n.",
+        "cn": "火腿",
+        "page": 82
+      },
+      {
+        "word": "salad",
+        "pos": "n.",
+        "cn": "色拉",
+        "page": 82
+      },
+      {
+        "word": "grape",
+        "pos": "n.",
+        "cn": "葡萄",
+        "page": 82
+      },
+      {
+        "word": "surf",
+        "pos": "v.",
+        "cn": "冲浪",
+        "page": 82
+      },
+      {
+        "word": "kangaroo",
+        "pos": "n.",
+        "cn": "袋鼠",
+        "page": 82
+      },
+      {
+        "word": "riding",
+        "pos": "n.",
+        "cn": "骑马（运动）",
+        "page": 82
+      },
+      {
+        "word": "lazy",
+        "pos": "adj.",
+        "cn": "懒惰的；懒散的",
+        "page": 82
+      },
+      {
+        "word": "ride",
+        "pos": "n.",
+        "cn": "骑马；乘车",
+        "page": 82
+      }
+    ],
+    "module-11": [
+      {
+        "word": "bet",
+        "pos": "v.",
+        "cn": "(bet, bet)打赌；下赌注",
+        "page": 88
+      },
+      {
+        "word": "standard",
+        "pos": "n.",
+        "cn": "标准；水准",
+        "page": 88
+      },
+      {
+        "word": "feeling",
+        "pos": "n.",
+        "cn": "感觉；直觉看法",
+        "page": 88
+      },
+      {
+        "word": "difficulty",
+        "pos": "n.",
+        "cn": "困难；困境",
+        "page": 88
+      },
+      {
+        "word": "subject",
+        "pos": "n.",
+        "cn": "主题",
+        "page": 88
+      },
+      {
+        "word": "add",
+        "pos": "v.",
+        "cn": "添加",
+        "page": 88
+      },
+      {
+        "word": "recently",
+        "pos": "adv.",
+        "cn": "最近；近来",
+        "page": 88
+      },
+      {
+        "word": "menu",
+        "pos": "n.",
+        "cn": "菜单",
+        "page": 88
+      },
+      {
+        "word": "read out",
+        "pos": "",
+        "cn": "朗读；宣读",
+        "page": 90
+      },
+      {
+        "word": "winner",
+        "pos": "n.",
+        "cn": "获胜者",
+        "page": 90
+      },
+      {
+        "word": "even though",
+        "pos": "",
+        "cn": "即使；尽管",
+        "page": 90
+      },
+      {
+        "word": "rush",
+        "pos": "v.",
+        "cn": "冲；奔",
+        "page": 90
+      },
+      {
+        "word": "blouse",
+        "pos": "n.",
+        "cn": "女衬衫",
+        "page": 90
+      },
+      {
+        "word": "skirt",
+        "pos": "n.",
+        "cn": "裙子",
+        "page": 90
+      },
+      {
+        "word": "singer",
+        "pos": "n.",
+        "cn": "歌手；歌唱家",
+        "page": 90
+      },
+      {
+        "word": "headmaster",
+        "pos": "n.",
+        "cn": "男校长",
+        "page": 90
+      },
+      {
+        "word": "present",
+        "pos": "v.",
+        "cn": "授予；呈递",
+        "page": 90
+      }
+    ],
+    "module-12": [
+      {
+        "word": "factory",
+        "pos": "n.",
+        "cn": "制造厂；工厂",
+        "page": 96
+      },
+      {
+        "word": "pollute",
+        "pos": "v.",
+        "cn": "污染",
+        "page": 96
+      },
+      {
+        "word": "waste",
+        "pos": "n.",
+        "cn": "废料；废弃物",
+        "page": 96
+      },
+      {
+        "word": "enemy",
+        "pos": "n.",
+        "cn": "敌人；仇人",
+        "page": 96
+      },
+      {
+        "word": "crop",
+        "pos": "n.",
+        "cn": "庄稼；作物",
+        "page": 96
+      },
+      {
+        "word": "kill",
+        "pos": "v.",
+        "cn": "杀死；弄死",
+        "page": 96
+      },
+      {
+        "word": "oil",
+        "pos": "n.",
+        "cn": "石油",
+        "page": 96
+      },
+      {
+        "word": "hopeless",
+        "pos": "adj.",
+        "cn": "无望的",
+        "page": 96
+      },
+      {
+        "word": "china",
+        "pos": "n.",
+        "cn": "瓷；瓷器",
+        "page": 98
+      },
+      {
+        "word": "divide",
+        "pos": "v.",
+        "cn": "分开",
+        "page": 98
+      },
+      {
+        "word": "policy",
+        "pos": "n.",
+        "cn": "政策；方针",
+        "page": 98
+      },
+      {
+        "word": "reuse",
+        "pos": "v.",
+        "cn": "再次使用；重复利用",
+        "page": 98
+      },
+      {
+        "word": "bottle",
+        "pos": "n.",
+        "cn": "瓶",
+        "page": 98
+      },
+      {
+        "word": "repeat",
+        "pos": "v.",
+        "cn": "重说；重新做",
+        "page": 98
+      },
+      {
+        "word": "cloth",
+        "pos": "n.",
+        "cn": "布；布料",
+        "page": 98
+      },
+      {
+        "word": "ton",
+        "pos": "n.",
+        "cn": "吨",
+        "page": 98
+      },
+      {
+        "word": "rubber",
+        "pos": "n.",
+        "cn": "橡胶",
+        "page": 98
+      },
+      {
+        "word": "recycling",
+        "pos": "n.",
+        "cn": "回收利用",
+        "page": 98
+      },
+      {
+        "word": "rapid",
+        "pos": "adj.",
+        "cn": "快速的；迅速的",
+        "page": 98
+      },
+      {
+        "word": "step",
+        "pos": "n.",
+        "cn": "步骤；措施",
+        "page": 98
+      },
+      {
+        "word": "grandson",
+        "pos": "n.",
+        "cn": "（外）孙子",
+        "page": 98
+      }
+    ]
+  },
+  "stats": {
+    "total_words": 258,
+    "modules": 12
+  }
+}

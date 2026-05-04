@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "chenlin",
+    "editor_name": "陈琳",
+    "level": "junior",
+    "grade": 9,
+    "semester": "down",
+    "title": "九年级下册",
+    "source_pdf": "(FLTRP陈琳)义务教育教科书·英语九年级下册.pdf",
+    "extracted_at": "2026-05-04"
+  },
+  "vocabulary": {
+    "module-1": [
+      {
+        "word": "pilot",
+        "pos": "n.",
+        "cn": "飞行员",
+        "page": 2
+      },
+      {
+        "word": "succeed",
+        "pos": "v.",
+        "cn": "成功；做成",
+        "page": 2
+      },
+      {
+        "word": "flight",
+        "pos": "n.",
+        "cn": "航班；飞行",
+        "page": 2
+      },
+      {
+        "word": "because of",
+        "pos": "",
+        "cn": "因为；由于",
+        "page": 2
+      },
+      {
+        "word": "sir",
+        "pos": "n.",
+        "cn": "先生；长官",
+        "page": 4
+      },
+      {
+        "word": "officer",
+        "pos": "n.",
+        "cn": "军官；官员；警察",
+        "page": 4
+      },
+      {
+        "word": "stupid",
+        "pos": "adj.",
+        "cn": "笨的；糊涂的",
+        "page": 4
+      },
+      {
+        "word": "take off",
+        "pos": "",
+        "cn": "脱去",
+        "page": 4
+      },
+      {
+        "word": "jacket",
+        "pos": "n.",
+        "cn": "短上衣；夹克",
+        "page": 4
+      }
+    ],
+    "module-2": [
+      {
+        "word": "ours",
+        "pos": "pron.",
+        "cn": "我们的",
+        "page": 10
+      },
+      {
+        "word": "tie",
+        "pos": "n.",
+        "cn": "领带",
+        "page": 10
+      },
+      {
+        "word": "row",
+        "pos": "n.",
+        "cn": "一排；一行；一列",
+        "page": 10
+      },
+      {
+        "word": "pool",
+        "pos": "n.",
+        "cn": "水池；游泳池",
+        "page": 10
+      },
+      {
+        "word": "pass",
+        "pos": "v.",
+        "cn": "及格；通过（考试或检查）",
+        "page": 12
+      },
+      {
+        "word": "secondary school",
+        "pos": "",
+        "cn": "中学",
+        "page": 12
+      },
+      {
+        "word": "absent",
+        "pos": "adj.",
+        "cn": "缺席的；不在的",
+        "page": 12
+      },
+      {
+        "word": "bell",
+        "pos": "n.",
+        "cn": "钟；铃",
+        "page": 12
+      }
+    ],
+    "module-3": [
+      {
+        "word": "wealthy",
+        "pos": "adj.",
+        "cn": "富有的；富裕的",
+        "page": 18
+      },
+      {
+        "word": "fear",
+        "pos": "n.",
+        "cn": "担心；害怕",
+        "page": 18
+      },
+      {
+        "word": "wealth",
+        "pos": "n.",
+        "cn": "财富；财产",
+        "page": 18
+      },
+      {
+        "word": "seldom",
+        "pos": "adv.",
+        "cn": "很少地；不常",
+        "page": 18
+      },
+      {
+        "word": "spare",
+        "pos": "adj.",
+        "cn": "空余的；备用的",
+        "page": 18
+      },
+      {
+        "word": "spare time",
+        "pos": "",
+        "cn": "业余时间；闲暇",
+        "page": 18
+      },
+      {
+        "word": "speak up",
+        "pos": "",
+        "cn": "大点声说",
+        "page": 18
+      },
+      {
+        "word": "deaf",
+        "pos": "adj.",
+        "cn": "聋的",
+        "page": 18
+      },
+      {
+        "word": "tiny",
+        "pos": "adj.",
+        "cn": "微小的；极小的",
+        "page": 20
+      },
+      {
+        "word": "light",
+        "pos": "n.",
+        "cn": "电灯",
+        "page": 20
+      },
+      {
+        "word": "candle",
+        "pos": "n.",
+        "cn": "蜡烛",
+        "page": 20
+      },
+      {
+        "word": "postman",
+        "pos": "n.",
+        "cn": "邮递员",
+        "page": 20
+      },
+      {
+        "word": "cold",
+        "pos": "n.",
+        "cn": "寒冷；冷空气",
+        "page": 20
+      },
+      {
+        "word": "heat",
+        "pos": "n.",
+        "cn": "高温；热度",
+        "page": 20
+      },
+      {
+        "word": "role",
+        "pos": "n.",
+        "cn": "作用；职责；角色",
+        "page": 20
+      },
+      {
+        "word": "transport",
+        "pos": "n.",
+        "cn": "运输业；交通",
+        "page": 20
+      }
+    ],
+    "module-4": [
+      {
+        "word": "set off",
+        "pos": "",
+        "cn": "动身；出发",
+        "page": 26
+      },
+      {
+        "word": "sock",
+        "pos": "n.",
+        "cn": "短袜",
+        "page": 26
+      },
+      {
+        "word": "proper",
+        "pos": "adj.",
+        "cn": "合适的；恰当的",
+        "page": 26
+      },
+      {
+        "word": "edge",
+        "pos": "n.",
+        "cn": "边；边缘",
+        "page": 26
+      },
+      {
+        "word": "go off",
+        "pos": "",
+        "cn": "离开",
+        "page": 26
+      },
+      {
+        "word": "starve",
+        "pos": "v.",
+        "cn": "挨饿；饿死",
+        "page": 26
+      },
+      {
+        "word": "go",
+        "pos": "n.",
+        "cn": "尝试；努力",
+        "page": 26
+      },
+      {
+        "word": "in one go",
+        "pos": "",
+        "cn": "一口气；一下子",
+        "page": 26
+      },
+      {
+        "word": "rock",
+        "pos": "n.",
+        "cn": "岩；岩石",
+        "page": 26
+      },
+      {
+        "word": "rock climbing",
+        "pos": "",
+        "cn": "攀岩",
+        "page": 26
+      },
+      {
+        "word": "stone",
+        "pos": "n.",
+        "cn": "石头",
+        "page": 26
+      },
+      {
+        "word": "fairly",
+        "pos": "adv.",
+        "cn": "相当；还算",
+        "page": 26
+      },
+      {
+        "word": "straight",
+        "pos": "adj.",
+        "cn": "直的；笔直的",
+        "page": 26
+      },
+      {
+        "word": "tent",
+        "pos": "n.",
+        "cn": "帐篷",
+        "page": 28
+      },
+      {
+        "word": "fall",
+        "pos": "v.",
+        "cn": "变成，进入（某种状态）",
+        "page": 28
+      },
+      {
+        "word": "fall asleep",
+        "pos": "",
+        "cn": "入睡；睡着",
+        "page": 28
+      },
+      {
+        "word": "sudden",
+        "pos": "adj.",
+        "cn": "突然的；急剧的",
+        "page": 28
+      },
+      {
+        "word": "gun",
+        "pos": "n.",
+        "cn": "枪",
+        "page": 28
+      },
+      {
+        "word": "soft",
+        "pos": "adj.",
+        "cn": "软的；柔软的",
+        "page": 28
+      },
+      {
+        "word": "still",
+        "pos": "adj.",
+        "cn": "静止的；不动的",
+        "page": 28
+      },
+      {
+        "word": "wood",
+        "pos": "n.",
+        "cn": "（ 小）树林；林地",
+        "page": 28
+      },
+      {
+        "word": "blood",
+        "pos": "n.",
+        "cn": "血；血液",
+        "page": 28
+      }
+    ],
+    "module-5": [
+      {
+        "word": "catch up",
+        "pos": "",
+        "cn": "赶上",
+        "page": 40
+      },
+      {
+        "word": "blind",
+        "pos": "adj.",
+        "cn": "失明的",
+        "page": 40
+      },
+      {
+        "word": "call off",
+        "pos": "",
+        "cn": "取消；决定终止",
+        "page": 40
+      },
+      {
+        "word": "thanks to",
+        "pos": "",
+        "cn": "多亏；归功于",
+        "page": 42
+      },
+      {
+        "word": "health care",
+        "pos": "",
+        "cn": "医疗保健（服务）",
+        "page": 42
+      },
+      {
+        "word": "expect",
+        "pos": "v.",
+        "cn": "预料；预计",
+        "page": 42
+      },
+      {
+        "word": "require",
+        "pos": "v.",
+        "cn": "需要",
+        "page": 42
+      },
+      {
+        "word": "physical",
+        "pos": "adj.",
+        "cn": "身体的；体力的",
+        "page": 42
+      },
+      {
+        "word": "effort",
+        "pos": "n.",
+        "cn": "力气；精力",
+        "page": 42
+      },
+      {
+        "word": "once in a while",
+        "pos": "",
+        "cn": "偶尔；有时；间或",
+        "page": 42
+      },
+      {
+        "word": "harm",
+        "pos": "v.",
+        "cn": "损害；伤害",
+        "page": 42
+      }
+    ],
+    "module-6": [
+      {
+        "word": "invitation",
+        "pos": "n.",
+        "cn": "邀请；请柬",
+        "page": 48
+      },
+      {
+        "word": "invite",
+        "pos": "v.",
+        "cn": "邀请",
+        "page": 48
+      },
+      {
+        "word": "calendar",
+        "pos": "n.",
+        "cn": "日历；历书",
+        "page": 48
+      },
+      {
+        "word": "balloon",
+        "pos": "n.",
+        "cn": "气球",
+        "page": 48
+      },
+      {
+        "word": "paint",
+        "pos": "v.",
+        "cn": "绘画",
+        "page": 48
+      },
+      {
+        "word": "heat",
+        "pos": "v.",
+        "cn": "使变热；给……加热",
+        "page": 48
+      },
+      {
+        "word": "knife",
+        "pos": "n.",
+        "cn": "(pl. knives)餐刀；刀具",
+        "page": 48
+      },
+      {
+        "word": "fork",
+        "pos": "n.",
+        "cn": "餐叉",
+        "page": 48
+      },
+      {
+        "word": "spoon",
+        "pos": "n.",
+        "cn": "匙；勺子",
+        "page": 48
+      },
+      {
+        "word": "cheeseburger",
+        "pos": "n.",
+        "cn": "干酪汉堡包",
+        "page": 48
+      },
+      {
+        "word": "Westerner",
+        "pos": "n.",
+        "cn": "西方人",
+        "page": 50
+      },
+      {
+        "word": "West",
+        "pos": "n.",
+        "cn": "西方（尤指西欧和北美）",
+        "page": 50
+      },
+      {
+        "word": "similar",
+        "pos": "adj.",
+        "cn": "相似的",
+        "page": 50
+      },
+      {
+        "word": "wing",
+        "pos": "n.",
+        "cn": "翅膀；翼",
+        "page": 50
+      },
+      {
+        "word": "lady",
+        "pos": "n.",
+        "cn": "女士；夫人；小姐",
+        "page": 50
+      },
+      {
+        "word": "gentleman",
+        "pos": "n.",
+        "cn": "先生；男士",
+        "page": 50
+      },
+      {
+        "word": "cross",
+        "pos": "adj.",
+        "cn": "生气的",
+        "page": 50
+      }
+    ],
+    "module-7": [
+      {
+        "word": "achieve",
+        "pos": "v.",
+        "cn": "成功；实现",
+        "page": 56
+      },
+      {
+        "word": "speaker",
+        "pos": "n.",
+        "cn": "说某种语言的人",
+        "page": 56
+      },
+      {
+        "word": "boss",
+        "pos": "n.",
+        "cn": "老板；上司",
+        "page": 58
+      },
+      {
+        "word": "secretary",
+        "pos": "n.",
+        "cn": "秘书",
+        "page": 58
+      },
+      {
+        "word": "quarter",
+        "pos": "n.",
+        "cn": "四分之一",
+        "page": 58
+      },
+      {
+        "word": "industry",
+        "pos": "n.",
+        "cn": "制造业；工业",
+        "page": 58
+      },
+      {
+        "word": "zero",
+        "pos": "n.",
+        "cn": "（ 数字）零",
+        "page": 58
+      },
+      {
+        "word": "type",
+        "pos": "n.",
+        "cn": "种；类；类型",
+        "page": 58
+      }
+    ],
+    "module-8": [
+      {
+        "word": "beat",
+        "pos": "n.",
+        "cn": "节拍；拍子",
+        "page": 64
+      },
+      {
+        "word": "intend",
+        "pos": "v.",
+        "cn": "计划；打算",
+        "page": 64
+      },
+      {
+        "word": "fetch",
+        "pos": "v.",
+        "cn": "（ 去）取来；拿来",
+        "page": 64
+      },
+      {
+        "word": "pancake",
+        "pos": "n.",
+        "cn": "薄烤饼；薄煎饼",
+        "page": 64
+      },
+      {
+        "word": "rose",
+        "pos": "n.",
+        "cn": "玫瑰；蔷薇",
+        "page": 66
+      },
+      {
+        "word": "kindness",
+        "pos": "n.",
+        "cn": "善举；好意",
+        "page": 66
+      },
+      {
+        "word": "give up",
+        "pos": "",
+        "cn": "放弃（努力）",
+        "page": 66
+      },
+      {
+        "word": "bedside",
+        "pos": "n.",
+        "cn": "床边，床侧",
+        "page": 66
+      },
+      {
+        "word": "note",
+        "pos": "n.",
+        "cn": "短笺；便条",
+        "page": 66
+      },
+      {
+        "word": "achieve",
+        "pos": "v.",
+        "cn": "成功；实现",
+        "page": 56
+      },
+      {
+        "word": "beat",
+        "pos": "n.",
+        "cn": "节拍；拍子",
+        "page": 64
+      },
+      {
+        "word": "bedside",
+        "pos": "n.",
+        "cn": "床边，床侧",
+        "page": 66
+      },
+      {
+        "word": "boss",
+        "pos": "n.",
+        "cn": "老板；上司",
+        "page": 58
+      },
+      {
+        "word": "fetch",
+        "pos": "v.",
+        "cn": "（ 去）取来；拿来",
+        "page": 64
+      },
+      {
+        "word": "give up",
+        "pos": "",
+        "cn": "放弃（努力）",
+        "page": 66
+      },
+      {
+        "word": "industry",
+        "pos": "n.",
+        "cn": "制造业；工业",
+        "page": 58
+      },
+      {
+        "word": "intend",
+        "pos": "v.",
+        "cn": "计划；打算",
+        "page": 64
+      },
+      {
+        "word": "kindness",
+        "pos": "n.",
+        "cn": "善举；好意",
+        "page": 66
+      },
+      {
+        "word": "note",
+        "pos": "n.",
+        "cn": "短笺；便条",
+        "page": 66
+      },
+      {
+        "word": "pancake",
+        "pos": "n.",
+        "cn": "薄烤饼；薄煎饼",
+        "page": 64
+      },
+      {
+        "word": "quarter",
+        "pos": "n.",
+        "cn": "四分之一",
+        "page": 58
+      },
+      {
+        "word": "rose",
+        "pos": "n.",
+        "cn": "玫瑰；蔷薇",
+        "page": 66
+      },
+      {
+        "word": "secretary",
+        "pos": "n.",
+        "cn": "秘书",
+        "page": 58
+      },
+      {
+        "word": "speaker",
+        "pos": "n.",
+        "cn": "说某种语言的人",
+        "page": 56
+      },
+      {
+        "word": "type",
+        "pos": "n.",
+        "cn": "种；类；类型",
+        "page": 58
+      },
+      {
+        "word": "zero",
+        "pos": "n.",
+        "cn": "（ 数字）零",
+        "page": 58
+      }
+    ]
+  },
+  "stats": {
+    "total_words": 117,
+    "modules": 8
+  }
+}

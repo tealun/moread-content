@@ -1,0 +1,1948 @@
+{
+  "meta": {
+    "publisher": "人教版（PEP）",
+    "publisher_code": "pep",
+    "editor": "pep",
+    "editor_name": "人教版",
+    "level": "junior",
+    "grade": 8,
+    "semester": "down",
+    "title": "八年级下",
+    "source_pdf": "(PEP根据2022年版课程标准修订)义务教育教科书·英语八年级下册.pdf",
+    "extracted_at": "2026-05-04"
+  },
+  "vocabulary": {
+    "unit-1": [
+      {
+        "word": "calligraphy",
+        "pos": "n.",
+        "cn": "书法",
+        "page": 2
+      },
+      {
+        "word": "ski",
+        "pos": "v.",
+        "cn": "滑雪",
+        "page": 2
+      },
+      {
+        "word": "express",
+        "pos": "v.",
+        "cn": "表达；表示",
+        "page": 2
+      },
+      {
+        "word": "ice skating",
+        "pos": "",
+        "cn": "滑冰；溜冰",
+        "page": 3
+      },
+      {
+        "word": "give up",
+        "pos": "",
+        "cn": "放弃",
+        "page": 3
+      },
+      {
+        "word": "scared of",
+        "pos": "",
+        "cn": "害怕；恐惧",
+        "page": 3
+      },
+      {
+        "word": "fear",
+        "pos": "n.",
+        "cn": "& v. 害怕；担忧",
+        "page": 3
+      },
+      {
+        "word": "get over",
+        "pos": "",
+        "cn": "克服（困难）；解决（问题）",
+        "page": 3
+      },
+      {
+        "word": "up to",
+        "pos": "",
+        "cn": "正在做；由某人决定",
+        "page": 4
+      },
+      {
+        "word": "poem",
+        "pos": "n.",
+        "cn": "诗",
+        "page": 4
+      },
+      {
+        "word": "single",
+        "pos": "adj.",
+        "cn": "单个的；单身的",
+        "page": 4
+      },
+      {
+        "word": "stroke",
+        "pos": "n.",
+        "cn": "笔画；击球",
+        "page": 4
+      },
+      {
+        "word": "ink",
+        "pos": "n.",
+        "cn": "墨水",
+        "page": 4
+      },
+      {
+        "word": "return",
+        "pos": "n.",
+        "cn": "& v. 回来；归还",
+        "page": 4
+      },
+      {
+        "word": "in return",
+        "pos": "",
+        "cn": "作为回报",
+        "page": 4
+      },
+      {
+        "word": "ice-skate",
+        "pos": "v.",
+        "cn": "滑冰；溜冰",
+        "page": 5
+      },
+      {
+        "word": "get into",
+        "pos": "",
+        "cn": "开始做某事；进入",
+        "page": 5
+      },
+      {
+        "word": "give it a go",
+        "pos": "",
+        "cn": "试一试某事",
+        "page": 5
+      },
+      {
+        "word": "kung fu",
+        "pos": "n.",
+        "cn": "功夫",
+        "page": 5
+      },
+      {
+        "word": "push",
+        "pos": "v.",
+        "cn": "鞭策；推 n. 推",
+        "page": 5
+      },
+      {
+        "word": "2 chat",
+        "pos": "v.",
+        "cn": "& n. 闲聊",
+        "page": 5
+      },
+      {
+        "word": "outing",
+        "pos": "n.",
+        "cn": "出外游玩；远足",
+        "page": 5
+      },
+      {
+        "word": "2 reduce",
+        "pos": "v.",
+        "cn": "减少",
+        "page": 6
+      },
+      {
+        "word": "3 stress",
+        "pos": "n.",
+        "cn": "精神压力；紧张",
+        "page": 6
+      },
+      {
+        "word": "yoga",
+        "pos": "n.",
+        "cn": "瑜伽",
+        "page": 6
+      },
+      {
+        "word": "3 object",
+        "pos": "n.",
+        "cn": "物品；宾语",
+        "page": 6
+      },
+      {
+        "word": "3 allow",
+        "pos": "v.",
+        "cn": "使……成为可能；允许",
+        "page": 6
+      },
+      {
+        "word": "4 achievement",
+        "pos": "n.",
+        "cn": "成就",
+        "page": 6
+      },
+      {
+        "word": "4 coin",
+        "pos": "n.",
+        "cn": "硬币",
+        "page": 6
+      },
+      {
+        "word": "4 stamp",
+        "pos": "n.",
+        "cn": "邮票",
+        "page": 6
+      },
+      {
+        "word": "4 teenage",
+        "pos": "adj.",
+        "cn": "青少年的",
+        "page": 6
+      },
+      {
+        "word": "4 postcard",
+        "pos": "n.",
+        "cn": "明信片",
+        "page": 6
+      },
+      {
+        "word": "4 rather",
+        "pos": "adv.",
+        "cn": "相当；更准确地说",
+        "page": 7
+      },
+      {
+        "word": "4 foreign",
+        "pos": "adj.",
+        "cn": "外国的；国外的",
+        "page": 7
+      },
+      {
+        "word": "dream of",
+        "pos": "",
+        "cn": "梦想；希望",
+        "page": 7
+      },
+      {
+        "word": "4 suggestion",
+        "pos": "n.",
+        "cn": "建议；提议",
+        "page": 8
+      },
+      {
+        "word": "5 failure",
+        "pos": "n.",
+        "cn": "失败",
+        "page": 8
+      },
+      {
+        "word": "5 strict",
+        "pos": "adj.",
+        "cn": "严厉的；严格的",
+        "page": 8
+      }
+    ],
+    "unit-2": [
+      {
+        "word": "headache",
+        "pos": "n.",
+        "cn": "头痛",
+        "page": 12
+      },
+      {
+        "word": "fever",
+        "pos": "n.",
+        "cn": "发烧",
+        "page": 13
+      },
+      {
+        "word": "gas",
+        "pos": "n.",
+        "cn": "气体；燃气",
+        "page": 13
+      },
+      {
+        "word": "unny",
+        "pos": "adj.",
+        "cn": "流鼻涕的；流眼泪的",
+        "page": 13
+      },
+      {
+        "word": "ough",
+        "pos": "n.",
+        "cn": "& v. 咳嗽",
+        "page": 13
+      },
+      {
+        "word": "ruised",
+        "pos": "adj.",
+        "cn": "受了瘀伤的",
+        "page": 13
+      },
+      {
+        "word": "ake a seat",
+        "pos": "",
+        "cn": "坐下",
+        "page": 14
+      },
+      {
+        "word": "est",
+        "pos": "n.",
+        "cn": "& v. 检查；测验",
+        "page": 14
+      },
+      {
+        "word": "lu",
+        "pos": "n.",
+        "cn": "流行性感冒",
+        "page": 14
+      },
+      {
+        "word": "medicine",
+        "pos": "n.",
+        "cn": "药；医学",
+        "page": 14
+      },
+      {
+        "word": "mask",
+        "pos": "n.",
+        "cn": "口罩",
+        "page": 14
+      },
+      {
+        "word": "irus",
+        "pos": "n.",
+        "cn": "病毒",
+        "page": 14
+      },
+      {
+        "word": "escription",
+        "pos": "n.",
+        "cn": "描写；形容",
+        "page": 14
+      },
+      {
+        "word": "atient",
+        "pos": "n.",
+        "cn": "病人 adj. 有耐心的",
+        "page": 14
+      },
+      {
+        "word": "njury",
+        "pos": "n.",
+        "cn": "伤害；损伤",
+        "page": 14
+      },
+      {
+        "word": "lness",
+        "pos": "n.",
+        "cn": "疾病",
+        "page": 14
+      },
+      {
+        "word": "nife",
+        "pos": "n.",
+        "cn": "(pl. knives /naɪvz/) 刀",
+        "page": 15
+      },
+      {
+        "word": "afety",
+        "pos": "n.",
+        "cn": "安全；安全处所",
+        "page": 15
+      },
+      {
+        "word": "ain",
+        "pos": "n.",
+        "cn": "疼痛；痛苦",
+        "page": 15
+      },
+      {
+        "word": "rightness",
+        "pos": "n.",
+        "cn": "亮度",
+        "page": 15
+      },
+      {
+        "word": "nvironment",
+        "pos": "n.",
+        "cn": "环境",
+        "page": 15
+      },
+      {
+        "word": "ross",
+        "pos": "v.",
+        "cn": "穿越；横过；交叉",
+        "page": 15
+      },
+      {
+        "word": "atch fire",
+        "pos": "",
+        "cn": "着火",
+        "page": 16
+      },
+      {
+        "word": "ry",
+        "pos": "v.",
+        "cn": "油炸；油煎；油炒",
+        "page": 16
+      },
+      {
+        "word": "tove",
+        "pos": "n.",
+        "cn": "厨房灶具；炉子",
+        "page": 16
+      },
+      {
+        "word": "appily",
+        "pos": "adv.",
+        "cn": "快乐地；高兴地",
+        "page": 16
+      },
+      {
+        "word": "no way",
+        "pos": "",
+        "cn": "不可能；没门",
+        "page": 16
+      },
+      {
+        "word": "on fire",
+        "pos": "",
+        "cn": "着火；起火",
+        "page": 16
+      },
+      {
+        "word": "flame",
+        "pos": "n.",
+        "cn": "火焰",
+        "page": 16
+      },
+      {
+        "word": "panic",
+        "pos": "n.",
+        "cn": "惊恐；恐慌",
+        "page": 16
+      },
+      {
+        "word": "onto",
+        "pos": "prep.",
+        "cn": "向；朝",
+        "page": 16
+      },
+      {
+        "word": "roll",
+        "pos": "v.",
+        "cn": "（ 使）翻滚；滚动",
+        "page": 16
+      },
+      {
+        "word": "be about to",
+        "pos": "",
+        "cn": "即将；正要（做某事）",
+        "page": 16
+      },
+      {
+        "word": "stop short",
+        "pos": "",
+        "cn": "突然停住",
+        "page": 16
+      },
+      {
+        "word": "aid",
+        "pos": "n.",
+        "cn": "& v. 帮助；援助",
+        "page": 16
+      },
+      {
+        "word": "first aid",
+        "pos": "",
+        "cn": "急救",
+        "page": 16
+      },
+      {
+        "word": "extinguisher",
+        "pos": "n.",
+        "cn": "灭火器",
+        "page": 16
+      },
+      {
+        "word": "eat out",
+        "pos": "",
+        "cn": "上馆子吃饭；在外用餐",
+        "page": 17
+      },
+      {
+        "word": "sadly",
+        "pos": "adv.",
+        "cn": "伤心地；令人遗憾",
+        "page": 17
+      },
+      {
+        "word": "smoke",
+        "pos": "n.",
+        "cn": "烟 v. 吸烟； 冒烟",
+        "page": 17
+      },
+      {
+        "word": "luckily",
+        "pos": "adv.",
+        "cn": "幸运地",
+        "page": 17
+      },
+      {
+        "word": "worst",
+        "pos": "",
+        "cn": ")严重地",
+        "page": 17
+      },
+      {
+        "word": "harm",
+        "pos": "n.",
+        "cn": "& v. 伤害；损害",
+        "page": 17
+      },
+      {
+        "word": "pill",
+        "pos": "n.",
+        "cn": "药丸；药片",
+        "page": 18
+      },
+      {
+        "word": "harmful",
+        "pos": "adj.",
+        "cn": "有害的",
+        "page": 18
+      },
+      {
+        "word": "6 tight",
+        "pos": "adj.",
+        "cn": "憋气的；紧的；牢固的",
+        "page": 19
+      },
+      {
+        "word": "6 peanut",
+        "pos": "n.",
+        "cn": "花生",
+        "page": 19
+      },
+      {
+        "word": "6 nervously",
+        "pos": "adv.",
+        "cn": "紧张不安地",
+        "page": 19
+      },
+      {
+        "word": "allergic",
+        "pos": "adj.",
+        "cn": "过敏的",
+        "page": 19
+      },
+      {
+        "word": "from now on",
+        "pos": "",
+        "cn": "从现在起",
+        "page": 19
+      },
+      {
+        "word": "6 Ben",
+        "pos": "",
+        "cn": "本",
+        "page": 12
+      },
+      {
+        "word": "Nancy",
+        "pos": "",
+        "cn": "南希",
+        "page": 12
+      },
+      {
+        "word": "6 Jeff",
+        "pos": "",
+        "cn": "杰夫",
+        "page": 13
+      },
+      {
+        "word": "6 James",
+        "pos": "",
+        "cn": "詹姆斯",
+        "page": 16
+      },
+      {
+        "word": "6 Allen",
+        "pos": "",
+        "cn": "艾伦",
+        "page": 16
+      },
+      {
+        "word": "6 Kelly",
+        "pos": "",
+        "cn": "凯莉",
+        "page": 18
+      },
+      {
+        "word": "6 Cooper",
+        "pos": "",
+        "cn": "库珀",
+        "page": 19
+      },
+      {
+        "word": "deal with",
+        "pos": "",
+        "cn": "处理；对付",
+        "page": 21
+      },
+      {
+        "word": "7 emotion",
+        "pos": "n.",
+        "cn": "情绪；情感",
+        "page": 21
+      },
+      {
+        "word": "7 upset",
+        "pos": "adj.",
+        "cn": "难过的；沮丧的",
+        "page": 22
+      },
+      {
+        "word": "7 lonely",
+        "pos": "adj.",
+        "cn": "孤独的；寂寞的",
+        "page": 22
+      },
+      {
+        "word": "7 shocked",
+        "pos": "adj.",
+        "cn": "震惊的",
+        "page": 22
+      },
+      {
+        "word": "advise",
+        "pos": "v.",
+        "cn": "建议；劝告",
+        "page": 22
+      },
+      {
+        "word": "7 hurtful",
+        "pos": "adj.",
+        "cn": "伤感情的",
+        "page": 22
+      },
+      {
+        "word": "7 control",
+        "pos": "v.",
+        "cn": "& n. 控制",
+        "page": 22
+      },
+      {
+        "word": "8 anger",
+        "pos": "n.",
+        "cn": "怒火",
+        "page": 22
+      },
+      {
+        "word": "8 forgiven",
+        "pos": "",
+        "cn": ") 原谅；宽恕",
+        "page": 23
+      },
+      {
+        "word": "fault",
+        "pos": "n.",
+        "cn": "过错；责任",
+        "page": 23
+      },
+      {
+        "word": "shut",
+        "pos": "v.",
+        "cn": "(shut, shut)关闭；合上",
+        "page": 25
+      },
+      {
+        "word": "lastly",
+        "pos": "adv.",
+        "cn": "最后",
+        "page": 25
+      },
+      {
+        "word": "feel blue",
+        "pos": "",
+        "cn": "感到忧郁",
+        "page": 26
+      },
+      {
+        "word": "dare",
+        "pos": "v.",
+        "cn": "& modal v. 敢于",
+        "page": 26
+      },
+      {
+        "word": "eferee",
+        "pos": "n.",
+        "cn": "裁判",
+        "page": 26
+      },
+      {
+        "word": "ake back",
+        "pos": "",
+        "cn": "撤回；收回",
+        "page": 26
+      },
+      {
+        "word": "ecision",
+        "pos": "n.",
+        "cn": "决定",
+        "page": 26
+      },
+      {
+        "word": "core",
+        "pos": "n.",
+        "cn": "得分；比分 v. 得分",
+        "page": 26
+      },
+      {
+        "word": "roud",
+        "pos": "adj.",
+        "cn": "骄傲的；自豪的",
+        "page": 26
+      },
+      {
+        "word": "oach",
+        "pos": "n.",
+        "cn": "教练",
+        "page": 26
+      },
+      {
+        "word": "s well",
+        "pos": "",
+        "cn": "也；又",
+        "page": 26
+      },
+      {
+        "word": "it",
+        "pos": "n.",
+        "cn": "有点儿；稍微",
+        "page": 26
+      },
+      {
+        "word": "bit",
+        "pos": "",
+        "cn": "有点儿；稍微",
+        "page": 26
+      },
+      {
+        "word": "epeat",
+        "pos": "v.",
+        "cn": "重复",
+        "page": 26
+      },
+      {
+        "word": "ull together",
+        "pos": "",
+        "cn": "齐心协力；通力合作",
+        "page": 26
+      },
+      {
+        "word": "olution",
+        "pos": "n.",
+        "cn": "解决办法；解决",
+        "page": 27
+      },
+      {
+        "word": "hough",
+        "pos": "conj.",
+        "cn": "虽然；尽管",
+        "page": 27
+      },
+      {
+        "word": "ven though",
+        "pos": "",
+        "cn": "即使；虽然",
+        "page": 27
+      },
+      {
+        "word": "o wrong",
+        "pos": "",
+        "cn": "出现问题；发生故障；搞错",
+        "page": 27
+      },
+      {
+        "word": "hankful",
+        "pos": "adj.",
+        "cn": "感谢的；感激的",
+        "page": 28
+      },
+      {
+        "word": "ully",
+        "pos": "v.",
+        "cn": "霸凌；恐吓 n. 恶霸",
+        "page": 28
+      },
+      {
+        "word": "ehave",
+        "pos": "v.",
+        "cn": "表现；举止得体",
+        "page": 28
+      },
+      {
+        "word": "ifferently",
+        "pos": "adv.",
+        "cn": "不同地",
+        "page": 28
+      },
+      {
+        "word": "hysics",
+        "pos": "n.",
+        "cn": "物理；物理学",
+        "page": 28
+      },
+      {
+        "word": "wake",
+        "pos": "adj.",
+        "cn": "醒着的",
+        "page": 28
+      },
+      {
+        "word": "wake up",
+        "pos": "",
+        "cn": "醒来",
+        "page": 28
+      },
+      {
+        "word": "elaxed",
+        "pos": "adj.",
+        "cn": "放松的；镇定的",
+        "page": 28
+      },
+      {
+        "word": "ormal",
+        "pos": "adj.",
+        "cn": "正常的；普通的",
+        "page": 28
+      },
+      {
+        "word": "rom time to time",
+        "pos": "",
+        "cn": "不时；偶尔",
+        "page": 28
+      },
+      {
+        "word": "mad",
+        "pos": "adj.",
+        "cn": "很生气；疯狂的",
+        "page": 28
+      },
+      {
+        "word": "mean",
+        "pos": "adj.",
+        "cn": "刻薄的；吝啬的",
+        "page": 28
+      },
+      {
+        "word": "deep",
+        "pos": "adj.",
+        "cn": "深的；有……深的",
+        "page": 28
+      },
+      {
+        "word": "take a deep breath",
+        "pos": "",
+        "cn": "深呼吸",
+        "page": 28
+      },
+      {
+        "word": "pass away",
+        "pos": "",
+        "cn": "去世（委婉说法）",
+        "page": 29
+      },
+      {
+        "word": "anybody",
+        "pos": "pron.",
+        "cn": "任何人",
+        "page": 29
+      },
+      {
+        "word": "Thompson",
+        "pos": "",
+        "cn": "汤普森",
+        "page": 29
+      }
+    ],
+    "unit-4": [
+      {
+        "word": "desert",
+        "pos": "n.",
+        "cn": "沙漠；荒原",
+        "page": 32
+      },
+      {
+        "word": "square kilometre",
+        "pos": "",
+        "cn": "平方千米",
+        "page": 32
+      },
+      {
+        "word": "level",
+        "pos": "n.",
+        "cn": "高度；水平；程度",
+        "page": 32
+      },
+      {
+        "word": "sea level",
+        "pos": "",
+        "cn": "海平面",
+        "page": 32
+      },
+      {
+        "word": "surface",
+        "pos": "n.",
+        "cn": "表面；表层",
+        "page": 32
+      },
+      {
+        "word": "depth",
+        "pos": "n.",
+        "cn": "深（度）；纵深",
+        "page": 33
+      },
+      {
+        "word": "dive",
+        "pos": "v.",
+        "cn": "& n. 潜水；跳水；俯冲",
+        "page": 33
+      },
+      {
+        "word": "submersible",
+        "pos": "n.",
+        "cn": "潜水艇",
+        "page": 33
+      },
+      {
+        "word": "bottom",
+        "pos": "n.",
+        "cn": "底部；最下部",
+        "page": 33
+      },
+      {
+        "word": "waterfall",
+        "pos": "n.",
+        "cn": "瀑布",
+        "page": 34
+      },
+      {
+        "word": "at all costs",
+        "pos": "",
+        "cn": "不惜任何代价",
+        "page": 34
+      },
+      {
+        "word": "8 cubic",
+        "pos": "adj.",
+        "cn": "立方的",
+        "page": 35
+      },
+      {
+        "word": "9 mile",
+        "pos": "n.",
+        "cn": "英里",
+        "page": 35
+      },
+      {
+        "word": "9 pool",
+        "pos": "n.",
+        "cn": "池塘；水坑",
+        "page": 35
+      },
+      {
+        "word": "climber",
+        "pos": "n.",
+        "cn": "攀登者；登山者",
+        "page": 36
+      },
+      {
+        "word": "distance",
+        "pos": "n.",
+        "cn": "距离；遥远",
+        "page": 36
+      },
+      {
+        "word": "degree",
+        "pos": "n.",
+        "cn": "度；度数；程度",
+        "page": 36
+      },
+      {
+        "word": "cliff",
+        "pos": "n.",
+        "cn": "悬崖；峭壁",
+        "page": 36
+      },
+      {
+        "word": "death",
+        "pos": "n.",
+        "cn": "死亡；毁灭；破灭",
+        "page": 36
+      },
+      {
+        "word": "shoulder",
+        "pos": "n.",
+        "cn": "肩膀；肩部",
+        "page": 36
+      },
+      {
+        "word": "bit by bit",
+        "pos": "",
+        "cn": "一点一点地；逐渐地",
+        "page": 36
+      },
+      {
+        "word": "ladder",
+        "pos": "n.",
+        "cn": "梯子；阶梯；途径",
+        "page": 37
+      },
+      {
+        "word": "risky",
+        "pos": "adj.",
+        "cn": "有危险（或风险）的",
+        "page": 38
+      },
+      {
+        "word": "type",
+        "pos": "n.",
+        "cn": "类型；种类",
+        "page": 38
+      },
+      {
+        "word": "reef",
+        "pos": "n.",
+        "cn": "礁；礁脉",
+        "page": 39
+      },
+      {
+        "word": "lifetime",
+        "pos": "n.",
+        "cn": "一生；终身",
+        "page": 39
+      },
+      {
+        "word": "Nile",
+        "pos": "",
+        "cn": "River 尼罗河",
+        "page": 32
+      },
+      {
+        "word": "Angel",
+        "pos": "",
+        "cn": "Falls 安赫尔瀑布",
+        "page": 32
+      },
+      {
+        "word": "ahara",
+        "pos": "",
+        "cn": "Desert 撒哈拉沙漠",
+        "page": 32
+      },
+      {
+        "word": "Titanic",
+        "pos": "",
+        "cn": "泰坦尼克号",
+        "page": 33
+      },
+      {
+        "word": "Yangtze",
+        "pos": "",
+        "cn": "River 长江",
+        "page": 34
+      },
+      {
+        "word": "gypt",
+        "pos": "",
+        "cn": "埃及",
+        "page": 34
+      },
+      {
+        "word": "nga",
+        "pos": "",
+        "cn": "Falls 英加瀑布",
+        "page": 35
+      },
+      {
+        "word": "Victoria",
+        "pos": "",
+        "cn": "Falls 维多利亚瀑布",
+        "page": 35
+      },
+      {
+        "word": "iberia",
+        "pos": "",
+        "cn": "西伯利亚",
+        "page": 38
+      },
+      {
+        "word": "ake Baikal",
+        "pos": "",
+        "cn": "贝加尔湖",
+        "page": 38
+      },
+      {
+        "word": "Belgium",
+        "pos": "",
+        "cn": "比利时",
+        "page": 38
+      },
+      {
+        "word": "Great Barrier",
+        "pos": "",
+        "cn": "Reef 大堡礁",
+        "page": 39
+      }
+    ],
+    "unit-5": [
+      {
+        "word": "emper",
+        "pos": "n.",
+        "cn": "脾气；怒气",
+        "page": 41
+      },
+      {
+        "word": "arthquake",
+        "pos": "n.",
+        "cn": "地震",
+        "page": 42
+      },
+      {
+        "word": "yphoon",
+        "pos": "n.",
+        "cn": "台风",
+        "page": 42
+      },
+      {
+        "word": "wildfire",
+        "pos": "n.",
+        "cn": "野火",
+        "page": 42
+      },
+      {
+        "word": "drought",
+        "pos": "n.",
+        "cn": "旱灾；干旱",
+        "page": 42
+      },
+      {
+        "word": "warn",
+        "pos": "v.",
+        "cn": "警告；提醒注意",
+        "page": 42
+      },
+      {
+        "word": "do chores",
+        "pos": "",
+        "cn": "做家务",
+        "page": 42
+      },
+      {
+        "word": "tsunami",
+        "pos": "n.",
+        "cn": "海啸",
+        "page": 43
+      },
+      {
+        "word": "interview",
+        "pos": "n.",
+        "cn": "& v. 采访；面试",
+        "page": 43
+      },
+      {
+        "word": "roof",
+        "pos": "n.",
+        "cn": "屋顶；顶部",
+        "page": 43
+      },
+      {
+        "word": "report",
+        "pos": "n.",
+        "cn": "& v. 报道；汇报",
+        "page": 43
+      },
+      {
+        "word": "relative",
+        "pos": "n.",
+        "cn": "亲戚；亲属",
+        "page": 44
+      },
+      {
+        "word": "truck",
+        "pos": "n.",
+        "cn": "卡车",
+        "page": 44
+      },
+      {
+        "word": "make preparations",
+        "pos": "",
+        "cn": "作准备",
+        "page": 44
+      },
+      {
+        "word": "thick",
+        "pos": "adj.",
+        "cn": "厚的；浓密的",
+        "page": 45
+      },
+      {
+        "word": "2 tornado",
+        "pos": "n.",
+        "cn": "龙卷风；旋风",
+        "page": 45
+      },
+      {
+        "word": "schoolgirl",
+        "pos": "n.",
+        "cn": "（ 学校的）女生",
+        "page": 46
+      },
+      {
+        "word": "3 froth",
+        "pos": "n.",
+        "cn": "泡；泡沫",
+        "page": 46
+      },
+      {
+        "word": "3 refuse",
+        "pos": "v.",
+        "cn": "拒绝；退却",
+        "page": 46
+      },
+      {
+        "word": "3 guard",
+        "pos": "n.",
+        "cn": "卫兵；保卫 v. 保卫",
+        "page": 46
+      },
+      {
+        "word": "3 scream",
+        "pos": "v.",
+        "cn": "尖叫",
+        "page": 46
+      },
+      {
+        "word": "3 knowledge",
+        "pos": "n.",
+        "cn": "知识；学问",
+        "page": 47
+      },
+      {
+        "word": "4 thinking",
+        "pos": "n.",
+        "cn": "思考；想法",
+        "page": 47
+      },
+      {
+        "word": "4 landslide",
+        "pos": "n.",
+        "cn": "滑坡； 塌方",
+        "page": 48
+      },
+      {
+        "word": "safeguard",
+        "pos": "v.",
+        "cn": "保护；捍卫",
+        "page": 48
+      },
+      {
+        "word": "4 floodwater",
+        "pos": "n.",
+        "cn": "洪水",
+        "page": 48
+      },
+      {
+        "word": "5 heartbeat",
+        "pos": "n.",
+        "cn": "心跳（声）",
+        "page": 48
+      },
+      {
+        "word": "rescue",
+        "pos": "n.",
+        "cn": "& v. 救援；营救",
+        "page": 48
+      },
+      {
+        "word": "5 heatwave",
+        "pos": "n.",
+        "cn": "热浪",
+        "page": 48
+      },
+      {
+        "word": "5 firefighter",
+        "pos": "n.",
+        "cn": "消防队员",
+        "page": 48
+      },
+      {
+        "word": "all of a sudden",
+        "pos": "",
+        "cn": "突然；猛地",
+        "page": 49
+      },
+      {
+        "word": "rainstorm",
+        "pos": "n.",
+        "cn": "暴风雨",
+        "page": 49
+      },
+      {
+        "word": "Tilly",
+        "pos": "",
+        "cn": "蒂莉",
+        "page": 46
+      }
+    ],
+    "unit-6": [
+      {
+        "word": "bow",
+        "pos": "v.",
+        "cn": "& n.鞠躬",
+        "page": 52
+      },
+      {
+        "word": "fist",
+        "pos": "n.",
+        "cn": "拳头",
+        "page": 52
+      },
+      {
+        "word": "kiss",
+        "pos": "v.",
+        "cn": "亲吻 n. 吻",
+        "page": 52
+      },
+      {
+        "word": "ug",
+        "pos": "v.",
+        "cn": "& n. 拥抱",
+        "page": 52
+      },
+      {
+        "word": "mbarrassed",
+        "pos": "adj.",
+        "cn": "尴尬的",
+        "page": 52
+      },
+      {
+        "word": "onfused",
+        "pos": "adj.",
+        "cn": "困惑的",
+        "page": 52
+      },
+      {
+        "word": "ormal",
+        "pos": "adj.",
+        "cn": "正式的",
+        "page": 52
+      },
+      {
+        "word": "urry",
+        "pos": "n.",
+        "cn": "咖喱菜",
+        "page": 53
+      },
+      {
+        "word": "ude",
+        "pos": "adj.",
+        "cn": "粗鲁的",
+        "page": 53
+      },
+      {
+        "word": "alm",
+        "pos": "n.",
+        "cn": "手掌",
+        "page": 53
+      },
+      {
+        "word": "ork",
+        "pos": "n.",
+        "cn": "叉子",
+        "page": 53
+      },
+      {
+        "word": "able manners",
+        "pos": "",
+        "cn": "餐桌礼仪",
+        "page": 54
+      },
+      {
+        "word": "nless",
+        "pos": "conj.",
+        "cn": "除非； 如果不",
+        "page": 54
+      },
+      {
+        "word": "roper",
+        "pos": "adj.",
+        "cn": "恰当的；正确的",
+        "page": 54
+      },
+      {
+        "word": "it up",
+        "pos": "",
+        "cn": "坐直",
+        "page": 54
+      },
+      {
+        "word": "lbow",
+        "pos": "n.",
+        "cn": "肘；肘部",
+        "page": 54
+      },
+      {
+        "word": "erving chopsticks",
+        "pos": "",
+        "cn": "公筷",
+        "page": 54
+      },
+      {
+        "word": "e used to",
+        "pos": "",
+        "cn": "习惯于",
+        "page": 55
+      },
+      {
+        "word": "custom",
+        "pos": "n.",
+        "cn": "习俗",
+        "page": 56
+      },
+      {
+        "word": "occasion",
+        "pos": "n.",
+        "cn": "场合；重大活动",
+        "page": 56
+      },
+      {
+        "word": "blouse",
+        "pos": "",
+        "cn": "n（. 女式）衬衫或短上衣",
+        "page": 56
+      },
+      {
+        "word": "whether",
+        "pos": "conj.",
+        "cn": "是否",
+        "page": 56
+      },
+      {
+        "word": "married",
+        "pos": "adj.",
+        "cn": "已婚的； 婚姻的",
+        "page": 56
+      },
+      {
+        "word": "merci",
+        "pos": "",
+        "cn": "谢谢（法语）",
+        "page": 57
+      },
+      {
+        "word": "go a long way",
+        "pos": "",
+        "cn": "帮助很大",
+        "page": 57
+      },
+      {
+        "word": "au revoir",
+        "pos": "",
+        "cn": "再见（法语）",
+        "page": 57
+      },
+      {
+        "word": "get along",
+        "pos": "",
+        "cn": "相处融洽；进展",
+        "page": 57
+      },
+      {
+        "word": "correct",
+        "pos": "adj.",
+        "cn": "正确的；恰当的",
+        "page": 58
+      },
+      {
+        "word": "unsafe",
+        "pos": "adj.",
+        "cn": "不安全的；危险的",
+        "page": 58
+      },
+      {
+        "word": "informal",
+        "pos": "adj.",
+        "cn": "非正式的",
+        "page": 58
+      },
+      {
+        "word": "improper",
+        "pos": "adj.",
+        "cn": "不合适的",
+        "page": 58
+      },
+      {
+        "word": "jeans",
+        "pos": "n.",
+        "cn": "(pl.)牛仔裤",
+        "page": 58
+      },
+      {
+        "word": "marry",
+        "pos": "v.",
+        "cn": "结婚； 娶； 嫁",
+        "page": 58
+      },
+      {
+        "word": "congratulate",
+        "pos": "v.",
+        "cn": "祝贺",
+        "page": 58
+      },
+      {
+        "word": "tradition",
+        "pos": "n.",
+        "cn": "传统",
+        "page": 58
+      },
+      {
+        "word": "firstly",
+        "pos": "adv.",
+        "cn": "第一；首先",
+        "page": 58
+      },
+      {
+        "word": "secondly",
+        "pos": "adv.",
+        "cn": "第二；其次",
+        "page": 58
+      },
+      {
+        "word": "thirdly",
+        "pos": "adv.",
+        "cn": "第三",
+        "page": 58
+      },
+      {
+        "word": "receive",
+        "pos": "v.",
+        "cn": "收到",
+        "page": 59
+      },
+      {
+        "word": "main",
+        "pos": "adj.",
+        "cn": "主要的",
+        "page": 59
+      },
+      {
+        "word": "5 false",
+        "pos": "adj.",
+        "cn": "错误的；不真实的",
+        "page": 59
+      },
+      {
+        "word": "6 impression",
+        "pos": "n.",
+        "cn": "印象",
+        "page": 59
+      },
+      {
+        "word": "6 cheers",
+        "pos": "interj.",
+        "cn": "再见；干杯",
+        "page": 59
+      },
+      {
+        "word": "Kaito",
+        "pos": "",
+        "cn": "海斗（ 日本人名）",
+        "page": 52
+      },
+      {
+        "word": "Marie",
+        "pos": "",
+        "cn": "玛丽",
+        "page": 52
+      },
+      {
+        "word": "Türkiye",
+        "pos": "",
+        "cn": "土耳其",
+        "page": 55
+      },
+      {
+        "word": "Mexico",
+        "pos": "",
+        "cn": "墨西哥",
+        "page": 55
+      },
+      {
+        "word": "Peru",
+        "pos": "",
+        "cn": "秘鲁",
+        "page": 55
+      },
+      {
+        "word": "Germany",
+        "pos": "",
+        "cn": "德国",
+        "page": 55
+      },
+      {
+        "word": "Paris",
+        "pos": "",
+        "cn": "巴黎（法国首都）",
+        "page": 56
+      }
+    ],
+    "unit-7": [
+      {
+        "word": "fantasy",
+        "pos": "n.",
+        "cn": "幻想作品；幻想",
+        "page": 62
+      },
+      {
+        "word": "fiction",
+        "pos": "n.",
+        "cn": "小说",
+        "page": 62
+      },
+      {
+        "word": "detective",
+        "pos": "n.",
+        "cn": "侦探",
+        "page": 62
+      },
+      {
+        "word": "alien",
+        "pos": "n.",
+        "cn": "外星人",
+        "page": 62
+      },
+      {
+        "word": "8 attack",
+        "pos": "v.",
+        "cn": "& n. 攻击；进攻",
+        "page": 62
+      },
+      {
+        "word": "kingdom",
+        "pos": "n.",
+        "cn": "王国",
+        "page": 63
+      },
+      {
+        "word": "punish",
+        "pos": "v.",
+        "cn": "惩罚；处罚",
+        "page": 63
+      },
+      {
+        "word": "society",
+        "pos": "n.",
+        "cn": "社会；社团",
+        "page": 65
+      },
+      {
+        "word": "summary",
+        "pos": "n.",
+        "cn": "总结；概要",
+        "page": 66
+      },
+      {
+        "word": "lock up",
+        "pos": "",
+        "cn": "锁好（建筑物的）门",
+        "page": 66
+      },
+      {
+        "word": "hidden",
+        "pos": "adj.",
+        "cn": "隐藏的； 秘密的",
+        "page": 66
+      },
+      {
+        "word": "ecretly",
+        "pos": "adv.",
+        "cn": "秘密地",
+        "page": 66
+      },
+      {
+        "word": "ay by day",
+        "pos": "",
+        "cn": "一天天；逐日",
+        "page": 66
+      },
+      {
+        "word": "limax",
+        "pos": "n.",
+        "cn": "高潮；极点",
+        "page": 67
+      },
+      {
+        "word": "ffect",
+        "pos": "n.",
+        "cn": "影响；结果",
+        "page": 67
+      },
+      {
+        "word": "n time",
+        "pos": "",
+        "cn": "及时；来得及",
+        "page": 68
+      },
+      {
+        "word": "eader",
+        "pos": "n.",
+        "cn": "读者；简易读物",
+        "page": 68
+      },
+      {
+        "word": "nemy",
+        "pos": "n.",
+        "cn": "敌人",
+        "page": 68
+      },
+      {
+        "word": "aughty",
+        "pos": "adj.",
+        "cn": "淘气的",
+        "page": 68
+      },
+      {
+        "word": "entle",
+        "pos": "adj.",
+        "cn": "温柔的",
+        "page": 68
+      },
+      {
+        "word": "asic",
+        "pos": "adj.",
+        "cn": "基本的；初步的",
+        "page": 69
+      },
+      {
+        "word": "one",
+        "pos": "n.",
+        "cn": "骨头",
+        "page": 69
+      },
+      {
+        "word": "oubt",
+        "pos": "v.",
+        "cn": "怀疑 n. 疑惑；不确定",
+        "page": 69
+      },
+      {
+        "word": "nspire",
+        "pos": "v.",
+        "cn": "激励；鼓舞",
+        "page": 69
+      },
+      {
+        "word": "estroy",
+        "pos": "v.",
+        "cn": "破坏；摧毁",
+        "page": 69
+      },
+      {
+        "word": "My Childhood",
+        "pos": "",
+        "cn": "《 童年》",
+        "page": 66
+      },
+      {
+        "word": "9 Oz",
+        "pos": "",
+        "cn": "《 绿野仙踪》",
+        "page": 66
+      },
+      {
+        "word": "2 Lennox",
+        "pos": "",
+        "cn": "伦诺克斯",
+        "page": 66
+      },
+      {
+        "word": "Craven",
+        "pos": "",
+        "cn": "克雷文",
+        "page": 66
+      },
+      {
+        "word": "2 Dickon",
+        "pos": "",
+        "cn": "迪康",
+        "page": 66
+      },
+      {
+        "word": "Colin",
+        "pos": "",
+        "cn": "科林",
+        "page": 66
+      },
+      {
+        "word": "Pulitzer",
+        "pos": "",
+        "cn": "Prize 普利策奖",
+        "page": 69
+      }
+    ],
+    "unit-8": [
+      {
+        "word": "visitor",
+        "pos": "n.",
+        "cn": "参观者；来访者",
+        "page": 72
+      },
+      {
+        "word": "stadium",
+        "pos": "n.",
+        "cn": "体育馆；运动场",
+        "page": 72
+      },
+      {
+        "word": "5 provide",
+        "pos": "v.",
+        "cn": "提供；给予",
+        "page": 72
+      },
+      {
+        "word": "6 owner",
+        "pos": "n.",
+        "cn": "主人；物主",
+        "page": 73
+      },
+      {
+        "word": "missing",
+        "pos": "adj.",
+        "cn": "失踪的；丢失的",
+        "page": 76
+      },
+      {
+        "word": "most of all",
+        "pos": "",
+        "cn": "最主要的是",
+        "page": 77
+      },
+      {
+        "word": "alue",
+        "pos": "n.",
+        "cn": "重要作用；价值",
+        "page": 77
+      },
+      {
+        "word": "rdinary",
+        "pos": "adj.",
+        "cn": "平凡的；普通的",
+        "page": 77
+      },
+      {
+        "word": "worth",
+        "pos": "adj.",
+        "cn": "值得；有价值",
+        "page": 77
+      },
+      {
+        "word": "udience",
+        "pos": "n.",
+        "cn": "听众；观众",
+        "page": 77
+      },
+      {
+        "word": "willing",
+        "pos": "adj.",
+        "cn": "乐意的；愿意的",
+        "page": 77
+      },
+      {
+        "word": "n the go",
+        "pos": "",
+        "cn": "在忙碌中",
+        "page": 78
+      },
+      {
+        "word": "n need",
+        "pos": "",
+        "cn": "需要帮助的；生活困难的",
+        "page": 78
+      },
+      {
+        "word": "uccess",
+        "pos": "n.",
+        "cn": "成功",
+        "page": 78
+      },
+      {
+        "word": "onate",
+        "pos": "v.",
+        "cn": "捐赠；赠送",
+        "page": 78
+      },
+      {
+        "word": "ocket",
+        "pos": "n.",
+        "cn": "口袋",
+        "page": 78
+      },
+      {
+        "word": "ocket money",
+        "pos": "",
+        "cn": "零花钱",
+        "page": 78
+      },
+      {
+        "word": "ffort",
+        "pos": "n.",
+        "cn": "努力；艰难的尝试",
+        "page": 78
+      },
+      {
+        "word": "and out",
+        "pos": "",
+        "cn": "分发",
+        "page": 78
+      },
+      {
+        "word": "amiliar with",
+        "pos": "",
+        "cn": "通晓；熟悉",
+        "page": 79
+      },
+      {
+        "word": "alent",
+        "pos": "n.",
+        "cn": "才能；天赋；天才",
+        "page": 79
+      },
+      {
+        "word": "Robert",
+        "pos": "",
+        "cn": "罗伯特",
+        "page": 73
+      },
+      {
+        "word": "Argentina",
+        "pos": "",
+        "cn": "阿根廷",
+        "page": 75
+      },
+      {
+        "word": "hilippines",
+        "pos": "",
+        "cn": "菲律宾",
+        "page": 76
+      }
+    ]
+  },
+  "stats": {
+    "total_words": 319,
+    "units": 7
+  }
+}

@@ -1,0 +1,1258 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "chenlin",
+    "editor_name": "陈琳",
+    "level": "junior",
+    "grade": 8,
+    "semester": "down",
+    "title": "八年级下册",
+    "source_pdf": "(FLTRP陈琳)义务教育教科书·英语八年级下册.pdf",
+    "extracted_at": "2026-05-04"
+  },
+  "vocabulary": {
+    "module-1": [
+      {
+        "word": "soft",
+        "pos": "adj.",
+        "cn": "软的；柔软的",
+        "page": 2
+      },
+      {
+        "word": "sour",
+        "pos": "adj.",
+        "cn": "酸的；馊的",
+        "page": 2
+      },
+      {
+        "word": "cookie",
+        "pos": "n.",
+        "cn": "小甜饼；曲奇饼",
+        "page": 2
+      },
+      {
+        "word": "mm",
+        "pos": "int.",
+        "cn": "（用于表示食物味道好）",
+        "page": 2
+      },
+      {
+        "word": "pizza",
+        "pos": "n.",
+        "cn": "比萨饼",
+        "page": 2
+      },
+      {
+        "word": "lovely",
+        "pos": "adj.",
+        "cn": "令人愉快的；可爱的",
+        "page": 2
+      },
+      {
+        "word": "done",
+        "pos": "adj.",
+        "cn": "做完的",
+        "page": 2
+      },
+      {
+        "word": "try",
+        "pos": "n.",
+        "cn": "尝试；努力",
+        "page": 2
+      },
+      {
+        "word": "pie",
+        "pos": "n.",
+        "cn": "馅饼；派",
+        "page": 2
+      },
+      {
+        "word": "sound",
+        "pos": "v.",
+        "cn": "听起来；令人觉得",
+        "page": 2
+      },
+      {
+        "word": "sweet tooth",
+        "pos": "",
+        "cn": "对甜食的爱好",
+        "page": 2
+      },
+      {
+        "word": "salt",
+        "pos": "n.",
+        "cn": "盐；食盐",
+        "page": 2
+      },
+      {
+        "word": "jam",
+        "pos": "n.",
+        "cn": "果酱",
+        "page": 2
+      },
+      {
+        "word": "favourite",
+        "pos": "n.",
+        "cn": "最喜欢的人或事",
+        "page": 3
+      },
+      {
+        "word": "ear",
+        "pos": "n.",
+        "cn": "耳朵",
+        "page": 3
+      },
+      {
+        "word": "glasses",
+        "pos": "n.",
+        "cn": "[用复数]眼镜",
+        "page": 4
+      },
+      {
+        "word": "jeans",
+        "pos": "n.",
+        "cn": "[用复数]牛仔裤",
+        "page": 4
+      },
+      {
+        "word": "pretty",
+        "pos": "adj.",
+        "cn": "秀丽的；标致的",
+        "page": 4
+      },
+      {
+        "word": "stranger",
+        "pos": "n.",
+        "cn": "陌生人",
+        "page": 4
+      },
+      {
+        "word": "hobby",
+        "pos": "n.",
+        "cn": "业余爱好",
+        "page": 4
+      },
+      {
+        "word": "mark",
+        "pos": "n.",
+        "cn": "分数",
+        "page": 4
+      },
+      {
+        "word": "love",
+        "pos": "n.",
+        "cn": "(用于信尾)爱你的……",
+        "page": 4
+      }
+    ],
+    "module-2": [
+      {
+        "word": "ever",
+        "pos": "adv.",
+        "cn": "曾经；从来；在任何时候",
+        "page": 10
+      },
+      {
+        "word": "competition",
+        "pos": "n.",
+        "cn": "比赛；竞争",
+        "page": 10
+      },
+      {
+        "word": "prize",
+        "pos": "n.",
+        "cn": "奖品；奖项",
+        "page": 10
+      },
+      {
+        "word": "move",
+        "pos": "v.",
+        "cn": "搬家；改变……的位置",
+        "page": 12
+      },
+      {
+        "word": "tower",
+        "pos": "n.",
+        "cn": "塔",
+        "page": 12
+      },
+      {
+        "word": "ancient",
+        "pos": "adj.",
+        "cn": "古老的；古代的",
+        "page": 12
+      },
+      {
+        "word": "king",
+        "pos": "n.",
+        "cn": "国王；君王",
+        "page": 12
+      },
+      {
+        "word": "queen",
+        "pos": "n.",
+        "cn": "女王；王后",
+        "page": 12
+      },
+      {
+        "word": "Arabic",
+        "pos": "n.",
+        "cn": "阿拉伯语",
+        "page": 12
+      },
+      {
+        "word": "way",
+        "pos": "n.",
+        "cn": "方面；态度",
+        "page": 12
+      },
+      {
+        "word": "mix",
+        "pos": "v.",
+        "cn": "相混合；融合",
+        "page": 12
+      },
+      {
+        "word": "miss",
+        "pos": "v.",
+        "cn": "惦念；怀念；想念",
+        "page": 12
+      },
+      {
+        "word": "count",
+        "pos": "v.",
+        "cn": "数；清点",
+        "page": 12
+      },
+      {
+        "word": "count down",
+        "pos": "",
+        "cn": "倒数；倒计时",
+        "page": 12
+      }
+    ],
+    "module-3": [
+      {
+        "word": "earth",
+        "pos": "n.",
+        "cn": "地球",
+        "page": 18
+      },
+      {
+        "word": "moon",
+        "pos": "n.",
+        "cn": "月亮；月球",
+        "page": 18
+      },
+      {
+        "word": "news",
+        "pos": "n.",
+        "cn": "新闻；消息",
+        "page": 18
+      },
+      {
+        "word": "planet",
+        "pos": "n.",
+        "cn": "行星",
+        "page": 18
+      },
+      {
+        "word": "reach",
+        "pos": "v.",
+        "cn": "到达；抵达",
+        "page": 18
+      },
+      {
+        "word": "just",
+        "pos": "adv.",
+        "cn": "刚才；刚刚",
+        "page": 18
+      },
+      {
+        "word": "model",
+        "pos": "n.",
+        "cn": "模型",
+        "page": 18
+      },
+      {
+        "word": "project",
+        "pos": "n.",
+        "cn": "计划；工程；项目",
+        "page": 18
+      },
+      {
+        "word": "latest",
+        "pos": "adj.",
+        "cn": "最近的；最新的",
+        "page": 18
+      },
+      {
+        "word": "on",
+        "pos": "prep.",
+        "cn": "在（播放）中；关于……",
+        "page": 18
+      },
+      {
+        "word": "discover",
+        "pos": "v.",
+        "cn": "发现；找到",
+        "page": 18
+      },
+      {
+        "word": "astronaut",
+        "pos": "n.",
+        "cn": "宇航员",
+        "page": 18
+      },
+      {
+        "word": "space travel",
+        "pos": "",
+        "cn": "航天旅行",
+        "page": 18
+      },
+      {
+        "word": "environment",
+        "pos": "n.",
+        "cn": "环境",
+        "page": 20
+      },
+      {
+        "word": "solar",
+        "pos": "adj.",
+        "cn": "太阳的；与太阳有关的",
+        "page": 20
+      },
+      {
+        "word": "system",
+        "pos": "n.",
+        "cn": "系统；体系",
+        "page": 20
+      },
+      {
+        "word": "solar system",
+        "pos": "",
+        "cn": "星系；（尤指）太阳系",
+        "page": 20
+      },
+      {
+        "word": "group",
+        "pos": "n.",
+        "cn": "群；组",
+        "page": 20
+      },
+      {
+        "word": "galaxy",
+        "pos": "n.",
+        "cn": "星系",
+        "page": 20
+      },
+      {
+        "word": "universe",
+        "pos": "n.",
+        "cn": "宇宙",
+        "page": 20
+      },
+      {
+        "word": "light",
+        "pos": "n.",
+        "cn": "光；光线；光亮",
+        "page": 20
+      },
+      {
+        "word": "out",
+        "pos": "adv.",
+        "cn": "在远方",
+        "page": 20
+      },
+      {
+        "word": "communicate",
+        "pos": "v.",
+        "cn": "联系；交流",
+        "page": 20
+      }
+    ],
+    "module-4": [
+      {
+        "word": "fever",
+        "pos": "n.",
+        "cn": "发烧；发热",
+        "page": 26
+      },
+      {
+        "word": "headache",
+        "pos": "n.",
+        "cn": "头痛",
+        "page": 26
+      },
+      {
+        "word": "stomach",
+        "pos": "n.",
+        "cn": "腹部；肚子",
+        "page": 26
+      },
+      {
+        "word": "ache",
+        "pos": "n.",
+        "cn": "痛；疼痛",
+        "page": 26
+      },
+      {
+        "word": "stomach ache",
+        "pos": "",
+        "cn": "胃痛；腹痛",
+        "page": 26
+      },
+      {
+        "word": "toothache",
+        "pos": "n.",
+        "cn": "牙痛",
+        "page": 26
+      },
+      {
+        "word": "ill",
+        "pos": "adj.",
+        "cn": "不健康的；有病的",
+        "page": 26
+      },
+      {
+        "word": "cold",
+        "pos": "n.",
+        "cn": "感冒；伤风",
+        "page": 26
+      },
+      {
+        "word": "catch a cold",
+        "pos": "",
+        "cn": "感冒",
+        "page": 26
+      },
+      {
+        "word": "fast food",
+        "pos": "",
+        "cn": "快餐食品",
+        "page": 26
+      },
+      {
+        "word": "health",
+        "pos": "n.",
+        "cn": "健康（状况）",
+        "page": 26
+      },
+      {
+        "word": "well",
+        "pos": "adj.",
+        "cn": "健康的",
+        "page": 28
+      },
+      {
+        "word": "heart",
+        "pos": "n.",
+        "cn": "心；心脏",
+        "page": 28
+      },
+      {
+        "word": "active",
+        "pos": "adj.",
+        "cn": "积极的；活跃的",
+        "page": 28
+      },
+      {
+        "word": "pet",
+        "pos": "n.",
+        "cn": "宠物；宠畜",
+        "page": 28
+      },
+      {
+        "word": "member",
+        "pos": "n.",
+        "cn": "成员；会员",
+        "page": 28
+      },
+      {
+        "word": "condition",
+        "pos": "n.",
+        "cn": "状况；身体状况",
+        "page": 28
+      },
+      {
+        "word": "sleepy",
+        "pos": "adj.",
+        "cn": "困的；想睡的",
+        "page": 28
+      },
+      {
+        "word": "then",
+        "pos": "adv.",
+        "cn": "当时；那时",
+        "page": 28
+      },
+      {
+        "word": "daily",
+        "pos": "adj.",
+        "cn": "每天的；天天的",
+        "page": 28
+      },
+      {
+        "word": "weak",
+        "pos": "adj.",
+        "cn": "弱的；虚弱的",
+        "page": 28
+      },
+      {
+        "word": "illness",
+        "pos": "n.",
+        "cn": "病；疾病",
+        "page": 28
+      },
+      {
+        "word": "exercise",
+        "pos": "v.",
+        "cn": "运动；锻炼",
+        "page": 28
+      },
+      {
+        "word": "awful",
+        "pos": "adj.",
+        "cn": "极讨厌的；极坏的",
+        "page": 28
+      },
+      {
+        "word": "feel awful",
+        "pos": "",
+        "cn": "感到不舒服",
+        "page": 28
+      },
+      {
+        "word": "all over",
+        "pos": "",
+        "cn": "浑身；到处",
+        "page": 28
+      },
+      {
+        "word": "perhaps",
+        "pos": "adv.",
+        "cn": "可能；也许",
+        "page": 28
+      }
+    ],
+    "module-5": [
+      {
+        "word": "cartoon",
+        "pos": "n.",
+        "cn": "漫画；动画片",
+        "page": 34
+      },
+      {
+        "word": "handsome",
+        "pos": "adj.",
+        "cn": "漂亮的；英俊的",
+        "page": 34
+      },
+      {
+        "word": "smart",
+        "pos": "adj.",
+        "cn": "聪明的；机灵的",
+        "page": 34
+      },
+      {
+        "word": "sky",
+        "pos": "n.",
+        "cn": "天；天空",
+        "page": 34
+      },
+      {
+        "word": "cool",
+        "pos": "adj.",
+        "cn": "时髦的；酷的",
+        "page": 34
+      },
+      {
+        "word": "hero",
+        "pos": "n.",
+        "cn": "英雄；男主角",
+        "page": 34
+      },
+      {
+        "word": "laugh",
+        "pos": "v.",
+        "cn": "笑；发笑",
+        "page": 34
+      },
+      {
+        "word": "lesson",
+        "pos": "n.",
+        "cn": "经验；教训",
+        "page": 34
+      },
+      {
+        "word": "ugly",
+        "pos": "adj.",
+        "cn": "难看的；丑陋的",
+        "page": 36
+      },
+      {
+        "word": "schoolbag",
+        "pos": "n.",
+        "cn": "书包",
+        "page": 36
+      },
+      {
+        "word": "lead",
+        "pos": "v.",
+        "cn": "(led /led/, led)领导；率领",
+        "page": 36
+      },
+      {
+        "word": "clever",
+        "pos": "adj.",
+        "cn": "聪明的；机灵的",
+        "page": 36
+      },
+      {
+        "word": "as",
+        "pos": "conj.",
+        "cn": "当……时",
+        "page": 36
+      },
+      {
+        "word": "mess",
+        "pos": "n.",
+        "cn": "脏乱；凌乱",
+        "page": 36
+      },
+      {
+        "word": "heaven",
+        "pos": "n.",
+        "cn": "天国；天堂",
+        "page": 36
+      },
+      {
+        "word": "expect",
+        "pos": "v.",
+        "cn": "期盼；等待",
+        "page": 36
+      },
+      {
+        "word": "artist",
+        "pos": "n.",
+        "cn": "艺术家；画家",
+        "page": 36
+      },
+      {
+        "word": "invent",
+        "pos": "v.",
+        "cn": "发明；创造",
+        "page": 36
+      },
+      {
+        "word": "copy",
+        "pos": "n.",
+        "cn": "（ 一）本；（一）份",
+        "page": 36
+      },
+      {
+        "word": "own",
+        "pos": "adj.",
+        "cn": "自己的",
+        "page": 36
+      },
+      {
+        "word": "private",
+        "pos": "adj.",
+        "cn": "私人的；个人的",
+        "page": 36
+      },
+      {
+        "word": "satisfy",
+        "pos": "v.",
+        "cn": "满足；使满意",
+        "page": 36
+      }
+    ],
+    "module-6": [
+      {
+        "word": "fan",
+        "pos": "n.",
+        "cn": "扇子",
+        "page": 48
+      },
+      {
+        "word": "stamp",
+        "pos": "n.",
+        "cn": "邮票",
+        "page": 48
+      },
+      {
+        "word": "tidy up",
+        "pos": "",
+        "cn": "使整齐；使整洁",
+        "page": 48
+      },
+      {
+        "word": "shelf",
+        "pos": "n.",
+        "cn": "隔板；架子",
+        "page": 48
+      },
+      {
+        "word": "have a look",
+        "pos": "",
+        "cn": "看一看",
+        "page": 48
+      },
+      {
+        "word": "as",
+        "pos": "prep.",
+        "cn": "作为；当",
+        "page": 48
+      },
+      {
+        "word": "coin",
+        "pos": "n.",
+        "cn": "硬币",
+        "page": 48
+      },
+      {
+        "word": "note",
+        "pos": "n.",
+        "cn": "纸币",
+        "page": 48
+      },
+      {
+        "word": "pound",
+        "pos": "n.",
+        "cn": "英镑",
+        "page": 48
+      },
+      {
+        "word": "valuable",
+        "pos": "adj.",
+        "cn": "值钱的；有价值的",
+        "page": 48
+      },
+      {
+        "word": "with",
+        "pos": "prep.",
+        "cn": "用……",
+        "page": 48
+      },
+      {
+        "word": "value",
+        "pos": "n.",
+        "cn": "价值；有用性",
+        "page": 48
+      },
+      {
+        "word": "just",
+        "pos": "adv.",
+        "cn": "只是；仅仅",
+        "page": 48
+      },
+      {
+        "word": "person",
+        "pos": "n.",
+        "cn": "人（通常指成年人）",
+        "page": 50
+      },
+      {
+        "word": "interest",
+        "pos": "n.",
+        "cn": "兴趣；爱好",
+        "page": 50
+      },
+      {
+        "word": "skill",
+        "pos": "n.",
+        "cn": "技能；技艺",
+        "page": 50
+      },
+      {
+        "word": "activity",
+        "pos": "n.",
+        "cn": "活动",
+        "page": 50
+      },
+      {
+        "word": "sailing",
+        "pos": "n.",
+        "cn": "航海；航行",
+        "page": 50
+      },
+      {
+        "word": "encourage",
+        "pos": "v.",
+        "cn": "鼓励；激励",
+        "page": 50
+      },
+      {
+        "word": "come out",
+        "pos": "",
+        "cn": "出版；问世",
+        "page": 50
+      },
+      {
+        "word": "result",
+        "pos": "n.",
+        "cn": "结果；后果",
+        "page": 50
+      },
+      {
+        "word": "pleasure",
+        "pos": "n.",
+        "cn": "愉悦；快乐",
+        "page": 50
+      },
+      {
+        "word": "success",
+        "pos": "n.",
+        "cn": "成功；成就",
+        "page": 50
+      }
+    ],
+    "module-7": [
+      {
+        "word": "list",
+        "pos": "n.",
+        "cn": "名单；清单",
+        "page": 56
+      },
+      {
+        "word": "make a list",
+        "pos": "",
+        "cn": "列清单",
+        "page": 56
+      },
+      {
+        "word": "crazy",
+        "pos": "adj.",
+        "cn": "发疯的；荒唐的",
+        "page": 56
+      },
+      {
+        "word": "shorts",
+        "pos": "n.",
+        "cn": "[用复数]短裤",
+        "page": 56
+      },
+      {
+        "word": "trousers",
+        "pos": "n.",
+        "cn": "[用复数]裤子",
+        "page": 56
+      },
+      {
+        "word": "homestay",
+        "pos": "n.",
+        "cn": "家庭寄宿",
+        "page": 56
+      },
+      {
+        "word": "weigh",
+        "pos": "v.",
+        "cn": "重量有……；重……",
+        "page": 56
+      },
+      {
+        "word": "total",
+        "pos": "adj.",
+        "cn": "总的；全部的",
+        "page": 56
+      },
+      {
+        "word": "weight",
+        "pos": "n.",
+        "cn": "重量",
+        "page": 56
+      },
+      {
+        "word": "passport",
+        "pos": "n.",
+        "cn": "护照",
+        "page": 56
+      },
+      {
+        "word": "culture",
+        "pos": "n.",
+        "cn": "文化",
+        "page": 58
+      },
+      {
+        "word": "at the same time",
+        "pos": "",
+        "cn": "同时",
+        "page": 58
+      },
+      {
+        "word": "last",
+        "pos": "v.",
+        "cn": "持续；延续",
+        "page": 58
+      },
+      {
+        "word": "depend on",
+        "pos": "",
+        "cn": "取决于；决定于",
+        "page": 58
+      },
+      {
+        "word": "provide",
+        "pos": "v.",
+        "cn": "提供；供应",
+        "page": 58
+      },
+      {
+        "word": "guest",
+        "pos": "n.",
+        "cn": "客人；宾客",
+        "page": 58
+      },
+      {
+        "word": "daily life",
+        "pos": "",
+        "cn": "日常生活",
+        "page": 58
+      },
+      {
+        "word": "friendship",
+        "pos": "n.",
+        "cn": "友谊；友好",
+        "page": 58
+      },
+      {
+        "word": "prefer",
+        "pos": "v.",
+        "cn": "更喜爱；钟爱",
+        "page": 58
+      },
+      {
+        "word": "certain",
+        "pos": "adj.",
+        "cn": "确定的；无疑的",
+        "page": 58
+      },
+      {
+        "word": "fill",
+        "pos": "v.",
+        "cn": "填满；填充",
+        "page": 58
+      },
+      {
+        "word": "fill out",
+        "pos": "",
+        "cn": "填写；填充",
+        "page": 58
+      }
+    ],
+    "module-8": [
+      {
+        "word": "hardly",
+        "pos": "adv.",
+        "cn": "几乎不；几乎没",
+        "page": 64
+      },
+      {
+        "word": "take up",
+        "pos": "",
+        "cn": "占去（时间或空间）",
+        "page": 64
+      },
+      {
+        "word": "point out",
+        "pos": "",
+        "cn": "指出；指明",
+        "page": 64
+      },
+      {
+        "word": "sights",
+        "pos": "n.",
+        "cn": "[用复数]风景；名胜",
+        "page": 64
+      },
+      {
+        "word": "thirsty",
+        "pos": "adj.",
+        "cn": "渴的",
+        "page": 64
+      },
+      {
+        "word": "shape",
+        "pos": "n.",
+        "cn": "外形；形状",
+        "page": 66
+      },
+      {
+        "word": "human",
+        "pos": "n.",
+        "cn": "人",
+        "page": 66
+      },
+      {
+        "word": "somebody",
+        "pos": "pron.",
+        "cn": "某人；有人",
+        "page": 66
+      },
+      {
+        "word": "about",
+        "pos": "adv.",
+        "cn": "向四周；向各处",
+        "page": 66
+      },
+      {
+        "word": "path",
+        "pos": "n.",
+        "cn": "小路；路径",
+        "page": 66
+      },
+      {
+        "word": "pull",
+        "pos": "v.",
+        "cn": "（ 用手）拉，牵，扯",
+        "page": 66
+      },
+      {
+        "word": "freshwater",
+        "pos": "adj.",
+        "cn": "淡水的",
+        "page": 66
+      }
+    ],
+    "module-9": [
+      {
+        "word": "helpline",
+        "pos": "n.",
+        "cn": "服务热线",
+        "page": 72
+      },
+      {
+        "word": "explain",
+        "pos": "v.",
+        "cn": "解释；说明",
+        "page": 72
+      },
+      {
+        "word": "refuse",
+        "pos": "v.",
+        "cn": "拒绝",
+        "page": 72
+      },
+      {
+        "word": "treat",
+        "pos": "v.",
+        "cn": "对待；看待",
+        "page": 72
+      },
+      {
+        "word": "herself",
+        "pos": "pron.",
+        "cn": "她自己",
+        "page": 72
+      },
+      {
+        "word": "whether",
+        "pos": "conj.",
+        "cn": "是否",
+        "page": 72
+      },
+      {
+        "word": "lonely",
+        "pos": "adj.",
+        "cn": "孤独的；寂寞的",
+        "page": 72
+      },
+      {
+        "word": "regret",
+        "pos": "v.",
+        "cn": "懊悔；遗憾",
+        "page": 72
+      },
+      {
+        "word": "patient",
+        "pos": "adj.",
+        "cn": "有耐心的；能忍耐的",
+        "page": 72
+      },
+      {
+        "word": "introduce",
+        "pos": "v.",
+        "cn": "介绍；引见",
+        "page": 72
+      },
+      {
+        "word": "join in",
+        "pos": "",
+        "cn": "参加",
+        "page": 72
+      },
+      {
+        "word": "silence",
+        "pos": "n.",
+        "cn": "寂静；无声",
+        "page": 74
+      },
+      {
+        "word": "in silence",
+        "pos": "",
+        "cn": "安静地；沉默地",
+        "page": 74
+      },
+      {
+        "word": "pass",
+        "pos": "v.",
+        "cn": "经过；通过",
+        "page": 74
+      },
+      {
+        "word": "bright",
+        "pos": "adj.",
+        "cn": "欢快的；明亮的",
+        "page": 74
+      },
+      {
+        "word": "treasure",
+        "pos": "n.",
+        "cn": "珍宝；珍贵之物",
+        "page": 74
+      },
+      {
+        "word": "day by day",
+        "pos": "",
+        "cn": "一天天地；渐渐地",
+        "page": 74
+      },
+      {
+        "word": "stick",
+        "pos": "v.",
+        "cn": "(stuck /st7k/, stuck)粘；粘贴",
+        "page": 74
+      },
+      {
+        "word": "glue",
+        "pos": "n.",
+        "cn": "胶水",
+        "page": 74
+      },
+      {
+        "word": "suggestion",
+        "pos": "n.",
+        "cn": "提议；建议",
+        "page": 74
+      }
+    ],
+    "module-10": [
+      {
+        "word": "director",
+        "pos": "n.",
+        "cn": "导演；主管；经理",
+        "page": 80
+      },
+      {
+        "word": "show",
+        "pos": "v.",
+        "cn": "引领；带领",
+        "page": 80
+      },
+      {
+        "word": "around",
+        "pos": "adv.",
+        "cn": "到处；向各处",
+        "page": 80
+      },
+      {
+        "word": "show sb. around",
+        "pos": "",
+        "cn": "带某人参观；给某人做向导",
+        "page": 80
+      },
+      {
+        "word": "on air",
+        "pos": "",
+        "cn": "（广播或电视）播出",
+        "page": 80
+      },
+      {
+        "word": "avoid",
+        "pos": "v.",
+        "cn": "避免；防止",
+        "page": 80
+      },
+      {
+        "word": "background",
+        "pos": "n.",
+        "cn": "背景；后景",
+        "page": 80
+      },
+      {
+        "word": "national",
+        "pos": "adj.",
+        "cn": "国家的；国内的",
+        "page": 80
+      },
+      {
+        "word": "international",
+        "pos": "adj.",
+        "cn": "国际的；世界的",
+        "page": 80
+      },
+      {
+        "word": "presenter",
+        "pos": "n.",
+        "cn": "主持人",
+        "page": 80
+      },
+      {
+        "word": "interview",
+        "pos": "n.",
+        "cn": "采访；访谈",
+        "page": 80
+      },
+      {
+        "word": "seem",
+        "pos": "v.",
+        "cn": "看来；似乎",
+        "page": 82
+      },
+      {
+        "word": "listener",
+        "pos": "n.",
+        "cn": "听众；听者",
+        "page": 82
+      },
+      {
+        "word": "in person",
+        "pos": "",
+        "cn": "亲自；本人",
+        "page": 82
+      },
+      {
+        "word": "part-time",
+        "pos": "adj.",
+        "cn": "兼职的",
+        "page": 82
+      },
+      {
+        "word": "article",
+        "pos": "n.",
+        "cn": "文章；报道",
+        "page": 82
+      },
+      {
+        "word": "studio",
+        "pos": "n.",
+        "cn": "录制室；录音室",
+        "page": 82
+      },
+      {
+        "word": "purpose",
+        "pos": "n.",
+        "cn": "意图；目的",
+        "page": 82
+      }
+    ]
+  },
+  "stats": {
+    "total_words": 203,
+    "modules": 10
+  }
+}
