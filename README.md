@@ -1,9 +1,15 @@
 # moread-content
 
-> 开源的英语教学内容资源库，面向中国初高中学习者。
-> 提供词典、分级词表、考纲词库、教材同步文章、分级阅读素材。
-> 所有内容同时提供 JSON 和 SQL（PostgreSQL）两种格式。
+> 开源英语教学内容资源库，面向中国初高中学习者。
+> 提供词典底座、分级词表、考试词库、词频词表、教材同步数据。
 > MIT 许可证，可商用。
+
+---
+
+## 两大使命
+
+1. **词库数据管理** — 为背单词功能提供系统内置词库（19 个，73,542 词）
+2. **教材同步数据** — 按初高中教学大纲生成同步阅读文章（待建设）
 
 ---
 
@@ -11,270 +17,140 @@
 
 ```
 moread-content/
-├── dictionary/                ← 英语词典（源自 ECDICT + 自行补充）
-│   ├── README.md              ← 字段说明、数据来源
-│   ├── dictionary.json/       ← JSON 版本（按首字母分文件：a.json, b.json, ...）
-│   └── dictionary.sql         ← PostgreSQL 导入脚本
+├── dictionary/              ← 底座（ECDICT 70万词条）
+│   ├── a.json ~ z.json      ← JSON 格式，按首字母分文件
+│   ├── a.sql ~ z.sql        ← SQL 格式（对称）
+│   └── schema.sql           ← PostgreSQL 建表语句
 │
-├── vocabulary/                ← 分级词表 + 考纲词库
-│   ├── README.md
-│   ├── cefr/                  ← CEFR 官方分级
-│   │   ├── a1.json
-│   │   ├── a2.json
-│   │   ├── b1.json
-│   │   ├── b2.json
-│   │   ├── c1.json
-│   │   └── c2.json
-│   ├── exam/                  ← 中国考试考纲
-│   │   ├── zhongkao.json      ← 中考考纲词汇（~1600词）
-│   │   └── gaokao.json        ← 高考考纲词汇（~3500词）
-│   └── combined/              ← 交叉索引（词 → CEFR等级 + 是否考纲）
-│       └── word-levels.json
+├── vocabulary/              ← 词单（轻量，只有单词列表）
+│   ├── SPEC.md              ← 词汇模块完整设计文档
+│   ├── index.json           ← 词库索引（19 个词库）
+│   ├── cefr/                ← CEFR 分级（6 个：A1~C2）
+│   ├── exam/                ← 考试考纲（8 个：中考/高考/CET-4/CET-6/考研/雅思/托福/GRE）
+│   ├── frequency/           ← 词频词表（5 个：Top 1k~10k，按真实词频排序）
+│   └── textbook/            ← 教材词单（待追加）
 │
-├── textbook/                  ← 教材同步库（按课文主题自创平行文章）
-│   ├── README.md              ← 教材版本说明、使用方法
-│   ├── pep/                   ← 人教版（PEP）
-│   │   ├── README.md          ← 覆盖范围说明
-│   │   ├── grade7/
-│   │   │   ├── unit01.json    ← 每单元一个文件
-│   │   │   └── ...
-│   │   ├── grade8/
-│   │   └── grade9/
-│   ├── fltrp/                 ← 外研版（FLTRP）
-│   └── textbook.sql           ← 全量 PostgreSQL 导入脚本
+├── textbook/                ← 教材同步数据
+│   ├── SPEC.md              ← 教材数据设计文档
+│   ├── pep/                 ← 人教版（待提取）
+│   └── fltrp/               ← 外研版（待提取）
 │
-├── reading/                   ← 分级阅读素材库
-│   ├── README.md              ← 素材来源、难度标注说明
-│   ├── a2/
-│   ├── b1/
-│   └── b2/
+├── api/                     ← FastAPI 词库底座服务（开发测试用）
+│   ├── main.py
+│   └── requirements.txt
 │
-└── tools/                     ← 构建/导入工具
-    ├── import-ecdict.ts       ← ECDICT CSV → JSON + SQL
-    ├── build-indexes.ts       ← 构建交叉索引
-    ├── sync-to-db.ts          ← 一键同步到 PostgreSQL
-    └── generate-textbook.ts   ← AI 生成教材平行文章的 prompt + 流程
+└── tools/
+    ├── generate_dictionary_sql.py  ← dictionary JSON → SQL
+    └── import_dictionary.py        ← 导入到 PostgreSQL
 ```
 
 ---
 
-## 各模块详细设计
+## 架构：词单 + 底座分离
 
-### 1. 词典 dictionary/
-
-**数据来源**：ECDICT（skywind3000/ECDICT，MIT 许可）+ 自行补充的例句和用法
-
-**JSON 格式**（按首字母分文件，避免单文件过大）：
+**词库文件只存单词列表**，不存音标、不存释义。释义从 `dictionary/`（ECDICT 70万词条底座）按需查。
 
 ```json
-// dictionary/a.json
+// vocabulary/exam/gaokao.json — 词库只长这样
 {
-  "abandon": {
-    "phonetic": "/əˈbændən/",
-    "pos": ["v.", "n."],
-    "definitions": [
-      { "pos": "v.", "en": "to leave completely and forever", "zh": "放弃；抛弃" },
-      { "pos": "n.", "en": "a feeling of being wild or out of control", "zh": "放纵" }
-    ],
-    "examples": [
-      { "en": "They had to abandon the car in the snow.", "zh": "他们不得不把车丢在雪地里。" }
-    ],
-    "frequency": 3000,
-    "cefr": "B1",
-    "forms": ["abandoned", "abandoning", "abandonment"]
-  }
+  "id": "exam-gaokao",
+  "name": "高考考纲",
+  "category": "exam",
+  "difficulty": "A2-B2",
+  "words": ["abandon", "ability", "able", ...]
 }
 ```
 
-**SQL 版本**：`dictionary.sql`，单表 `dictionary`，字段同上。
-
----
-
-### 2. 分级词表 vocabulary/
-
-**数据来源**：
-- CEFR 词表：vocabulary.englishprofile.org
-- 中考考纲：教育部《义务教育英语课程标准》
-- 高考考纲：教育部《普通高中英语课程标准》
-
-**JSON 格式**：
-
-```json
-// vocabulary/cefr/a2.json
-{
-  "level": "A2",
-  "word_count": 1500,
-  "words": [
-    { "word": "accident", "pos": "n.", "zh": "事故" },
-    { "word": "advice", "pos": "n.", "zh": "建议" }
-  ]
-}
-
-// vocabulary/exam/gaokao.json
-{
-  "exam": "高考",
-  "year": 2024,
-  "word_count": 3500,
-  "words": [
-    { "word": "abandon", "zh": "放弃", "frequency_rank": 1234 }
-  ]
-}
-
-// vocabulary/combined/word-levels.json（交叉索引）
-{
-  "abandon": { "cefr": "B1", "zhongkao": false, "gaokao": true },
-  "ability": { "cefr": "A2", "zhongkao": true, "gaokao": true }
-}
 ```
-
-**不提供 SQL 版本**。词表数据量小（几千条），内存加载即可。
-
----
-
-### 3. 教材同步库 textbook/
-
-**核心思路**：不使用教材原文（版权问题），按教材每单元的**主题和知识点**自创平行文章。
-
-**JSON 格式**：
-
-```json
-// textbook/pep/grade7/unit01.json
-{
-  "publisher": "人教版",
-  "grade": 7,
-  "unit": 1,
-  "title": "My name's Gina",
-  "theme": "自我介绍与个人信息",
-  "grammar_points": ["be动词", "物主代词", "一般现在时"],
-  "key_vocabulary": ["name", "nice", "meet", "too", "your", "phone", "number"],
-  "articles": [
-    {
-      "id": "r7u1-01",
-      "title": "A Letter to a Pen Pal",
-      "level": "A1",
-      "word_count": 120,
-      "content": "Dear pen pal, My name is Li Ming...",
-      "vocabulary": ["name", "year", "old", "live", "like"],
-      "grammar_focus": "be动词 + 物主代词",
-      "exercises": [
-        {
-          "type": "fill_blank",
-          "question": "My name ___ Li Ming.",
-          "answer": "is",
-          "grammar": "be动词"
-        }
-      ]
-    }
-  ]
-}
-```
-
-**SQL 版本**：`textbook.sql`，表 `textbook_units` + `textbook_articles` + `textbook_exercises`。
-
-**生成方式**：AI 根据教材每单元的主题 + 语法点 + 生词表 → 生成 2-3 篇平行文章 + 练习题 → 人工审核后入库。
-
----
-
-### 4. 阅读素材库 reading/
-
-**只提供 JSON 版本**。阅读素材是按需取用的，不需要入库。
-
-```json
-// reading/a2/001-family-dinner.json
-{
-  "id": "a2-001",
-  "title": "The Family Dinner",
-  "level": "A2",
-  "tags": ["family", "daily-life", "food"],
-  "source": "original",
-  "word_count": 180,
-  "content": "Every Sunday, our whole family has dinner together...",
-  "vocabulary": [
-    { "word": "recipe", "zh": "食谱" },
-    { "word": "delicious", "zh": "美味的" }
-  ],
-  "questions": [
-    {
-      "type": "choice",
-      "question": "Who usually cooks the dinner?",
-      "options": ["Mom", "Dad", "Grandma", "The writer"],
-      "answer": 2
-    }
-  ]
-}
+用户选词库 → 后端从词单抽词 → 去 ECDICT 底座查完整释义 → 展示给用户
 ```
 
 ---
 
-## 格式策略总结
+## 19 个词库一览
 
-| 内容 | JSON | SQL | 理由 |
-|------|------|-----|------|
-| 词典 | ✅ | ✅ | 77万条，需要索引查询 |
-| 分级词表 | ✅ | ❌ | 几千条，内存加载 |
-| 考纲词库 | ✅ | ❌ | 同上 |
-| 教材同步库 | ✅ | ✅ | 需要按教材+年级+单元关联查询 |
-| 阅读素材 | ✅ | ❌ | 按需取用，不需要入库 |
+| 类别 | 词库 | 词数 | 难度 |
+|------|------|------|------|
+| CEFR | A1 | 600 | A1 |
+| CEFR | A2 | 600 | A2 |
+| CEFR | B1 | 1,298 | B1 |
+| CEFR | B2 | 2,500 | B2 |
+| CEFR | C1 | 1,026 | C1 |
+| CEFR | C2 | 999 | C2 |
+| 考试 | 中考 | 1,600 | A1-A2 |
+| 考试 | 高考 | 3,837 | A2-B2 |
+| 考试 | CET-4 | 5,183 | B1-B2 |
+| 考试 | CET-6 | 5,974 | B2-C1 |
+| 考试 | 考研 | 5,648 | B2-C1 |
+| 考试 | 雅思 | 3,576 | B1-C1 |
+| 考试 | 托福 | 10,365 | B2-C2 |
+| 考试 | GRE | 9,468 | C1-C2 |
+| 词频 | Top 1000 | 1,000 | — |
+| 词频 | Top 2000 | 2,000 | — |
+| 词频 | Top 3000 | 3,000 | — |
+| 词频 | Top 5000 | 5,000 | — |
+| 词频 | Top 10000 | 9,868 | — |
+
+**总计 73,542 词**
 
 ---
 
 ## 集成方式
 
+### 导入 PostgreSQL（推荐）
+
+```bash
+# 生成 SQL
+python tools/generate_dictionary_sql.py
+
+# 导入到 PostgreSQL
+python tools/import_dictionary.py
+```
+
+导入后生成 3 张表：`dictionary`（底座）+ `word_packs`（词库）+ `word_pack_words`（词库单词）
+
+```sql
+-- 示例：抽20个高考词库中用户没背过的词
+SELECT w.word, d.phonetic, d.pos, d.definitions, d.cefr
+FROM word_pack_words w
+JOIN dictionary d ON w.word = d.word
+WHERE w.pack_id = 'exam-gaokao'
+  AND w.word NOT IN (SELECT word FROM vocabulary_book WHERE user_id = $1)
+ORDER BY RANDOM()
+LIMIT 20;
+```
+
 ### 直接使用 JSON
 
 ```javascript
-import a2Words from 'moread-content/vocabulary/cefr/a2.json'
-import unit01 from 'moread-content/textbook/pep/grade7/unit01.json'
+import packs from 'moread-content/vocabulary/index.json'
+import gaokao from 'moread-content/vocabulary/exam/gaokao.json'
 ```
 
-### 导入 PostgreSQL
+---
 
-```bash
-# 通过 DATABASE_URL 环境变量指定目标库
-npx ts-node tools/sync-to-db.ts --only dictionary   # 只同步词典
-npx ts-node tools/sync-to-db.ts --only textbook      # 只同步教材
-npx ts-node tools/sync-to-db.ts --all                # 全量同步
-```
+## 数据来源与版权
 
-sync 脚本使用标准 `pg` 客户端，兼容任何 PostgreSQL 实例。
+| 数据 | 来源 | 许可证 |
+|------|------|--------|
+| 词典底座 | [ECDICT](https://github.com/skywind3000/ECDICT) | MIT |
+| CEFR 词表 | vocabulary.englishprofile.org | 整理加工 |
+| 考试词库 | mahavivo/english-wordlists + KyleBing/english-vocabulary | 双源合并 |
+| 词频词表 | Google 10K Corpus | 整理加工 |
+| 教材同步 | AI 自创 + 人工审核 | MIT（本仓库） |
 
 ---
 
 ## 内容格式约定
 
-- 所有文本文件使用 **UTF-8** 编码
-- JSON 使用 **2 空格缩进**，便于 Git diff
-- 时间字段统一 **ISO 8601** 格式
-- 等级标签统一使用 **CEFR 标准**（A1/A2/B1/B2/C1/C2）
-- 中国考试等级映射：中考 ≈ A2-B1，高考 ≈ B1-B2
+- 所有文件 **UTF-8** 编码
+- JSON **2 空格缩进**
+- 等级标签使用 **CEFR 标准**（A1~C2）
+- 词库 JSON 统一格式：`{id, name, category, difficulty, words: ["word1", ...]}`
 
 ---
 
-## 开源策略
+## 详细设计文档
 
-- **MIT 许可证**，可商用
-- 词典部分基于 ECDICT（MIT），允许商用
-- 教材同步库是**自创内容**（按主题平行创作），不涉及教材原文版权
-- 欢迎社区贡献（补充其他教材版本、更多阅读素材、其他语言版本）
-
----
-
-## 建设优先级
-
-| 阶段 | 内容 | 工作量 | 依赖 |
-|------|------|-------|------|
-| **阶段 1** | 词典导入 + CEFR/考纲词表 | 2-3 天 | ECDICT + englishprofile.org |
-| **阶段 2** | 教材同步库（七年级起） | 5-7 天 | 阶段 1 的词表 + AI 生成管道 |
-| **阶段 3** | 阅读素材库 + 定期更新管道 | 3-5 天 | 阶段 1 的分级标准 |
-
----
-
-## 数据来源与版权声明
-
-| 数据 | 来源 | 许可证 |
-|------|------|--------|
-| 词典基础数据 | [ECDICT](https://github.com/skywind3000/ECDICT) | MIT |
-| CEFR 词表 | [English Profile](https://vocabulary.englishprofile.org/) | 整理加工 |
-| 中考/高考考纲 | 教育部课程标准文档 | 公开信息整理 |
-| 教材同步文章 | AI 自创 + 人工审核 | MIT（本仓库） |
-| 阅读素材 | AI 生成 + 改写 | MIT（本仓库） |
+- `vocabulary/SPEC.md` — 词库模块完整设计（架构、格式、消费端指南）
+- `textbook/SPEC.md` — 教材同步数据设计（JSON Schema、学段隔离原则）

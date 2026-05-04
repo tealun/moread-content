@@ -27,7 +27,7 @@
   "id": "exam-gaokao",
   "name": "高考考纲",
   "category": "exam",
-  "difficulty": "B1-B2",
+  "difficulty": "A2-B2",
   "words": [
     "abandon",
     "ability",
@@ -54,11 +54,11 @@
   { "id": "cefr-c2",      "name": "CEFR C2",              "category": "cefr",      "difficulty": "C2",    "word_count": 999,   "file": "cefr/c2.json" },
   { "id": "exam-cet4",    "name": "大学英语四级 CET-4",   "category": "exam",      "difficulty": "B1-B2", "word_count": 5183,  "file": "exam/cet4.json" },
   { "id": "exam-cet6",    "name": "大学英语六级 CET-6",   "category": "exam",      "difficulty": "B2-C1", "word_count": 5974,  "file": "exam/cet6.json" },
-  { "id": "exam-gaokao",  "name": "高考考纲",             "category": "exam",      "difficulty": "B1-B2", "word_count": 3837,  "file": "exam/gaokao.json" },
+  { "id": "exam-gaokao",  "name": "高考考纲",             "category": "exam",      "difficulty": "A2-B2", "word_count": 3837,  "file": "exam/gaokao.json" },
   { "id": "exam-gre",     "name": "GRE 研究生入学",       "category": "exam",      "difficulty": "C1-C2", "word_count": 9468,  "file": "exam/gre.json" },
-  { "id": "exam-ielts",   "name": "雅思 IELTS",           "category": "exam",      "difficulty": "B2-C1", "word_count": 3576,  "file": "exam/ielts.json" },
+  { "id": "exam-ielts",   "name": "雅思 IELTS",           "category": "exam",      "difficulty": "B1-C1", "word_count": 3576,  "file": "exam/ielts.json" },
   { "id": "exam-kaoyan",  "name": "考研英语",             "category": "exam",      "difficulty": "B2-C1", "word_count": 5648,  "file": "exam/kaoyan.json" },
-  { "id": "exam-toefl",   "name": "托福 TOEFL",           "category": "exam",      "difficulty": "B2-C1", "word_count": 10365, "file": "exam/toefl.json" },
+  { "id": "exam-toefl",   "name": "托福 TOEFL",           "category": "exam",      "difficulty": "B2-C2", "word_count": 10365, "file": "exam/toefl.json" },
   { "id": "exam-zhongkao","name": "中考考纲",             "category": "exam",      "difficulty": "A1-A2", "word_count": 1600,  "file": "exam/zhongkao.json" },
   { "id": "freq-1000",    "name": "高频词 Top 1000",      "category": "frequency", "difficulty": "",      "word_count": 1000,  "file": "frequency/top-1000.json" },
   { "id": "freq-2000",    "name": "高频词 Top 2000",      "category": "frequency", "difficulty": "",      "word_count": 2000,  "file": "frequency/top-2000.json" },
@@ -102,11 +102,22 @@ moread-content/
 │   │   ├── top-3000.json
 │   │   ├── top-5000.json
 │   │   └── top-10000.json
-│   └── textbook/            ← 教材词单（教材提取后追加）
-│       └── ...
-├── textbook/                ← 教材同步数据（待讨论）
-└── tools/
-    └── sync-to-db.ts        ← 一键同步到 PostgreSQL
+│   └── textbook/            ← 教材词单（教材提取后追加，目前为空）
+├── textbook/                ← 教材同步数据（待提取）
+│   ├── SPEC.md
+│   ├── pep/                 ← 人教版（待提取）
+│   └── fltrp/               ← 外研版（待提取）
+├── api/
+│   ├── main.py              ← FastAPI 词库底座服务（开发测试用）
+│   └── requirements.txt
+├── tools/
+│   ├── generate_dictionary_sql.py  ← dictionary JSON → SQL
+│   └── import_dictionary.py        ← 导入 dictionary 到 PostgreSQL
+└── dictionary/
+    ├── README.md            ← 底座说明
+    ├── a.json ~ z.json      ← JSON 格式，按首字母分文件
+    ├── a.sql ~ z.sql        ← SQL 格式（对称）
+    └── schema.sql
 ```
 
 ---
@@ -115,7 +126,7 @@ moread-content/
 
 | 类别 | 数量 | 说明 |
 |------|------|------|
-| **CEFR** | 6 | A1~C2 分级，各级独立无重叠，累计 6,823 词 |
+| **CEFR** | 6 | A1~C2 分级，各级独立无重叠，累计 7,023 词 |
 | **考试** | 8 | 中考/高考/CET-4/CET-6/考研/雅思/托福/GRE，双源合并去重 |
 | **词频** | 5 | Top 1k~10k，按真实词频排序（Google 10K 语料），含嵌套关系 |
 | **教材** | 待定 | 从 textbook/ 提取后追加 |
@@ -128,8 +139,8 @@ moread-content/
 
 ### 方式一：数据库（推荐）
 
-1. `sync-to-db.ts` 把 dictionary/ 导入 PostgreSQL 的 `dictionary` 表
-2. `sync-to-db.ts` 把词库 JSON 导入 `word_packs` + `word_pack_words` 表
+1. `tools/import_dictionary.py` 把 dictionary/ 导入 PostgreSQL 的 `dictionary` 表
+2. `tools/import_dictionary.py` 把词库 JSON 导入 `word_packs` + `word_pack_words` 表
 3. Moread 后端：抽词从 `word_pack_words` 取，查释义从 `dictionary` 表 JOIN
 
 ```sql
