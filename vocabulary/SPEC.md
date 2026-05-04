@@ -2,18 +2,22 @@
 
 > **状态**: 🟡 草案 — 待用户确认
 > **创建**: 2026-05-04
-> **更新**: 2026-05-04（全量词库 19 个，73,542 词）
+> **更新**: 2026-05-04（全量词库 19 个，73,542 词；补充 API 文档）
 
 ---
 
 ## 1. 架构：词单 + 底座分离
 
-**底座**（`dictionary/`）：ECDICT 70万词条，含 phonetic、pos、zh、definitions、examples、cefr、frequency 等完整数据。已按首字母分文件存储，也可导入 PostgreSQL。
+**底座**（`dictionary/`）：ECDICT 70万词条，含 phonetic、pos、zh、definitions、examples、cefr、frequency 等完整数据。按首字母分文件存储（a.json ~ z.json），同时提供 SQL 格式（a.sql ~ z.sql）。
 
 **词库**（`vocabulary/`）：只有词单——告诉消费端"这个词库包含哪些单词"。不存释义、不存音标，释义由底座统一提供。
 
+**API**（`api/`）：FastAPI 服务，提供 HTTP 接口查询词库列表、词单、单词释义。消费端不需要直接读文件，通过 API 获取所有数据。
+
 ```
-用户选词库 → 后端从词单抽词 → 去 ECDICT 底座查完整数据 → 写入用户个人词库
+消费端 → GET /api/packs → 拿到词库列表
+消费端 → GET /api/packs/{id} → 拿到词单
+消费端 → GET /api/dictionary/{word} → 拿到完整释义
 ```
 
 ---
@@ -74,50 +78,23 @@
 
 ```
 moread-content/
-├── dictionary/              ← 底座（ECDICT 70万词条，已有）
+├── dictionary/              ← 底座（ECDICT 70万词条）
 │   ├── a.json ~ z.json      ← JSON 格式，按首字母分文件
 │   ├── a.sql ~ z.sql        ← SQL 格式（对称）
-│   └── schema.sql
+│   └── schema.sql           ← PostgreSQL 建表语句
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
 │   ├── index.json           ← 词库索引（19 个词库）
 │   ├── cefr/                ← CEFR 分级词单（6 个）
-│   │   ├── a1.json
-│   │   ├── a2.json
-│   │   ├── b1.json
-│   │   ├── b2.json
-│   │   ├── c1.json
-│   │   └── c2.json
 │   ├── exam/                ← 考试考纲词单（8 个）
-│   │   ├── zhongkao.json    ← 中考 1600
-│   │   ├── gaokao.json      ← 高考 3837
-│   │   ├── cet4.json        ← 四级 5183
-│   │   ├── cet6.json        ← 六级 5974
-│   │   ├── kaoyan.json      ← 考研 5648
-│   │   ├── ielts.json       ← 雅思 3576
-│   │   ├── toefl.json       ← 托福 10365
-│   │   └── gre.json         ← GRE 9468
 │   ├── frequency/           ← 词频词单（5 个，按 Google 10K 真实词频排序）
-│   │   ├── top-1000.json
-│   │   ├── top-2000.json
-│   │   ├── top-3000.json
-│   │   ├── top-5000.json
-│   │   └── top-10000.json
-│   └── textbook/            ← 教材词单（教材提取后追加，目前为空）
-├── textbook/                ← 教材同步数据（待提取）
+│   └── textbook/            ← 教材词单（待追加，目前为空）
+├── textbook/                ← 教材同步数据
 │   ├── SPEC.md
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
-├── api/
-│   ├── main.py              ← FastAPI 词库底座服务（开发测试用）
-│   └── requirements.txt
-├── tools/
-│   ├── generate_dictionary_sql.py  ← dictionary JSON → SQL
-│   └── import_dictionary.py        ← 导入 dictionary 到 PostgreSQL
-└── dictionary/
-    ├── README.md            ← 底座说明
-    ├── a.json ~ z.json      ← JSON 格式，按首字母分文件
-    ├── a.sql ~ z.sql        ← SQL 格式（对称）
-    └── schema.sql
+└── api/                     ← API 服务
+    ├── main.py              ← FastAPI 词库底座服务
+    └── requirements.txt     ← Python 依赖
 ```
 
 ---
@@ -135,17 +112,164 @@ moread-content/
 
 ---
 
-## 6. 消费端（Moread）使用方式
+## 6. API 接口
 
-### 方式一：数据库（推荐）
+启动方式：`uvicorn api.main:app --host 0.0.0.0 --port 8900`
 
-1. `tools/import_dictionary.py` 把 dictionary/ 导入 PostgreSQL 的 `dictionary` 表
-2. `tools/import_dictionary.py` 把词库 JSON 导入 `word_packs` + `word_pack_words` 表
-3. Moread 后端：抽词从 `word_pack_words` 取，查释义从 `dictionary` 表 JOIN
+### 6.1 健康检查
+
+```
+GET /api/health
+```
+
+**返回**：
+```json
+{ "status": "ok", "packs": 19 }
+```
+
+### 6.2 词库列表
+
+```
+GET /api/packs
+```
+
+**返回**：index.json 原始格式（19 条记录的数组）
+```json
+[
+  { "id": "cefr-a1", "name": "CEFR A1", "category": "cefr", "difficulty": "A1", "word_count": 600, "file": "cefr/a1.json" },
+  ...
+]
+```
+
+### 6.3 词库详情（含完整词单）
+
+```
+GET /api/packs/{pack_id}
+```
+
+**返回**：词库 JSON 原始格式
+```json
+{
+  "id": "exam-gaokao",
+  "name": "高考考纲",
+  "category": "exam",
+  "difficulty": "A2-B2",
+  "words": ["abandon", "ability", ...]
+}
+```
+
+### 6.4 词库单词分页
+
+```
+GET /api/packs/{pack_id}/words?offset=0&limit=100
+```
+
+**参数**：
+- `offset`：偏移量（默认 0）
+- `limit`：每页数量（默认 100，最大 1000）
+
+**返回**：
+```json
+{
+  "pack_id": "exam-gaokao",
+  "offset": 0,
+  "limit": 100,
+  "total": 3837,
+  "words": ["abandon", "ability", ...]
+}
+```
+
+### 6.5 单词释义查询
+
+```
+GET /api/dictionary/{word}
+```
+
+**返回**：ECDICT 底座中的完整词条
+```json
+{
+  "word": "abandon",
+  "phonetic": "/əˈbændən/",
+  "pos": "v. n.",
+  "zh": "v. 放弃；抛弃  n. 放纵；放纵",
+  "definitions": "v. 放弃；抛弃  n. 放纵",
+  "examples": "",
+  "cefr": "B1",
+  "frequency": 3000
+}
+```
+
+查不到时返回：`{ "error": "Word not found", "word": "xxx" }`
+
+### 6.6 批量单词释义
+
+```
+POST /api/dictionary/batch?words=abandon&words=ability&words=...
+```
+
+**返回**：
+```json
+{
+  "abandon": { "phonetic": "...", "pos": "...", "zh": "...", ... },
+  "ability": { "phonetic": "...", "pos": "...", "zh": "...", ... }
+}
+```
+
+### 6.7 单词前缀搜索
+
+```
+GET /api/search?q=ab&limit=20
+```
+
+**返回**：
+```json
+{
+  "query": "ab",
+  "count": 20,
+  "words": ["ab", "abandon", "abandoned", "abandonment", ...]
+}
+```
+
+### 6.8 词库统计
+
+```
+GET /api/stats
+```
+
+**返回**：
+```json
+{
+  "total_packs": 19,
+  "total_words": 73542,
+  "categories": { "cefr": 6, "exam": 8, "frequency": 5 },
+  "packs": [...]
+}
+```
+
+---
+
+## 7. 消费端集成方式
+
+消费端有两种方式获取数据：
+
+### 方式一：API（推荐）
+
+消费端部署 moread-content 的 API 服务，通过 HTTP 接口获取所有词库和释义数据。Moread 后端只需要：
+1. 调用 `/api/packs` 获取词库列表 → 展示给用户选择
+2. 调用 `/api/packs/{id}` 获取词单 → 抽词出题
+3. 调用 `/api/dictionary/{word}` 获取释义 → 展示给用户
+
+### 方式二：直接读 JSON
+
+消费端直接 clone 仓库，读 JSON 文件。适合离线场景或需要极致性能的场景。
+
+### 方式三：导入数据库
+
+消费端自行编写导入脚本，把 JSON 数据灌入自己的数据库。`dictionary/` 下已提供 SQL 格式（a.sql ~ z.sql）和建表语句（schema.sql），可直接使用。
 
 ```sql
--- 抽20个高考词库中用户没背过的词，附带完整释义
-SELECT w.word, d.phonetic, d.pos, d.definitions, d.examples, d.cefr
+-- 消费端导入后的典型查询
+SELECT w.word, d.phonetic, d.pos, d.definitions, d.cefr
 FROM word_pack_words w
 JOIN dictionary d ON w.word = d.word
 WHERE w.pack_id = 'exam-gaokao'
@@ -154,15 +278,9 @@ ORDER BY RANDOM()
 LIMIT 20;
 ```
 
-### 方式二：纯 JSON
-
-1. 前端加载词库 JSON 拿到词单
-2. 需要释义时查 dictionary JSON 或后端 API
-3. 适合轻量场景
-
 ---
 
-## 7. 数据质量
+## 8. 数据质量
 
 - 全部 19 个词库结构完整，无内部重复
 - 考试词库为 mahavivo（教育部考纲）+ KyleBing（官方词表）双源合并

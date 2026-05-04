@@ -23,7 +23,7 @@ moread-content/
 │   └── schema.sql           ← PostgreSQL 建表语句
 │
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
-│   ├── SPEC.md              ← 词汇模块完整设计文档
+│   ├── SPEC.md              ← 词汇模块完整设计文档（含 API 文档）
 │   ├── index.json           ← 词库索引（19 个词库）
 │   ├── cefr/                ← CEFR 分级（6 个：A1~C2）
 │   ├── exam/                ← 考试考纲（8 个：中考/高考/CET-4/CET-6/考研/雅思/托福/GRE）
@@ -35,13 +35,9 @@ moread-content/
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
 │
-├── api/                     ← FastAPI 词库底座服务（开发测试用）
-│   ├── main.py
-│   └── requirements.txt
-│
-└── tools/
-    ├── generate_dictionary_sql.py  ← dictionary JSON → SQL
-    └── import_dictionary.py        ← 导入到 PostgreSQL
+└── api/                     ← API 服务（FastAPI）
+    ├── main.py
+    └── requirements.txt
 ```
 
 ---
@@ -62,7 +58,9 @@ moread-content/
 ```
 
 ```
-用户选词库 → 后端从词单抽词 → 去 ECDICT 底座查完整释义 → 展示给用户
+消费端 → GET /api/packs → 词库列表
+消费端 → GET /api/packs/{id} → 词单
+消费端 → GET /api/dictionary/{word} → 完整释义
 ```
 
 ---
@@ -97,35 +95,26 @@ moread-content/
 
 ## 集成方式
 
-### 导入 PostgreSQL（推荐）
+### 方式一：API（推荐）
 
 ```bash
-# 生成 SQL
-python tools/generate_dictionary_sql.py
-
-# 导入到 PostgreSQL
-python tools/import_dictionary.py
+# 启动 API 服务
+pip install -r api/requirements.txt
+uvicorn api.main:app --host 0.0.0.0 --port 8900
 ```
 
-导入后生成 3 张表：`dictionary`（底座）+ `word_packs`（词库）+ `word_pack_words`（词库单词）
+消费端通过 HTTP 接口获取所有数据，详见 `vocabulary/SPEC.md` §6。
 
-```sql
--- 示例：抽20个高考词库中用户没背过的词
-SELECT w.word, d.phonetic, d.pos, d.definitions, d.cefr
-FROM word_pack_words w
-JOIN dictionary d ON w.word = d.word
-WHERE w.pack_id = 'exam-gaokao'
-  AND w.word NOT IN (SELECT word FROM vocabulary_book WHERE user_id = $1)
-ORDER BY RANDOM()
-LIMIT 20;
-```
-
-### 直接使用 JSON
+### 方式二：直接读 JSON
 
 ```javascript
 import packs from 'moread-content/vocabulary/index.json'
 import gaokao from 'moread-content/vocabulary/exam/gaokao.json'
 ```
+
+### 方式三：导入数据库
+
+`dictionary/` 下已提供 SQL 格式（a.sql ~ z.sql）和建表语句（schema.sql），消费端自行导入。
 
 ---
 
@@ -141,16 +130,7 @@ import gaokao from 'moread-content/vocabulary/exam/gaokao.json'
 
 ---
 
-## 内容格式约定
-
-- 所有文件 **UTF-8** 编码
-- JSON **2 空格缩进**
-- 等级标签使用 **CEFR 标准**（A1~C2）
-- 词库 JSON 统一格式：`{id, name, category, difficulty, words: ["word1", ...]}`
-
----
-
 ## 详细设计文档
 
-- `vocabulary/SPEC.md` — 词库模块完整设计（架构、格式、消费端指南）
+- `vocabulary/SPEC.md` — 词库模块完整设计（架构、格式、API 文档、集成方式）
 - `textbook/SPEC.md` — 教材同步数据设计（JSON Schema、学段隔离原则）
