@@ -34,22 +34,22 @@ textbook/
 │       ├── required2.json
 │       └── required3.json
 ├── fltrp/                           ← 外研版（FLTRP）
-│   ├── sun/                         ← 孙有中主编（2022课标修订）
-│   │   ├── junior/
+│   ├── junior/                      ← 初中
+│   │   ├── sun/                     ← 孙有中主编（2022课标修订）
 │   │   │   ├── grade7_up.json
 │   │   │   ├── grade7_down.json
 │   │   │   ├── grade8_up.json
 │   │   │   └── grade8_down.json
-│   │   └── senior/
-│   │       ├── required1.json
-│   │       ├── required2.json
-│   │       └── required3.json
-│   └── chen/                        ← 陈琳主编（经典版）
-│       └── junior/
-│           ├── grade8_up.json
-│           ├── grade8_down.json
-│           ├── grade9_up.json
-│           └── grade9_down.json
+│   │   └── chen/                    ← 陈琳主编
+│   │       ├── grade8_up.json
+│   │       ├── grade8_down.json
+│   │       ├── grade9_up.json
+│   │       └── grade9_down.json
+│   └── senior/                      ← 高中
+│       └── chen/                    ← 陈琳主编
+│           ├── required1.json
+│           ├── required2.json
+│           └── required3.json
 └── textbook.sql
 ```
 
@@ -57,8 +57,9 @@ textbook/
 
 | 旧结构 | 新结构 | 原因 |
 |--------|--------|------|
-| `fltrp/junior/` | `fltrp/sun/junior/` + `fltrp/chen/junior/` | 外研版两个主编版本结构完全不同（Module vs Unit），不能混放 |
-| 无 | `SPEC.md` | 架构设计文档，指导提取和生成 |
+| `fltrp/junior/` | `fltrp/junior/sun/` + `fltrp/junior/chen/` | 初中两个主编版本混在一起，需拆分 |
+| `fltrp/senior/` | `fltrp/senior/chen/` | 高中也是陈琳主编，统一归入 chen/ |
+| 无 | `SPEC.md` | 架构设计文档 |
 
 ### 实际收到的教材清单（19本）
 
