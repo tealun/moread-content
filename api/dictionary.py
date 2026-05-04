@@ -2,9 +2,14 @@
 
 from fastapi import APIRouter, Query, Path
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 from .data import lookup_word, lookup_words_batch, search_prefix
 
 router = APIRouter(prefix="/api", tags=["词典"])
+
+
+class BatchRequest(BaseModel):
+    words: list[str]
 
 
 @router.get("/dictionary/{word}")
@@ -17,9 +22,9 @@ def lookup(word: str = Path(..., description="单词")):
 
 
 @router.post("/dictionary/batch")
-def batch_lookup(words: list[str] = Query(..., description="单词列表")):
+def batch_lookup(req: BatchRequest):
     """批量查询单词释义"""
-    return lookup_words_batch(words)
+    return lookup_words_batch(req.words)
 
 
 @router.get("/search")

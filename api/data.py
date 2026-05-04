@@ -8,6 +8,7 @@ VOCAB_DIR = BASE_DIR / "vocabulary"
 DICT_DIR = BASE_DIR / "dictionary"
 
 _index_cache = None
+_pack_cache: dict = {}
 _dict_cache: dict = {}
 
 
@@ -24,9 +25,13 @@ def get_index() -> list:
 
 
 def get_pack(pack_id: str) -> dict | None:
+    if pack_id in _pack_cache:
+        return _pack_cache[pack_id]
     for entry in get_index():
         if entry["id"] == pack_id:
-            return _load_json(VOCAB_DIR / entry["file"])
+            data = _load_json(VOCAB_DIR / entry["file"])
+            _pack_cache[pack_id] = data
+            return data
     return None
 
 
