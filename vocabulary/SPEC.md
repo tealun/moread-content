@@ -12,7 +12,7 @@
 
 **词库**（`vocabulary/`）：只有词单——告诉消费端"这个词库包含哪些单词"。不存释义、不存音标，释义由底座统一提供。
 
-**API**：FastAPI 服务（`main.py`，根目录），提供 HTTP 接口查询词库列表、词单、单词释义。消费端不需要直接读文件，通过 API 获取所有数据。
+**API**（`api/`）：FastAPI 模块化服务，`main.py` 为启动入口。路由拆分为词库（vocabulary.py）和词典（dictionary.py），中间件和数据加载层各自独立。
 
 ```
 消费端 → GET /api/packs → 拿到词库列表
@@ -91,7 +91,12 @@ moread-content/
 │   ├── SPEC.md
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
-├── main.py                  ← FastAPI 词库底座服务
+├── api/                     ← API 模块
+│   ├── middleware.py        ← IP 白名单 + CORS + 配置加载
+│   ├── data.py              ← 数据加载层（索引/词库/词典缓存）
+│   ├── vocabulary.py        ← 词库路由（packs/words/stats/health）
+│   └── dictionary.py        ← 词典路由（lookup/batch/search）
+├── main.py                  ← 启动入口（创建 app + 挂载路由）
 └── requirements.txt         ← Python 依赖
 ```
 

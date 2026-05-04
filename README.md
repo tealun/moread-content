@@ -35,7 +35,12 @@ moread-content/
 │   ├── pep/                 ← 人教版（待提取）
 │   └── fltrp/               ← 外研版（待提取）
 │
-├── main.py                  ← FastAPI 词库底座服务
+├── api/                     ← API 模块
+│   ├── middleware.py        ← IP 白名单 + CORS + 配置加载
+│   ├── data.py              ← 数据加载层（索引/词库/词典缓存）
+│   ├── vocabulary.py        ← 词库路由（packs/words/stats/health）
+│   └── dictionary.py        ← 词典路由（lookup/batch/search）
+├── main.py                  ← 启动入口（创建 app + 挂载路由）
 ├── requirements.txt         ← Python 依赖（fastapi/uvicorn/orjson/python-dotenv）
 └── .env.example             ← 配置模板
 ```
