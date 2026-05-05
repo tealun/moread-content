@@ -13,7 +13,7 @@
     "source_pdf": "(FLTRP孙有中根据2022年版课程标准修订)义务教育教科书·英语 七年级 下册.pdf",
     "extracted_at": "2026-05-05",
     "extraction_method": "OCR + ECDICT enrichment",
-    "confidence": "ocr_verified"
+    "confidence": "verified"
   },
   "toc": [
     {
@@ -70,151 +70,389 @@
       "key_vocabulary": [
         {
           "word": "exciting",
-          "pos": "a.",
-          "cn": "激磁",
-          "page": 137
+          "pos": "adj.",
+          "cn": "令人兴奋的；使人激动的",
+          "page": 5,
+          "phonetic": "ɪkˈsaɪtɪŋ"
         },
         {
           "word": "town",
           "pos": "n.",
-          "cn": "城镇, 城市, 闹市",
-          "page": 137
+          "cn": "镇，城镇；市镇",
+          "page": 5,
+          "phonetic": "taʊn"
         },
         {
           "word": "poor",
-          "pos": "a.",
-          "cn": "低劣的, 不良的",
-          "page": 137
+          "pos": "adj.",
+          "cn": "贫穷的；贫困的",
+          "page": 5,
+          "phonetic": "pɔː(r)"
         },
         {
           "word": "become",
           "pos": "v.",
-          "cn": "变成, 变得",
-          "page": 137
+          "cn": "变成；开始变得",
+          "page": 5,
+          "phonetic": "bɪˈkʌm"
         },
         {
           "word": "touch",
-          "pos": "n.",
-          "cn": "触觉, 碰, 触, 机灵, 轻触, 格调, 少许, 缺点, 弹力",
-          "page": 137
+          "pos": "v.",
+          "cn": "感动；触动",
+          "page": 5,
+          "phonetic": "tʌtʃ"
         },
         {
           "word": "rich",
-          "pos": "a.",
-          "cn": "富裕的, 富饶的, 浓厚的, 贵重的",
-          "page": 137
+          "pos": "adj.",
+          "cn": "有钱的；富有的",
+          "page": 6,
+          "phonetic": "rɪtʃ"
         },
         {
           "word": "chess",
           "pos": "n.",
-          "cn": "雀麦",
-          "page": 137
+          "cn": "国际象棋",
+          "page": 7,
+          "phonetic": "tʃes"
         },
         {
           "word": "bath",
-          "pos": "n.",
-          "cn": "浴",
-          "page": 137
+          "pos": "v.",
+          "cn": "给……洗澡",
+          "page": 7,
+          "phonetic": "bɑːθ"
         },
         {
           "word": "princess",
           "pos": "n.",
-          "cn": "公主, 王妃, 女巨头",
-          "page": 137
+          "cn": "公主",
+          "page": 7,
+          "phonetic": "ˌprɪnˈses"
         },
         {
           "word": "example",
           "pos": "n.",
-          "cn": "实例",
-          "page": 137
+          "cn": "例子；实例",
+          "page": 8,
+          "phonetic": "ɪɡˈzɑːmpl"
         },
         {
           "word": "experience",
           "pos": "n.",
-          "cn": "经历, 经验, 体验",
-          "page": 137
+          "cn": "经验；经历",
+          "page": 8,
+          "phonetic": "ɪkˈspɪəriəns"
         },
         {
           "word": "believe",
           "pos": "v.",
-          "cn": "相信",
-          "page": 137
+          "cn": "认为……；相信",
+          "page": 8,
+          "phonetic": "bɪˈliːv"
         },
         {
           "word": "survey",
           "pos": "n.",
-          "cn": "纵览, 视察, 测量, 俯瞰, 调查",
-          "page": 137
+          "cn": "调查",
+          "page": 6,
+          "phonetic": "ˈsɜːveɪ"
         },
         {
           "word": "instruction",
           "pos": "n.",
-          "cn": "指令",
-          "page": 137
+          "cn": "命令；指示",
+          "page": 10,
+          "phonetic": "ɪnˈstrʌkʃn"
         },
         {
           "word": "presentation",
           "pos": "n.",
-          "cn": "简报",
-          "page": 137
+          "cn": "介绍",
+          "page": 11,
+          "phonetic": "ˌpreznˈteɪʃn"
         },
         {
           "word": "hat",
           "pos": "n.",
           "cn": "帽子",
-          "page": 137
+          "page": 12,
+          "phonetic": "hæt"
         },
         {
           "word": "blow",
-          "pos": "n.",
-          "cn": "吹, 打击, 殴打, 花开",
-          "page": 137
+          "pos": "v.",
+          "cn": "吹；吹动",
+          "page": 12,
+          "phonetic": "bləʊ"
         },
         {
           "word": "wave",
-          "pos": "n.",
-          "cn": "波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变",
-          "page": 137
+          "pos": "v.",
+          "cn": "（向……）挥手；（朝……）挥手示意",
+          "page": 12,
+          "phonetic": "weɪv"
         },
         {
           "word": "voice",
           "pos": "n.",
-          "cn": "声音, 嗓音, 嗓子, 愿望, 发言权, 表达, 喉舌, 语态",
-          "page": 137
+          "cn": "嗓音；说话声",
+          "page": 12,
+          "phonetic": "vɔɪs"
         },
         {
           "word": "himself",
           "pos": "pron.",
-          "cn": "他自己, 他亲自",
-          "page": 137
+          "cn": "他自己",
+          "page": 12,
+          "phonetic": "hɪmˈself"
         },
         {
           "word": "shame",
           "pos": "n.",
-          "cn": "羞耻, 羞愧, 耻辱",
-          "page": 137
+          "cn": "羞耻；羞愧；惭愧",
+          "page": 12,
+          "phonetic": "ʃeɪm"
         },
         {
           "word": "fall",
-          "pos": "a.",
-          "cn": "秋天的",
-          "page": 137
+          "pos": "v.",
+          "cn": "落下；跌落；掉落",
+          "page": 12,
+          "phonetic": "fɔːl"
         },
         {
           "word": "shoulder",
           "pos": "n.",
-          "cn": "肩, 肩膀, 衣肩",
-          "page": 137
+          "cn": "肩；肩膀",
+          "page": 12,
+          "phonetic": "ˈʃəʊldə(r)"
         },
         {
           "word": "surprised",
-          "pos": "a.",
-          "cn": "感到惊讶的",
-          "page": 137
+          "pos": "adj.",
+          "cn": "感到惊奇的；感觉意外的",
+          "page": 12,
+          "phonetic": "səˈpraɪzd"
+        },
+        {
+          "word": "chocolate",
+          "phonetic": "ˈtʃɒklət",
+          "pos": "n.",
+          "cn": "巧克力；巧克力糖",
+          "page": 5
+        },
+        {
+          "word": "factory",
+          "phonetic": "ˈfæktri",
+          "pos": "n.",
+          "cn": "工厂；制造厂",
+          "page": 5
+        },
+        {
+          "word": "empty",
+          "phonetic": "ˈempti",
+          "pos": "adj.",
+          "cn": "空的",
+          "page": 10
+        },
+        {
+          "word": "magical",
+          "phonetic": "ˈmædʒɪkl",
+          "pos": "adj.",
+          "cn": "有魔力的；神奇的",
+          "page": 5
+        },
+        {
+          "word": "happen",
+          "phonetic": "ˈhæpən",
+          "pos": "v.",
+          "cn": "发生",
+          "page": 10
+        },
+        {
+          "word": "watery",
+          "phonetic": "ˈwɔːtəri",
+          "pos": "adj.",
+          "cn": "（食物）稀薄的；（水）太多的",
+          "page": 5
+        },
+        {
+          "word": "cabbage",
+          "phonetic": "ˈkæbɪdʒ",
+          "pos": "n.",
+          "cn": "卷心菜；甘蓝菜",
+          "page": 5
+        },
+        {
+          "word": "freezing",
+          "phonetic": "ˈfriːzɪŋ",
+          "pos": "adj.",
+          "cn": "极冷的；冻僵的",
+          "page": 5
+        },
+        {
+          "word": "finally",
+          "phonetic": "ˈfaɪnəli",
+          "pos": "adv.",
+          "cn": "终于；最终",
+          "page": 12
+        },
+        {
+          "word": "sunless",
+          "phonetic": "ˈsʌnləs",
+          "pos": "adj.",
+          "cn": "不见太阳的；阳光照射不到的",
+          "page": 5
+        },
+        {
+          "word": "barber",
+          "phonetic": "ˈbɑːbə(r)",
+          "pos": "n.",
+          "cn": "（男）理发师",
+          "page": 12
+        },
+        {
+          "word": "reason",
+          "phonetic": "ˈriːzn",
+          "pos": "n.",
+          "cn": "原因；理由",
+          "page": 5
+        },
+        {
+          "word": "everything",
+          "phonetic": "ˈevriθɪŋ",
+          "pos": "pron.",
+          "cn": "所有事物；一切",
+          "page": 6
+        },
+        {
+          "word": "scissors",
+          "phonetic": "ˈsɪzəz",
+          "pos": "n.",
+          "cn": "剪刀",
+          "page": 12
+        },
+        {
+          "word": "office",
+          "phonetic": "ˈɒfɪs",
+          "pos": "n.",
+          "cn": "办公室；办公楼",
+          "page": 12
+        },
+        {
+          "word": "basket",
+          "phonetic": "ˈbɑːskɪt",
+          "pos": "n.",
+          "cn": "篮子；提篮；筐",
+          "page": 7
+        },
+        {
+          "word": "post office",
+          "phonetic": "",
+          "pos": "n.",
+          "cn": "邮局",
+          "page": 12
+        },
+        {
+          "word": "customer",
+          "phonetic": "ˈkʌstəmə(r)",
+          "pos": "n.",
+          "cn": "顾客；客户",
+          "page": 12
         }
       ],
-      "grammar": [],
-      "sections": []
+      "grammar": [
+        {
+          "name": "一般过去时",
+          "name_en": "Simple past tense"
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 2
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 4,
+          "content": {
+            "reading": {
+              "title": "Charlie and the Chocolate Factory",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 7
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 14
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 17
+        }
+      ],
+      "topic": "幸福、价值观",
+      "cefr_level": "A2",
+      "topic_en": "Happiness, values",
+      "key_phrases": [
+        {
+          "phrase": "post office",
+          "cn": "邮局",
+          "page": 12
+        },
+        {
+          "phrase": "keep going over",
+          "cn": "反复回想",
+          "page": 8
+        },
+        {
+          "phrase": "to one's surprise",
+          "cn": "令某人惊讶的是",
+          "page": 8
+        },
+        {
+          "phrase": "the key to happiness",
+          "cn": "幸福的关键",
+          "page": 5
+        }
+      ],
+      "sentence_patterns": [
+        "I kept going over... in my mind.",
+        "That made him / her feel...",
+        "To my surprise, ...",
+        "This touched me greatly.",
+        "From this, I learnt...",
+        "I believe that...",
+        "Love is the key to happiness."
+      ],
+      "language_notes": [
+        {
+          "phrase": "be born",
+          "meaning": "出生，be的过去式为was/were",
+          "example_en": "I was born in a small village.",
+          "example_cn": "我出生在一个小村庄。",
+          "page": 119
+        },
+        {
+          "phrase": "keep doing",
+          "meaning": "持续做某事",
+          "example_en": "I kept going over the story in my mind.",
+          "example_cn": "我反复在脑海中回想这个故事。",
+          "page": 5
+        }
+      ],
+      "parallel_articles": []
     },
     {
       "id": "unit-2",
@@ -227,150 +465,369 @@
         {
           "word": "receive",
           "pos": "v.",
-          "cn": "接收",
-          "page": 138
+          "cn": "得到，收到",
+          "page": 12,
+          "phonetic": "rɪˈsiːv"
         },
         {
           "word": "cancer",
           "pos": "n.",
-          "cn": "癌",
-          "page": 138
+          "cn": "癌（症）",
+          "page": 13,
+          "phonetic": "ˈkænsə(r)"
         },
         {
           "word": "wig",
           "pos": "n.",
-          "cn": "假发, 斥责",
-          "page": 138
+          "cn": "假发",
+          "page": 13,
+          "phonetic": "wɪɡ"
         },
         {
           "word": "smart",
-          "pos": "a.",
-          "cn": "聪明的, 漂亮的, 刺痛的, 剧烈的, 敏捷的, 巧妙的, 伶俐的, 潇洒的",
-          "page": 138
+          "pos": "adj.",
+          "cn": "聪颖的，机灵的；明智的",
+          "page": 13,
+          "phonetic": "smɑːt"
         },
         {
           "word": "line",
           "pos": "n.",
-          "cn": "线路",
-          "page": 138
+          "cn": "线",
+          "page": 20,
+          "phonetic": "laɪn"
         },
         {
           "word": "breath",
           "pos": "n.",
-          "cn": "呼气, 呵气, 口气, 呼吸",
-          "page": 138
+          "cn": "呼出的气；吸入的气",
+          "page": 20,
+          "phonetic": "breθ"
         },
         {
           "word": "shall",
-          "pos": "aux.",
-          "cn": "将",
-          "page": 138
+          "pos": "v.",
+          "cn": "要不要……？",
+          "page": 20,
+          "phonetic": "ʃæl"
         },
         {
           "word": "choice",
-          "pos": "a.",
-          "cn": "DOS内部命令:在批处理文件中",
-          "page": 138
+          "pos": "n.",
+          "cn": "选择；选择权",
+          "page": 20,
+          "phonetic": "tʃɔɪs"
         },
         {
           "word": "cheer",
-          "pos": "n.",
-          "cn": "愉快, 振奋, 欢呼",
-          "page": 138
+          "pos": "v.",
+          "cn": "（为……）欢呼，喝彩；（为……）加油",
+          "page": 20,
+          "phonetic": "tʃɪə(r)"
         },
         {
           "word": "cross",
-          "pos": "a.",
-          "cn": "交叉, 十字标",
-          "page": 138
+          "pos": "v.",
+          "cn": "穿过，越过，跑过（终点线、小径等）",
+          "page": 20,
+          "phonetic": "krɒs"
         },
         {
           "word": "dream",
           "pos": "n.",
-          "cn": "梦, 空想, 愿望",
-          "page": 138
+          "cn": "梦想，愿望，理想；梦",
+          "page": 20,
+          "phonetic": "driːm"
         },
         {
           "word": "encourage",
           "pos": "v.",
-          "cn": "怂恿, 煽动, 助长",
-          "page": 138
+          "cn": "鼓励，激励",
+          "page": 22,
+          "phonetic": "ɪnˈkʌrɪdʒ"
         },
         {
           "word": "both",
-          "pos": "a.",
-          "cn": "两者的",
-          "page": 138
+          "pos": "pron.",
+          "cn": "两者，双方，两个都",
+          "page": 23,
+          "phonetic": "bəʊθ"
         },
         {
           "word": "sink",
-          "pos": "n.",
-          "cn": "藏垢的场所, 沟渠, 污水槽",
-          "page": 138
+          "pos": "v.",
+          "cn": "下沉，沉没",
+          "page": 23,
+          "phonetic": "sɪŋk"
         },
         {
           "word": "surfer",
           "pos": "n.",
-          "cn": "冲浪运动员",
-          "page": 138
+          "cn": "冲浪者",
+          "page": 23,
+          "phonetic": "ˈsɜːfə(r)"
         },
         {
           "word": "shark",
           "pos": "n.",
-          "cn": "鲨鱼, 骗子",
-          "page": 138
+          "cn": "鲨（鱼）",
+          "page": 23,
+          "phonetic": "ʃɑːk"
         },
         {
           "word": "lose",
           "pos": "v.",
-          "cn": "受损失, 失败",
-          "page": 138
+          "cn": "失去；输掉",
+          "page": 23,
+          "phonetic": "luːz"
         },
         {
           "word": "compare",
-          "pos": "n.",
-          "cn": "比较",
-          "page": 138
+          "pos": "v.",
+          "cn": "相比较；可媲美",
+          "page": 23,
+          "phonetic": "kəmˈpeə(r)"
         },
         {
           "word": "surfboard",
           "pos": "n.",
-          "cn": "冲浪板, 用冲浪板滑水",
-          "page": 138
+          "cn": "冲浪板",
+          "page": 23,
+          "phonetic": "ˈsɜːfbɔːd"
         },
         {
           "word": "wave",
           "pos": "n.",
-          "cn": "波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变",
-          "page": 138
+          "cn": "浪潮；海浪",
+          "page": 23,
+          "phonetic": "weɪv"
         },
         {
           "word": "gold",
-          "pos": "a.",
-          "cn": "金的, 似金的, 金色的, 金制的",
-          "page": 138
+          "pos": "adj.",
+          "cn": "金质的",
+          "page": 25,
+          "phonetic": "ɡəʊld"
         },
         {
           "word": "success",
           "pos": "n.",
-          "cn": "成功, 成就, 胜利",
-          "page": 138
+          "cn": "成功，胜利，成就",
+          "page": 26,
+          "phonetic": "səkˈses"
         },
         {
           "word": "fit",
-          "pos": "a.",
-          "cn": "非特",
-          "page": 138
+          "pos": "adj.",
+          "cn": "健壮的，健康的",
+          "page": 27,
+          "phonetic": "fɪt"
         },
         {
           "word": "match",
           "pos": "n.",
-          "cn": "比较",
-          "page": 138
+          "cn": "体育比赛，竞赛",
+          "page": 28,
+          "phonetic": "mætʃ"
+        },
+        {
+          "word": "last but not least",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "最后但同样重要的（一点）",
+          "page": 20
+        },
+        {
+          "word": "marathon",
+          "phonetic": "ˈmærəθən",
+          "pos": "n.",
+          "cn": "马拉松赛跑",
+          "page": 20
+        },
+        {
+          "word": "the finishing line",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "终点线",
+          "page": 20
+        },
+        {
+          "word": "confident",
+          "phonetic": "ˈkɒnfɪdənt",
+          "pos": "adj.",
+          "cn": "有信心的，自信的",
+          "page": 20
+        },
+        {
+          "word": "stomachache",
+          "phonetic": "ˈstʌməkeɪk",
+          "pos": "n.",
+          "cn": "胃痛；肚子痛",
+          "page": 20
+        },
+        {
+          "word": "neither",
+          "phonetic": "ˈnaɪðə(r)",
+          "pos": "pron.",
+          "cn": "两者都不（的），两者中无一（的）",
+          "page": 20
+        },
+        {
+          "word": "either",
+          "phonetic": "ˈaɪðə(r)",
+          "pos": "pron.",
+          "cn": "（两者中的）任何一个",
+          "page": 20
+        },
+        {
+          "word": "record",
+          "phonetic": "ˈrekɔːd",
+          "pos": "n.",
+          "cn": "记录，记载",
+          "page": 21
+        },
+        {
+          "word": "none",
+          "phonetic": "nʌn",
+          "pos": "pron.",
+          "cn": "全无，没有一点",
+          "page": 21
+        },
+        {
+          "word": "finish",
+          "phonetic": "ˈfɪnɪʃ",
+          "pos": "v.",
+          "cn": "完成，做完",
+          "page": 21
+        },
+        {
+          "word": "sink or swim",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "自生自灭，成败全靠自己",
+          "page": 23
+        },
+        {
+          "word": "attack",
+          "phonetic": "əˈtæk",
+          "pos": "v.",
+          "cn": "袭击，殴打；破坏",
+          "page": 23
+        },
+        {
+          "word": "surfing",
+          "phonetic": "ˈsɜːfɪŋ",
+          "pos": "n.",
+          "cn": "冲浪（运动）",
+          "page": 23
+        },
+        {
+          "word": "lifelong",
+          "phonetic": "ˈlaɪflɒŋ",
+          "pos": "adj.",
+          "cn": "终身的，毕生的",
+          "page": 20
         }
       ],
-      "grammar": [],
-      "sections": []
+      "grammar": [
+        {
+          "name": "不定代词",
+          "name_en": "Indefinite pronouns"
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 18
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 20,
+          "content": {
+            "reading": {
+              "title": "Last but not least",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 23
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 30
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 33
+        }
+      ],
+      "topic": "运动、坚持",
+      "cefr_level": "A2",
+      "topic_en": "Sports, perseverance",
+      "key_phrases": [
+        {
+          "phrase": "last but not least",
+          "cn": "最后但同样重要的（一点）",
+          "page": 20
+        },
+        {
+          "phrase": "the finishing line",
+          "cn": "终点线",
+          "page": 20
+        },
+        {
+          "phrase": "sink or swim",
+          "cn": "自生自灭，成败全靠自己",
+          "page": 23
+        },
+        {
+          "phrase": "lifelong dream",
+          "cn": "终身的梦想",
+          "page": 20
+        },
+        {
+          "phrase": "train hard for",
+          "cn": "为……刻苦训练",
+          "page": 20
+        },
+        {
+          "phrase": "learn from",
+          "cn": "向……学习",
+          "page": 22
+        }
+      ],
+      "sentence_patterns": [
+        "... enjoys / loves playing...",
+        "... is ...'s lifelong dream.",
+        "He / She trained hard for...",
+        "To... or to... Either seemed...",
+        "But he / she chose...",
+        "I can learn... from him / her."
+      ],
+      "language_notes": [
+        {
+          "phrase": "either...or...",
+          "meaning": "要么……要么……，或者……或者……",
+          "example_en": "You can either stay or leave.",
+          "example_cn": "你要么留下要么离开。",
+          "page": 20
+        },
+        {
+          "phrase": "neither...nor...",
+          "meaning": "既不……也不……",
+          "example_en": "Neither he nor she likes it.",
+          "example_cn": "他和他都不喜欢。",
+          "page": 20
+        }
+      ],
+      "parallel_articles": []
     },
     {
       "id": "unit-3",
@@ -382,115 +839,351 @@
       "key_vocabulary": [
         {
           "word": "fat",
-          "pos": "a.",
-          "cn": "文件分配表",
-          "page": 139
+          "pos": "adj.",
+          "cn": "肥胖的",
+          "page": 36,
+          "phonetic": "fæt"
         },
         {
           "word": "hen",
           "pos": "n.",
-          "cn": "母鸡, 雌禽",
-          "page": 139
+          "cn": "母鸡",
+          "page": 36,
+          "phonetic": "hen"
         },
         {
           "word": "continue",
           "pos": "v.",
-          "cn": "继续, 延续, 延长",
-          "page": 139
+          "cn": "（使）继续；（使）延续",
+          "page": 28,
+          "phonetic": "kənˈtɪnjuː"
         },
         {
           "word": "pot",
           "pos": "n.",
-          "cn": "盆, 罐, 壶, 坩埚, 奖杯",
-          "page": 139
+          "cn": "（通常为金属制成的圆而深的）锅",
+          "page": 36,
+          "phonetic": "pɒt"
         },
         {
           "word": "fight",
-          "pos": "n.",
-          "cn": "打架, 争吵, 斗志",
-          "page": 139
+          "pos": "v.",
+          "cn": "努力争取，为（……）斗争",
+          "page": 28,
+          "phonetic": "faɪt"
         },
         {
           "word": "score",
-          "pos": "n.",
-          "cn": "得分",
-          "page": 139
+          "pos": "v.",
+          "cn": "（在运动、比赛或考试中）得（分）",
+          "page": 28,
+          "phonetic": "skɔː(r)"
         },
         {
           "word": "goal",
           "pos": "n.",
-          "cn": "目标, 终点, 得分, 球门, 守门员",
-          "page": 139
+          "cn": "进球；进球得分；目标",
+          "page": 28,
+          "phonetic": "ɡəʊl"
         },
         {
           "word": "plain",
-          "pos": "a.",
-          "cn": "无格式",
-          "page": 139
+          "pos": "adj.",
+          "cn": "无装饰的，简单的，朴素的，单纯的",
+          "page": 37,
+          "phonetic": "pleɪn"
         },
         {
           "word": "chance",
           "pos": "n.",
-          "cn": "机会, 意外, 可能性",
-          "page": 139
+          "cn": "机会",
+          "page": 28,
+          "phonetic": "tʃɑːns"
         },
         {
           "word": "pill",
           "pos": "n.",
-          "cn": "药丸, 弹丸, 屈辱, 胡说",
-          "page": 139
+          "cn": "药丸，药片",
+          "page": 37,
+          "phonetic": "pɪl"
         },
         {
           "word": "remain",
           "pos": "v.",
-          "cn": "停留, 居住, 继续",
-          "page": 139
+          "cn": "继续，依然（保持某种状态）",
+          "page": 37,
+          "phonetic": "rɪˈmeɪn"
         },
         {
           "word": "delicious",
-          "pos": "a.",
-          "cn": "美味的",
-          "page": 139
+          "pos": "adj.",
+          "cn": "令人愉快的；美味的",
+          "page": 36,
+          "phonetic": "dɪˈlɪʃəs"
         },
         {
           "word": "slice",
           "pos": "n.",
-          "cn": "片",
-          "page": 139
+          "cn": "片，薄片，切片",
+          "page": 39,
+          "phonetic": "slaɪs"
         },
         {
           "word": "taste",
           "pos": "n.",
-          "cn": "味道, 品味, 味觉, 感受, 体验, 爱好, 审美, 少量",
-          "page": 139
+          "cn": "味道",
+          "page": 36,
+          "phonetic": "teɪst"
         },
         {
           "word": "beat",
-          "pos": "a.",
-          "cn": "beat的过去式",
-          "page": 139
+          "pos": "v.",
+          "cn": "搅拌，搅打",
+          "page": 39,
+          "phonetic": "biːt"
         },
         {
           "word": "salt",
-          "pos": "a.",
-          "cn": "含盐的, 咸的, 风趣的, 辛辣的",
-          "page": 139
+          "pos": "n.",
+          "cn": "盐，食盐",
+          "page": 39,
+          "phonetic": "sɔːlt"
         },
         {
           "word": "beef",
           "pos": "n.",
-          "cn": "牛肉, 肌肉",
-          "page": 139
+          "cn": "牛肉",
+          "page": 36,
+          "phonetic": "biːf"
         },
         {
           "word": "pan",
           "pos": "n.",
-          "cn": "平锅, 浅盘, 盆地, 硬土层, 拍摄全景",
-          "page": 139
+          "cn": "（长柄有盖的）锅，平底锅",
+          "page": 39,
+          "phonetic": "pæn"
+        },
+        {
+          "word": "attention",
+          "phonetic": "əˈtenʃn",
+          "pos": "n.",
+          "cn": "注意，专心，留心",
+          "page": 28
+        },
+        {
+          "word": "pay attention",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "注意",
+          "page": 28
+        },
+        {
+          "word": "victory",
+          "phonetic": "ˈvɪktəri",
+          "pos": "n.",
+          "cn": "胜利，成功，赢",
+          "page": 28
+        },
+        {
+          "word": "wonder",
+          "phonetic": "ˈwʌndə(r)",
+          "pos": "v.",
+          "cn": "想要知道",
+          "page": 29
+        },
+        {
+          "word": "courage",
+          "phonetic": "ˈkʌrɪdʒ",
+          "pos": "n.",
+          "cn": "勇气，胆量，勇敢",
+          "page": 29
+        },
+        {
+          "word": "thanks to",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "多亏；幸亏；归功于",
+          "page": 29
+        },
+        {
+          "word": "spirit",
+          "phonetic": "ˈspɪrɪt",
+          "pos": "n.",
+          "cn": "（某一特定历史时期、地方或群体的）精神，风气",
+          "page": 29
+        },
+        {
+          "word": "onion",
+          "phonetic": "ˈʌnjən",
+          "pos": "n.",
+          "cn": "洋葱（头）",
+          "page": 36
+        },
+        {
+          "word": "pancake",
+          "phonetic": "ˈpænkeɪk",
+          "pos": "n.",
+          "cn": "薄煎（烤，烙）饼",
+          "page": 36
+        },
+        {
+          "word": "porridge",
+          "phonetic": "ˈpɒrɪdʒ",
+          "pos": "n.",
+          "cn": "粥",
+          "page": 36
+        },
+        {
+          "word": "menu",
+          "phonetic": "ˈmenjuː",
+          "pos": "n.",
+          "cn": "（尤指餐馆的）菜单",
+          "page": 37
+        },
+        {
+          "word": "medicine",
+          "phonetic": "ˈmedsn",
+          "pos": "n.",
+          "cn": "药，药物（尤指口服的药水）",
+          "page": 37
+        },
+        {
+          "word": "sandwich",
+          "phonetic": "ˈsænwɪdʒ",
+          "pos": "n.",
+          "cn": "三明治，夹心面包",
+          "page": 39
+        },
+        {
+          "word": "pie",
+          "phonetic": "paɪ",
+          "pos": "n.",
+          "cn": "水果馅饼，派",
+          "page": 39
+        },
+        {
+          "word": "pepper",
+          "phonetic": "ˈpepə(r)",
+          "pos": "n.",
+          "cn": "胡椒粉",
+          "page": 39
+        },
+        {
+          "word": "oil",
+          "phonetic": "ɔɪl",
+          "pos": "n.",
+          "cn": "植物油，动物油",
+          "page": 39
+        },
+        {
+          "word": "carrot",
+          "phonetic": "ˈkærət",
+          "pos": "n.",
+          "cn": "胡萝卜",
+          "page": 36
+        },
+        {
+          "word": "mutton",
+          "phonetic": "ˈmʌtn",
+          "pos": "n.",
+          "cn": "羊肉",
+          "page": 36
         }
       ],
-      "grammar": [],
-      "sections": []
+      "grammar": [
+        {
+          "name": "系动词",
+          "name_en": "Linking verbs"
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 34
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 36,
+          "content": {
+            "reading": {
+              "title": "memories",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 39
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 46
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 49
+        }
+      ],
+      "topic": "食物、饮食文化",
+      "cefr_level": "A2",
+      "topic_en": "Food, food culture",
+      "key_phrases": [
+        {
+          "phrase": "pay attention",
+          "cn": "注意",
+          "page": 28
+        },
+        {
+          "phrase": "thanks to",
+          "cn": "多亏；幸亏；归功于",
+          "page": 29
+        },
+        {
+          "phrase": "cut into",
+          "cn": "把……切成",
+          "page": 39
+        },
+        {
+          "phrase": "add to",
+          "cn": "把……加入",
+          "page": 39
+        },
+        {
+          "phrase": "wait until",
+          "cn": "等到……",
+          "page": 39
+        }
+      ],
+      "sentence_patterns": [
+        "My favourite food is...",
+        "For me, ... is the best food in the world.",
+        "The taste and smell of... can often...",
+        "Cut... into...",
+        "Add... to...",
+        "Wait... minutes until..."
+      ],
+      "language_notes": [
+        {
+          "phrase": "linking verb",
+          "meaning": "系动词（如be, look, taste, smell, feel, remain等），连接主语和表语",
+          "example_en": "The cake tastes very good.",
+          "example_cn": "这个蛋糕尝起来很好吃。",
+          "page": 125
+        },
+        {
+          "phrase": "taste/smell/feel + adj.",
+          "meaning": " taste/smell/feel等系动词后接形容词作表语",
+          "example_en": "Her room remains clean and tidy.",
+          "example_cn": "她的房间一直保持干净整洁。",
+          "page": 125
+        }
+      ],
+      "parallel_articles": []
     },
     {
       "id": "unit-4",
@@ -502,127 +1195,407 @@
       "key_vocabulary": [
         {
           "word": "stir",
-          "pos": "n.",
-          "cn": "骚动, 轰动, 搅动, 监狱",
-          "page": 140
+          "pos": "v.",
+          "cn": "搅，搅拌，搅动",
+          "page": 39,
+          "phonetic": "stɜː(r)"
         },
         {
           "word": "plate",
           "pos": "n.",
-          "cn": "碟, 盘子, 盆中物, 金属板, 图版, 金银餐具, 印版, 金属牌(照)",
-          "page": 140
+          "cn": "盘，碟",
+          "page": 39,
+          "phonetic": "pleɪt"
         },
         {
           "word": "firm",
-          "pos": "a.",
-          "cn": "坚定的, 坚强的, 牢固的, 结实的, 坚硬的, 坚挺的, 严格的, 确定的",
-          "page": 140
+          "pos": "adj.",
+          "cn": "结实的，坚实的",
+          "page": 39,
+          "phonetic": "fɜːm"
         },
         {
           "word": "ingredient",
           "pos": "n.",
-          "cn": "配合剂; 拼料; 成分; 组分",
-          "page": 140
+          "cn": "（烹调用的）成分，食材",
+          "page": 40,
+          "phonetic": "ɪnˈɡriːdiənt"
         },
         {
           "word": "snack",
           "pos": "n.",
-          "cn": "小吃, 点心, 快餐",
-          "page": 140
+          "cn": "（正餐以外的）小吃，点心",
+          "page": 43,
+          "phonetic": "snæk"
         },
         {
           "word": "chip",
           "pos": "n.",
-          "cn": "孔屑; 组件; 晶片; 芯片",
-          "page": 140
+          "cn": "炸马铃薯条",
+          "page": 43,
+          "phonetic": "tʃɪp"
         },
         {
           "word": "dessert",
           "pos": "n.",
-          "cn": "餐后甜点",
-          "page": 140
+          "cn": "（饭后的）甜点，甜食，甜品",
+          "page": 44,
+          "phonetic": "dɪˈzɜːt"
         },
         {
           "word": "store",
-          "pos": "a.",
-          "cn": "存储器操作; 存储",
-          "page": 140
+          "pos": "v.",
+          "cn": "贮藏，贮存，积蓄",
+          "page": 44,
+          "phonetic": "stɔː(r)"
         },
         {
           "word": "folk",
-          "pos": "a.",
-          "cn": "民间的",
-          "page": 140
+          "pos": "adj.",
+          "cn": "民间的，民俗的",
+          "page": 44,
+          "phonetic": "fəʊk"
         },
         {
           "word": "tale",
           "pos": "n.",
-          "cn": "虚语, 诽语, 谣言",
-          "page": 140
+          "cn": "故事",
+          "page": 44,
+          "phonetic": "teɪl"
         },
         {
           "word": "flat",
-          "pos": "a.",
-          "cn": "平坦的, 单调的, 无力的, 浅的, 萧条的, 干脆的, 无聊的",
-          "page": 140
+          "pos": "adj.",
+          "cn": "平的，平坦的",
+          "page": 45,
+          "phonetic": "flæt"
         },
         {
           "word": "twin",
-          "pos": "a.",
-          "cn": "双胞胎的, 成对的, 孪生的",
-          "page": 140
+          "pos": "adj.",
+          "cn": "双胞胎之一的",
+          "page": 45,
+          "phonetic": "twɪn"
         },
         {
           "word": "might",
-          "pos": "aux.",
-          "cn": "可能, 也许",
-          "page": 140
+          "pos": "v.",
+          "cn": "也许，可能，大概",
+          "page": 52,
+          "phonetic": "maɪt"
         },
         {
           "word": "tool",
           "pos": "n.",
-          "cn": "工具, 机床, 傀儡",
-          "page": 140
+          "cn": "工具",
+          "page": 52,
+          "phonetic": "tuːl"
         },
         {
           "word": "list",
           "pos": "n.",
-          "cn": "列表, 序列, 数据清单",
-          "page": 140
+          "cn": "名单，清单，目录",
+          "page": 52,
+          "phonetic": "lɪst"
         },
         {
           "word": "choose",
           "pos": "v.",
-          "cn": "选取",
-          "page": 140
+          "cn": "挑选，选择",
+          "page": 52,
+          "phonetic": "tʃuːz"
         },
         {
           "word": "bored",
-          "pos": "a.",
-          "cn": "无聊的；烦人的；无趣的",
-          "page": 140
+          "pos": "adj.",
+          "cn": "厌烦的，不感兴趣的；烦闷的",
+          "page": 52,
+          "phonetic": "bɔːd"
         },
         {
           "word": "lift",
-          "pos": "n.",
-          "cn": "举起, 帮助, 昂扬, 电梯",
-          "page": 140
+          "pos": "v.",
+          "cn": "使（情况）改善；使（某人）更快乐",
+          "page": 52,
+          "phonetic": "lɪft"
         },
         {
           "word": "moment",
           "pos": "n.",
-          "cn": "片刻, 瞬间, 时机, 因素, 矩",
-          "page": 140
+          "cn": "某一时刻",
+          "page": 52,
+          "phonetic": "ˈməʊmənt"
         },
         {
           "word": "invite",
-          "pos": "n.",
+          "pos": "v.",
           "cn": "邀请",
-          "page": 140
+          "page": 53,
+          "phonetic": "ɪnˈvaɪt"
+        },
+        {
+          "word": "mixture",
+          "phonetic": "ˈmɪkstʃə(r)",
+          "pos": "n.",
+          "cn": "（尤指烹饪中的）混合液，混合料",
+          "page": 39
+        },
+        {
+          "word": "recipe",
+          "phonetic": "ˈresəpi",
+          "pos": "n.",
+          "cn": "烹饪法；食谱",
+          "page": 40
+        },
+        {
+          "word": "diet",
+          "phonetic": "ˈdaɪət",
+          "pos": "n.",
+          "cn": "日常饮食，日常食物",
+          "page": 41
+        },
+        {
+          "word": "salad",
+          "phonetic": "ˈsæləd",
+          "pos": "n.",
+          "cn": "蔬菜沙拉",
+          "page": 41
+        },
+        {
+          "word": "hamburger",
+          "phonetic": "ˈhæmbɜːɡə(r)",
+          "pos": "n.",
+          "cn": "汉堡包",
+          "page": 42
+        },
+        {
+          "word": "dangerous",
+          "phonetic": "ˈdeɪndʒərəs",
+          "pos": "adj.",
+          "cn": "危险的，有危害的",
+          "page": 43
+        },
+        {
+          "word": "border",
+          "phonetic": "ˈbɔːdə(r)",
+          "pos": "n.",
+          "cn": "边界；边境",
+          "page": 44
+        },
+        {
+          "word": "Western",
+          "phonetic": "ˈwestən",
+          "pos": "adj.",
+          "cn": "（观念或方式）西方的，欧美的",
+          "page": 44
+        },
+        {
+          "word": "dynasty",
+          "phonetic": "ˈdɪnəsti",
+          "pos": "n.",
+          "cn": "朝代",
+          "page": 44
+        },
+        {
+          "word": "emperor",
+          "phonetic": "ˈempərə(r)",
+          "pos": "n.",
+          "cn": "皇帝",
+          "page": 44
+        },
+        {
+          "word": "stomach",
+          "phonetic": "ˈstʌmək",
+          "pos": "n.",
+          "cn": "胃",
+          "page": 44
+        },
+        {
+          "word": "Iranian",
+          "phonetic": "ɪˈreɪniən",
+          "pos": "n.",
+          "cn": "伊朗人",
+          "page": 45
+        },
+        {
+          "word": "bridge",
+          "phonetic": "brɪdʒ",
+          "pos": "n.",
+          "cn": "（事物之间的）桥梁，纽带；桥",
+          "page": 45
+        },
+        {
+          "word": "dull",
+          "phonetic": "dʌl",
+          "pos": "adj.",
+          "cn": "愚笨的，迟钝的",
+          "page": 53
+        },
+        {
+          "word": "imagine",
+          "phonetic": "ɪˈmædʒɪn",
+          "pos": "v.",
+          "cn": "想象",
+          "page": 52
+        },
+        {
+          "word": "alone",
+          "phonetic": "əˈləʊn",
+          "pos": "adv.",
+          "cn": "单独，独自",
+          "page": 52
+        },
+        {
+          "word": "novel",
+          "phonetic": "ˈnɒvl",
+          "pos": "n.",
+          "cn": "（长篇）小说",
+          "page": 52
+        },
+        {
+          "word": "magazine",
+          "phonetic": "ˌmæɡəˈziːn",
+          "pos": "n.",
+          "cn": "杂志，期刊",
+          "page": 52
+        },
+        {
+          "word": "solar",
+          "phonetic": "ˈsəʊlə(r)",
+          "pos": "adj.",
+          "cn": "利用太阳能的",
+          "page": 52
+        },
+        {
+          "word": "media",
+          "phonetic": "ˈmiːdiə",
+          "pos": "n.",
+          "cn": "媒体；传媒",
+          "page": 52
+        },
+        {
+          "word": "feeling",
+          "phonetic": "ˈfiːlɪŋ",
+          "pos": "n.",
+          "cn": "感觉",
+          "page": 52
+        },
+        {
+          "word": "funny",
+          "phonetic": "ˈfʌni",
+          "pos": "adj.",
+          "cn": "使人发笑的，有趣的；滑稽的",
+          "page": 52
+        },
+        {
+          "word": "youthful",
+          "phonetic": "ˈjuːθfl",
+          "pos": "adj.",
+          "cn": "年轻的",
+          "page": 52
+        },
+        {
+          "word": "number",
+          "phonetic": "ˈnʌmbə(r)",
+          "pos": "n.",
+          "cn": "数目；数量",
+          "page": 53
         }
       ],
-      "grammar": [],
-      "sections": []
+      "grammar": [
+        {
+          "name": "祈使句",
+          "name_en": "Imperatives"
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 50
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 52,
+          "content": {
+            "reading": {
+              "title": "All work and no play makes Jack a dull boy",
+              "genre": "说明文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 55
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 62
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 65
+        }
+      ],
+      "topic": "娱乐、生活平衡",
+      "cefr_level": "A2",
+      "topic_en": "Entertainment, work-life balance",
+      "key_phrases": [
+        {
+          "phrase": "having fun",
+          "cn": "玩乐，娱乐",
+          "page": 52
+        },
+        {
+          "phrase": "a good way to",
+          "cn": "……的好方法",
+          "page": 53
+        },
+        {
+          "phrase": "bring people closer",
+          "cn": "拉近人们的距离",
+          "page": 53
+        },
+        {
+          "phrase": "personal space",
+          "cn": "个人空间",
+          "page": 53
+        },
+        {
+          "phrase": "don't forget to",
+          "cn": "不要忘记……",
+          "page": 53
+        }
+      ],
+      "sentence_patterns": [
+        "Fun can...",
+        "Fun also keeps us...",
+        "Research shows that fun...",
+        "Having fun is a good way to...",
+        "Remember that...",
+        "Don't forget to..."
+      ],
+      "language_notes": [
+        {
+          "phrase": "imperative",
+          "meaning": "祈使句，一般没有主语，以动词原形开头，否定形式在动词前加don't",
+          "example_en": "Please close the door.",
+          "example_cn": "请把门关上。",
+          "page": 125
+        },
+        {
+          "phrase": "imperative + please",
+          "meaning": "在表达请求时，可以加上please",
+          "example_en": "Sit down, please.",
+          "example_cn": "请坐。",
+          "page": 125
+        }
+      ],
+      "parallel_articles": []
     },
     {
       "id": "unit-5",
@@ -634,163 +1607,414 @@
       "key_vocabulary": [
         {
           "word": "unforgettable",
-          "pos": "a.",
-          "cn": "忘不了的, 令人难忘的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "难以忘怀的",
+          "page": 55,
+          "phonetic": "ˌʌnfəˈɡetəbl"
         },
         {
           "word": "mosquito",
           "pos": "n.",
-          "cn": "蚊",
-          "page": 141
+          "cn": "蚊子",
+          "page": 57,
+          "phonetic": "məˈskiːtəʊ"
         },
         {
           "word": "set",
-          "pos": "a.",
-          "cn": "设置; DOS内部命令:改变或显示分配给环境变量的值",
-          "page": 141
+          "pos": "v.",
+          "cn": "确立",
+          "page": 58,
+          "phonetic": "set"
         },
         {
           "word": "prince",
           "pos": "n.",
-          "cn": "王子, 亲王, 国君, 贵族, 诸侯, 有权势的大人物",
-          "page": 141
+          "cn": "王子",
+          "page": 59,
+          "phonetic": "prɪns"
         },
         {
           "word": "notice",
-          "pos": "n.",
-          "cn": "注意, 布告, 通知, 预告, 短评",
-          "page": 141
+          "pos": "v.",
+          "cn": "看到；听到；感觉到；注意到",
+          "page": 61,
+          "phonetic": "ˈnəʊtɪs"
         },
         {
           "word": "form",
           "pos": "n.",
-          "cn": "表单",
-          "page": 141
+          "cn": "形式，方式",
+          "page": 61,
+          "phonetic": "fɔːm"
         },
         {
           "word": "social",
-          "pos": "a.",
-          "cn": "社会的, 群居的, 社交的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "社交的",
+          "page": 61,
+          "phonetic": "ˈsəʊʃl"
         },
         {
           "word": "screen",
           "pos": "n.",
-          "cn": "筛选; 屏幕",
-          "page": 141
+          "cn": "屏幕",
+          "page": 61,
+          "phonetic": "skriːn"
         },
         {
           "word": "couch",
           "pos": "n.",
-          "cn": "长沙发, 睡椅, 卧榻",
-          "page": 141
+          "cn": "长沙发",
+          "page": 61,
+          "phonetic": "kaʊtʃ"
         },
         {
           "word": "sore",
-          "pos": "a.",
-          "cn": "悲伤的, 痛的, 引起痛苦的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "疼痛的；酸痛的",
+          "page": 61,
+          "phonetic": "sɔː(r)"
         },
         {
           "word": "neck",
           "pos": "n.",
-          "cn": "脖子, 衣领, 颈",
-          "page": 141
+          "cn": "颈，脖子",
+          "page": 61,
+          "phonetic": "nek"
         },
         {
           "word": "deaf",
-          "pos": "a.",
-          "cn": "聋的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "耳聋的，失聪的",
+          "page": 61,
+          "phonetic": "def"
         },
         {
           "word": "jog",
-          "pos": "n.",
-          "cn": "轻推, 轻撞, 慢跑",
-          "page": 141
+          "pos": "v.",
+          "cn": "慢跑",
+          "page": 61,
+          "phonetic": "dʒɒɡ"
         },
         {
           "word": "fresh",
-          "pos": "a.",
-          "cn": "新鲜的, 新奇的, 另外的, 淡的, 精神饱满的, 冒失的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "新鲜的",
+          "page": 61,
+          "phonetic": "freʃ"
         },
         {
           "word": "tennis",
           "pos": "n.",
-          "cn": "网球",
-          "page": 141
+          "cn": "网球（运动）",
+          "page": 61,
+          "phonetic": "ˈtenɪs"
         },
         {
           "word": "hike",
-          "pos": "n.",
-          "cn": "徒步旅行, 远足, 涨价, 提高",
-          "page": 141
+          "pos": "v.",
+          "cn": "（在……）徒步旅行，远足",
+          "page": 61,
+          "phonetic": "haɪk"
         },
         {
           "word": "ours",
-          "pos": "pl.",
-          "cn": "我们的",
-          "page": 141
+          "pos": "pron.",
+          "cn": "（属于）我们的",
+          "page": 61,
+          "phonetic": "ˈaʊəz"
         },
         {
           "word": "most",
-          "pos": "a.",
-          "cn": "大多数的, 几乎全部的, 最多的",
-          "page": 141
+          "pos": "adv.",
+          "cn": "最",
+          "page": 68,
+          "phonetic": "məʊst"
         },
         {
           "word": "cloud",
           "pos": "n.",
-          "cn": "云, 阴暗, 烟雾, 疑团",
-          "page": 141
+          "cn": "云",
+          "page": 68,
+          "phonetic": "klaʊd"
         },
         {
           "word": "soft",
-          "pos": "a.",
-          "cn": "软的, 温和的, 柔和的, 柔滑的, 温柔的, 软弱的, 坡度小的, 笨的, 纸币的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "柔软的",
+          "page": 68,
+          "phonetic": "sɒft"
         },
         {
           "word": "sky",
           "pos": "n.",
-          "cn": "天空, 天色, 天堂",
-          "page": 141
+          "cn": "天，天空",
+          "page": 68,
+          "phonetic": "skaɪ"
         },
         {
           "word": "calm",
-          "pos": "a.",
-          "cn": "平静的, 冷静的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "镇静的，沉着的；心平气和的",
+          "page": 68,
+          "phonetic": "kɑːm"
         },
         {
           "word": "express",
-          "pos": "a.",
-          "cn": "明确的, 丝毫不差的, 专门的, 快的",
-          "page": 141
+          "pos": "v.",
+          "cn": "表达；表示；表现",
+          "page": 68,
+          "phonetic": "ɪkˈspres"
         },
         {
           "word": "field",
-          "pos": "a.",
-          "cn": "域, 字段",
-          "page": 141
+          "pos": "n.",
+          "cn": "田地，田野",
+          "page": 69,
+          "phonetic": "fiːld"
         },
         {
           "word": "than",
-          "pos": "adv.",
-          "cn": "比, 除...外",
-          "page": 141
+          "pos": "prep.",
+          "cn": "比",
+          "page": 69,
+          "phonetic": "ðæn"
         },
         {
           "word": "few",
-          "pos": "a.",
-          "cn": "很少的, 不多的, 少数的",
-          "page": 141
+          "pos": "adj.",
+          "cn": "很少，不多",
+          "page": 69,
+          "phonetic": "fjuː"
+        },
+        {
+          "word": "a number of",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "一些",
+          "page": 53
+        },
+        {
+          "word": "able",
+          "phonetic": "ˈeɪbl",
+          "pos": "adj.",
+          "cn": "有能力做……的，会做……的",
+          "page": 53
+        },
+        {
+          "word": "daily",
+          "phonetic": "ˈdeɪli",
+          "pos": "adj.",
+          "cn": "每日的，每天的",
+          "page": 55
+        },
+        {
+          "word": "daily life",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "日常生活",
+          "page": 55
+        },
+        {
+          "word": "housework",
+          "phonetic": "ˈhaʊswɜːk",
+          "pos": "n.",
+          "cn": "家务（劳动）",
+          "page": 55
+        },
+        {
+          "word": "insect",
+          "phonetic": "ˈɪnsekt",
+          "pos": "n.",
+          "cn": "昆虫",
+          "page": 57
+        },
+        {
+          "word": "large",
+          "phonetic": "lɑːdʒ",
+          "pos": "adj.",
+          "cn": "巨大的",
+          "page": 57
+        },
+        {
+          "word": "interest",
+          "phonetic": "ˈɪntrəst",
+          "pos": "n.",
+          "cn": "兴趣",
+          "page": 59
+        },
+        {
+          "word": "butterfly",
+          "phonetic": "ˈbʌtəflaɪ",
+          "pos": "n.",
+          "cn": "蝴蝶",
+          "page": 59
+        },
+        {
+          "word": "monster",
+          "phonetic": "ˈmɒnstə(r)",
+          "pos": "n.",
+          "cn": "妖怪；怪兽，怪物",
+          "page": 61
+        },
+        {
+          "word": "be deaf to sth",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "不愿听某事，不肯听取某事",
+          "page": 61
+        },
+        {
+          "word": "balanced",
+          "phonetic": "ˈbælənst",
+          "pos": "adj.",
+          "cn": "均衡的",
+          "page": 61
+        },
+        {
+          "word": "plateau",
+          "phonetic": "ˈplætəʊ",
+          "pos": "n.",
+          "cn": "高原",
+          "page": 68
+        },
+        {
+          "word": "brightly",
+          "phonetic": "ˈbraɪtli",
+          "pos": "adv.",
+          "cn": "明亮地",
+          "page": 68
+        },
+        {
+          "word": "above",
+          "phonetic": "əˈbʌv",
+          "pos": "prep.",
+          "cn": "在（……）上方",
+          "page": 68
+        },
+        {
+          "word": "grassland",
+          "phonetic": "ˈɡrɑːslænd",
+          "pos": "n.",
+          "cn": "草原",
+          "page": 69
+        },
+        {
+          "word": "restaurant",
+          "phonetic": "ˈrestrɒnt",
+          "pos": "n.",
+          "cn": "饭店，餐馆",
+          "page": 69
         }
       ],
-      "grammar": [],
-      "sections": []
+      "grammar": [
+        {
+          "name": "比较级和最高级",
+          "name_en": "Comparatives and superlatives"
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 66
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 68,
+          "content": {
+            "reading": {
+              "title": "Colours of my hometown",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 71
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 78
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 81
+        }
+      ],
+      "topic": "自然、地理",
+      "cefr_level": "A2",
+      "topic_en": "Nature, geography",
+      "key_phrases": [
+        {
+          "phrase": "a number of",
+          "cn": "一些",
+          "page": 53
+        },
+        {
+          "phrase": "daily life",
+          "cn": "日常生活",
+          "page": 55
+        },
+        {
+          "phrase": "be deaf to sth",
+          "cn": "不愿听某事，不肯听取某事",
+          "page": 61
+        },
+        {
+          "phrase": "be famous for",
+          "cn": "因……而著名",
+          "page": 69
+        },
+        {
+          "phrase": "be full of",
+          "cn": "充满……",
+          "page": 69
+        },
+        {
+          "phrase": "in nature",
+          "cn": "在自然界中",
+          "page": 69
+        },
+        {
+          "phrase": "express one's love for",
+          "cn": "表达对……的热爱",
+          "page": 69
+        },
+        {
+          "phrase": "one of... in the world",
+          "cn": "世界上最……之一",
+          "page": 69
+        }
+      ],
+      "sentence_patterns": [
+        "It is famous for...",
+        "This area is full of... in nature.",
+        "It is like...",
+        "Words can't express my love for...",
+        "It is one of... in the world."
+      ],
+      "language_notes": [
+        {
+          "phrase": "comparative",
+          "meaning": "形容词/副词比较级，一般在词尾加-er，或在前面加more",
+          "example_en": "The plateau is quieter than the big cities.",
+          "example_cn": "高原比大城市安静。",
+          "page": 131
+        },
+        {
+          "phrase": "superlative",
+          "meaning": "形容词/副词最高级，一般在词尾加-est，或在前面加most，前面通常加the",
+          "example_en": "It's one of the most beautiful places in the world.",
+          "example_cn": "它是世界上最美丽的地方之一。",
+          "page": 131
+        }
+      ],
+      "parallel_articles": []
     },
     {
       "id": "unit-6",
@@ -798,157 +2022,727 @@
       "number": 6,
       "title": "Hitting the road",
       "page_start": 82,
-      "page_end": null,
+      "page_end": 97,
       "key_vocabulary": [
         {
           "word": "proud",
-          "pos": "a.",
-          "cn": "骄傲的, 自大的, 自豪的, 辉煌的, 壮丽的",
-          "page": 142
+          "pos": "adj.",
+          "cn": "自豪的，得意的",
+          "page": 69,
+          "phonetic": "praʊd"
         },
         {
           "word": "describe",
           "pos": "v.",
-          "cn": "描述, 描绘, 画",
-          "page": 142
+          "cn": "描述，描写",
+          "page": 70,
+          "phonetic": "dɪˈskraɪb"
         },
         {
           "word": "tide",
           "pos": "n.",
-          "cn": "潮, 潮汐, 趋势, 潮流, 涨潮, 高潮",
-          "page": 142
+          "cn": "海潮，潮汐",
+          "page": 71,
+          "phonetic": "taɪd"
         },
         {
           "word": "exhibition",
           "pos": "n.",
-          "cn": "投药, 展览, 展出",
-          "page": 142
+          "cn": "展览（会）",
+          "page": 73,
+          "phonetic": "ˌeksɪˈbɪʃn"
         },
         {
           "word": "lung",
           "pos": "n.",
           "cn": "肺",
-          "page": 142
+          "page": 75,
+          "phonetic": "lʌŋ"
         },
         {
           "word": "develop",
           "pos": "v.",
-          "cn": "发展, 生长",
-          "page": 142
+          "cn": "（使）成长，（使）发展",
+          "page": 75,
+          "phonetic": "dɪˈveləp"
         },
         {
           "word": "land",
           "pos": "n.",
-          "cn": "连接盘; 焊盘",
-          "page": 142
+          "cn": "陆地",
+          "page": 75,
+          "phonetic": "lænd"
         },
         {
           "word": "die",
-          "pos": "n.",
-          "cn": "骰子, 冲模",
-          "page": 142
+          "pos": "v.",
+          "cn": "消失，不复存在",
+          "page": 76,
+          "phonetic": "daɪ"
         },
         {
           "word": "lie",
-          "pos": "n.",
-          "cn": "谎言, 假象, 位置",
-          "page": 142
+          "pos": "v.",
+          "cn": "躺，平卧",
+          "page": 76,
+          "phonetic": "laɪ"
         },
         {
           "word": "surface",
-          "pos": "a.",
-          "cn": "表面的, 外观的, 肤浅的, 水面上的",
-          "page": 142
+          "pos": "n.",
+          "cn": "表面，面",
+          "page": 76,
+          "phonetic": "ˈsɜːfɪs"
         },
         {
           "word": "flow",
-          "pos": "n.",
-          "cn": "流程, 流动, 流量, 洋溢, 泛滥, 涨潮",
-          "page": 142
+          "pos": "v.",
+          "cn": "流，流动",
+          "page": 76,
+          "phonetic": "fləʊ"
         },
         {
           "word": "suggest",
           "pos": "v.",
-          "cn": "建议, 提出, 提议",
-          "page": 142
+          "cn": "暗示，暗指",
+          "page": 77,
+          "phonetic": "səˈdʒest"
         },
         {
           "word": "snake",
           "pos": "n.",
-          "cn": "蛇, 阴险的人",
-          "page": 142
+          "cn": "蛇",
+          "page": 77,
+          "phonetic": "sneɪk"
         },
         {
           "word": "however",
           "pos": "adv.",
-          "cn": "然而, 无论如何, 究竟怎样",
-          "page": 142
+          "cn": "然而，不过，但是",
+          "page": 77,
+          "phonetic": "haʊˈevə(r)"
         },
         {
           "word": "wood",
           "pos": "n.",
-          "cn": "木材, 木制品",
-          "page": 142
+          "cn": "木头；木材，木料",
+          "page": 77,
+          "phonetic": "wʊd"
         },
         {
           "word": "disappear",
           "pos": "v.",
-          "cn": "消失, 不见",
-          "page": 142
+          "cn": "消失，不见",
+          "page": 77,
+          "phonetic": "ˌdɪsəˈpɪə(r)"
         },
         {
           "word": "airport",
           "pos": "n.",
-          "cn": "航空站, 机场",
-          "page": 142
+          "cn": "机场，航空站（港）",
+          "page": 84,
+          "phonetic": "ˈeəpɔːt"
         },
         {
           "word": "expect",
           "pos": "v.",
-          "cn": "预期, 盼望, 期待",
-          "page": 142
+          "cn": "预料，预期，预计",
+          "page": 84,
+          "phonetic": "ɪkˈspekt"
         },
         {
           "word": "deep",
-          "pos": "a.",
-          "cn": "深的",
-          "page": 142
+          "pos": "adj.",
+          "cn": "（呼吸或叹息）深深的",
+          "page": 84,
+          "phonetic": "diːp"
         },
         {
           "word": "reply",
-          "pos": "n.",
-          "cn": "答复",
-          "page": 142
+          "pos": "v.",
+          "cn": "回答，答复",
+          "page": 85,
+          "phonetic": "rɪˈplaɪ"
         },
         {
           "word": "surprisingly",
           "pos": "adv.",
-          "cn": "使人惊奇, 出人意外, 惊人, 令人惊讶",
-          "page": 142
+          "cn": "惊人地，使人吃惊地，出人意料地",
+          "page": 85,
+          "phonetic": "səˈpraɪzɪŋli"
         },
         {
           "word": "mask",
           "pos": "n.",
-          "cn": "屏蔽; 掩码",
-          "page": 142
+          "cn": "假面具，假面",
+          "page": 85,
+          "phonetic": "mɑːsk"
         },
         {
           "word": "trip",
           "pos": "n.",
-          "cn": "旅行, 绊倒, 摔倒, 失足, 差错, 旅程",
-          "page": 142
+          "cn": "旅游；旅行，出行",
+          "page": 85,
+          "phonetic": "trɪp"
+        },
+        {
+          "word": "present",
+          "phonetic": "ˈpreznt",
+          "pos": "n.",
+          "cn": "礼物，赠品",
+          "page": 69
+        },
+        {
+          "word": "better",
+          "phonetic": "ˈbetə(r)",
+          "pos": "adj.",
+          "cn": "更好的，较好的",
+          "page": 69
+        },
+        {
+          "word": "diary",
+          "phonetic": "ˈdaɪəri",
+          "pos": "n.",
+          "cn": "日记，日志",
+          "page": 70
+        },
+        {
+          "word": "metre",
+          "phonetic": "ˈmiːtə(r)",
+          "pos": "n.",
+          "cn": "米，公尺",
+          "page": 71
+        },
+        {
+          "word": "lungfish",
+          "phonetic": "ˈlʌŋfɪʃ",
+          "pos": "n.",
+          "cn": "肺鱼",
+          "page": 75
+        },
+        {
+          "word": "scientist",
+          "phonetic": "ˈsaɪəntɪst",
+          "pos": "n.",
+          "cn": "科学家",
+          "page": 75
+        },
+        {
+          "word": "aloud",
+          "phonetic": "əˈlaʊd",
+          "pos": "adv.",
+          "cn": "出声地",
+          "page": 77
+        },
+        {
+          "word": "salty",
+          "phonetic": "ˈsɔːlti",
+          "pos": "adj.",
+          "cn": "咸的，含盐的",
+          "page": 76
+        },
+        {
+          "word": "level",
+          "phonetic": "ˈlevl",
+          "pos": "n.",
+          "cn": "水平高度；相对高度",
+          "page": 76
+        },
+        {
+          "word": "less",
+          "phonetic": "les",
+          "pos": "det.",
+          "cn": "不那么多，更（较）少",
+          "page": 76
+        },
+        {
+          "word": "such as",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "像，诸如，例如",
+          "page": 77
+        },
+        {
+          "word": "only",
+          "phonetic": "ˈəʊnli",
+          "pos": "adj.",
+          "cn": "唯一的，仅有的",
+          "page": 77
+        },
+        {
+          "word": "if",
+          "phonetic": "ɪf",
+          "pos": "conj.",
+          "cn": "假若，要是，如果",
+          "page": 77
+        },
+        {
+          "word": "glacier",
+          "phonetic": "ˈɡlæsiə(r)",
+          "pos": "n.",
+          "cn": "冰川",
+          "page": 77
+        },
+        {
+          "word": "climate",
+          "phonetic": "ˈklaɪmət",
+          "pos": "n.",
+          "cn": "气候",
+          "page": 77
+        },
+        {
+          "word": "burn",
+          "phonetic": "bɜːn",
+          "pos": "v.",
+          "cn": "（使）（身体部位）灼痛，（使）火辣辣地痛",
+          "page": 84
+        },
+        {
+          "word": "lemon",
+          "phonetic": "ˈlemən",
+          "pos": "n.",
+          "cn": "柠檬",
+          "page": 84
+        },
+        {
+          "word": "mouthful",
+          "phonetic": "ˈmaʊθfʊl",
+          "pos": "n.",
+          "cn": "（食物或饮料的）一口，一满口",
+          "page": 85
+        },
+        {
+          "word": "normal",
+          "phonetic": "ˈnɔːml",
+          "pos": "adj.",
+          "cn": "正常的",
+          "page": 85
+        },
+        {
+          "word": "ancient",
+          "phonetic": "ˈeɪnʃənt",
+          "pos": "adj.",
+          "cn": "古代的",
+          "page": 85
+        },
+        {
+          "word": "further",
+          "phonetic": "ˈfɜːðə(r)",
+          "pos": "adv.",
+          "cn": "更远",
+          "page": 85
+        },
+        {
+          "word": "look forward to",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "（兴奋地）期待，盼望",
+          "page": 85
+        },
+        {
+          "word": "general",
+          "phonetic": "ˈdʒenrəl",
+          "pos": "adj.",
+          "cn": "大体的，大致的",
+          "page": 86
+        },
+        {
+          "word": "in general",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "通常，一般情况下；普遍地，总的说来",
+          "page": 86
+        },
+        {
+          "word": "curious",
+          "phonetic": "ˈkjʊəriəs",
+          "pos": "adj.",
+          "cn": "好奇的，好打听的",
+          "page": 86
+        },
+        {
+          "word": "local",
+          "phonetic": "ˈləʊkl",
+          "pos": "adj.",
+          "cn": "地方性的，当（本）地的",
+          "page": 87
+        },
+        {
+          "word": "places of interest",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "名胜",
+          "page": 87
+        },
+        {
+          "word": "hotel",
+          "phonetic": "həʊˈtel",
+          "pos": "n.",
+          "cn": "宾馆，酒店",
+          "page": 87
+        },
+        {
+          "word": "comfortable",
+          "phonetic": "ˈkʌmftəbl",
+          "pos": "adj.",
+          "cn": "舒适的，令人舒服的",
+          "page": 87
+        },
+        {
+          "word": "other",
+          "phonetic": "ˈʌðə(r)",
+          "pos": "adj.",
+          "cn": "另外的，其他的",
+          "page": 87
+        },
+        {
+          "word": "waterfall",
+          "phonetic": "ˈwɔːtəfɔːl",
+          "pos": "n.",
+          "cn": "瀑布",
+          "page": 87
+        },
+        {
+          "word": "powerful",
+          "phonetic": "ˈpaʊəfl",
+          "pos": "adj.",
+          "cn": "猛烈的，有力的",
+          "page": 87
+        },
+        {
+          "word": "thunder",
+          "phonetic": "ˈθʌndə(r)",
+          "pos": "n.",
+          "cn": "雷声",
+          "page": 87
+        },
+        {
+          "word": "painting",
+          "phonetic": "ˈpeɪntɪŋ",
+          "pos": "n.",
+          "cn": "绘画（作品）",
+          "page": 87
+        },
+        {
+          "word": "roller coaster",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "过山车，云霄飞车",
+          "page": 87
+        },
+        {
+          "word": "huge",
+          "phonetic": "hjuːdʒ",
+          "pos": "adj.",
+          "cn": "巨大的，庞大的；极大量的",
+          "page": 87
+        },
+        {
+          "word": "myself",
+          "phonetic": "maɪˈself",
+          "pos": "pron.",
+          "cn": "我自己",
+          "page": 87
+        },
+        {
+          "word": "ant",
+          "phonetic": "ænt",
+          "pos": "n.",
+          "cn": "蚂蚁",
+          "page": 87
+        },
+        {
+          "word": "beauty",
+          "phonetic": "ˈbjuːti",
+          "pos": "n.",
+          "cn": "美，美丽，漂亮",
+          "page": 87
+        },
+        {
+          "word": "accept",
+          "phonetic": "əkˈsept",
+          "pos": "v.",
+          "cn": "接受；同意做",
+          "page": 89
+        },
+        {
+          "word": "award",
+          "phonetic": "əˈwɔːd",
+          "pos": "n.",
+          "cn": "奖，奖赏；奖品；奖金",
+          "page": 89
+        },
+        {
+          "word": "understand",
+          "phonetic": "ˌʌndəˈstænd",
+          "pos": "v.",
+          "cn": "了解，知道",
+          "page": 90
+        },
+        {
+          "word": "traffic",
+          "phonetic": "ˈtræfɪk",
+          "pos": "n.",
+          "cn": "路上行驶的车辆，交通",
+          "page": 91
+        },
+        {
+          "word": "unexplored",
+          "phonetic": "ˌʌnɪkˈsplɔːd",
+          "pos": "adj.",
+          "cn": "（地方）未曾探索的，未经勘察的",
+          "page": 92
+        },
+        {
+          "word": "seriously",
+          "phonetic": "ˈsɪəriəsli",
+          "pos": "adv.",
+          "cn": "严重地，非常",
+          "page": 92
+        },
+        {
+          "word": "end",
+          "phonetic": "end",
+          "pos": "v.",
+          "cn": "使结束，使停止",
+          "page": 92
+        },
+        {
+          "word": "spend",
+          "phonetic": "spend",
+          "pos": "v.",
+          "cn": "度过，花（时间）",
+          "page": 92
+        },
+        {
+          "word": "dream",
+          "phonetic": "driːm",
+          "pos": "v.",
+          "cn": "梦想，希望",
+          "page": 92
+        },
+        {
+          "word": "set out",
+          "phonetic": "",
+          "pos": "phrase",
+          "cn": "动身踏上",
+          "page": 92
+        },
+        {
+          "word": "achieve",
+          "phonetic": "əˈtʃiːv",
+          "pos": "v.",
+          "cn": "实现；（尤指经过努力）取得，达到",
+          "page": 92
+        },
+        {
+          "word": "geographical",
+          "phonetic": "ˌdʒiːəˈɡræfɪkl",
+          "pos": "adj.",
+          "cn": "地理的；地理（学）的",
+          "page": 93
+        },
+        {
+          "word": "discovery",
+          "phonetic": "dɪˈskʌvəri",
+          "pos": "n.",
+          "cn": "被发现的事实（事物）",
+          "page": 93
+        },
+        {
+          "word": "peak",
+          "phonetic": "piːk",
+          "pos": "n.",
+          "cn": "山顶，山峰；山，山岳",
+          "page": 93
+        },
+        {
+          "word": "truth",
+          "phonetic": "truːθ",
+          "pos": "n.",
+          "cn": "事实，真相，实情",
+          "page": 93
+        },
+        {
+          "word": "climb",
+          "phonetic": "klaɪm",
+          "pos": "v.",
+          "cn": "爬（山），登（山）",
+          "page": 93
+        },
+        {
+          "word": "discover",
+          "phonetic": "dɪˈskʌvə(r)",
+          "pos": "v.",
+          "cn": "发现，找到",
+          "page": 93
+        },
+        {
+          "word": "view",
+          "phonetic": "vjuː",
+          "pos": "n.",
+          "cn": "视野",
+          "page": 93
+        },
+        {
+          "word": "record",
+          "phonetic": "rɪˈkɔːd",
+          "pos": "v.",
+          "cn": "记录",
+          "page": 93
+        },
+        {
+          "word": "description",
+          "phonetic": "dɪˈskrɪpʃn",
+          "pos": "n.",
+          "cn": "描述，描写，叙述",
+          "page": 93
         }
       ],
-      "grammar": [],
-      "sections": []
+      "grammar": [
+        {
+          "name": "as...as结构",
+          "name_en": "as... as"
+        }
+      ],
+      "sections": [
+        {
+          "type": "starting_out",
+          "title": "Starting out",
+          "page": 82
+        },
+        {
+          "type": "understanding_ideas",
+          "title": "Understanding ideas",
+          "page": 84,
+          "content": {
+            "reading": {
+              "title": "COOL",
+              "genre": "记叙文"
+            }
+          }
+        },
+        {
+          "type": "developing_ideas",
+          "title": "Developing ideas",
+          "page": 87
+        },
+        {
+          "type": "presenting_ideas",
+          "title": "Presenting ideas",
+          "page": 94
+        },
+        {
+          "type": "reflection",
+          "title": "Reflection",
+          "page": 97
+        }
+      ],
+      "topic": "旅行、文化探索",
+      "cefr_level": "A2",
+      "topic_en": "Travel, cultural exploration",
+      "key_phrases": [
+        {
+          "phrase": "such as",
+          "cn": "像，诸如，例如",
+          "page": 77
+        },
+        {
+          "phrase": "look forward to",
+          "cn": "（兴奋地）期待，盼望",
+          "page": 85
+        },
+        {
+          "phrase": "in general",
+          "cn": "通常，一般情况下；普遍地，总的说来",
+          "page": 86
+        },
+        {
+          "phrase": "places of interest",
+          "cn": "名胜",
+          "page": 87
+        },
+        {
+          "phrase": "roller coaster",
+          "cn": "过山车，云霄飞车",
+          "page": 87
+        },
+        {
+          "phrase": "set out",
+          "cn": "动身踏上",
+          "page": 92
+        },
+        {
+          "phrase": "as...as",
+          "cn": "和……一样",
+          "page": 92
+        }
+      ],
+      "sentence_patterns": [
+        "... is much... than...",
+        "Surprisingly, I started to enjoy...",
+        "... is just as fun as...",
+        "I tried... and went to...",
+        "I'm really looking forward to...",
+        "To me, ... is... than..."
+      ],
+      "language_notes": [
+        {
+          "phrase": "as...as",
+          "meaning": "和……一样……，否定形式为not as/so...as，中间用形容词原级",
+          "example_en": "I was as happy as you yesterday.",
+          "example_cn": "昨天我和你一样高兴。",
+          "page": 131
+        },
+        {
+          "phrase": "look forward to",
+          "meaning": "期待……，to是介词，后面接名词或动名词",
+          "example_en": "I'm really looking forward to the rest of my trip.",
+          "example_cn": "我真的很期待我旅程的剩余部分。",
+          "page": 85
+        }
+      ],
+      "parallel_articles": []
     }
   ],
   "appendix": {
+    "grammar_guide": {
+      "page_start": 124,
+      "page_end": 136,
+      "title": "Guide to the language use",
+      "topics": [
+        "一般过去时",
+        "不定代词",
+        "系动词",
+        "祈使句",
+        "比较级和最高级",
+        "as...as结构"
+      ]
+    },
     "words_by_unit": {
-      "note": "页码范围待手动补充"
+      "page_start": 137,
+      "page_end": 143,
+      "description": "按单元排列的单词表"
     },
     "vocabulary_az": {
-      "note": "页码范围待手动补充"
+      "page_start": 146,
+      "page_end": 153,
+      "description": "A-Z字母序总词汇表"
+    },
+    "proper_nouns": {
+      "page_start": 144,
+      "page_end": 145,
+      "description": "专有名词（人名、地名）"
+    },
+    "pronunciation_guide": {
+      "page_start": 154,
+      "page_end": 156,
+      "description": "发音指南"
+    },
+    "irregular_verbs": {
+      "page_start": 157,
+      "page_end": 161,
+      "description": "不规则动词表"
     }
   }
 }
