@@ -1,0 +1,1278 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "sun",
+    "editor_name": "孙有中",
+    "standard": "2022年版课程标准",
+    "level": "junior",
+    "grade": 8,
+    "semester": "up",
+    "title": "八年级上册",
+    "pages": 163,
+    "source_pdf": "(FLTRP孙有中根据2022年版课程标准修订)义务教育教科书·英语 八年级上册.pdf",
+    "extracted_at": "2026-05-05",
+    "extraction_method": "OCR + ECDICT enrichment",
+    "confidence": "ocr_verified"
+  },
+  "toc": [
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "This is me",
+      "page": 2
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Getting along",
+      "page": 18
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "Make it happen!",
+      "page": 34
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "Digital life",
+      "page": 50
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Play by the rules?",
+      "page": 66
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "When disaster strikes",
+      "page": 82
+    }
+  ],
+  "units": [
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "This is me",
+      "page_start": 2,
+      "page_end": 17,
+      "key_vocabulary": [
+        {
+          "word": "suppose",
+          "pos": "v.",
+          "cn": "料想",
+          "page": 141
+        },
+        {
+          "word": "bright",
+          "pos": "a.",
+          "cn": "明亮的, 聪明的, 鲜明的, 欢快的",
+          "page": 141
+        },
+        {
+          "word": "strawberry",
+          "pos": "n.",
+          "cn": "草莓",
+          "page": 141
+        },
+        {
+          "word": "therefore",
+          "pos": "adv.",
+          "cn": "因此, 所以",
+          "page": 141
+        },
+        {
+          "word": "cover",
+          "pos": "n.",
+          "cn": "盖子, 封面, 藉口",
+          "page": 141
+        },
+        {
+          "word": "bathroom",
+          "pos": "n.",
+          "cn": "浴室, 厕所",
+          "page": 141
+        },
+        {
+          "word": "truly",
+          "pos": "adv.",
+          "cn": "真实地, 不假",
+          "page": 141
+        },
+        {
+          "word": "paint",
+          "pos": "n.",
+          "cn": "油漆, 颜料, 绘画作品, 涂漆",
+          "page": 141
+        },
+        {
+          "word": "yet",
+          "pos": "adv.",
+          "cn": "还, 尚, 仍然, 已经, 然而",
+          "page": 141
+        },
+        {
+          "word": "anyway",
+          "pos": "adv.",
+          "cn": "无论如何, 至少",
+          "page": 141
+        },
+        {
+          "word": "difference",
+          "pos": "n.",
+          "cn": "差分",
+          "page": 141
+        },
+        {
+          "word": "hate",
+          "pos": "n.",
+          "cn": "憎恨, 恨, 厌恶",
+          "page": 141
+        },
+        {
+          "word": "scientific",
+          "pos": "a.",
+          "cn": "科学记数法",
+          "page": 141
+        },
+        {
+          "word": "wise",
+          "pos": "a.",
+          "cn": "教育信息系统",
+          "page": 141
+        },
+        {
+          "word": "perfect",
+          "pos": "a.",
+          "cn": "完美的, 完好的, 理想的, 熟练的, 精确的, 完成式的",
+          "page": 141
+        },
+        {
+          "word": "row",
+          "pos": "n.",
+          "cn": "行",
+          "page": 141
+        },
+        {
+          "word": "height",
+          "pos": "n.",
+          "cn": "高度",
+          "page": 141
+        },
+        {
+          "word": "literature",
+          "pos": "n.",
+          "cn": "广告, 商品介绍等文学",
+          "page": 141
+        },
+        {
+          "word": "character",
+          "pos": "n.",
+          "cn": "字符",
+          "page": 141
+        },
+        {
+          "word": "wizard",
+          "pos": "a.",
+          "cn": "向导",
+          "page": 141
+        },
+        {
+          "word": "brain",
+          "pos": "n.",
+          "cn": "脑",
+          "page": 141
+        },
+        {
+          "word": "value",
+          "pos": "n.",
+          "cn": "计算结果",
+          "page": 141
+        },
+        {
+          "word": "quality",
+          "pos": "a.",
+          "cn": "品质",
+          "page": 141
+        },
+        {
+          "word": "actress",
+          "pos": "n.",
+          "cn": "女演员",
+          "page": 141
+        },
+        {
+          "word": "silver",
+          "pos": "a.",
+          "cn": "银的, 银制的, 银器的",
+          "page": 141
+        },
+        {
+          "word": "doubt",
+          "pos": "n.",
+          "cn": "怀疑, 疑惑",
+          "page": 141
+        },
+        {
+          "word": "fear",
+          "pos": "n.",
+          "cn": "恐怖, 害怕, 担心",
+          "page": 141
+        },
+        {
+          "word": "succeed",
+          "pos": "v.",
+          "cn": "成功, 继承, 继续",
+          "page": 141
+        },
+        {
+          "word": "excellent",
+          "pos": "a.",
+          "cn": "优良的, 杰出的, 出色的",
+          "page": 141
+        },
+        {
+          "word": "satisfied",
+          "pos": "a.",
+          "cn": "感到满意的",
+          "page": 141
+        },
+        {
+          "word": "risky",
+          "pos": "a.",
+          "cn": "危险的",
+          "page": 141
+        },
+        {
+          "word": "Olympics",
+          "pos": "n.",
+          "cn": "奥林匹克运动会",
+          "page": 141
+        },
+        {
+          "word": "athlete",
+          "pos": "n.",
+          "cn": "运动员",
+          "page": 141
+        },
+        {
+          "word": "stick",
+          "pos": "n.",
+          "cn": "棍, 棒, 刺, 枯枝, 茎, 条状物",
+          "page": 141
+        },
+        {
+          "word": "superman",
+          "pos": "n.",
+          "cn": "具有超人能力的人, 超人",
+          "page": 141
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Getting along",
+      "page_start": 18,
+      "page_end": 33,
+      "key_vocabulary": [
+        {
+          "word": "shout",
+          "pos": "n.",
+          "cn": "呼喊, 喊声",
+          "page": 142
+        },
+        {
+          "word": "gate",
+          "pos": "n.",
+          "cn": "门; 栅",
+          "page": 142
+        },
+        {
+          "word": "build",
+          "pos": "n.",
+          "cn": "构造, 体格",
+          "page": 142
+        },
+        {
+          "word": "nor",
+          "pos": "conj.",
+          "cn": "或非",
+          "page": 142
+        },
+        {
+          "word": "hole",
+          "pos": "n.",
+          "cn": "孔, 洞, 穴, 漏洞",
+          "page": 142
+        },
+        {
+          "word": "glad",
+          "pos": "a.",
+          "cn": "高兴的, 喜欢的, 情愿的",
+          "page": 142
+        },
+        {
+          "word": "knock",
+          "pos": "n.",
+          "cn": "敲, 敲打, 敲门",
+          "page": 142
+        },
+        {
+          "word": "afraid",
+          "pos": "a.",
+          "cn": "害怕的, 恐怕的, 遗憾的",
+          "page": 142
+        },
+        {
+          "word": "double",
+          "pos": "a.",
+          "cn": "双精度型",
+          "page": 142
+        },
+        {
+          "word": "return",
+          "pos": "a.",
+          "cn": "返回",
+          "page": 142
+        },
+        {
+          "word": "lively",
+          "pos": "a.",
+          "cn": "活泼的, 鲜明的, 生动的",
+          "page": 142
+        },
+        {
+          "word": "theirs",
+          "pos": "pron.",
+          "cn": "他们的",
+          "page": 142
+        },
+        {
+          "word": "grade",
+          "pos": "n.",
+          "cn": "等级, 年级, 阶段, 成绩, 程度, 坡度, 斜坡",
+          "page": 142
+        },
+        {
+          "word": "article",
+          "pos": "n.",
+          "cn": "信件",
+          "page": 142
+        },
+        {
+          "word": "priceless",
+          "pos": "a.",
+          "cn": "无价的, 极贵重的",
+          "page": 142
+        },
+        {
+          "word": "offer",
+          "pos": "n.",
+          "cn": "给予(物), 出价, 提议, 意图, 报价",
+          "page": 142
+        },
+        {
+          "word": "plan",
+          "pos": "n.",
+          "cn": "计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图",
+          "page": 142
+        },
+        {
+          "word": "quite",
+          "pos": "adv.",
+          "cn": "相当, 完全, 十分",
+          "page": 142
+        },
+        {
+          "word": "stressed",
+          "pos": "a.",
+          "cn": "感到有压力的；紧张的",
+          "page": 142
+        },
+        {
+          "word": "online",
+          "pos": "",
+          "cn": "联机",
+          "page": 142
+        },
+        {
+          "word": "allow",
+          "pos": "v.",
+          "cn": "允许命令",
+          "page": 142
+        },
+        {
+          "word": "ticket",
+          "pos": "n.",
+          "cn": "票, 券, 车票, 标签, 入场券, 证明书",
+          "page": 142
+        },
+        {
+          "word": "true",
+          "pos": "a.",
+          "cn": "真实的, 正确的, 忠诚的, 可靠的, 纯粹的, 正式的",
+          "page": 142
+        },
+        {
+          "word": "respect",
+          "pos": "n.",
+          "cn": "尊敬, 尊重, 问候",
+          "page": 142
+        },
+        {
+          "word": "narrow",
+          "pos": "a.",
+          "cn": "狭窄的, 仔细的, 有限的, 勉强的, 狭隘的, 手紧的",
+          "page": 142
+        },
+        {
+          "word": "lane",
+          "pos": "n.",
+          "cn": "小路, 巷, 弄, 单行道",
+          "page": 142
+        },
+        {
+          "word": "unit",
+          "pos": "a.",
+          "cn": "单元常数; 部件",
+          "page": 142
+        },
+        {
+          "word": "perhaps",
+          "pos": "adv.",
+          "cn": "也许, 大概",
+          "page": 142
+        },
+        {
+          "word": "divide",
+          "pos": "n.",
+          "cn": "除",
+          "page": 142
+        },
+        {
+          "word": "reach",
+          "pos": "n.",
+          "cn": "伸出, 延伸, 区域, 范围, 流域, 岬",
+          "page": 142
+        },
+        {
+          "word": "agreement",
+          "pos": "n.",
+          "cn": "契约, 协议, 协定",
+          "page": 142
+        },
+        {
+          "word": "relative",
+          "pos": "a.",
+          "cn": "有关系的, 相对的, 比较的",
+          "page": 142
+        },
+        {
+          "word": "poem",
+          "pos": "n.",
+          "cn": "诗, 诗般美的事物",
+          "page": 142
+        },
+        {
+          "word": "inside",
+          "pos": "a.",
+          "cn": "内部的, 秘密的, 户内的",
+          "page": 142
+        },
+        {
+          "word": "neighbour",
+          "pos": "a.",
+          "cn": "邻接的, 邻近的",
+          "page": 142
+        },
+        {
+          "word": "act",
+          "pos": "n.",
+          "cn": "先进通信技术, 先进计算机工艺, 自动代码翻译技术",
+          "page": 142
+        },
+        {
+          "word": "pass",
+          "pos": "n.",
+          "cn": "遍",
+          "page": 142
+        },
+        {
+          "word": "whenever",
+          "pos": "adv.",
+          "cn": "不论何时, 每逢",
+          "page": 142
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "Make it happen!",
+      "page_start": 34,
+      "page_end": 49,
+      "key_vocabulary": [
+        {
+          "word": "fair",
+          "pos": "a.",
+          "cn": "公平的, 按规则进行的, 不好不坏的, 晴朗的, 美丽的",
+          "page": 142
+        },
+        {
+          "word": "block",
+          "pos": "n.",
+          "cn": "块, 数据块",
+          "page": 142
+        },
+        {
+          "word": "condition",
+          "pos": "n.",
+          "cn": "条件",
+          "page": 142
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "Digital life",
+      "page_start": 50,
+      "page_end": 65,
+      "key_vocabulary": [
+        {
+          "word": "lend",
+          "pos": "v.",
+          "cn": "贷款",
+          "page": 143
+        },
+        {
+          "word": "printer",
+          "pos": "n.",
+          "cn": "打印机",
+          "page": 143
+        },
+        {
+          "word": "invent",
+          "pos": "v.",
+          "cn": "发明",
+          "page": 143
+        },
+        {
+          "word": "weigh",
+          "pos": "n.",
+          "cn": "过秤, 称分量",
+          "page": 143
+        },
+        {
+          "word": "fix",
+          "pos": "n.",
+          "cn": "困境, 方位, 维修, 贿赂",
+          "page": 143
+        },
+        {
+          "word": "download",
+          "pos": "v.",
+          "cn": "卸载, 下栽",
+          "page": 143
+        },
+        {
+          "word": "blind",
+          "pos": "a.",
+          "cn": "盲目的, 瞎的, 不加思考的",
+          "page": 143
+        },
+        {
+          "word": "machine",
+          "pos": "n.",
+          "cn": "机器, 机械装置, 机构, 自动售货机, 机械般工作的人",
+          "page": 143
+        },
+        {
+          "word": "Warn",
+          "pos": "v.",
+          "cn": "发出警告",
+          "page": 143
+        },
+        {
+          "word": "object",
+          "pos": "n.",
+          "cn": "对象",
+          "page": 143
+        },
+        {
+          "word": "sense",
+          "pos": "n.",
+          "cn": "阅读; 检测",
+          "page": 143
+        },
+        {
+          "word": "everyday",
+          "pos": "a.",
+          "cn": "每天的, 日常的, 平常的",
+          "page": 143
+        },
+        {
+          "word": "trouble",
+          "pos": "n.",
+          "cn": "烦恼, 麻烦, 困难, 动乱, 故障",
+          "page": 143
+        },
+        {
+          "word": "creative",
+          "pos": "a.",
+          "cn": "有创造力的, 创作的, 产生的",
+          "page": 143
+        },
+        {
+          "word": "inventor",
+          "pos": "n.",
+          "cn": "发明人, 发明家, 创造者",
+          "page": 143
+        },
+        {
+          "word": "widely",
+          "pos": "adv.",
+          "cn": "广泛地",
+          "page": 143
+        },
+        {
+          "word": "curiosity",
+          "pos": "n.",
+          "cn": "好奇心, 新奇的事物, 珍品",
+          "page": 143
+        },
+        {
+          "word": "talent",
+          "pos": "n.",
+          "cn": "天才, 才能, 有才干的人, 天资",
+          "page": 143
+        },
+        {
+          "word": "lightning",
+          "pos": "a.",
+          "cn": "闪电的",
+          "page": 143
+        },
+        {
+          "word": "pioneer",
+          "pos": "a.",
+          "cn": "最早的, 开拓的, 先驱的, 有开拓者特点的",
+          "page": 143
+        },
+        {
+          "word": "exploration",
+          "pos": "n.",
+          "cn": "探察",
+          "page": 143
+        },
+        {
+          "word": "test",
+          "pos": "n.",
+          "cn": "测试, 试验, 化验, 检验, 考验, 甲壳",
+          "page": 143
+        },
+        {
+          "word": "failure",
+          "pos": "n.",
+          "cn": "故障; 失效",
+          "page": 143
+        },
+        {
+          "word": "future",
+          "pos": "a.",
+          "cn": "将来的, 未来的",
+          "page": 143
+        },
+        {
+          "word": "explorer",
+          "pos": "n.",
+          "cn": "探察器",
+          "page": 143
+        },
+        {
+          "word": "risk",
+          "pos": "n.",
+          "cn": "冒险, 危险, 保险额",
+          "page": 143
+        },
+        {
+          "word": "drive",
+          "pos": "n.",
+          "cn": "驱动器",
+          "page": 143
+        },
+        {
+          "word": "keyhole",
+          "pos": "a.",
+          "cn": "显示内情的",
+          "page": 143
+        },
+        {
+          "word": "century",
+          "pos": "n.",
+          "cn": "世纪, 百年",
+          "page": 143
+        },
+        {
+          "word": "forever",
+          "pos": "adv.",
+          "cn": "永远",
+          "page": 143
+        },
+        {
+          "word": "smartphone",
+          "pos": "n.",
+          "cn": "智能手机",
+          "page": 143
+        },
+        {
+          "word": "wallet",
+          "pos": "n.",
+          "cn": "皮包, 皮夹, 钱袋",
+          "page": 143
+        },
+        {
+          "word": "cash",
+          "pos": "n.",
+          "cn": "现金",
+          "page": 143
+        },
+        {
+          "word": "app",
+          "pos": "",
+          "cn": "应用, 应用程序; 相联并行处理器",
+          "page": 143
+        },
+        {
+          "word": "oven",
+          "pos": "n.",
+          "cn": "烘箱",
+          "page": 143
+        },
+        {
+          "word": "except",
+          "pos": "conj.",
+          "cn": "只是",
+          "page": 143
+        },
+        {
+          "word": "convenient",
+          "pos": "a.",
+          "cn": "适当的, 合理而可行的, 方便的",
+          "page": 143
+        },
+        {
+          "word": "mobile",
+          "pos": "a.",
+          "cn": "移动的, 易变的, 机动的",
+          "page": 143
+        },
+        {
+          "word": "anywhere",
+          "pos": "adv.",
+          "cn": "无论何处",
+          "page": 143
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Play by the rules?",
+      "page_start": 66,
+      "page_end": 81,
+      "key_vocabulary": [
+        {
+          "word": "via",
+          "pos": "n.",
+          "cn": "病毒灭活剂",
+          "page": 144
+        },
+        {
+          "word": "progress",
+          "pos": "n.",
+          "cn": "进步, 发展, 前进",
+          "page": 144
+        },
+        {
+          "word": "nowadays",
+          "pos": "adv.",
+          "cn": "时下, 现今",
+          "page": 144
+        },
+        {
+          "word": "simply",
+          "pos": "adv.",
+          "cn": "简单地, 只是, 简直, 简朴地, 坦白地",
+          "page": 144
+        },
+        {
+          "word": "save",
+          "pos": "n.",
+          "cn": "保存",
+          "page": 144
+        },
+        {
+          "word": "glue",
+          "pos": "n.",
+          "cn": "胶, 粘性物",
+          "page": 144
+        },
+        {
+          "word": "throw",
+          "pos": "n.",
+          "cn": "投掷, 掷骰子, 冒险",
+          "page": 144
+        },
+        {
+          "word": "guess",
+          "pos": "n.",
+          "cn": "猜测, 臆测",
+          "page": 144
+        },
+        {
+          "word": "anyone",
+          "pos": "n.",
+          "cn": "任何人",
+          "page": 144
+        },
+        {
+          "word": "bedroom",
+          "pos": "n.",
+          "cn": "卧室",
+          "page": 144
+        },
+        {
+          "word": "opposite",
+          "pos": "a.",
+          "cn": "相对的, 相反的, 对面的",
+          "page": 144
+        },
+        {
+          "word": "picnic",
+          "pos": "n.",
+          "cn": "野餐, 远足, 愉快的经历",
+          "page": 144
+        },
+        {
+          "word": "smelly",
+          "pos": "a.",
+          "cn": "发臭的, 有臭味的",
+          "page": 144
+        },
+        {
+          "word": "cheese",
+          "pos": "n.",
+          "cn": "干酪",
+          "page": 144
+        },
+        {
+          "word": "noise",
+          "pos": "n.",
+          "cn": "噪声",
+          "page": 144
+        },
+        {
+          "word": "reduce",
+          "pos": "v.",
+          "cn": "缩小",
+          "page": 144
+        },
+        {
+          "word": "kick",
+          "pos": "n.",
+          "cn": "踢, 反冲, 后座力, 凹底",
+          "page": 144
+        },
+        {
+          "word": "seat",
+          "pos": "n.",
+          "cn": "座, 座位, 位子, 席位, 所在地",
+          "page": 144
+        },
+        {
+          "word": "passenger",
+          "pos": "n.",
+          "cn": "乘客, 旅客",
+          "page": 144
+        },
+        {
+          "word": "fool",
+          "pos": "a.",
+          "cn": "傻的",
+          "page": 144
+        },
+        {
+          "word": "sign",
+          "pos": "n.",
+          "cn": "正负号; 符号; 符号字符",
+          "page": 144
+        },
+        {
+          "word": "throat",
+          "pos": "n.",
+          "cn": "咽喉, 喉咙, 嗓音",
+          "page": 144
+        },
+        {
+          "word": "responsibility",
+          "pos": "n.",
+          "cn": "职责",
+          "page": 144
+        },
+        {
+          "word": "cause",
+          "pos": "n.",
+          "cn": "原因, 目标",
+          "page": 144
+        },
+        {
+          "word": "belt",
+          "pos": "n.",
+          "cn": "带, 腰带, 束带, 地带, 区",
+          "page": 144
+        },
+        {
+          "word": "station",
+          "pos": "n.",
+          "cn": "站",
+          "page": 144
+        },
+        {
+          "word": "flowerpot",
+          "pos": "n.",
+          "cn": "花盆, 花钵",
+          "page": 144
+        },
+        {
+          "word": "mess",
+          "pos": "n.",
+          "cn": "食堂, 伙食, 用膳, 一份食品, 混乱, 乱七八糟, 困境",
+          "page": 144
+        },
+        {
+          "word": "honesty",
+          "pos": "n.",
+          "cn": "诚实, 公正, 正直",
+          "page": 144
+        },
+        {
+          "word": "spread",
+          "pos": "a.",
+          "cn": "展开",
+          "page": 144
+        },
+        {
+          "word": "lawyer",
+          "pos": "n.",
+          "cn": "律师",
+          "page": 144
+        },
+        {
+          "word": "urgent",
+          "pos": "a.",
+          "cn": "紧急的, 急迫的",
+          "page": 144
+        },
+        {
+          "word": "citizen",
+          "pos": "n.",
+          "cn": "公民, 国民, 市民",
+          "page": 144
+        },
+        {
+          "word": "click",
+          "pos": "n.",
+          "cn": "单击",
+          "page": 144
+        },
+        {
+          "word": "personal",
+          "pos": "a.",
+          "cn": "人的; 个人的, 自身的",
+          "page": 144
+        },
+        {
+          "word": "private",
+          "pos": "a.",
+          "cn": "私人的",
+          "page": 144
+        },
+        {
+          "word": "avoid",
+          "pos": "v.",
+          "cn": "避免, 回避, 躲开",
+          "page": 144
+        },
+        {
+          "word": "address",
+          "pos": "n.",
+          "cn": "地址, 寻址",
+          "page": 144
+        },
+        {
+          "word": "passport",
+          "pos": "n.",
+          "cn": "通行证, 护照",
+          "page": 144
+        },
+        {
+          "word": "limit",
+          "pos": "n.",
+          "cn": "界限, 边界, 限度, 极限, 限制",
+          "page": 144
+        },
+        {
+          "word": "careless",
+          "pos": "a.",
+          "cn": "粗心的, 不关心的, 无忧无虑的",
+          "page": 144
+        },
+        {
+          "word": "cheat",
+          "pos": "n.",
+          "cn": "欺骗, 作弊, 骗子",
+          "page": 144
+        },
+        {
+          "word": "trust",
+          "pos": "a.",
+          "cn": "委托, 信任",
+          "page": 144
+        },
+        {
+          "word": "enemy",
+          "pos": "a.",
+          "cn": "敌人的",
+          "page": 144
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "When disaster strikes",
+      "page_start": 82,
+      "page_end": null,
+      "key_vocabulary": [
+        {
+          "word": "cyberbullying",
+          "pos": "",
+          "cn": "网上欺凌",
+          "page": 145
+        },
+        {
+          "word": "lost",
+          "pos": "a.",
+          "cn": "lose的过去式和过去分词",
+          "page": 145
+        },
+        {
+          "word": "ground",
+          "pos": "a.",
+          "cn": "grind的过去式和过去分词",
+          "page": 145
+        },
+        {
+          "word": "scared",
+          "pos": "a.",
+          "cn": "害怕的, 担惊受怕的, 惊慌的, 吓坏了的",
+          "page": 145
+        },
+        {
+          "word": "shut",
+          "pos": "a.",
+          "cn": "关闭",
+          "page": 145
+        },
+        {
+          "word": "shocking",
+          "pos": "a.",
+          "cn": "令人震惊的, 极坏的, 不正当的",
+          "page": 145
+        },
+        {
+          "word": "coach",
+          "pos": "n.",
+          "cn": "四轮大马车, 教练",
+          "page": 145
+        },
+        {
+          "word": "straight",
+          "pos": "a.",
+          "cn": "直的, 笔直的, 正直的, 直接的, 连续的, 整齐的",
+          "page": 145
+        },
+        {
+          "word": "sand",
+          "pos": "n.",
+          "cn": "沙, 沙子, 沙滩, 光阴, 生涯",
+          "page": 145
+        },
+        {
+          "word": "flood",
+          "pos": "n.",
+          "cn": "洪水, 大量之水, 涨潮",
+          "page": 145
+        },
+        {
+          "word": "thick",
+          "pos": "a.",
+          "cn": "暗, 粗线",
+          "page": 145
+        },
+        {
+          "word": "smoke",
+          "pos": "n.",
+          "cn": "烟, 雾气, 烟熏剂, 抽烟, 烟色",
+          "page": 145
+        },
+        {
+          "word": "shower",
+          "pos": "n.",
+          "cn": "阵雨, 淋浴, 一阵, 展出者, 显示者",
+          "page": 145
+        },
+        {
+          "word": "expert",
+          "pos": "a.",
+          "cn": "高级",
+          "page": 145
+        },
+        {
+          "word": "timeline",
+          "pos": "n.",
+          "cn": "时间轴, 时间表",
+          "page": 145
+        },
+        {
+          "word": "reaction",
+          "pos": "n.",
+          "cn": "反应",
+          "page": 145
+        },
+        {
+          "word": "airline",
+          "pos": "n.",
+          "cn": "航线, 航线的设备, 航空公司",
+          "page": 145
+        },
+        {
+          "word": "weekday",
+          "pos": "n.",
+          "cn": "工作日",
+          "page": 145
+        },
+        {
+          "word": "rainstorm",
+          "pos": "n.",
+          "cn": "雨暴",
+          "page": 145
+        },
+        {
+          "word": "search",
+          "pos": "n.",
+          "cn": "搜索, 路径检索程序",
+          "page": 145
+        },
+        {
+          "word": "tsunami",
+          "pos": "n.",
+          "cn": "海啸",
+          "page": 145
+        },
+        {
+          "word": "warning",
+          "pos": "n.",
+          "cn": "警告, 警戒, 预告; 警告的, 注意的",
+          "page": 145
+        },
+        {
+          "word": "iron",
+          "pos": "n.",
+          "cn": "铁, 熨斗, 铁器, 坚强, 烙铁, 镣铐",
+          "page": 145
+        },
+        {
+          "word": "bleed",
+          "pos": "v.",
+          "cn": "流血, 悲痛, 渗出",
+          "page": 145
+        },
+        {
+          "word": "jeans",
+          "pos": "n.",
+          "cn": "工装裤, 牛仔裤",
+          "page": 145
+        },
+        {
+          "word": "herself",
+          "pos": "pron.",
+          "cn": "她自己, 她亲自",
+          "page": 145
+        },
+        {
+          "word": "university",
+          "pos": "n.",
+          "cn": "大学",
+          "page": 145
+        },
+        {
+          "word": "honour",
+          "pos": "n.",
+          "cn": "荣誉, 头衔, 信用, 尊敬, 名誉, 阁下, 勋章",
+          "page": 145
+        },
+        {
+          "word": "wound",
+          "pos": "n.",
+          "cn": "wind的过去式和过去分词",
+          "page": 145
+        },
+        {
+          "word": "heroine",
+          "pos": "n.",
+          "cn": "海洛因; 二醋吗啡; 二乙酰吗啡",
+          "page": 145
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    }
+  ],
+  "appendix": {
+    "words_by_unit": {
+      "note": "页码范围待手动补充"
+    },
+    "vocabulary_az": {
+      "note": "页码范围待手动补充"
+    }
+  }
+}

@@ -1,0 +1,1212 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "sun",
+    "editor_name": "孙有中",
+    "standard": "2022年版课程标准",
+    "level": "junior",
+    "grade": 8,
+    "semester": "down",
+    "title": "八年级下册",
+    "pages": 163,
+    "source_pdf": "(FLTRP孙有中根据2022年版课程标准修订)义务教育教科书·英语 八年级下册.pdf",
+    "extracted_at": "2026-05-05",
+    "extraction_method": "OCR + ECDICT enrichment",
+    "confidence": "ocr_verified"
+  },
+  "toc": [
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "Career talks",
+      "page": 2
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Growing pains and gains",
+      "page": 18
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "What makes a great team?",
+      "page": 34
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "Helping out",
+      "page": 50
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Looking into nature",
+      "page": 66
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "Living with nature",
+      "page": 82
+    }
+  ],
+  "units": [
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "Career talks",
+      "page_start": 2,
+      "page_end": 17,
+      "key_vocabulary": [
+        {
+          "word": "spiderman",
+          "pos": "n.",
+          "cn": "<主英>高空作业的建筑工人",
+          "page": 143
+        },
+        {
+          "word": "wet",
+          "pos": "a.",
+          "cn": "湿的, 潮的, 搞错的, 下雨的, 反对禁酒的",
+          "page": 143
+        },
+        {
+          "word": "drop",
+          "pos": "n.",
+          "cn": "投入, 投入点, 接入点, 分接点",
+          "page": 143
+        },
+        {
+          "word": "sweat",
+          "pos": "n.",
+          "cn": "汗, 汗水, 水珠, 焦急",
+          "page": 143
+        },
+        {
+          "word": "watermelon",
+          "pos": "n.",
+          "cn": "西瓜",
+          "page": 143
+        },
+        {
+          "word": "remind",
+          "pos": "v.",
+          "cn": "提醒, 使想起",
+          "page": 143
+        },
+        {
+          "word": "newborn",
+          "pos": "a.",
+          "cn": "新生的",
+          "page": 143
+        },
+        {
+          "word": "speech",
+          "pos": "n.",
+          "cn": "言语, 语言",
+          "page": 143
+        },
+        {
+          "word": "challenging",
+          "pos": "a.",
+          "cn": "挑战的, 引起争论的",
+          "page": 143
+        },
+        {
+          "word": "context",
+          "pos": "n.",
+          "cn": "上下文",
+          "page": 143
+        },
+        {
+          "word": "company",
+          "pos": "n.",
+          "cn": "公司, 友伴, 交往, 连队, 朋友, 一群",
+          "page": 143
+        },
+        {
+          "word": "interview",
+          "pos": "n.",
+          "cn": "面谈, 访问, 接见, 面试",
+          "page": 143
+        },
+        {
+          "word": "communication",
+          "pos": "n.",
+          "cn": "通信",
+          "page": 143
+        },
+        {
+          "word": "skill",
+          "pos": "n.",
+          "cn": "技能",
+          "page": 143
+        },
+        {
+          "word": "personality",
+          "pos": "n.",
+          "cn": "人格; 个性",
+          "page": 143
+        },
+        {
+          "word": "require",
+          "pos": "vt.",
+          "cn": "需要, 要求, 命令",
+          "page": 143
+        },
+        {
+          "word": "leadership",
+          "pos": "n.",
+          "cn": "领导能力, 领导阶层",
+          "page": 143
+        },
+        {
+          "word": "career",
+          "pos": "n.",
+          "cn": "职业, 专业, 履历",
+          "page": 143
+        },
+        {
+          "word": "cashier",
+          "pos": "n.",
+          "cn": "司库, 出纳员, 收支员",
+          "page": 143
+        },
+        {
+          "word": "necessary",
+          "pos": "a.",
+          "cn": "必要的；必然的；必需的",
+          "page": 143
+        },
+        {
+          "word": "replace",
+          "pos": "v.",
+          "cn": "替换; DOS外部命令:取代或更新文件",
+          "page": 143
+        },
+        {
+          "word": "pilot",
+          "pos": "a.",
+          "cn": "引导",
+          "page": 143
+        },
+        {
+          "word": "autopilot",
+          "pos": "n.",
+          "cn": "自动驾驶仪",
+          "page": 143
+        },
+        {
+          "word": "tourism",
+          "pos": "n.",
+          "cn": "旅游业",
+          "page": 143
+        },
+        {
+          "word": "surely",
+          "pos": "adv.",
+          "cn": "保证, 保证人, 保证金",
+          "page": 143
+        },
+        {
+          "word": "provide",
+          "pos": "v.",
+          "cn": "作准备, 抚养, 规定",
+          "page": 143
+        },
+        {
+          "word": "low",
+          "pos": "a.",
+          "cn": "低的, 消沉的, 低等的, 浅的, 卑贱的",
+          "page": 143
+        },
+        {
+          "word": "beyond",
+          "pos": "adv.",
+          "cn": "在远处",
+          "page": 143
+        },
+        {
+          "word": "virtual",
+          "pos": "a.",
+          "cn": "虚拟",
+          "page": 143
+        },
+        {
+          "word": "reality",
+          "pos": "n.",
+          "cn": "现实, 实在存在的事物, 实在性",
+          "page": 143
+        },
+        {
+          "word": "fashionable",
+          "pos": "a.",
+          "cn": "时髦的, 上流社会的, 流行的",
+          "page": 143
+        },
+        {
+          "word": "market",
+          "pos": "n.",
+          "cn": "市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+          "page": 143
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Growing pains and gains",
+      "page_start": 18,
+      "page_end": 33,
+      "key_vocabulary": [
+        {
+          "word": "pm",
+          "pos": "",
+          "cn": "出纳员, 军需官",
+          "page": 143
+        },
+        {
+          "word": "promise",
+          "pos": "n.",
+          "cn": "诺言, 约定的事情, 有指望",
+          "page": 143
+        },
+        {
+          "word": "interrupt",
+          "pos": "n.",
+          "cn": "中断",
+          "page": 143
+        },
+        {
+          "word": "lamp",
+          "pos": "n.",
+          "cn": "逻辑模拟分析系统",
+          "page": 143
+        },
+        {
+          "word": "blouse",
+          "pos": "n.",
+          "cn": "宽松的上衣",
+          "page": 143
+        },
+        {
+          "word": "pale",
+          "pos": "a.",
+          "cn": "苍白的, 暗淡的, 无力的",
+          "page": 143
+        },
+        {
+          "word": "attach",
+          "pos": "v.",
+          "cn": "挂接服务器命令, 关联, 挂接, 附加",
+          "page": 143
+        },
+        {
+          "word": "policewoman",
+          "pos": "n.",
+          "cn": "女警察",
+          "page": 143
+        },
+        {
+          "word": "elderly",
+          "pos": "a.",
+          "cn": "过了中年的, 稍老的",
+          "page": 143
+        },
+        {
+          "word": "plot",
+          "pos": "n.",
+          "cn": "绘制",
+          "page": 143
+        },
+        {
+          "word": "point",
+          "pos": "n.",
+          "cn": "点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位",
+          "page": 143
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "What makes a great team?",
+      "page_start": 34,
+      "page_end": 49,
+      "key_vocabulary": [
+        {
+          "word": "lazy",
+          "pos": "a.",
+          "cn": "懒惰的, 怠惰的, 缓慢的",
+          "page": 144
+        },
+        {
+          "word": "sofa",
+          "pos": "n.",
+          "cn": "沙发",
+          "page": 144
+        },
+        {
+          "word": "term",
+          "pos": "n.",
+          "cn": "检索词; 项",
+          "page": 144
+        },
+        {
+          "word": "spend",
+          "pos": "v.",
+          "cn": "花费, 用尽",
+          "page": 144
+        },
+        {
+          "word": "conversation",
+          "pos": "n.",
+          "cn": "交谈, 社交, 性交",
+          "page": 144
+        },
+        {
+          "word": "disagreement",
+          "pos": "n.",
+          "cn": "不一致, 不同意, 陪审团的意见不一",
+          "page": 144
+        },
+        {
+          "word": "attitude",
+          "pos": "n.",
+          "cn": "体态, 姿势, 态度",
+          "page": 144
+        },
+        {
+          "word": "peer",
+          "pos": "n.",
+          "cn": "同等的人, 匹敌, 贵族",
+          "page": 144
+        },
+        {
+          "word": "pressure",
+          "pos": "n.",
+          "cn": "压, 榨, 按, 强制, 压力, 压迫, 压强",
+          "page": 144
+        },
+        {
+          "word": "disappointed",
+          "pos": "a.",
+          "cn": "失望的",
+          "page": 144
+        },
+        {
+          "word": "fail",
+          "pos": "n.",
+          "cn": "不及格",
+          "page": 144
+        },
+        {
+          "word": "heartbreaking",
+          "pos": "a.",
+          "cn": "令人悲伤的, 极其累人的, 令人动情的",
+          "page": 144
+        },
+        {
+          "word": "skiing",
+          "pos": "n.",
+          "cn": "滑雪运动, 滑雪术",
+          "page": 144
+        },
+        {
+          "word": "completely",
+          "pos": "adv.",
+          "cn": "完全地, 十分地, 圆满地",
+          "page": 144
+        },
+        {
+          "word": "upon",
+          "pos": "prep.",
+          "cn": "在...之上, 迫近, 紧接着",
+          "page": 144
+        },
+        {
+          "word": "clearly",
+          "pos": "adv.",
+          "cn": "清楚地",
+          "page": 144
+        },
+        {
+          "word": "director",
+          "pos": "n.",
+          "cn": "寻向偶极子; 指挥仪",
+          "page": 144
+        },
+        {
+          "word": "drama",
+          "pos": "n.",
+          "cn": "戏剧, 戏剧艺术",
+          "page": 144
+        },
+        {
+          "word": "leader",
+          "pos": "n.",
+          "cn": "前导字符",
+          "page": 144
+        },
+        {
+          "word": "role",
+          "pos": "n.",
+          "cn": "作用, 功用",
+          "page": 144
+        },
+        {
+          "word": "freeze",
+          "pos": "n.",
+          "cn": "冻结",
+          "page": 144
+        },
+        {
+          "word": "silence",
+          "pos": "interj.",
+          "cn": "安静",
+          "page": 144
+        },
+        {
+          "word": "advise",
+          "pos": "v.",
+          "cn": "提意见, 商量",
+          "page": 144
+        },
+        {
+          "word": "yours",
+          "pos": "pron.",
+          "cn": "你的(东西), 你们的(东西)",
+          "page": 144
+        },
+        {
+          "word": "teamwork",
+          "pos": "n.",
+          "cn": "联合工作, 联合行动, 协调工作",
+          "page": 144
+        },
+        {
+          "word": "strength",
+          "pos": "n.",
+          "cn": "强度",
+          "page": 144
+        },
+        {
+          "word": "weakness",
+          "pos": "n.",
+          "cn": "欲振乏力",
+          "page": 144
+        },
+        {
+          "word": "vote",
+          "pos": "n.",
+          "cn": "投票, 选举, 选票, 表决, 选举权, 得票数",
+          "page": 144
+        },
+        {
+          "word": "suggestion",
+          "pos": "n.",
+          "cn": "暗示",
+          "page": 144
+        },
+        {
+          "word": "meeting",
+          "pos": "n.",
+          "cn": "会议, 会谈, 集会",
+          "page": 144
+        },
+        {
+          "word": "captain",
+          "pos": "n.",
+          "cn": "船长, 指挥官, 海军上校, 首领",
+          "page": 144
+        },
+        {
+          "word": "shy",
+          "pos": "a.",
+          "cn": "胆怯的, 畏缩的, 迟疑的, 羞怯的",
+          "page": 144
+        },
+        {
+          "word": "confidence",
+          "pos": "n.",
+          "cn": "可靠",
+          "page": 144
+        },
+        {
+          "word": "tent",
+          "pos": "n.",
+          "cn": "帐篷, 帷幕, 住处, 塞条, 塞子",
+          "page": 144
+        },
+        {
+          "word": "camp",
+          "pos": "n.",
+          "cn": "露营, 帐篷",
+          "page": 144
+        },
+        {
+          "word": "break",
+          "pos": "n.",
+          "cn": "分隔符; 中断; DOS内部命令:设定扫描中断按键的时机",
+          "page": 144
+        },
+        {
+          "word": "tape",
+          "pos": "n.",
+          "cn": "带",
+          "page": 144
+        },
+        {
+          "word": "voluntary",
+          "pos": "a.",
+          "cn": "自动的, 自愿的, 故意的, 志愿的, 自发的",
+          "page": 144
+        },
+        {
+          "word": "cooperation",
+          "pos": "n.",
+          "cn": "合作",
+          "page": 144
+        },
+        {
+          "word": "noon",
+          "pos": "n.",
+          "cn": "正午, 中午, 全盛期",
+          "page": 144
+        },
+        {
+          "word": "climber",
+          "pos": "n.",
+          "cn": "登杆器",
+          "page": 144
+        },
+        {
+          "word": "roof",
+          "pos": "n.",
+          "cn": "屋顶, 室顶",
+          "page": 144
+        },
+        {
+          "word": "ladder",
+          "pos": "n.",
+          "cn": "梯, 梯状物, 发迹的途径",
+          "page": 144
+        },
+        {
+          "word": "teammate",
+          "pos": "n.",
+          "cn": "队友",
+          "page": 144
+        },
+        {
+          "word": "lower",
+          "pos": "a.",
+          "cn": "低的, 下级的, 下层的",
+          "page": 144
+        },
+        {
+          "word": "painful",
+          "pos": "a.",
+          "cn": "疼痛的",
+          "page": 144
+        },
+        {
+          "word": "rope",
+          "pos": "n.",
+          "cn": "绳, 索, 粗绳, 绞索, 决窍",
+          "page": 144
+        },
+        {
+          "word": "effort",
+          "pos": "n.",
+          "cn": "努力, 成就",
+          "page": 144
+        },
+        {
+          "word": "north",
+          "pos": "a.",
+          "cn": "北的, 北方的",
+          "page": 144
+        },
+        {
+          "word": "base",
+          "pos": "a.",
+          "cn": "基准",
+          "page": 144
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "Helping out",
+      "page_start": 50,
+      "page_end": 65,
+      "key_vocabulary": [
+        {
+          "word": "excuse",
+          "pos": "n.",
+          "cn": "致歉, 理由, 饶恕, 借口",
+          "page": 145
+        },
+        {
+          "word": "purple",
+          "pos": "a.",
+          "cn": "紫色的, 帝王的, 华而不实的",
+          "page": 145
+        },
+        {
+          "word": "crayon",
+          "pos": "n.",
+          "cn": "蜡笔, 蜡笔画",
+          "page": 145
+        },
+        {
+          "word": "sunshine",
+          "pos": "n.",
+          "cn": "阳光, 光明, 晴天",
+          "page": 145
+        },
+        {
+          "word": "virus",
+          "pos": "n.",
+          "cn": "病毒",
+          "page": 145
+        },
+        {
+          "word": "afford",
+          "pos": "v.",
+          "cn": "买得起, 足以, 给予",
+          "page": 145
+        },
+        {
+          "word": "disappointment",
+          "pos": "n.",
+          "cn": "失望",
+          "page": 145
+        },
+        {
+          "word": "X-ray",
+          "pos": "a.",
+          "cn": "X射线的",
+          "page": 145
+        },
+        {
+          "word": "treatment",
+          "pos": "n.",
+          "cn": "疗法, 治疗; 处理",
+          "page": 145
+        },
+        {
+          "word": "pocket",
+          "pos": "a.",
+          "cn": "袖珍的, 小型的, 压缩的, 金钱上的",
+          "page": 145
+        },
+        {
+          "word": "illness",
+          "pos": "n.",
+          "cn": "病",
+          "page": 145
+        },
+        {
+          "word": "wheelchair",
+          "pos": "n.",
+          "cn": "轮椅",
+          "page": 145
+        },
+        {
+          "word": "public",
+          "pos": "a.",
+          "cn": "公众的, 公共的, 公立的, 公用的",
+          "page": 145
+        },
+        {
+          "word": "mention",
+          "pos": "n.",
+          "cn": "提到, 言及, 陈述",
+          "page": 145
+        },
+        {
+          "word": "directly",
+          "pos": "adv.",
+          "cn": "直接的",
+          "page": 145
+        },
+        {
+          "word": "solution",
+          "pos": "n.",
+          "cn": "溶液",
+          "page": 145
+        },
+        {
+          "word": "bottle",
+          "pos": "n.",
+          "cn": "瓶子, 酒瓶",
+          "page": 145
+        },
+        {
+          "word": "exam",
+          "pos": "n.",
+          "cn": "考试, 测验",
+          "page": 145
+        },
+        {
+          "word": "dialogue",
+          "pos": "n.",
+          "cn": "对话",
+          "page": 145
+        },
+        {
+          "word": "flu",
+          "pos": "n.",
+          "cn": "流感, 流行性感冒",
+          "page": 145
+        },
+        {
+          "word": "homeless",
+          "pos": "a.",
+          "cn": "无家的, 无养主的",
+          "page": 145
+        },
+        {
+          "word": "donate",
+          "pos": "v.",
+          "cn": "捐赠",
+          "page": 145
+        },
+        {
+          "word": "goodwill",
+          "pos": "n.",
+          "cn": "(企业的)商誉, 信誉",
+          "page": 145
+        },
+        {
+          "word": "soldier",
+          "pos": "n.",
+          "cn": "军人, 士兵, 兵蚁",
+          "page": 145
+        },
+        {
+          "word": "fireman",
+          "pos": "n.",
+          "cn": "司炉",
+          "page": 145
+        },
+        {
+          "word": "graduate",
+          "pos": "a.",
+          "cn": "已得学位的, 研究生的, 毕业的",
+          "page": 145
+        },
+        {
+          "word": "warmth",
+          "pos": "n.",
+          "cn": "温暖, 温情, 暖和, 激动, 生气",
+          "page": 145
+        },
+        {
+          "word": "means",
+          "pos": "n.",
+          "cn": "方法, 手段, 工具; 意谓",
+          "page": 145
+        },
+        {
+          "word": "lucky",
+          "pos": "a.",
+          "cn": "幸运的, 吉祥的, 好运的, 侥幸的",
+          "page": 145
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Looking into nature",
+      "page_start": 66,
+      "page_end": 81,
+      "key_vocabulary": [
+        {
+          "word": "dinosaur",
+          "pos": "n.",
+          "cn": "恐龙",
+          "page": 145
+        },
+        {
+          "word": "feather",
+          "pos": "n.",
+          "cn": "羽毛",
+          "page": 145
+        },
+        {
+          "word": "feather-covered",
+          "pos": "",
+          "cn": "",
+          "page": 145
+        },
+        {
+          "word": "lizard",
+          "pos": "n.",
+          "cn": "蜥蜴",
+          "page": 145
+        },
+        {
+          "word": "amber",
+          "pos": "a.",
+          "cn": "琥珀色的, 琥珀似的",
+          "page": 145
+        },
+        {
+          "word": "whether",
+          "pos": "conj.",
+          "cn": "是否, 不论",
+          "page": 145
+        },
+        {
+          "word": "northern",
+          "pos": "a.",
+          "cn": "北方的, 向北的, 自北方来的",
+          "page": 145
+        },
+        {
+          "word": "species",
+          "pos": "n.",
+          "cn": "茶剂; 种",
+          "page": 145
+        },
+        {
+          "word": "unknown",
+          "pos": "a.",
+          "cn": "不知道的, 未知的, 陌生的",
+          "page": 145
+        },
+        {
+          "word": "African",
+          "pos": "a.",
+          "cn": "非洲的, 非洲人的",
+          "page": 145
+        },
+        {
+          "word": "fully",
+          "pos": "adv.",
+          "cn": "十分地, 完全地, 充分地",
+          "page": 145
+        },
+        {
+          "word": "unlock",
+          "pos": "v.",
+          "cn": "解出锁定",
+          "page": 145
+        },
+        {
+          "word": "newspaper",
+          "pos": "n.",
+          "cn": "报纸",
+          "page": 145
+        },
+        {
+          "word": "writing",
+          "pos": "n.",
+          "cn": "书写",
+          "page": 145
+        },
+        {
+          "word": "style",
+          "pos": "n.",
+          "cn": "风格, 样式",
+          "page": 145
+        },
+        {
+          "word": "method",
+          "pos": "n.",
+          "cn": "法",
+          "page": 145
+        },
+        {
+          "word": "text",
+          "pos": "n.",
+          "cn": "电文; 文本; 正文",
+          "page": 145
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "Living with nature",
+      "page_start": 82,
+      "page_end": null,
+      "key_vocabulary": [
+        {
+          "word": "argument",
+          "pos": "n.",
+          "cn": "参数",
+          "page": 146
+        },
+        {
+          "word": "board",
+          "pos": "n.",
+          "cn": "板",
+          "page": 146
+        },
+        {
+          "word": "model",
+          "pos": "a.",
+          "cn": "模型",
+          "page": 146
+        },
+        {
+          "word": "planet",
+          "pos": "n.",
+          "cn": "行星, 命运星辰, 杰出的人, 重大影响的事",
+          "page": 146
+        },
+        {
+          "word": "clear",
+          "pos": "a.",
+          "cn": "清除",
+          "page": 146
+        },
+        {
+          "word": "whale",
+          "pos": "n.",
+          "cn": "鲸",
+          "page": 146
+        },
+        {
+          "word": "chemical",
+          "pos": "a.",
+          "cn": "化学的, 化学上用的",
+          "page": 146
+        },
+        {
+          "word": "endless",
+          "pos": "a.",
+          "cn": "无端的, 环状的",
+          "page": 146
+        },
+        {
+          "word": "sight",
+          "pos": "a.",
+          "cn": "即席的, 见票即付的",
+          "page": 146
+        },
+        {
+          "word": "anybody",
+          "pos": "n.",
+          "cn": "重要人物",
+          "page": 146
+        },
+        {
+          "word": "magnifier",
+          "pos": "n.",
+          "cn": "放大镜",
+          "page": 146
+        },
+        {
+          "word": "wealth",
+          "pos": "n.",
+          "cn": "财富",
+          "page": 146
+        },
+        {
+          "word": "hardly",
+          "pos": "adv.",
+          "cn": "刚刚, 几乎不, 勉强是",
+          "page": 146
+        },
+        {
+          "word": "belong",
+          "pos": "v.",
+          "cn": "属于, 合适",
+          "page": 146
+        },
+        {
+          "word": "granddaughter",
+          "pos": "n.",
+          "cn": "孙女, 外孙女",
+          "page": 146
+        },
+        {
+          "word": "sweetly",
+          "pos": "adv.",
+          "cn": "甜美地, 惬意地, 讨人喜欢地",
+          "page": 146
+        },
+        {
+          "word": "villager",
+          "pos": "n.",
+          "cn": "村民",
+          "page": 146
+        },
+        {
+          "word": "wheat",
+          "pos": "n.",
+          "cn": "小麦",
+          "page": 146
+        },
+        {
+          "word": "countryside",
+          "pos": "n.",
+          "cn": "乡下地方, 乡下居民",
+          "page": 146
+        },
+        {
+          "word": "province",
+          "pos": "n.",
+          "cn": "省, 地方, 领域",
+          "page": 146
+        },
+        {
+          "word": "react",
+          "pos": "v.",
+          "cn": "应答, 发生反应",
+          "page": 146
+        },
+        {
+          "word": "wisdom",
+          "pos": "n.",
+          "cn": "智慧, 明智行为, 学识, 名言, 贤人",
+          "page": 146
+        },
+        {
+          "word": "below",
+          "pos": "adv.",
+          "cn": "在下面",
+          "page": 146
+        },
+        {
+          "word": "calendar",
+          "pos": "n.",
+          "cn": "日历",
+          "page": 146
+        },
+        {
+          "word": "energetic",
+          "pos": "a.",
+          "cn": "精力充沛的, 积极的",
+          "page": 146
+        },
+        {
+          "word": "beekeeping",
+          "pos": "n.",
+          "cn": "养蜂",
+          "page": 146
+        },
+        {
+          "word": "desert",
+          "pos": "a.",
+          "cn": "沙漠的, 不毛的",
+          "page": 146
+        },
+        {
+          "word": "energy",
+          "pos": "n.",
+          "cn": "能; 能量",
+          "page": 146
+        },
+        {
+          "word": "environment",
+          "pos": "n.",
+          "cn": "环境",
+          "page": 146
+        },
+        {
+          "word": "resource",
+          "pos": "n.",
+          "cn": "资源",
+          "page": 146
+        },
+        {
+          "word": "probably",
+          "pos": "adv.",
+          "cn": "大概, 或许",
+          "page": 146
+        },
+        {
+          "word": "west",
+          "pos": "a.",
+          "cn": "西方的, 向西的",
+          "page": 146
+        },
+        {
+          "word": "east",
+          "pos": "a.",
+          "cn": "东方的, 向东的",
+          "page": 146
+        },
+        {
+          "word": "midsummer",
+          "pos": "a.",
+          "cn": "仲夏的",
+          "page": 146
+        },
+        {
+          "word": "crazy",
+          "pos": "a.",
+          "cn": "发狂的, 狂热的",
+          "page": 146
+        },
+        {
+          "word": "rainfall",
+          "pos": "n.",
+          "cn": "降雨量",
+          "page": 146
+        },
+        {
+          "word": "survive",
+          "pos": "v.",
+          "cn": "活下来, 幸存",
+          "page": 146
+        },
+        {
+          "word": "canal",
+          "pos": "n.",
+          "cn": "运河, 水道, 管, 沟渠",
+          "page": 146
+        },
+        {
+          "word": "increase",
+          "pos": "n.",
+          "cn": "增加, 增进, 利益",
+          "page": 146
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    }
+  ],
+  "appendix": {
+    "words_by_unit": {
+      "note": "页码范围待手动补充"
+    },
+    "vocabulary_az": {
+      "note": "页码范围待手动补充"
+    }
+  }
+}

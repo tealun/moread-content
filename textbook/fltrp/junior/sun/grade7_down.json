@@ -1,0 +1,954 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "sun",
+    "editor_name": "孙有中",
+    "standard": "2022年版课程标准",
+    "level": "junior",
+    "grade": 7,
+    "semester": "down",
+    "title": "七年级下册",
+    "pages": 163,
+    "source_pdf": "(FLTRP孙有中根据2022年版课程标准修订)义务教育教科书·英语 七年级 下册.pdf",
+    "extracted_at": "2026-05-05",
+    "extraction_method": "OCR + ECDICT enrichment",
+    "confidence": "ocr_verified"
+  },
+  "toc": [
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "The secrets of happiness",
+      "page": 2
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Go for it!",
+      "page": 18
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "Food matters",
+      "page": 34
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "The art of having fun",
+      "page": 50
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Amazing nature",
+      "page": 66
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "Hitting the road",
+      "page": 82
+    }
+  ],
+  "units": [
+    {
+      "id": "unit-1",
+      "type": "unit",
+      "number": 1,
+      "title": "The secrets of happiness",
+      "page_start": 2,
+      "page_end": 17,
+      "key_vocabulary": [
+        {
+          "word": "exciting",
+          "pos": "a.",
+          "cn": "激磁",
+          "page": 137
+        },
+        {
+          "word": "town",
+          "pos": "n.",
+          "cn": "城镇, 城市, 闹市",
+          "page": 137
+        },
+        {
+          "word": "poor",
+          "pos": "a.",
+          "cn": "低劣的, 不良的",
+          "page": 137
+        },
+        {
+          "word": "become",
+          "pos": "v.",
+          "cn": "变成, 变得",
+          "page": 137
+        },
+        {
+          "word": "touch",
+          "pos": "n.",
+          "cn": "触觉, 碰, 触, 机灵, 轻触, 格调, 少许, 缺点, 弹力",
+          "page": 137
+        },
+        {
+          "word": "rich",
+          "pos": "a.",
+          "cn": "富裕的, 富饶的, 浓厚的, 贵重的",
+          "page": 137
+        },
+        {
+          "word": "chess",
+          "pos": "n.",
+          "cn": "雀麦",
+          "page": 137
+        },
+        {
+          "word": "bath",
+          "pos": "n.",
+          "cn": "浴",
+          "page": 137
+        },
+        {
+          "word": "princess",
+          "pos": "n.",
+          "cn": "公主, 王妃, 女巨头",
+          "page": 137
+        },
+        {
+          "word": "example",
+          "pos": "n.",
+          "cn": "实例",
+          "page": 137
+        },
+        {
+          "word": "experience",
+          "pos": "n.",
+          "cn": "经历, 经验, 体验",
+          "page": 137
+        },
+        {
+          "word": "believe",
+          "pos": "v.",
+          "cn": "相信",
+          "page": 137
+        },
+        {
+          "word": "survey",
+          "pos": "n.",
+          "cn": "纵览, 视察, 测量, 俯瞰, 调查",
+          "page": 137
+        },
+        {
+          "word": "instruction",
+          "pos": "n.",
+          "cn": "指令",
+          "page": 137
+        },
+        {
+          "word": "presentation",
+          "pos": "n.",
+          "cn": "简报",
+          "page": 137
+        },
+        {
+          "word": "hat",
+          "pos": "n.",
+          "cn": "帽子",
+          "page": 137
+        },
+        {
+          "word": "blow",
+          "pos": "n.",
+          "cn": "吹, 打击, 殴打, 花开",
+          "page": 137
+        },
+        {
+          "word": "wave",
+          "pos": "n.",
+          "cn": "波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变",
+          "page": 137
+        },
+        {
+          "word": "voice",
+          "pos": "n.",
+          "cn": "声音, 嗓音, 嗓子, 愿望, 发言权, 表达, 喉舌, 语态",
+          "page": 137
+        },
+        {
+          "word": "himself",
+          "pos": "pron.",
+          "cn": "他自己, 他亲自",
+          "page": 137
+        },
+        {
+          "word": "shame",
+          "pos": "n.",
+          "cn": "羞耻, 羞愧, 耻辱",
+          "page": 137
+        },
+        {
+          "word": "fall",
+          "pos": "a.",
+          "cn": "秋天的",
+          "page": 137
+        },
+        {
+          "word": "shoulder",
+          "pos": "n.",
+          "cn": "肩, 肩膀, 衣肩",
+          "page": 137
+        },
+        {
+          "word": "surprised",
+          "pos": "a.",
+          "cn": "感到惊讶的",
+          "page": 137
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-2",
+      "type": "unit",
+      "number": 2,
+      "title": "Go for it!",
+      "page_start": 18,
+      "page_end": 33,
+      "key_vocabulary": [
+        {
+          "word": "receive",
+          "pos": "v.",
+          "cn": "接收",
+          "page": 138
+        },
+        {
+          "word": "cancer",
+          "pos": "n.",
+          "cn": "癌",
+          "page": 138
+        },
+        {
+          "word": "wig",
+          "pos": "n.",
+          "cn": "假发, 斥责",
+          "page": 138
+        },
+        {
+          "word": "smart",
+          "pos": "a.",
+          "cn": "聪明的, 漂亮的, 刺痛的, 剧烈的, 敏捷的, 巧妙的, 伶俐的, 潇洒的",
+          "page": 138
+        },
+        {
+          "word": "line",
+          "pos": "n.",
+          "cn": "线路",
+          "page": 138
+        },
+        {
+          "word": "breath",
+          "pos": "n.",
+          "cn": "呼气, 呵气, 口气, 呼吸",
+          "page": 138
+        },
+        {
+          "word": "shall",
+          "pos": "aux.",
+          "cn": "将",
+          "page": 138
+        },
+        {
+          "word": "choice",
+          "pos": "a.",
+          "cn": "DOS内部命令:在批处理文件中",
+          "page": 138
+        },
+        {
+          "word": "cheer",
+          "pos": "n.",
+          "cn": "愉快, 振奋, 欢呼",
+          "page": 138
+        },
+        {
+          "word": "cross",
+          "pos": "a.",
+          "cn": "交叉, 十字标",
+          "page": 138
+        },
+        {
+          "word": "dream",
+          "pos": "n.",
+          "cn": "梦, 空想, 愿望",
+          "page": 138
+        },
+        {
+          "word": "encourage",
+          "pos": "v.",
+          "cn": "怂恿, 煽动, 助长",
+          "page": 138
+        },
+        {
+          "word": "both",
+          "pos": "a.",
+          "cn": "两者的",
+          "page": 138
+        },
+        {
+          "word": "sink",
+          "pos": "n.",
+          "cn": "藏垢的场所, 沟渠, 污水槽",
+          "page": 138
+        },
+        {
+          "word": "surfer",
+          "pos": "n.",
+          "cn": "冲浪运动员",
+          "page": 138
+        },
+        {
+          "word": "shark",
+          "pos": "n.",
+          "cn": "鲨鱼, 骗子",
+          "page": 138
+        },
+        {
+          "word": "lose",
+          "pos": "v.",
+          "cn": "受损失, 失败",
+          "page": 138
+        },
+        {
+          "word": "compare",
+          "pos": "n.",
+          "cn": "比较",
+          "page": 138
+        },
+        {
+          "word": "surfboard",
+          "pos": "n.",
+          "cn": "冲浪板, 用冲浪板滑水",
+          "page": 138
+        },
+        {
+          "word": "wave",
+          "pos": "n.",
+          "cn": "波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变",
+          "page": 138
+        },
+        {
+          "word": "gold",
+          "pos": "a.",
+          "cn": "金的, 似金的, 金色的, 金制的",
+          "page": 138
+        },
+        {
+          "word": "success",
+          "pos": "n.",
+          "cn": "成功, 成就, 胜利",
+          "page": 138
+        },
+        {
+          "word": "fit",
+          "pos": "a.",
+          "cn": "非特",
+          "page": 138
+        },
+        {
+          "word": "match",
+          "pos": "n.",
+          "cn": "比较",
+          "page": 138
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-3",
+      "type": "unit",
+      "number": 3,
+      "title": "Food matters",
+      "page_start": 34,
+      "page_end": 49,
+      "key_vocabulary": [
+        {
+          "word": "fat",
+          "pos": "a.",
+          "cn": "文件分配表",
+          "page": 139
+        },
+        {
+          "word": "hen",
+          "pos": "n.",
+          "cn": "母鸡, 雌禽",
+          "page": 139
+        },
+        {
+          "word": "continue",
+          "pos": "v.",
+          "cn": "继续, 延续, 延长",
+          "page": 139
+        },
+        {
+          "word": "pot",
+          "pos": "n.",
+          "cn": "盆, 罐, 壶, 坩埚, 奖杯",
+          "page": 139
+        },
+        {
+          "word": "fight",
+          "pos": "n.",
+          "cn": "打架, 争吵, 斗志",
+          "page": 139
+        },
+        {
+          "word": "score",
+          "pos": "n.",
+          "cn": "得分",
+          "page": 139
+        },
+        {
+          "word": "goal",
+          "pos": "n.",
+          "cn": "目标, 终点, 得分, 球门, 守门员",
+          "page": 139
+        },
+        {
+          "word": "plain",
+          "pos": "a.",
+          "cn": "无格式",
+          "page": 139
+        },
+        {
+          "word": "chance",
+          "pos": "n.",
+          "cn": "机会, 意外, 可能性",
+          "page": 139
+        },
+        {
+          "word": "pill",
+          "pos": "n.",
+          "cn": "药丸, 弹丸, 屈辱, 胡说",
+          "page": 139
+        },
+        {
+          "word": "remain",
+          "pos": "v.",
+          "cn": "停留, 居住, 继续",
+          "page": 139
+        },
+        {
+          "word": "delicious",
+          "pos": "a.",
+          "cn": "美味的",
+          "page": 139
+        },
+        {
+          "word": "slice",
+          "pos": "n.",
+          "cn": "片",
+          "page": 139
+        },
+        {
+          "word": "taste",
+          "pos": "n.",
+          "cn": "味道, 品味, 味觉, 感受, 体验, 爱好, 审美, 少量",
+          "page": 139
+        },
+        {
+          "word": "beat",
+          "pos": "a.",
+          "cn": "beat的过去式",
+          "page": 139
+        },
+        {
+          "word": "salt",
+          "pos": "a.",
+          "cn": "含盐的, 咸的, 风趣的, 辛辣的",
+          "page": 139
+        },
+        {
+          "word": "beef",
+          "pos": "n.",
+          "cn": "牛肉, 肌肉",
+          "page": 139
+        },
+        {
+          "word": "pan",
+          "pos": "n.",
+          "cn": "平锅, 浅盘, 盆地, 硬土层, 拍摄全景",
+          "page": 139
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-4",
+      "type": "unit",
+      "number": 4,
+      "title": "The art of having fun",
+      "page_start": 50,
+      "page_end": 65,
+      "key_vocabulary": [
+        {
+          "word": "stir",
+          "pos": "n.",
+          "cn": "骚动, 轰动, 搅动, 监狱",
+          "page": 140
+        },
+        {
+          "word": "plate",
+          "pos": "n.",
+          "cn": "碟, 盘子, 盆中物, 金属板, 图版, 金银餐具, 印版, 金属牌(照)",
+          "page": 140
+        },
+        {
+          "word": "firm",
+          "pos": "a.",
+          "cn": "坚定的, 坚强的, 牢固的, 结实的, 坚硬的, 坚挺的, 严格的, 确定的",
+          "page": 140
+        },
+        {
+          "word": "ingredient",
+          "pos": "n.",
+          "cn": "配合剂; 拼料; 成分; 组分",
+          "page": 140
+        },
+        {
+          "word": "snack",
+          "pos": "n.",
+          "cn": "小吃, 点心, 快餐",
+          "page": 140
+        },
+        {
+          "word": "chip",
+          "pos": "n.",
+          "cn": "孔屑; 组件; 晶片; 芯片",
+          "page": 140
+        },
+        {
+          "word": "dessert",
+          "pos": "n.",
+          "cn": "餐后甜点",
+          "page": 140
+        },
+        {
+          "word": "store",
+          "pos": "a.",
+          "cn": "存储器操作; 存储",
+          "page": 140
+        },
+        {
+          "word": "folk",
+          "pos": "a.",
+          "cn": "民间的",
+          "page": 140
+        },
+        {
+          "word": "tale",
+          "pos": "n.",
+          "cn": "虚语, 诽语, 谣言",
+          "page": 140
+        },
+        {
+          "word": "flat",
+          "pos": "a.",
+          "cn": "平坦的, 单调的, 无力的, 浅的, 萧条的, 干脆的, 无聊的",
+          "page": 140
+        },
+        {
+          "word": "twin",
+          "pos": "a.",
+          "cn": "双胞胎的, 成对的, 孪生的",
+          "page": 140
+        },
+        {
+          "word": "might",
+          "pos": "aux.",
+          "cn": "可能, 也许",
+          "page": 140
+        },
+        {
+          "word": "tool",
+          "pos": "n.",
+          "cn": "工具, 机床, 傀儡",
+          "page": 140
+        },
+        {
+          "word": "list",
+          "pos": "n.",
+          "cn": "列表, 序列, 数据清单",
+          "page": 140
+        },
+        {
+          "word": "choose",
+          "pos": "v.",
+          "cn": "选取",
+          "page": 140
+        },
+        {
+          "word": "bored",
+          "pos": "a.",
+          "cn": "无聊的；烦人的；无趣的",
+          "page": 140
+        },
+        {
+          "word": "lift",
+          "pos": "n.",
+          "cn": "举起, 帮助, 昂扬, 电梯",
+          "page": 140
+        },
+        {
+          "word": "moment",
+          "pos": "n.",
+          "cn": "片刻, 瞬间, 时机, 因素, 矩",
+          "page": 140
+        },
+        {
+          "word": "invite",
+          "pos": "n.",
+          "cn": "邀请",
+          "page": 140
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-5",
+      "type": "unit",
+      "number": 5,
+      "title": "Amazing nature",
+      "page_start": 66,
+      "page_end": 81,
+      "key_vocabulary": [
+        {
+          "word": "unforgettable",
+          "pos": "a.",
+          "cn": "忘不了的, 令人难忘的",
+          "page": 141
+        },
+        {
+          "word": "mosquito",
+          "pos": "n.",
+          "cn": "蚊",
+          "page": 141
+        },
+        {
+          "word": "set",
+          "pos": "a.",
+          "cn": "设置; DOS内部命令:改变或显示分配给环境变量的值",
+          "page": 141
+        },
+        {
+          "word": "prince",
+          "pos": "n.",
+          "cn": "王子, 亲王, 国君, 贵族, 诸侯, 有权势的大人物",
+          "page": 141
+        },
+        {
+          "word": "notice",
+          "pos": "n.",
+          "cn": "注意, 布告, 通知, 预告, 短评",
+          "page": 141
+        },
+        {
+          "word": "form",
+          "pos": "n.",
+          "cn": "表单",
+          "page": 141
+        },
+        {
+          "word": "social",
+          "pos": "a.",
+          "cn": "社会的, 群居的, 社交的",
+          "page": 141
+        },
+        {
+          "word": "screen",
+          "pos": "n.",
+          "cn": "筛选; 屏幕",
+          "page": 141
+        },
+        {
+          "word": "couch",
+          "pos": "n.",
+          "cn": "长沙发, 睡椅, 卧榻",
+          "page": 141
+        },
+        {
+          "word": "sore",
+          "pos": "a.",
+          "cn": "悲伤的, 痛的, 引起痛苦的",
+          "page": 141
+        },
+        {
+          "word": "neck",
+          "pos": "n.",
+          "cn": "脖子, 衣领, 颈",
+          "page": 141
+        },
+        {
+          "word": "deaf",
+          "pos": "a.",
+          "cn": "聋的",
+          "page": 141
+        },
+        {
+          "word": "jog",
+          "pos": "n.",
+          "cn": "轻推, 轻撞, 慢跑",
+          "page": 141
+        },
+        {
+          "word": "fresh",
+          "pos": "a.",
+          "cn": "新鲜的, 新奇的, 另外的, 淡的, 精神饱满的, 冒失的",
+          "page": 141
+        },
+        {
+          "word": "tennis",
+          "pos": "n.",
+          "cn": "网球",
+          "page": 141
+        },
+        {
+          "word": "hike",
+          "pos": "n.",
+          "cn": "徒步旅行, 远足, 涨价, 提高",
+          "page": 141
+        },
+        {
+          "word": "ours",
+          "pos": "pl.",
+          "cn": "我们的",
+          "page": 141
+        },
+        {
+          "word": "most",
+          "pos": "a.",
+          "cn": "大多数的, 几乎全部的, 最多的",
+          "page": 141
+        },
+        {
+          "word": "cloud",
+          "pos": "n.",
+          "cn": "云, 阴暗, 烟雾, 疑团",
+          "page": 141
+        },
+        {
+          "word": "soft",
+          "pos": "a.",
+          "cn": "软的, 温和的, 柔和的, 柔滑的, 温柔的, 软弱的, 坡度小的, 笨的, 纸币的",
+          "page": 141
+        },
+        {
+          "word": "sky",
+          "pos": "n.",
+          "cn": "天空, 天色, 天堂",
+          "page": 141
+        },
+        {
+          "word": "calm",
+          "pos": "a.",
+          "cn": "平静的, 冷静的",
+          "page": 141
+        },
+        {
+          "word": "express",
+          "pos": "a.",
+          "cn": "明确的, 丝毫不差的, 专门的, 快的",
+          "page": 141
+        },
+        {
+          "word": "field",
+          "pos": "a.",
+          "cn": "域, 字段",
+          "page": 141
+        },
+        {
+          "word": "than",
+          "pos": "adv.",
+          "cn": "比, 除...外",
+          "page": 141
+        },
+        {
+          "word": "few",
+          "pos": "a.",
+          "cn": "很少的, 不多的, 少数的",
+          "page": 141
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    },
+    {
+      "id": "unit-6",
+      "type": "unit",
+      "number": 6,
+      "title": "Hitting the road",
+      "page_start": 82,
+      "page_end": null,
+      "key_vocabulary": [
+        {
+          "word": "proud",
+          "pos": "a.",
+          "cn": "骄傲的, 自大的, 自豪的, 辉煌的, 壮丽的",
+          "page": 142
+        },
+        {
+          "word": "describe",
+          "pos": "v.",
+          "cn": "描述, 描绘, 画",
+          "page": 142
+        },
+        {
+          "word": "tide",
+          "pos": "n.",
+          "cn": "潮, 潮汐, 趋势, 潮流, 涨潮, 高潮",
+          "page": 142
+        },
+        {
+          "word": "exhibition",
+          "pos": "n.",
+          "cn": "投药, 展览, 展出",
+          "page": 142
+        },
+        {
+          "word": "lung",
+          "pos": "n.",
+          "cn": "肺",
+          "page": 142
+        },
+        {
+          "word": "develop",
+          "pos": "v.",
+          "cn": "发展, 生长",
+          "page": 142
+        },
+        {
+          "word": "land",
+          "pos": "n.",
+          "cn": "连接盘; 焊盘",
+          "page": 142
+        },
+        {
+          "word": "die",
+          "pos": "n.",
+          "cn": "骰子, 冲模",
+          "page": 142
+        },
+        {
+          "word": "lie",
+          "pos": "n.",
+          "cn": "谎言, 假象, 位置",
+          "page": 142
+        },
+        {
+          "word": "surface",
+          "pos": "a.",
+          "cn": "表面的, 外观的, 肤浅的, 水面上的",
+          "page": 142
+        },
+        {
+          "word": "flow",
+          "pos": "n.",
+          "cn": "流程, 流动, 流量, 洋溢, 泛滥, 涨潮",
+          "page": 142
+        },
+        {
+          "word": "suggest",
+          "pos": "v.",
+          "cn": "建议, 提出, 提议",
+          "page": 142
+        },
+        {
+          "word": "snake",
+          "pos": "n.",
+          "cn": "蛇, 阴险的人",
+          "page": 142
+        },
+        {
+          "word": "however",
+          "pos": "adv.",
+          "cn": "然而, 无论如何, 究竟怎样",
+          "page": 142
+        },
+        {
+          "word": "wood",
+          "pos": "n.",
+          "cn": "木材, 木制品",
+          "page": 142
+        },
+        {
+          "word": "disappear",
+          "pos": "v.",
+          "cn": "消失, 不见",
+          "page": 142
+        },
+        {
+          "word": "airport",
+          "pos": "n.",
+          "cn": "航空站, 机场",
+          "page": 142
+        },
+        {
+          "word": "expect",
+          "pos": "v.",
+          "cn": "预期, 盼望, 期待",
+          "page": 142
+        },
+        {
+          "word": "deep",
+          "pos": "a.",
+          "cn": "深的",
+          "page": 142
+        },
+        {
+          "word": "reply",
+          "pos": "n.",
+          "cn": "答复",
+          "page": 142
+        },
+        {
+          "word": "surprisingly",
+          "pos": "adv.",
+          "cn": "使人惊奇, 出人意外, 惊人, 令人惊讶",
+          "page": 142
+        },
+        {
+          "word": "mask",
+          "pos": "n.",
+          "cn": "屏蔽; 掩码",
+          "page": 142
+        },
+        {
+          "word": "trip",
+          "pos": "n.",
+          "cn": "旅行, 绊倒, 摔倒, 失足, 差错, 旅程",
+          "page": 142
+        }
+      ],
+      "grammar": [],
+      "sections": []
+    }
+  ],
+  "appendix": {
+    "words_by_unit": {
+      "note": "页码范围待手动补充"
+    },
+    "vocabulary_az": {
+      "note": "页码范围待手动补充"
+    }
+  }
+}
