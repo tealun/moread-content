@@ -381,7 +381,14 @@
         }
       ],
       "key_phrases": [],
-      "sentence_patterns": [],
+      "sentence_patterns": [
+        "I was not happy with my…",
+        "For example, …",
+        "… is a good way to…",
+        "I have already …",
+        "What do you t hink of … now?",
+        "One reason for… is …"
+      ],
       "sections": [
         {
           "type": "starting_out",
@@ -409,7 +416,50 @@
           "page": 16
         }
       ],
-      "language_notes": [],
+      "language_notes": [
+        {
+          "phrase": "feel like",
+          "meaning": "感觉像\n有.一\n感觉",
+          "example_en": "It feels like summer even though it's only April . 虽然现在只是",
+          "example_cn": "四月 但感觉己经像夏天了 of the world. 我觉得开心极了",
+          "page": null
+        },
+        {
+          "phrase": "句中burn",
+          "meaning": "(脸因窘迫或生气而 )发烫",
+          "example_en": "felt my face burning When",
+          "example_cn": "talking to him. 我跟他 说话的时候感觉自己的脸烧得发烫。",
+          "page": null
+        },
+        {
+          "phrase": "right",
+          "meaning": "正好(在某个位置或地方 )\"",
+          "example_en": "He lives right next door. 他就住在隔壁。",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "instead of",
+          "meaning": "代替\n而不是\n后面常接名词或\n动名词",
+          "example_en": "Language notes",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "clock",
+          "meaning": "用时为 (某时间 );  以\n速度行驶;\n达到(某速度 )\" ,经常用于描述运动员的成绩或者驾驶车辆所用\n的时间",
+          "example_en": "the first car to clock 100 kilometres an hour 第一辆时速为",
+          "example_cn": "100干米的汽车 她在女子马拉松比赛中创下了新的世界纪录。",
+          "page": null
+        },
+        {
+          "phrase": "as long as",
+          "meaning": "只要\"",
+          "example_en": "As long as you study hard, you can pass the exam. 只要",
+          "example_cn": "你努力学习,你就能通过考试。 (2) stick to意为 \"遵守, 信守;  坚持\"。 例如: He decided to stick to his first plan . 他决定坚持他的第一 个计划。",
+          "page": null
+        }
+      ],
       "parallel_articles": []
     },
     {
@@ -725,8 +775,34 @@
           "page": null
         }
       ],
-      "key_phrases": [],
-      "sentence_patterns": [],
+      "key_phrases": [
+        {
+          "phrase": "knock down",
+          "cn": "摧毁，拆毁",
+          "page": 21
+        }
+      ],
+      "sentence_patterns": [
+        "I have shared … with … for I since…",
+        "Sharing really brings…",
+        "How does sharing make you feel?",
+        "Sharing has allowed /shown/ taught me …",
+        "It makes me feel…",
+        "You should tell your friends that",
+        "They'll understand you.",
+        "You can't always hide your 3 ___ _",
+        "You can still do 5 ____ together.",
+        "Just say 6\" ____ \" and explain why.",
+        "True friends will respect your feelings.",
+        "Getting along with others is important because …",
+        "You will always live/ study/ work with others, so …",
+        "A common problem is …",
+        "The most important thing is …",
+        "Sometimes you may argue over …",
+        "When having an argument",
+        "If you disagree about…, you",
+        "We could choose to step back"
+      ],
       "sections": [
         {
           "type": "starting_out",
@@ -754,7 +830,43 @@
           "page": 32
         }
       ],
-      "language_notes": [],
+      "language_notes": [
+        {
+          "phrase": "here and there",
+          "meaning": "到处\n各处;  零散地\"",
+          "example_en": "She left her toys here and there. 她把玩具丢得四处都是。",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "hope",
+          "meaning": "希望\n期望\n指望\"",
+          "example_en": "everything is",
+          "example_cn": "我希望一切顺利。 hope 后面也可以接动词不定式。例如: Amy hopes to be a teacher. Amy 希望成为一名教师。 但是春天没有来。夏天也没有来。 nor 用于否定陈述后添加另一个否定陈述 意为 也不\" summer 是省略句,完整的结构应该是nor does summer come。",
+          "page": null
+        },
+        {
+          "phrase": "that",
+          "meaning": "如此\n以至于",
+          "example_en": "He Was so tired that he fell asleep very quickly 他累得马上就",
+          "example_cn": "睡着了。 She sang So well that everyone knew her name. 她唱歌非常 好听 家喻户晓。 鸟儿们四处飞翔。欢快地歌唱。 fly about 意为 四处飞翔\", 其中about 意为 到处\" 例如: The kids run about in the park. 孩子们在公园里到处奔跑。 别怕;小家伙们。 巨人说,\"这现在是你们的花园了。 句中fear not相当于现代英语中的 \"Don't be afraid.\" 或 构成祈使句。这种 \"实义动词 + not\" 的句型常出现在一 些固定的 尤其是较古老的表达方式中。除fear之外 - 能直接与 not连用的还有其他动词 , 如be, worry, doubt 等。例如: am With you. 别害怕,我和你在一起。 Worry not about the future; live in the present. 别为将来担 心 活在当下。 Doubt not, for you have the strength within you. 别怀疑 因 为你有内在的力量。",
+          "page": null
+        },
+        {
+          "phrase": "argue over",
+          "meaning": "就\n争论\"\n其中over 意为\"与\n有\n关,\n关于",
+          "example_en": "always argue over Who should pay the bill . 他们总",
+          "example_cn": "是争论谁应该付账。 (3) reach agreement 意为 \"达成一致\"。例如: 两国尚未在这一点上达成一致。 一纸书来只为墙;让他三尺又何妨。 长城万里今犹在,不见当年秦始皇。 这首诗的韵脚是AABB。 第一行末尾wall与第二行末尾al1 押韵 , 第三行末尾gift和第四行末尾drift押韵。这样的结构能够增强诗 歌的节奏。音乐性和美感。这首诗体现了中华民族宽以待人, 谦逊礼让的优良传统。",
+          "page": null
+        },
+        {
+          "phrase": "in return",
+          "meaning": "作为报酬;  作为回报\"",
+          "example_en": "helped her move, and in return, she cooked me dinner。",
+          "example_cn": "我帮她搬家, 作为回报 她给我做了晚餐。 于是。两家之间便形成了一条六尺宽的小巷。 这句话主语比较长 为防止句子头重脚轻 谓语came提到了主 语the six-chi-wide lane between the two houses 前面。英文 中有些句子没有宾语 且主语较长,可以把状语提前。而把主 语放到谓语后面。例如: On the table stood two glasses and an empty bottle: 桌上有 两个玻璃杯和一个空瓶子。 After the party came a fireworks display in the garden. 聚会 后花园里放起了烟花。 桐城人民的心中仍牢记着这首诗。 in mind 意为 把 放在心里,把 记在心上\"c 例如: Keep in mind to lock the door when you leave. 离开时记得 锁门。 He always keeps her advice in mind . 他总是牢记她的忠告。",
+          "page": null
+        }
+      ],
       "parallel_articles": []
     },
     {
@@ -1204,7 +1316,14 @@
         }
       ],
       "key_phrases": [],
-      "sentence_patterns": [],
+      "sentence_patterns": [
+        "… was just a(n) … , but it cost…",
+        "I'm going to invent a(n) …",
+        "It will be able to …",
+        "I must lend a hand to …",
+        "The answer was to …",
+        "Using … , … invented"
+      ],
       "sections": [
         {
           "type": "starting_out",
@@ -1232,7 +1351,29 @@
           "page": 48
         }
       ],
-      "language_notes": [],
+      "language_notes": [
+        {
+          "phrase": "out of",
+          "meaning": "由\n(制成)\n用\n做成 )",
+          "example_en": "3",
+          "example_cn": "boat carved out of wood 一只木头雕成的玩具小船 这条项链是黄金制成的。",
+          "page": null
+        },
+        {
+          "phrase": "What's Worse",
+          "meaning": "更糟糕的是\"\n用来引出一个更加糟糕或严\n重的情况,通常用来加重语气。强调比较",
+          "example_en": "forgot my wallet at home; and what's worse, my phone is",
+          "example_cn": "out of power. 我把钱包忘在家里了 更糟糕的是。我的手机没 电了。 天下起了雨 更糟糕的是,我把伞忘在家里了 这让我大吃一惊!我只花了300美元就造出了假肢。 心想。 away 意为 \"使某人大为惊讶\" 例如: 电影太棒了 , 简直让我震惊。 多么好的\"援手\" ! (1)本句是感叹句句型: What a(n) (+ 形容词) +单数名词 ! 例如: What a nice dress! 多漂亮的连衣裙啊 ! surprise! 真是没料到的事 !",
+          "page": null
+        },
+        {
+          "phrase": "be curious about",
+          "meaning": "对\n感到好奇",
+          "example_en": "He Was curious about how she would do. 他很好奇她会怎",
+          "example_cn": "么做。 孩子们天生对周围的世界充满好奇心。",
+          "page": null
+        }
+      ],
       "parallel_articles": []
     },
     {
@@ -1681,8 +1822,43 @@
           "page": 77
         }
       ],
-      "key_phrases": [],
-      "sentence_patterns": [],
+      "key_phrases": [
+        {
+          "phrase": "a great deal",
+          "cn": "充裕，丰富",
+          "page": 55
+        },
+        {
+          "phrase": "be glued to sth",
+          "cn": "盯着某物看",
+          "page": 58
+        },
+        {
+          "phrase": "clear your throat",
+          "cn": "清清嗓子",
+          "page": 69
+        },
+        {
+          "phrase": "seat belt",
+          "cn": "安全带",
+          "page": 71
+        },
+        {
+          "phrase": "pick up",
+          "cn": "捡起",
+          "page": 71
+        }
+      ],
+      "sentence_patterns": [
+        "It has made me live a(n) … life.",
+        "One advantage of apps / the internet/",
+        "Nowadays, instead of … , you can simply …",
+        "Technology saves me time because …",
+        "What effect has … had on your life?",
+        "We believe that …",
+        "Team A I B has said … But in fact, …",
+        "There is no doubt that …"
+      ],
       "sections": [
         {
           "type": "starting_out",
@@ -1710,7 +1886,57 @@
           "page": 64
         }
       ],
-      "language_notes": [],
+      "language_notes": [
+        {
+          "phrase": "do sth",
+          "meaning": "(某人)做某事花费了\n(时间。\n金钱或努力等 )\", 这个结构中的计真正指代的内容是后面的to\ndo sth",
+          "example_en": "It takes me 20 minutes to",
+          "example_cn": "我每天上班 需要花20分钟。 我花了50英镑给 我的车加满汽油。 It takes a lot of patience to teach young children. 教育幼儿需 要很多耐心。",
+          "page": null
+        },
+        {
+          "phrase": "cost sb sth",
+          "meaning": "花费某人 \n常用来表示花费钱。时\n间。精力等",
+          "example_en": "The trip cost him all his savings. 这次旅行花掉了他所有的",
+          "example_cn": "积蓄。 leg是个英语习语; 意为\"(价格)昂贵\"= leg意为 \"代价高昂 ,价格非常高\"。句子 中破折号后则补充说明了an arm and a leg 的具体所指。",
+          "page": null
+        },
+        {
+          "phrase": "as",
+          "meaning": "因为,\n由于\"\n引导状语从句\n说明了 |never carry\nmy Wallet 的原因",
+          "example_en": "As it Was",
+          "example_cn": "raining, we decided to stay indoors. 因为下雨 , 我们 决定待在室内。",
+          "page": null
+        },
+        {
+          "phrase": "except for",
+          "meaning": "除\n之外",
+          "example_en": "He hasn't eaten a",
+          "example_cn": "except for an apple。 除了一个苹果 , 他什么都没吃。 The room was silent except for the TV. 房间里只有电视的声音。",
+          "page": null
+        },
+        {
+          "phrase": "i'$ strange to do sth 这一句型",
+          "meaning": "做\n感觉很奇怪\" ,  其\n中i指代的真正内容是to do sth",
+          "example_en": "It's strange to think that we were once strangers. 想到我们曾",
+          "example_cn": "经是陌生人,感觉很奇怪。 It's strange to be back in Paris after so many years. 这么多年 后回到巴黎,感觉真奇怪。",
+          "page": null
+        },
+        {
+          "phrase": "的still 作形容词用 ,",
+          "meaning": "静止的\n不动的\"",
+          "example_en": "can see the still water of the lake. 我能看到平静的湖水。",
+          "example_cn": "take your photo. 别动 我给你拍照。 come closer. 我们伫立在 原地,望着那条狗渐行渐近。 为什么会有人写关于学校的事情?\" Margie 想要读关于那些有趣的学校的事情。 句中两个about用法一致,表示动作的主题或范围。 write about 意为 \"关于 (话题)进行写作\", read about 表示 \"阅 读关于 (主题)的内容\"。例如: He wrote a lot about sports. 他写了很多关于体育的(文章)。 We read about the culture of France in our class. 我们在课上 阅读了关于法国文化的内容。",
+          "page": null
+        },
+        {
+          "phrase": "in the old days",
+          "meaning": "很久以前\n当年",
+          "example_en": "In the old",
+          "example_cn": "people wrote letters to each other. 过去人们 互相写信。",
+          "page": null
+        }
+      ],
       "parallel_articles": []
     },
     {
@@ -1999,7 +2225,28 @@
         }
       ],
       "key_phrases": [],
-      "sentence_patterns": [],
+      "sentence_patterns": [
+        "Last … , I…",
+        "This rule is useful because …",
+        "I love doing … in order to …",
+        "From this experience, I have learnt that …",
+        "People have to …",
+        "The rule is \"Please be … \".",
+        "The aim of this rule is to …",
+        "The rule is \"No … \".",
+        "This rule is about …",
+        "The rule is \"Please do /",
+        "The school can use this rule",
+        "It brings … to us.",
+        "We think this rule will help",
+        "That way, … can …",
+        "Here are the basic rules for",
+        "It tries to stop …",
+        "With this rule, there won't",
+        "To … , it's important to …",
+        "At the moment … For that",
+        "There will be fewer / less …"
+      ],
       "sections": [
         {
           "type": "starting_out",
@@ -2027,7 +2274,50 @@
           "page": 80
         }
       ],
-      "language_notes": [],
+      "language_notes": [
+        {
+          "phrase": "in order to do sth",
+          "meaning": "为了做某事",
+          "example_en": "Samuel trained every",
+          "example_cn": "Samuel 为了提高成绩每天训练。 need to have some knowledge of biology: 想了解人体是如何 运行的,你需要掌握一些生物知识。",
+          "page": null
+        },
+        {
+          "phrase": "SO as to do sth",
+          "meaning": "为了做某事\n以便做某事",
+          "example_en": "Please speak clearly so as to be understood by everyone in",
+          "example_cn": "the room. 请说清楚些 以便在场的所有人都能听懂。 我们踮着脚悄无声息地走,  免得打扰别人。",
+          "page": null
+        },
+        {
+          "phrase": "ask sb to do sth",
+          "meaning": "请求。要求某人做某事\"",
+          "example_en": "He asked his colleague to keep the secret. 他要求同事保",
+          "example_cn": "守秘密 The teacher asked the students to be quiet. 老师要求学生 保持安静。 (2) come on 常用于口语,在此处意为 \"别逗了 算了吧,得了 吧 例如: Oh come on, don't be silly! 哦,得了吧,别犯傻了 !",
+          "page": null
+        },
+        {
+          "phrase": "take a breath",
+          "meaning": "吸-口气\"",
+          "example_en": "Before giving a speech, it's helpful to take a",
+          "example_cn": "calm your nerves. 在演讲之前 深呼吸可以帮助你镇静下来。 breath can help you think more clearly 当遇到具有挑战性的 情况时,深呼吸可以帮助你更清晰地思考。 想想20年前。与遥远的亲人面对面交谈还是一个梦想。 (1) face to face意为 面对面地\"C 例如: stand face to face 面对面地站着",
+          "page": null
+        },
+        {
+          "phrase": "avoid doing sth",
+          "meaning": "避免做某事\"C",
+          "example_en": "Please avoid posting private photos on social media. 请不要",
+          "example_cn": "在社交媒体上发布私人照片。 Avoid swimming alone in deep water. 避免独自在深水中游泳。",
+          "page": null
+        },
+        {
+          "phrase": "behave badly",
+          "meaning": "行为不当\n不礼貌\",相反的说法是behave\nwell",
+          "example_en": "He tends to behave badly when he's under stress. 他一有压力",
+          "example_cn": "就会表现得很糟糕。 your teachers. 在课堂上表现好和尊重老师是非常重要的。",
+          "page": null
+        }
+      ],
       "parallel_articles": []
     },
     {
@@ -2295,7 +2585,27 @@
         }
       ],
       "key_phrases": [],
-      "sentence_patterns": [],
+      "sentence_patterns": [
+        "It was a terrible …",
+        "A(n) … happened in …",
+        "The buildings/ roads I trees I animals",
+        "People were …",
+        "The cause of … was …",
+        "… people lost their lives.",
+        "… people were influenced and … homes",
+        "You can 2 ____ your area.",
+        "It will warn you about the upcoming disasters.",
+        "It can also tell you how 3 ____ it might be.",
+        "It can give warnings about 18 disasters, like 6 ___ _",
+        "The warning time for earthquakes is very short.",
+        "We can learn some knowledge",
+        "There is a new technology that …",
+        "The system works by …",
+        "Technology provides …",
+        "You should / shouldn't … and …",
+        "With the support of family and",
+        "We should always face … with"
+      ],
       "sections": [
         {
           "type": "starting_out",
@@ -2323,7 +2633,43 @@
           "page": 96
         }
       ],
-      "language_notes": [],
+      "language_notes": [
+        {
+          "phrase": "from side to side",
+          "meaning": "从一边到另一边\nmove from side to\nside在文中指 \"左右摇晃\"~",
+          "example_en": "The whole ship was moving from side to side in the storm.",
+          "example_cn": "整艘船在暴风雨中左右摇晃。 Mark shook his head from side to side. Mark 摇了摇头。",
+          "page": null
+        },
+        {
+          "phrase": "refuse to do",
+          "meaning": "拒绝做\"",
+          "example_en": "He refused to answer the question. 他拒绝回答那个问题。",
+          "example_cn": "(2) leave sb / sth behind 意为 留下某人(物),忘记带走某人 (物)\"。例如= He left the children behind with their mother. 他把孩子们 留给了他们的母亲。 Did anyone leave a cup behind last night? 昨晚有哪位忘 记拿杯子了吗? 一0",
+          "page": null
+        },
+        {
+          "phrase": "be thick with_",
+          "meaning": "充满了\n但根据语境的不同 ,\n可以\n有不同的理解",
+          "example_en": "The walls were thick With ivy: 墙上爬满了常春藤。",
+          "example_cn": "The room was thick with tension. 房间里弥漫着紧张的气氛。 在家人和朋友的支持下。牛钰慢慢从阴影中走了出来。 come out of 在此处指从困境 黑暗或消极状态中解脱出来 , 重新恢复积极的状态。例如: 在经历了许多挑战后, 她终于从困难中走了出来,重拾微笑。 hardships. Tom辛苦打拼多年才走出困境。",
+          "page": null
+        },
+        {
+          "phrase": "find oneself",
+          "meaning": "发现自我\"",
+          "example_en": "After years of soul searching, he finally found himself and his",
+          "example_cn": "true passion for art. 经过多年的心灵探索,他终于找到自我, 并发现了自己对艺术真正的热爱。 and gain a sense of independence: 第一次独自旅行帮助她找 到了自我,并获得了独立感。",
+          "page": null
+        },
+        {
+          "phrase": "此处above all",
+          "meaning": "最重要的是",
+          "example_en": "Jane is",
+          "example_cn": "Jane 工作努力 = 性格开朗 最重要的是 ,她为人诚实。 Above all, this answer is correct. 最重要的是,这个答案是 正确的。",
+          "page": null
+        }
+      ],
       "parallel_articles": []
     }
   ],
