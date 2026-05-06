@@ -179,7 +179,7 @@
         {
           "word": "dining",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/'dainiŋ/",
           "cn": "hall 食堂",
           "page": 6
         },
@@ -187,7 +187,8 @@
           "word": "dining hall",
           "pos": "",
           "cn": "食堂",
-          "page": 6
+          "page": 6,
+          "phonetic": "/ˈdaɪnɪŋ hɔ:l/"
         },
         {
           "word": "enjoy",
@@ -269,7 +270,7 @@
         {
           "word": "information",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/.infә'meiʃәn/",
           "cn": "technology 信息技术",
           "page": 3
         },
@@ -277,7 +278,8 @@
           "word": "information technology",
           "pos": "",
           "cn": "信息技术",
-          "page": 3
+          "page": 3,
+          "phonetic": "/ˌɪnfəˈmeɪʃn tekˈnɒlədʒi/"
         },
         {
           "word": "introduce",
@@ -303,7 +305,7 @@
         {
           "word": "junior",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/'dʒu:njә/",
           "cn": "high 初级中学",
           "page": 2
         },
@@ -311,7 +313,8 @@
           "word": "junior high",
           "pos": "",
           "cn": "初级中学",
-          "page": 2
+          "page": 2,
+          "phonetic": "/ˈdʒu:njə hai/"
         },
         {
           "word": "lab",
@@ -351,7 +354,7 @@
         {
           "word": "red",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/red/",
           "cn": "scarf 红领巾",
           "page": 4
         },
@@ -359,12 +362,13 @@
           "word": "red scarf",
           "pos": "",
           "cn": "红领巾",
-          "page": 4
+          "page": 4,
+          "phonetic": "/red skɑːf/"
         },
         {
           "word": "teaching",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/'ti:tʃiŋ/",
           "cn": "building 教学楼",
           "page": 6
         },
@@ -372,7 +376,8 @@
           "word": "teaching building",
           "pos": "",
           "cn": "教学楼",
-          "page": 6
+          "page": 6,
+          "phonetic": "/'tiːtʃɪŋ ˈbɪldɪŋ/"
         },
         {
           "word": "textbook",
@@ -418,7 +423,17 @@
           "page": 10
         }
       ],
-      "sentence_patterns": [],
+      "sentence_patterns": [
+        "I have …",
+        "Where is your …?",
+        "Here it is.",
+        "How about you?",
+        "This is …",
+        "There are …",
+        "It has …",
+        "You're here.",
+        "We do … here."
+      ],
       "key_phrases": [
         {
           "phrase": "junior high",
@@ -440,7 +455,8 @@
           "cn": "食堂",
           "page": 6
         }
-      ]
+      ],
+      "language_notes": []
     },
     {
       "id": "unit-1",
@@ -518,7 +534,7 @@
         {
           "word": "in",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/in/",
           "cn": "fact 事实上",
           "page": 17
         },
@@ -526,7 +542,8 @@
           "word": "in fact",
           "pos": "",
           "cn": "事实上",
-          "page": 17
+          "page": 17,
+          "phonetic": "/ɪn ˈfækt/"
         },
         {
           "word": "journey",
@@ -566,7 +583,7 @@
         {
           "word": "of",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/ɒv/",
           "cn": "course 当然，自然",
           "page": 24
         },
@@ -574,7 +591,8 @@
           "word": "of course",
           "pos": "",
           "cn": "当然，自然",
-          "page": 24
+          "page": 24,
+          "phonetic": "/əv ˈkɔːs/"
         },
         {
           "word": "pain",
@@ -586,7 +604,7 @@
         {
           "word": "point",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/pɒint/",
           "cn": "out 指出，指明",
           "page": 17
         },
@@ -594,7 +612,8 @@
           "word": "point out",
           "pos": "",
           "cn": "指出，指明",
-          "page": 17
+          "page": 17,
+          "phonetic": "/pɔɪnt aʊt/"
         },
         {
           "word": "polite",
@@ -613,7 +632,7 @@
         {
           "word": "primary",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/'praimәri/",
           "cn": "school 小学",
           "page": 25
         },
@@ -621,7 +640,8 @@
           "word": "primary school",
           "pos": "",
           "cn": "小学",
-          "page": 25
+          "page": 25,
+          "phonetic": "/ˈpraiməri sku:l/"
         },
         {
           "word": "problem",
@@ -798,6 +818,29 @@
           "phrase": "point out",
           "cn": "指出，指明",
           "page": 17
+        }
+      ],
+      "language_notes": [
+        {
+          "phrase": "protect… from…",
+          "meaning": "保护……避免……",
+          "example_en": "We should protect the city from destruction. 我们应当保",
+          "example_cn": "护这座城市免受破坏。",
+          "page": null
+        },
+        {
+          "phrase": "by oneself",
+          "meaning": "独自地",
+          "example_en": "She made the cake by herself. 她自己做了蛋糕。",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "through",
+          "meaning": "穿过，经过",
+          "example_en": "We passed through France on our way to Italy. 我们去意大利",
+          "example_cn": "时途经法国。",
+          "page": null
         }
       ]
     },
@@ -1011,7 +1054,8 @@
           "word": "paper-cutting",
           "pos": "",
           "cn": "剪纸",
-          "page": 35
+          "page": 35,
+          "phonetic": "/ˈpeɪpə(r) ˈkʌtɪŋ/"
         },
         {
           "word": "photography",
@@ -1030,7 +1074,7 @@
         {
           "word": "rock",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/rɒk/",
           "cn": "music 摇滚乐",
           "page": 32
         },
@@ -1038,7 +1082,8 @@
           "word": "rock music",
           "pos": "",
           "cn": "摇滚乐",
-          "page": 32
+          "page": 32,
+          "phonetic": "/rɒk ˈmjuːzɪk/"
         },
         {
           "word": "rush",
@@ -1071,7 +1116,7 @@
         {
           "word": "social",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/'sәuʃәl/",
           "cn": "media 社交媒体，社会化媒体",
           "page": 35
         },
@@ -1079,7 +1124,8 @@
           "word": "social media",
           "pos": "",
           "cn": "社交媒体，社会化媒体",
-          "page": 35
+          "page": 35,
+          "phonetic": "/ˈsəʊʃl ˈmiːdiə/"
         },
         {
           "word": "sound",
@@ -1133,7 +1179,7 @@
         {
           "word": "Words",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/wә:d/",
           "cn": "and expressions",
           "page": 151
         }
@@ -1198,6 +1244,43 @@
           "phrase": "rock music",
           "cn": "摇滚乐",
           "page": 32
+        }
+      ],
+      "language_notes": [
+        {
+          "phrase": "cut in",
+          "meaning": "插嘴，打断别人说话",
+          "example_en": "She cut in when we were talking. 我们聊天时，她插了进来。",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "rush into",
+          "meaning": "冲进，迅速进入",
+          "example_en": "He rushed into the room to find his child. 他冲进房间去找他",
+          "example_cn": "的孩子。",
+          "page": null
+        },
+        {
+          "phrase": "appear",
+          "meaning": "出现，呈现",
+          "example_en": "The sun appeared from behind the clouds. 太阳从云后面出",
+          "example_cn": "来 了。 She appeared in the doorway. 她出现在门口。 A ship appeared on the horizon. 一艘船出现在了地平线上。",
+          "page": null
+        },
+        {
+          "phrase": "stop doing",
+          "meaning": "停止做",
+          "example_en": "I need to stop eating junk food. 我需要停止吃垃圾食品。",
+          "example_cn": "She stopped to tie her shoelaces. 她停下来系鞋带。",
+          "page": null
+        },
+        {
+          "phrase": "like doing",
+          "meaning": "喜欢做",
+          "example_en": "I like reading. 我喜欢阅读。",
+          "example_cn": "He likes playing football. 他喜欢踢足球。",
+          "page": null
         }
       ]
     },
@@ -1396,7 +1479,7 @@
         {
           "word": "race",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/reis/",
           "cn": "/reɪs/ \u0007v. 比赛 n. 赛车",
           "page": 56
         },
@@ -1508,7 +1591,7 @@
         {
           "word": "Words",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/wә:d/",
           "cn": "and expressions",
           "page": 153
         }
@@ -1572,7 +1655,108 @@
         "I hope you're not hurt.",
         "Thank you."
       ],
-      "key_phrases": []
+      "key_phrases": [
+        {
+          "phrase": "serve as",
+          "cn": "为……工作；供职；服役",
+          "page": null
+        },
+        {
+          "phrase": "be absent from",
+          "cn": "缺席，不在……",
+          "page": null
+        },
+        {
+          "phrase": "along the way",
+          "cn": "在这一过程（经历）中；在生活道路上",
+          "page": null
+        },
+        {
+          "phrase": "bring back",
+          "cn": "使想起，使回忆起",
+          "page": null
+        },
+        {
+          "phrase": "be close to sb",
+          "cn": "和某人亲近",
+          "page": null
+        },
+        {
+          "phrase": "way out",
+          "cn": "出路，摆脱困境的办法",
+          "page": null
+        },
+        {
+          "phrase": "refuse to do sth",
+          "cn": "拒绝做某事",
+          "page": null
+        }
+      ],
+      "language_notes": [
+        {
+          "phrase": "serve",
+          "meaning": "为……工作；供职；服役",
+          "example_en": "She has served as the president of the company for ten",
+          "example_cn": "years. 她担任公司总裁有十年了。 In the play, he served as the main character. 在这出戏中，他 担任主角。 This room can serve as a study. 这个房间可以用作书房。",
+          "page": null
+        },
+        {
+          "phrase": "be absent from…",
+          "meaning": "缺席，不在……",
+          "example_en": "They are absent from the meeting. 他们缺席了会议。",
+          "example_cn": "He was absent from the class today due to illness. 由于生病， 他缺席了今天的课程。",
+          "page": null
+        },
+        {
+          "phrase": "along the way",
+          "meaning": "在这一过程（经历）中；在生活道路上",
+          "example_en": "We saw beautiful landscapes along the way to the",
+          "example_cn": "mountaintop. 在去山顶的路上，我们欣赏到了美丽的风景。 I also have had my share of heartbreak along the way. 这一 路走来我也有过心碎的经历。",
+          "page": null
+        },
+        {
+          "phrase": "bring back",
+          "meaning": "使想起，使回忆起",
+          "example_en": "This song brings back a lot of memories from my high school",
+          "example_cn": "days. 这首歌让我回忆起了高中时代的许多事情。",
+          "page": null
+        },
+        {
+          "phrase": "be more important than",
+          "meaning": "比……更重要",
+          "example_en": "Being happy is more important than having a lot of money.",
+          "example_cn": "快乐比拥有很多钱更重要。 Being safe is more important than being fast. 安全比速度快 更重要。",
+          "page": null
+        },
+        {
+          "phrase": "be close to sb",
+          "meaning": "和某人亲近",
+          "example_en": "Lucy is close to her grandmother. Lucy和她的祖母关系很亲密。",
+          "example_cn": "That girl is close to her friends. 那个女孩和她的朋友们关系很好。",
+          "page": null
+        },
+        {
+          "phrase": "way out",
+          "meaning": "出路，摆脱困境的办法",
+          "example_en": "I must find a way out! 我必须想个办法！",
+          "example_cn": "He could think of no way out. 他想不出任何办法。",
+          "page": null
+        },
+        {
+          "phrase": "it is hard to do sth",
+          "meaning": "做……很辛苦",
+          "example_en": "It is hard to lift stones this size. 把这么大的石头举起来很费力。",
+          "example_cn": "It was hard to finish the marathon, but it felt good. 跑完马拉 松很辛苦，但感觉很棒。 refuse to do sth意为“拒绝做某事”。例如： Steve refused to answer any questions. Steve拒绝回答任何 问 题。 雷锋从来没有拒绝过向有困难的人伸出援手。",
+          "page": null
+        },
+        {
+          "phrase": "refuse to do sth",
+          "meaning": "拒绝做某事",
+          "example_en": "Steve refused to answer any questions. Steve拒绝回答任何",
+          "example_cn": "问 题。 雷锋从来没有拒绝过向有困难的人伸出援手。",
+          "page": null
+        }
+      ]
     },
     {
       "id": "unit-4",
@@ -1998,7 +2182,89 @@
         "I'm not sure about that.",
         "I see it differently, because…"
       ],
-      "key_phrases": []
+      "key_phrases": [
+        {
+          "phrase": "treat sb to sth",
+          "cn": "请客，款待，招待",
+          "page": null
+        },
+        {
+          "phrase": "stand for",
+          "cn": "代表，表示",
+          "page": null
+        },
+        {
+          "phrase": "a break from",
+          "cn": "暂时中断……",
+          "page": null
+        },
+        {
+          "phrase": "stand by",
+          "cn": "准备行动",
+          "page": null
+        },
+        {
+          "phrase": "make the most of sth",
+          "cn": "充分利用某事物",
+          "page": null
+        },
+        {
+          "phrase": "be thankful for",
+          "cn": "感激（感谢）……",
+          "page": null
+        }
+      ],
+      "language_notes": [
+        {
+          "phrase": "treat sb to sth",
+          "meaning": "请客，款待，招待",
+          "example_en": "I treated myself to a new coat. 我犒劳自己一件新外套。",
+          "example_cn": "We treated her to lunch at the hotel. 我们请她在酒店吃午饭。",
+          "page": null
+        },
+        {
+          "phrase": "stand for",
+          "meaning": "代表，表示",
+          "example_en": "What does ATM stand for? ATM是什么意思？",
+          "example_cn": "WHO stands for World Health Organisation. WHO代表世界 卫生组织。",
+          "page": null
+        },
+        {
+          "phrase": "a break from…",
+          "meaning": "暂时中断……",
+          "example_en": "Let’s take a break from the training. 让我们暂停训练，休息一下。",
+          "example_cn": "She took a break from her work to go to hospital. 她暂时中 断工作，去了趟医院。",
+          "page": null
+        },
+        {
+          "phrase": "stand by",
+          "meaning": "准备行动",
+          "example_en": "We are standing by for your orders. 我们正在等待您的命令。",
+          "example_cn": "Doctors need to stand by to save people. 医生需要随时准备 救人。",
+          "page": null
+        },
+        {
+          "phrase": "make the most of sth",
+          "meaning": "充分利用某事物",
+          "example_en": "We should make the most of this good weather and go to",
+          "example_cn": "the beach. 我们应该好好享受这个好天气，去海边玩。 She is making the most of her time by studying. 她正抓紧时 间学习。",
+          "page": null
+        },
+        {
+          "phrase": "be thankful for…",
+          "meaning": "感激（感谢）……",
+          "example_en": "I’m really thankful for the love and support from my friends.",
+          "example_cn": "我非常感激朋友们对我的关爱和支持。",
+          "page": null
+        },
+        {
+          "phrase": "本句中call是名词",
+          "meaning": "召唤，要求",
+          "example_en": "He heard the call of the wild and decided to spend a",
+          "example_cn": "week in the mountains. 他听到了大自然的召唤，决定在 山里过一周。",
+          "page": null
+        }
+      ]
     },
     {
       "id": "unit-5",
@@ -2034,7 +2300,7 @@
         {
           "word": "as",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/æz/",
           "cn": "happy as a clam 非常高兴的， 相当满足的",
           "page": 89
         },
@@ -2042,7 +2308,8 @@
           "word": "as dead as a dodo",
           "pos": "",
           "cn": "彻底死亡",
-          "page": 88
+          "page": 88,
+          "phonetic": "/əz ded əz ə ˈdəʊdəʊ/"
         },
         {
           "word": "beaver",
@@ -2075,7 +2342,7 @@
         {
           "word": "die",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/dai/",
           "cn": "out 消失；绝迹，灭绝",
           "page": 89
         },
@@ -2083,7 +2350,8 @@
           "word": "die out",
           "pos": "",
           "cn": "消失；绝迹，灭绝",
-          "page": 89
+          "page": 89,
+          "phonetic": "/daɪ aʊt/"
         },
         {
           "word": "dodo",
@@ -2116,7 +2384,7 @@
         {
           "word": "enough",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/i'nʌf/",
           "cn": "/ɪˈnʌf/ deter. 足够的， 充足的，充分的",
           "page": 81
         },
@@ -2158,7 +2426,7 @@
         {
           "word": "get",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/get/",
           "cn": "lost 迷路",
           "page": 81
         },
@@ -2166,7 +2434,8 @@
           "word": "get lost",
           "pos": "",
           "cn": "迷路",
-          "page": 81
+          "page": 81,
+          "phonetic": "/ɡet lɒst/"
         },
         {
           "word": "hero",
@@ -2206,7 +2475,7 @@
         {
           "word": "knock",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/nɒk/",
           "cn": "around （在某处）悠闲地度过",
           "page": 80
         },
@@ -2248,7 +2517,7 @@
         {
           "word": "no",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/nәu/",
           "cn": "wonder 难怪",
           "page": 83
         },
@@ -2256,7 +2525,8 @@
           "word": "no wonder",
           "pos": "",
           "cn": "难怪",
-          "page": 83
+          "page": 83,
+          "phonetic": "/nəʊ ˈwʌndə(r)/"
         },
         {
           "word": "ocean",
@@ -2359,7 +2629,7 @@
         {
           "word": "Words",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/wә:d/",
           "cn": "and expressions",
           "page": 155
         }
@@ -2423,7 +2693,132 @@
         "… not only…, but also…",
         "… provide… with…"
       ],
-      "key_phrases": []
+      "key_phrases": [
+        {
+          "phrase": "knock around",
+          "cn": "悠闲地度过",
+          "page": null
+        },
+        {
+          "phrase": "here and there",
+          "cn": "到处，各处",
+          "page": null
+        },
+        {
+          "phrase": "had better",
+          "cn": "最好",
+          "page": null
+        },
+        {
+          "phrase": "be wrong about",
+          "cn": "搞错……",
+          "page": null
+        },
+        {
+          "phrase": "used to",
+          "cn": "过去曾经……",
+          "page": null
+        },
+        {
+          "phrase": "for real",
+          "cn": "真正地，确实地，认真地",
+          "page": null
+        },
+        {
+          "phrase": "what's more",
+          "cn": "而且，此外",
+          "page": null
+        },
+        {
+          "phrase": "as a result",
+          "cn": "因此",
+          "page": null
+        },
+        {
+          "phrase": "die out",
+          "cn": "灭绝，消失",
+          "page": null
+        }
+      ],
+      "language_notes": [
+        {
+          "phrase": "knock around",
+          "meaning": "悠闲地度过",
+          "example_en": "Last Sunday, Jack knocked around town with his friends.",
+          "example_cn": "上周日，Jack和朋友们一起在城里闲逛。",
+          "page": null
+        },
+        {
+          "phrase": "here and there",
+          "meaning": "到处，各处",
+          "example_en": "There are flowers here and there in the city. 城市里到处都是花。",
+          "example_cn": "He left books here and there in the room. 他的书在房间里扔 得到处都是。",
+          "page": null
+        },
+        {
+          "phrase": "had better",
+          "meaning": "最好",
+          "example_en": "You’d better go now if you want to take the bus. 如果你想搭",
+          "example_cn": "公共汽车，最好现在就出发。 I’d better go and get ready. 我最好还是去准备一下。",
+          "page": null
+        },
+        {
+          "phrase": "be wrong about…",
+          "meaning": "搞错……",
+          "example_en": "I think I’m wrong about this situation. 我想我对这个局面的判",
+          "example_cn": "断是错的。 我把那个新来的工人的情况搞错了，他不是从德国来的。",
+          "page": null
+        },
+        {
+          "phrase": "used to…",
+          "meaning": "过去曾经……",
+          "example_en": "Jimmy used to live here. Jimmy曾经住在这里。（现在不住",
+          "example_cn": "在这里了）",
+          "page": null
+        },
+        {
+          "phrase": "for real",
+          "meaning": "真正地，确实地，认真地",
+          "example_en": "This is not a joke. I am for real. 这不是开玩笑。我是认真的。",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "what’s more",
+          "meaning": "而且，此外",
+          "example_en": "She’s a hard worker and, what’s more, she’s very gifted. 她",
+          "example_cn": "非常努力，而且极其有才华。 it’s very cheap. 这个酒店海景很美，而且价格非常便宜。",
+          "page": null
+        },
+        {
+          "phrase": "as a result",
+          "meaning": "因此",
+          "example_en": "He hurt his leg. As a result, he didn’t take part in the",
+          "example_cn": "football match. 他伤了腿。因此，他没有参加这次足球 比 赛。",
+          "page": null
+        },
+        {
+          "phrase": "die out",
+          "meaning": "灭绝，消失",
+          "example_en": "This animal died out millions of years ago. 这种动物在几",
+          "example_cn": "百万年前就灭绝了。",
+          "page": null
+        },
+        {
+          "phrase": "water（涨潮）",
+          "meaning": "非常高兴的，相当满足的",
+          "example_en": "",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "as dead as a dodo也是一个英文习语",
+          "meaning": "彻底死亡；已经失效；不再使用",
+          "example_en": "",
+          "example_cn": "",
+          "page": null
+        }
+      ]
     },
     {
       "id": "unit-6",
@@ -2508,7 +2903,7 @@
         {
           "word": "corn",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/kɒ:n/",
           "cn": "silk 玉米须",
           "page": 103
         },
@@ -2516,7 +2911,8 @@
           "word": "corn silk",
           "pos": "",
           "cn": "玉米须",
-          "page": 103
+          "page": 103,
+          "phonetic": "/kɔ:n silk/"
         },
         {
           "word": "cotton",
@@ -2759,7 +3155,7 @@
         {
           "word": "Words",
           "pos": "",
-          "phonetic": "",
+          "phonetic": "/wә:d/",
           "cn": "and expressions",
           "page": 157
         },
@@ -2840,6 +3236,64 @@
           "phrase": "corn silk",
           "cn": "玉米须",
           "page": 103
+        }
+      ],
+      "language_notes": [
+        {
+          "phrase": "though用作副词",
+          "meaning": "可是，不过，然而",
+          "example_en": "It sounds like a lot of fun. Isn’t it very difficult though? 听上",
+          "example_cn": "去很有趣，可是这不是很困难吗？ I didn’t get the job. I learnt a lot, though. 我没有得到这个工 作，但是我学到了很多。",
+          "page": null
+        },
+        {
+          "phrase": "take a rest",
+          "meaning": "休息",
+          "example_en": "I’m going upstairs to take a rest. 我要上楼去休息了。",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "more than",
+          "meaning": "不仅仅，超过",
+          "example_en": "She is more than a friend to me. She is family. 对我来说，她",
+          "example_cn": "不仅仅是朋友，还是家人。",
+          "page": null
+        },
+        {
+          "phrase": "one’s cup of tea多用于口语",
+          "meaning": "某人感兴趣的东西或对胃口的事物",
+          "example_en": "Jazz isn’t my cup of tea. 我对爵士乐不感兴趣。",
+          "example_cn": "Reading novels is my cup of tea. 我喜欢看小说。",
+          "page": null
+        },
+        {
+          "phrase": "not only… but also…",
+          "meaning": "不仅……而且……",
+          "example_en": "Shakespeare was not only a writer but also an actor.",
+          "example_cn": "Shakespeare不仅是个作家，还是个演员。 after class. 她不仅课上努力学习，课后还读很多书。",
+          "page": null
+        },
+        {
+          "phrase": "as many as",
+          "meaning": "和……一样多",
+          "example_en": "",
+          "example_cn": "",
+          "page": null
+        },
+        {
+          "phrase": "prefer",
+          "meaning": "更喜欢，喜欢……多于……",
+          "example_en": "I prefer milk to coffee in the morning. 相比咖啡，我早上更喜",
+          "example_cn": "欢喝牛奶。 She prefers going to the library to staying at home. 相比待在 家里，她更喜欢去图书馆。",
+          "page": null
+        },
+        {
+          "phrase": "it’s no secret that…是固定句型",
+          "meaning": "众所周知……，……不是秘密",
+          "example_en": "It’s no secret that exercise is good for our health. 众所周知，",
+          "example_cn": "运动对我们的健康有益。 It’s no secret that we live in a digital age. 众所周知，我们生 活在一个数字时代。",
+          "page": null
         }
       ]
     }

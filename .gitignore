@@ -1,8 +1,26 @@
 __pycache__/
 *.pyc
 .env
-*.egg-info/
+tools/temp/
+.idea/
+.DS_Store
+*.log
+*.bak
+*.swp
+*.swo
+coverage/
+.coverage
+htmlcov/
+pytest_cache/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment directories
+venv/
+.venv/
+# Ignore distribution files
 dist/
 build/
-.venv/
-venv/
+*.egg-info/

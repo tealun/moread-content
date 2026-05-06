@@ -350,7 +350,7 @@
         },
         {
           "word": "post office",
-          "phonetic": "",
+          "phonetic": "/ˈpəʊst ˈɒfɪs/",
           "pos": "n.",
           "cn": "邮局",
           "page": 12
@@ -632,7 +632,7 @@
         },
         {
           "word": "last but not least",
-          "phonetic": "",
+          "phonetic": "/lɑːst bʌt nɒt liːst/",
           "pos": "phrase",
           "cn": "最后但同样重要的（一点）",
           "page": 20
@@ -646,7 +646,7 @@
         },
         {
           "word": "the finishing line",
-          "phonetic": "",
+          "phonetic": "/ðə ˈfɪnɪʃɪŋ laɪn/",
           "pos": "phrase",
           "cn": "终点线",
           "page": 20
@@ -702,7 +702,7 @@
         },
         {
           "word": "sink or swim",
-          "phonetic": "",
+          "phonetic": "/sɪŋk ɔː(r) swɪm/",
           "pos": "phrase",
           "cn": "自生自灭，成败全靠自己",
           "page": 23
@@ -972,7 +972,7 @@
         },
         {
           "word": "pay attention",
-          "phonetic": "",
+          "phonetic": "/peɪ əˈtenʃn/",
           "pos": "phrase",
           "cn": "注意",
           "page": 28
@@ -1000,7 +1000,7 @@
         },
         {
           "word": "thanks to",
-          "phonetic": "",
+          "phonetic": "/θæŋks tuː/",
           "pos": "phrase",
           "cn": "多亏；幸亏；归功于",
           "page": 29
@@ -1789,7 +1789,7 @@
         },
         {
           "word": "a number of",
-          "phonetic": "",
+          "phonetic": "/ə ˈnʌmbə(r) əv/",
           "pos": "phrase",
           "cn": "一些",
           "page": 53
@@ -1810,7 +1810,7 @@
         },
         {
           "word": "daily life",
-          "phonetic": "",
+          "phonetic": "/ˈdeili laif/",
           "pos": "phrase",
           "cn": "日常生活",
           "page": 55
@@ -1859,7 +1859,7 @@
         },
         {
           "word": "be deaf to sth",
-          "phonetic": "",
+          "phonetic": "/biː def tuː ˈsʌmθɪŋ/",
           "pos": "phrase",
           "cn": "不愿听某事，不肯听取某事",
           "page": 61
@@ -2257,7 +2257,7 @@
         },
         {
           "word": "such as",
-          "phonetic": "",
+          "phonetic": "/sʌtʃ əz/",
           "pos": "phrase",
           "cn": "像，诸如，例如",
           "page": 77
@@ -2334,7 +2334,7 @@
         },
         {
           "word": "look forward to",
-          "phonetic": "",
+          "phonetic": "/luk ˈfɔ:wəd tu:/",
           "pos": "phrase",
           "cn": "（兴奋地）期待，盼望",
           "page": 85
@@ -2348,7 +2348,7 @@
         },
         {
           "word": "in general",
-          "phonetic": "",
+          "phonetic": "/ɪn ˈdʒenrəl/",
           "pos": "phrase",
           "cn": "通常，一般情况下；普遍地，总的说来",
           "page": 86
@@ -2369,7 +2369,7 @@
         },
         {
           "word": "places of interest",
-          "phonetic": "",
+          "phonetic": "/ˈpleɪsɪz əv ˈɪntrəst/",
           "pos": "phrase",
           "cn": "名胜",
           "page": 87
@@ -2425,7 +2425,7 @@
         },
         {
           "word": "roller coaster",
-          "phonetic": "",
+          "phonetic": "/ˈrəulə ˈkəʊstə/",
           "pos": "phrase",
           "cn": "过山车，云霄飞车",
           "page": 87
@@ -2523,7 +2523,7 @@
         },
         {
           "word": "set out",
-          "phonetic": "",
+          "phonetic": "/set aʊt/",
           "pos": "phrase",
           "cn": "动身踏上",
           "page": 92
