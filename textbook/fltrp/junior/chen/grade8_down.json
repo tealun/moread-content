@@ -1,0 +1,2714 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "chen",
+    "editor_name": "陈琳",
+    "standard": "2011年版课程标准",
+    "level": "junior",
+    "grade": 8,
+    "semester": "down",
+    "title": "八年级下册",
+    "pages": 139,
+    "source_pdf": "(FLTRP陈琳)义务教育教科书·英语八年级下册.pdf",
+    "extracted_at": "2026-05-06",
+    "confidence": "verified"
+  },
+  "toc": [
+    {
+      "id": "module-1",
+      "type": "module",
+      "number": 1,
+      "title": "Feelings and impressions",
+      "page": 2,
+      "topic": "Describing feelings and impressions",
+      "grammar_preview": [
+        "Sense verbs: feel, look, sound, smell, taste; adjectives"
+      ],
+      "around_the_world": "Polite expressions"
+    },
+    {
+      "id": "module-2",
+      "type": "module",
+      "number": 2,
+      "title": "Experiences",
+      "page": 10,
+      "topic": "Talking about experiences",
+      "grammar_preview": [
+        "Present perfect about experiences"
+      ],
+      "around_the_world": "Climbing the Seven Summits"
+    },
+    {
+      "id": "module-3",
+      "type": "module",
+      "number": 3,
+      "title": "Journey to space",
+      "page": 18,
+      "topic": "Talking about recent events",
+      "grammar_preview": [
+        "Present perfect with already, just and yet"
+      ],
+      "around_the_world": "Names of the days of the week"
+    },
+    {
+      "id": "module-4",
+      "type": "module",
+      "number": 4,
+      "title": "Seeing the doctor",
+      "page": 26,
+      "topic": "Talking about healthy living",
+      "grammar_preview": [
+        "Present perfect with for and since"
+      ],
+      "around_the_world": "The World Health Organization"
+    },
+    {
+      "id": "module-5",
+      "type": "module",
+      "number": 5,
+      "title": "Cartoons",
+      "page": 34,
+      "topic": "Talking about cartoons",
+      "grammar_preview": [
+        "Comprehensive use of present perfect, present simple and past simple"
+      ],
+      "around_the_world": "Classic American cartoons: Batman and Spider-Man"
+    },
+    {
+      "id": "revision-a",
+      "type": "revision",
+      "number": "A",
+      "title": "Revision module A",
+      "page": 42,
+      "grammar_preview": [
+        "Review"
+      ]
+    },
+    {
+      "id": "module-6",
+      "type": "module",
+      "number": 6,
+      "title": "Hobbies",
+      "page": 48,
+      "topic": "Talking about your hobbies",
+      "grammar_preview": [
+        "Simple sentences"
+      ],
+      "around_the_world": "Gardening"
+    },
+    {
+      "id": "module-7",
+      "type": "module",
+      "number": 7,
+      "title": "Summer in Los Angeles",
+      "page": 56,
+      "topic": "Talking about future plans and activities",
+      "grammar_preview": [
+        "Composite sentences with and, but and or"
+      ],
+      "around_the_world": "Summer camps"
+    },
+    {
+      "id": "module-8",
+      "type": "module",
+      "number": 8,
+      "title": "Time off",
+      "page": 64,
+      "topic": "Talking about travelling",
+      "grammar_preview": [
+        "Object clauses with that"
+      ],
+      "around_the_world": "Lake District National Park"
+    },
+    {
+      "id": "module-9",
+      "type": "module",
+      "number": 9,
+      "title": "Friendship",
+      "page": 72,
+      "topic": "Talking about what you know; asking for information",
+      "grammar_preview": [
+        "Object clauses with if, whether, who, what, how, why, where and when"
+      ],
+      "around_the_world": "Pen friends"
+    },
+    {
+      "id": "module-10",
+      "type": "module",
+      "number": 10,
+      "title": "On the radio",
+      "page": 80,
+      "topic": "Giving advice and warnings; talking about memories",
+      "grammar_preview": [
+        "Review of object clauses"
+      ],
+      "around_the_world": "The clockwork radio"
+    },
+    {
+      "id": "revision-b",
+      "type": "revision",
+      "number": "B",
+      "title": "Revision module B",
+      "page": 88,
+      "grammar_preview": [
+        "Review"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "module-1",
+      "type": "module",
+      "number": 1,
+      "title": "Feelings and impressions",
+      "page_start": 9,
+      "page_end": 16,
+      "topic": "Describing feelings and impressions",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "表示感觉和知觉的系动词",
+          "name_en": "Sense verbs as linking verbs",
+          "details": "feel, taste, look, smell, sound 等感官动词可作系动词使用，后面接形容词作主语补充成分。否定形式和疑问形式借助助动词do构成。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "smell",
+          "phonetic": "/smel/",
+          "pos": "v.",
+          "cn": "(smelled /smeld/, smelled; smelt /smelt/, smelt)有…… 的气味；闻；闻出 n.气味",
+          "page": 2
+        },
+        {
+          "word": "soft",
+          "phonetic": "/s=ft/",
+          "pos": "adj.",
+          "cn": "软的；柔软的",
+          "page": 2
+        },
+        {
+          "word": "sour",
+          "phonetic": "/'sa%2/",
+          "pos": "adj.",
+          "cn": "酸的；馊的",
+          "page": 2
+        },
+        {
+          "word": "cookie",
+          "phonetic": "/'k%ki/",
+          "pos": "n.",
+          "cn": "小甜饼；曲奇饼",
+          "page": 2
+        },
+        {
+          "word": "pizza",
+          "phonetic": "/'piːts2/",
+          "pos": "n.",
+          "cn": "比萨饼",
+          "page": 2
+        },
+        {
+          "word": "lovely",
+          "phonetic": "/'l7vli/",
+          "pos": "adj.",
+          "cn": "令人愉快的；可爱的",
+          "page": 2
+        },
+        {
+          "word": "done",
+          "phonetic": "/d7n/",
+          "pos": "adj.",
+          "cn": "做完的",
+          "page": 2
+        },
+        {
+          "word": "try",
+          "phonetic": "/tra!/",
+          "pos": "n.",
+          "cn": "尝试；努力",
+          "page": 2
+        },
+        {
+          "word": "sound",
+          "phonetic": "/sa%nd/",
+          "pos": "v.",
+          "cn": "听起来；令人觉得",
+          "page": 2
+        },
+        {
+          "word": "salt",
+          "phonetic": "/s0ːlt/",
+          "pos": "n.",
+          "cn": "盐；食盐",
+          "page": 2
+        },
+        {
+          "word": "jam",
+          "phonetic": "/d3æm/",
+          "pos": "n.",
+          "cn": "果酱",
+          "page": 2
+        },
+        {
+          "word": "for",
+          "phonetic": "/f0ː；f2/",
+          "pos": "prep.",
+          "cn": "用于；（ 表示持续的时 间） 达，计",
+          "page": 2
+        },
+        {
+          "word": "favourite",
+          "phonetic": "/'fe!v2r2t/",
+          "pos": "n.",
+          "cn": "最喜欢的人或事",
+          "page": 3
+        },
+        {
+          "word": "ear",
+          "phonetic": "/!2/",
+          "pos": "n.",
+          "cn": "耳朵",
+          "page": 3
+        },
+        {
+          "word": "glasses",
+          "phonetic": "/'gl4ːs!z/",
+          "pos": "n.",
+          "cn": "[用复数]眼镜",
+          "page": 4
+        },
+        {
+          "word": "jeans",
+          "phonetic": "/d3iːnz/",
+          "pos": "n.",
+          "cn": "[用复数]牛仔裤",
+          "page": 4
+        },
+        {
+          "word": "nervous",
+          "phonetic": "/'n^ːv2s/",
+          "pos": "adj.",
+          "cn": "情绪不安的； 紧张的",
+          "page": 4
+        },
+        {
+          "word": "fair",
+          "phonetic": "/fe2/",
+          "pos": "adj（.",
+          "cn": "头发）金色的，浅褐色的",
+          "page": 4
+        },
+        {
+          "word": "pretty",
+          "phonetic": "/'pr!ti/",
+          "pos": "adj.",
+          "cn": "秀丽的；标致的",
+          "page": 4
+        },
+        {
+          "word": "proud",
+          "phonetic": "/pra%d/",
+          "pos": "adj.",
+          "cn": "感到自豪的；感到 骄傲的",
+          "page": 4
+        },
+        {
+          "word": "stranger",
+          "phonetic": "/'stre!nd32/",
+          "pos": "n.",
+          "cn": "陌生人",
+          "page": 4
+        },
+        {
+          "word": "message",
+          "phonetic": "/'mes!d3/",
+          "pos": "n.",
+          "cn": "电子邮件；口信； 信息",
+          "page": 4
+        },
+        {
+          "word": "hobby",
+          "phonetic": "/'h=bi/",
+          "pos": "n.",
+          "cn": "业余爱好",
+          "page": 4
+        },
+        {
+          "word": "in",
+          "phonetic": "/!n/",
+          "pos": "prep.",
+          "cn": "参加；加入 在……期间 用，按照，以（某方式或风格）",
+          "page": 4
+        },
+        {
+          "word": "mark",
+          "phonetic": "/m4ːk/",
+          "pos": "n.",
+          "cn": "分数",
+          "page": 4
+        },
+        {
+          "word": "love",
+          "phonetic": "/l7v/",
+          "pos": "n.",
+          "cn": "(用于信尾)爱你的……",
+          "page": 4
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "have a try",
+          "cn": "尝一尝；试试看",
+          "page": 2
+        },
+        {
+          "phrase": "sweet tooth",
+          "cn": "对甜食的爱好",
+          "page": 2
+        },
+        {
+          "phrase": "be proud of",
+          "cn": "…为……而感到骄傲",
+          "page": 4
+        },
+        {
+          "phrase": "at school",
+          "cn": "在学校；上学",
+          "page": 4
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 9
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 10
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 11
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 13
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 16,
+          "content": {
+            "task": "Writing a description of a classmate"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 9,
+          "page_end": 10,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 9
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 11,
+          "page_end": 12,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 13,
+          "page_end": 16,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 13
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 16,
+              "content": {
+                "task": "Writing a description of a classmate"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "type": "module",
+      "number": 2,
+      "title": "Experiences",
+      "page_start": 17,
+      "page_end": 24,
+      "topic": "Talking about experiences",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "现在完成时（1）",
+          "name_en": "Present perfect tense (1)",
+          "details": "由have/has + 动词过去分词构成。表示以前某个时间已经发生的行为或曾经做过的事情对目前有影响，或表示到目前为止已经完成的事情。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "ever",
+          "phonetic": "/'ev2/",
+          "pos": "adv.",
+          "cn": "曾经；从来；在任何时候",
+          "page": 10
+        },
+        {
+          "word": "enter",
+          "phonetic": "/'ent2/",
+          "pos": "v（.",
+          "cn": "使）参加；（使）报名",
+          "page": 10
+        },
+        {
+          "word": "competition",
+          "phonetic": "/;k=mp2't!1n/",
+          "pos": "n.",
+          "cn": "比赛；竞争",
+          "page": 10
+        },
+        {
+          "word": "prize",
+          "phonetic": "/pra!z/",
+          "pos": "n.",
+          "cn": "奖品；奖项",
+          "page": 10
+        },
+        {
+          "word": "dream",
+          "phonetic": "/driːm/",
+          "pos": "n.",
+          "cn": "梦；梦想；[只用于名 词前]梦寐以求的 v. (dreamed /driːmd/, dreamed; dreamt /dremt/, dreamt)做梦；梦到； 梦想",
+          "page": 10
+        },
+        {
+          "word": "move",
+          "phonetic": "/muːv/",
+          "pos": "v.",
+          "cn": "搬家；改变……的位置",
+          "page": 12
+        },
+        {
+          "word": "send",
+          "phonetic": "/send/",
+          "pos": "v.",
+          "cn": "(sent /sent/, sent)派遣去； 命令……去",
+          "page": 12
+        },
+        {
+          "word": "tower",
+          "phonetic": "/'ta%2/",
+          "pos": "n.",
+          "cn": "塔",
+          "page": 12
+        },
+        {
+          "word": "ancient",
+          "phonetic": "/'e!n12nt/",
+          "pos": "adj.",
+          "cn": "古老的；古代的",
+          "page": 12
+        },
+        {
+          "word": "king",
+          "phonetic": "/k!9/",
+          "pos": "n.",
+          "cn": "国王；君王",
+          "page": 12
+        },
+        {
+          "word": "queen",
+          "phonetic": "/kwiːn/",
+          "pos": "n.",
+          "cn": "女王；王后",
+          "page": 12
+        },
+        {
+          "word": "Arabic",
+          "phonetic": "/'ær2b!k/",
+          "pos": "n.",
+          "cn": "阿拉伯语",
+          "page": 12
+        },
+        {
+          "word": "way",
+          "phonetic": "/we!/",
+          "pos": "n.",
+          "cn": "方面；态度",
+          "page": 12
+        },
+        {
+          "word": "mix",
+          "phonetic": "/m!ks/",
+          "pos": "v.",
+          "cn": "相混合；融合",
+          "page": 12
+        },
+        {
+          "word": "miss",
+          "phonetic": "/m!s/",
+          "pos": "v.",
+          "cn": "惦念；怀念；想念",
+          "page": 12
+        },
+        {
+          "word": "count",
+          "phonetic": "/ka%nt/",
+          "pos": "v.",
+          "cn": "数；清点",
+          "page": 12
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "first prize",
+          "cn": "一等奖",
+          "page": 10
+        },
+        {
+          "phrase": "write about",
+          "cn": "编写；写作",
+          "page": 10
+        },
+        {
+          "phrase": "as long as",
+          "cn": "只要",
+          "page": 10
+        },
+        {
+          "phrase": "count down",
+          "cn": "倒数；倒计时",
+          "page": 12
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 17
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 18
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 19
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 21
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 24,
+          "content": {
+            "task": "Writing a questionnaire about experiences"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 17,
+          "page_end": 18,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 17
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 19,
+          "page_end": 20,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 21,
+          "page_end": 24,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 21
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 24,
+              "content": {
+                "task": "Writing a questionnaire about experiences"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "type": "module",
+      "number": 3,
+      "title": "Journey to space",
+      "page_start": 25,
+      "page_end": 32,
+      "topic": "Talking about recent events",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "现在完成时（2）",
+          "name_en": "Present perfect tense (2)",
+          "details": "用just, already或yet加以强调或说明。just表示刚刚，already表示已经，yet用于否定句和疑问句表示还、尚。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "earth",
+          "phonetic": "/^ː8/",
+          "pos": "n.",
+          "cn": "地球",
+          "page": 18
+        },
+        {
+          "word": "moon",
+          "phonetic": "/muːn/",
+          "pos": "n.",
+          "cn": "月亮；月球",
+          "page": 18
+        },
+        {
+          "word": "news",
+          "phonetic": "/njuːz/",
+          "pos": "n.",
+          "cn": "新闻；消息",
+          "page": 18
+        },
+        {
+          "word": "planet",
+          "phonetic": "/'plæn!t/",
+          "pos": "n.",
+          "cn": "行星",
+          "page": 18
+        },
+        {
+          "word": "reach",
+          "phonetic": "/riːt1/",
+          "pos": "v.",
+          "cn": "到达；抵达",
+          "page": 18
+        },
+        {
+          "word": "yet",
+          "phonetic": "/jet/",
+          "pos": "adv.",
+          "cn": "还，尚（用于表示某事在 某一时间尚未发生，但未来也许 会发生）",
+          "page": 18
+        },
+        {
+          "word": "just",
+          "phonetic": "/d37st/",
+          "pos": "adv.",
+          "cn": "刚才；刚刚",
+          "page": 18
+        },
+        {
+          "word": "model",
+          "phonetic": "/'m=dl/",
+          "pos": "n.",
+          "cn": "模型",
+          "page": 18
+        },
+        {
+          "word": "spacecraft",
+          "phonetic": "/'spe!s;kr4ːft/",
+          "pos": "n.",
+          "cn": "航天器； 宇宙飞船",
+          "page": 18
+        },
+        {
+          "word": "project",
+          "phonetic": "/'pr=d3ekt/",
+          "pos": "n.",
+          "cn": "计划；工程；项目 (18) no problem 没问题（用于表示乐于 做某人要求做的事）",
+          "page": 18
+        },
+        {
+          "word": "latest",
+          "phonetic": "/'le!t!st/",
+          "pos": "adj.",
+          "cn": "最近的；最新的",
+          "page": 18
+        },
+        {
+          "word": "on",
+          "phonetic": "/=n/",
+          "pos": "prep.",
+          "cn": "在（播放）中；关于……",
+          "page": 18
+        },
+        {
+          "word": "discover",
+          "phonetic": "/d!'sk7v2/",
+          "pos": "v.",
+          "cn": "发现；找到",
+          "page": 18
+        },
+        {
+          "word": "impossible",
+          "phonetic": "/!m'p=s2bl/",
+          "pos": "adj（.",
+          "cn": "事情）办 不到的，不可能的",
+          "page": 20
+        },
+        {
+          "word": "out",
+          "phonetic": "/a%t/",
+          "pos": "adv.",
+          "cn": "在远方",
+          "page": 20
+        }
+      ],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 25
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 26
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 27
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 29
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 32,
+          "content": {
+            "task": "Making a poster about space travel"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 25,
+          "page_end": 26,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 25
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 26
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 27,
+          "page_end": 28,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 29,
+          "page_end": 32,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 29
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 32,
+              "content": {
+                "task": "Making a poster about space travel"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "type": "module",
+      "number": 4,
+      "title": "Seeing the doctor",
+      "page_start": 33,
+      "page_end": 40,
+      "topic": "Talking about healthy living",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "现在完成时（3）",
+          "name_en": "Present perfect tense (3)",
+          "details": "用for和since表示动作从过去开始持续到现在。for后接一段时间，since后接时间点或从句。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "fever",
+          "phonetic": "/'fiːv2/",
+          "pos": "n.",
+          "cn": "发烧；发热",
+          "page": 26
+        },
+        {
+          "word": "headache",
+          "phonetic": "/'hede!k/",
+          "pos": "n.",
+          "cn": "头痛",
+          "page": 26
+        },
+        {
+          "word": "ill",
+          "phonetic": "/!l/",
+          "pos": "adj.",
+          "cn": "不健康的；有病的 (26) 8) * this /ð!s/ pron. 这，这个（指刚提到 8) 的或显而易见的人、物或事实等）",
+          "page": 26
+        },
+        {
+          "word": "health",
+          "phonetic": "/hel8/",
+          "pos": "n.",
+          "cn": "健康（状况）",
+          "page": 26
+        },
+        {
+          "word": "well",
+          "phonetic": "/wel/",
+          "pos": "adj.",
+          "cn": "健康的",
+          "page": 28
+        },
+        {
+          "word": "heart",
+          "phonetic": "/h4ːt/",
+          "pos": "n.",
+          "cn": "心；心脏",
+          "page": 28
+        },
+        {
+          "word": "active",
+          "phonetic": "/'ækt!v/",
+          "pos": "adj.",
+          "cn": "积极的；活跃的",
+          "page": 28
+        },
+        {
+          "word": "pet",
+          "phonetic": "/pet/",
+          "pos": "n.",
+          "cn": "宠物；宠畜",
+          "page": 28
+        },
+        {
+          "word": "member",
+          "phonetic": "/'memb2/",
+          "pos": "n.",
+          "cn": "成员；会员",
+          "page": 28
+        },
+        {
+          "word": "condition",
+          "phonetic": "/k2n'd!1n/",
+          "pos": "n.",
+          "cn": "状况；身体状况",
+          "page": 28
+        },
+        {
+          "word": "sleepy",
+          "phonetic": "/'sliːpi/",
+          "pos": "adj.",
+          "cn": "困的；想睡的",
+          "page": 28
+        },
+        {
+          "word": "then",
+          "phonetic": "/ðen/",
+          "pos": "adv.",
+          "cn": "当时；那时",
+          "page": 28
+        },
+        {
+          "word": "daily",
+          "phonetic": "/'de!li/",
+          "pos": "adj.",
+          "cn": "每天的；天天的",
+          "page": 28
+        },
+        {
+          "word": "weak",
+          "phonetic": "/wiːk/",
+          "pos": "adj.",
+          "cn": "弱的；虚弱的",
+          "page": 28
+        },
+        {
+          "word": "illness",
+          "phonetic": "/'!ln2s/",
+          "pos": "n.",
+          "cn": "病；疾病",
+          "page": 28
+        },
+        {
+          "word": "exercise",
+          "phonetic": "/'eks2;sa!z/",
+          "pos": "v.",
+          "cn": "运动；锻炼",
+          "page": 28
+        },
+        {
+          "word": "awful",
+          "phonetic": "/'0ːfl/",
+          "pos": "adj.",
+          "cn": "极讨厌的；极坏的",
+          "page": 28
+        },
+        {
+          "word": "perhaps",
+          "phonetic": "/p2'hæps/",
+          "pos": "adv.",
+          "cn": "可能；也许",
+          "page": 28
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "fast food",
+          "cn": "快餐食品",
+          "page": 26
+        },
+        {
+          "phrase": "take part",
+          "cn": "(in sth.) 参加，参与（某事）",
+          "page": 28
+        },
+        {
+          "phrase": "in excellent condition",
+          "cn": "健康状况很好",
+          "page": 28
+        },
+        {
+          "phrase": "feel awful",
+          "cn": "感到不舒服",
+          "page": 28
+        },
+        {
+          "phrase": "all over",
+          "cn": "浑身；到处",
+          "page": 28
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 33
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 34
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 35
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 37
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 40,
+          "content": {
+            "task": "Doing a survey to find the most suitable exercise"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 33,
+          "page_end": 34,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 33
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 34
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 35,
+          "page_end": 36,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 37,
+          "page_end": 40,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 37
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 40,
+              "content": {
+                "task": "Doing a survey to find the most suitable exercise"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-5",
+      "type": "module",
+      "number": 5,
+      "title": "Cartoons",
+      "page_start": 41,
+      "page_end": 48,
+      "topic": "Talking about cartoons",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "时态的综合运用",
+          "name_en": "Comprehensive use of tenses",
+          "details": "综合运用现在完成时、一般现在时和一般过去时。根据语境和时间标志词选择正确的时态。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "cartoon",
+          "phonetic": "/k4ː'tuːn/",
+          "pos": "n.",
+          "cn": "漫画；动画片",
+          "page": 34
+        },
+        {
+          "word": "handsome",
+          "phonetic": "/'hæns2m/",
+          "pos": "adj.",
+          "cn": "漂亮的；英俊的",
+          "page": 34
+        },
+        {
+          "word": "smart",
+          "phonetic": "/sm4ːt/",
+          "pos": "adj.",
+          "cn": "聪明的；机灵的",
+          "page": 34
+        },
+        {
+          "word": "sky",
+          "phonetic": "/ska!/",
+          "pos": "n.",
+          "cn": "天；天空",
+          "page": 34
+        },
+        {
+          "word": "fight",
+          "phonetic": "/fa!t/",
+          "pos": "v.",
+          "cn": "(fought /f0ːt/, fought) 与……战斗 n. 战斗；斗争",
+          "page": 34
+        },
+        {
+          "word": "cool",
+          "phonetic": "/kuːl/",
+          "pos": "adj.",
+          "cn": "时髦的；酷的",
+          "page": 34
+        },
+        {
+          "word": "hero",
+          "phonetic": "/'h!2r2%/",
+          "pos": "n.",
+          "cn": "英雄；男主角",
+          "page": 34
+        },
+        {
+          "word": "laugh",
+          "phonetic": "/l4ːf/",
+          "pos": "v.",
+          "cn": "笑；发笑",
+          "page": 34
+        },
+        {
+          "word": "lesson",
+          "phonetic": "/'lesn/",
+          "pos": "n.",
+          "cn": "经验；教训",
+          "page": 34
+        },
+        {
+          "word": "orange-and-white",
+          "phonetic": "/;=r!nd3 2nd 'wa!t/",
+          "pos": "adj.",
+          "cn": "橙白相间的",
+          "page": 36
+        },
+        {
+          "word": "ugly",
+          "phonetic": "/'7gli/",
+          "pos": "adj.",
+          "cn": "难看的；丑陋的",
+          "page": 36
+        },
+        {
+          "word": "schoolbag",
+          "phonetic": "/'skuːlbæg/",
+          "pos": "n.",
+          "cn": "书包",
+          "page": 36
+        },
+        {
+          "word": "lead",
+          "phonetic": "/liːd/",
+          "pos": "v.",
+          "cn": "(led /led/, led)领导；率领",
+          "page": 36
+        },
+        {
+          "word": "clever",
+          "phonetic": "/'klev2/",
+          "pos": "adj.",
+          "cn": "聪明的；机灵的",
+          "page": 36
+        },
+        {
+          "word": "as",
+          "phonetic": "/æz；2z/",
+          "pos": "conj.",
+          "cn": "当……时",
+          "page": 36
+        },
+        {
+          "word": "mess",
+          "phonetic": "/mes/",
+          "pos": "n.",
+          "cn": "脏乱；凌乱",
+          "page": 36
+        },
+        {
+          "word": "heaven",
+          "phonetic": "/'hevn/",
+          "pos": "n.",
+          "cn": "天国；天堂",
+          "page": 36
+        },
+        {
+          "word": "expect",
+          "phonetic": "/!k'spekt/",
+          "pos": "v.",
+          "cn": "期盼；等待",
+          "page": 36
+        },
+        {
+          "word": "artist",
+          "phonetic": "/'4ːt!st/",
+          "pos": "n.",
+          "cn": "艺术家；画家",
+          "page": 36
+        },
+        {
+          "word": "invent",
+          "phonetic": "/!n'vent/",
+          "pos": "v.",
+          "cn": "发明；创造",
+          "page": 36
+        },
+        {
+          "word": "copy",
+          "phonetic": "/'k=pi/",
+          "pos": "n.（",
+          "cn": "一）本；（一）份",
+          "page": 36
+        },
+        {
+          "word": "black-and-white",
+          "phonetic": "/;blæk 2nd 'wa!t/",
+          "pos": "adj.",
+          "cn": "黑白的",
+          "page": 36
+        },
+        {
+          "word": "own",
+          "phonetic": "/2%n/",
+          "pos": "adj.",
+          "cn": "自己的",
+          "page": 36
+        },
+        {
+          "word": "private",
+          "phonetic": "/'pra!v2t/",
+          "pos": "adj.",
+          "cn": "私人的；个人的",
+          "page": 36
+        },
+        {
+          "word": "satisfy",
+          "phonetic": "/'sæt!sfa!/",
+          "pos": "v.",
+          "cn": "满足；使满意",
+          "page": 36
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "win the heart of sb",
+          "cn": ". 赢得某人的心",
+          "page": 36
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 41
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 42
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 43
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 45
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 48,
+          "content": {
+            "task": "Making a cartoon"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 41,
+          "page_end": 42,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 41
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 42
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 43,
+          "page_end": 44,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 43
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 45,
+          "page_end": 48,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 45
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 48,
+              "content": {
+                "task": "Making a cartoon"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revision-a",
+      "type": "revision",
+      "number": "A",
+      "title": "Revision module A",
+      "page_start": 49,
+      "page_end": 54,
+      "topic": null,
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [],
+      "key_vocabulary": [],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "revision",
+          "title": "Grammar and speaking",
+          "page": 49
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": []
+    },
+    {
+      "id": "module-6",
+      "type": "module",
+      "number": 6,
+      "title": "Hobbies",
+      "page_start": 55,
+      "page_end": 62,
+      "topic": "Talking about your hobbies",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "简单句的基本句型",
+          "name_en": "Basic sentence patterns of simple sentences",
+          "details": "总结六种基本句型：主语+系动词+表语；主语+谓语（不及物）；主语+谓语+宾语；主语+谓语+间接宾语+直接宾语；主语+谓语+宾语+宾补；There+be+主语。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "fan",
+          "phonetic": "/fæn/",
+          "pos": "n.",
+          "cn": "扇子",
+          "page": 48
+        },
+        {
+          "word": "stamp",
+          "phonetic": "/stæmp/",
+          "pos": "n.",
+          "cn": "邮票",
+          "page": 48
+        },
+        {
+          "word": "shelf",
+          "phonetic": "/1elf/",
+          "pos": "n.",
+          "cn": "隔板；架子",
+          "page": 48
+        },
+        {
+          "word": "as",
+          "phonetic": "/æz; 2z/",
+          "pos": "prep.",
+          "cn": "作为；当",
+          "page": 48
+        },
+        {
+          "word": "coin",
+          "phonetic": "/k0!n/",
+          "pos": "n.",
+          "cn": "硬币",
+          "page": 48
+        },
+        {
+          "word": "note",
+          "phonetic": "/n2%t/",
+          "pos": "n.",
+          "cn": "纸币",
+          "page": 48
+        },
+        {
+          "word": "pound",
+          "phonetic": "/pa%nd/",
+          "pos": "n.",
+          "cn": "英镑",
+          "page": 48
+        },
+        {
+          "word": "dollar",
+          "phonetic": "/'d=l2/",
+          "pos": "n.（",
+          "cn": "美国、加拿大、澳大 利亚等国的货币单位）元",
+          "page": 48
+        },
+        {
+          "word": "must",
+          "phonetic": "/m7st; m2st/",
+          "pos": "v.",
+          "cn": "aux. 一定，肯定 （ 用于表示某事可能是真实的）",
+          "page": 48
+        },
+        {
+          "word": "valuable",
+          "phonetic": "/'vælj%bl/",
+          "pos": "adj.",
+          "cn": "值钱的；有价值的",
+          "page": 48
+        },
+        {
+          "word": "with",
+          "phonetic": "/w!ð/",
+          "pos": "prep.",
+          "cn": "用……",
+          "page": 48
+        },
+        {
+          "word": "value",
+          "phonetic": "/'væljuː/",
+          "pos": "n.",
+          "cn": "价值；有用性",
+          "page": 48
+        },
+        {
+          "word": "just",
+          "phonetic": "/d37st/",
+          "pos": "adv.",
+          "cn": "只是；仅仅",
+          "page": 48
+        },
+        {
+          "word": "person",
+          "phonetic": "/'p^ːsn/",
+          "pos": "n.",
+          "cn": "人（通常指成年人）",
+          "page": 50
+        },
+        {
+          "word": "interest",
+          "phonetic": "/'!ntr2st/",
+          "pos": "n.",
+          "cn": "兴趣；爱好",
+          "page": 50
+        },
+        {
+          "word": "skill",
+          "phonetic": "/sk!l/",
+          "pos": "n.",
+          "cn": "技能；技艺",
+          "page": 50
+        },
+        {
+          "word": "activity",
+          "phonetic": "/æk't!v2ti/",
+          "pos": "n.",
+          "cn": "活动",
+          "page": 50
+        },
+        {
+          "word": "sailing",
+          "phonetic": "/'se!l!9/",
+          "pos": "n.",
+          "cn": "航海；航行",
+          "page": 50
+        },
+        {
+          "word": "encourage",
+          "phonetic": "/!n'k7r!d3/",
+          "pos": "v.",
+          "cn": "鼓励；激励",
+          "page": 50
+        },
+        {
+          "word": "result",
+          "phonetic": "/r!'z7lt/",
+          "pos": "n.",
+          "cn": "结果；后果",
+          "page": 50
+        },
+        {
+          "word": "pleasure",
+          "phonetic": "/'ple32/",
+          "pos": "n.",
+          "cn": "愉悦；快乐",
+          "page": 50
+        },
+        {
+          "word": "success",
+          "phonetic": "/s2k'ses/",
+          "pos": "n.",
+          "cn": "成功；成就",
+          "page": 50
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "tidy up",
+          "cn": "使整齐；使整洁",
+          "page": 48
+        },
+        {
+          "phrase": "have a look",
+          "cn": "看一看",
+          "page": 48
+        },
+        {
+          "phrase": "come out",
+          "cn": "出版；问世",
+          "page": 50
+        },
+        {
+          "phrase": "as a result",
+          "cn": "结果；因此",
+          "page": 50
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 55
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 56
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 57
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 59
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 62,
+          "content": {
+            "task": "Making a survey of hobbies"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 55,
+          "page_end": 56,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 55
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 56
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 57,
+          "page_end": 58,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 57
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 59,
+          "page_end": 62,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 59
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 62,
+              "content": {
+                "task": "Making a survey of hobbies"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-7",
+      "type": "module",
+      "number": 7,
+      "title": "Summer in Los Angeles",
+      "page_start": 63,
+      "page_end": 70,
+      "topic": "Talking about future plans and activities",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "并列复合句",
+          "name_en": "Compound sentences",
+          "details": "由并列连词and, but, or等把两个或两个以上的简单句连在一起构成的句子。and表示并列，but表示转折，or表示选择。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "list",
+          "phonetic": "/l!st/",
+          "pos": "n.",
+          "cn": "名单；清单",
+          "page": 56
+        },
+        {
+          "word": "crazy",
+          "phonetic": "/'kre!zi/",
+          "pos": "adj.",
+          "cn": "发疯的；荒唐的 (56) at the end of… 在……的结尾； 在……的末端",
+          "page": 56
+        },
+        {
+          "word": "shorts",
+          "phonetic": "/10ːts/",
+          "pos": "n.",
+          "cn": "[用复数]短裤",
+          "page": 56
+        },
+        {
+          "word": "trousers",
+          "phonetic": "/'tra%z2z/",
+          "pos": "n.",
+          "cn": "[用复数]裤子",
+          "page": 56
+        },
+        {
+          "word": "sunglasses",
+          "phonetic": "/'s7n;gl4ːs!z/",
+          "pos": "n.",
+          "cn": "[用复数] 太阳镜；墨镜",
+          "page": 56
+        },
+        {
+          "word": "homestay",
+          "phonetic": "/'h2%m;ste!/",
+          "pos": "n.",
+          "cn": "家庭寄宿",
+          "page": 56
+        },
+        {
+          "word": "weigh",
+          "phonetic": "/we!/",
+          "pos": "v.",
+          "cn": "重量有……；重……",
+          "page": 56
+        },
+        {
+          "word": "total",
+          "phonetic": "/'t2%tl/",
+          "pos": "adj.",
+          "cn": "总的；全部的",
+          "page": 56
+        },
+        {
+          "word": "weight",
+          "phonetic": "/we!t/",
+          "pos": "n.",
+          "cn": "重量",
+          "page": 56
+        },
+        {
+          "word": "passport",
+          "phonetic": "/'p4ːsp0ːt/",
+          "pos": "n.",
+          "cn": "护照",
+          "page": 56
+        },
+        {
+          "word": "culture",
+          "phonetic": "/'k7lt12/",
+          "pos": "n.",
+          "cn": "文化 (58) 8) at the same time 同时",
+          "page": 58
+        },
+        {
+          "word": "last",
+          "phonetic": "/l4ːst/",
+          "pos": "v.",
+          "cn": "持续；延续 (58) 8) depend /d!'pend/ v. 视……而定； 8) 决定（于） (58) 8) depend on 取决于；决定于 (58) 8) provide /pr2'va!d/ v. 提供；供应 (58) 8) test /test/ n.测验；考试 0) v.测验；考查 (58) 0) progress /'pr2%gres/ n.进步；进展 0) /pr2%'gres/ v. (继续）发展， 0) 推进 (58) 0) guest /gest/ n. 客人；宾客 (58) 0) daily life 日常生活 (58) 0) form /f0ːm/ v. 形成 0) n.表格 (58) 0) friendship /'frend1!p/ n. 友谊；友好 (58) 0) stay in touch (with sb.)（ 与某人）保持 0) 联系",
+          "page": 58
+        },
+        {
+          "word": "prefer",
+          "phonetic": "/pr!'f^ː/",
+          "pos": "v.",
+          "cn": "更喜爱；钟爱",
+          "page": 58
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "make a list",
+          "cn": "列清单",
+          "page": 56
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 63
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 64
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 65
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 67
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 70,
+          "content": {
+            "task": "Having a class discussion about summer courses"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 63,
+          "page_end": 64,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 63
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 64
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 65,
+          "page_end": 66,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 65
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 67,
+          "page_end": 70,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 67
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 70,
+              "content": {
+                "task": "Having a class discussion about summer courses"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-8",
+      "type": "module",
+      "number": 8,
+      "title": "Time off",
+      "page_start": 71,
+      "page_end": 78,
+      "topic": "Talking about travelling",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "that引导的宾语从句",
+          "name_en": "Object clauses with that",
+          "details": "that引导的宾语从句放在动词后面作宾语。that没有词汇意义，只具有语法功能，多数情况下可以省略。当主句为一般过去时，从句需用相应的过去时态。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "kilometre",
+          "phonetic": "/'k!l2;miːt2; k!'l=m!t2/",
+          "pos": "n.千米；",
+          "cn": "公里",
+          "page": 66
+        },
+        {
+          "word": "shape",
+          "phonetic": "/1e!p/",
+          "pos": "n.",
+          "cn": "外形；形状",
+          "page": 66
+        },
+        {
+          "word": "human",
+          "phonetic": "/'hjuːm2n/",
+          "pos": "n.",
+          "cn": "人",
+          "page": 66
+        },
+        {
+          "word": "wake",
+          "phonetic": "/we!k/",
+          "pos": "v.",
+          "cn": "(woke /w2%k/, woken /'w2%k2n/) 唤醒；醒来",
+          "page": 66
+        },
+        {
+          "word": "somebody",
+          "phonetic": "/'s7mb2di/",
+          "pos": "pron.",
+          "cn": "某人；有人",
+          "page": 66
+        },
+        {
+          "word": "about",
+          "phonetic": "/2'ba%t/",
+          "pos": "adv.",
+          "cn": "向四周；向各处",
+          "page": 66
+        },
+        {
+          "word": "path",
+          "phonetic": "/p4ː8/",
+          "pos": "n.",
+          "cn": "小路；路径",
+          "page": 66
+        },
+        {
+          "word": "pull",
+          "phonetic": "/p%l/",
+          "pos": "v.（",
+          "cn": "用手）拉，牵，扯",
+          "page": 66
+        }
+      ],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 71
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 72
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 73
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 75
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 78,
+          "content": {
+            "task": "Writing a leaflet for a trip"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 71,
+          "page_end": 72,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 71
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 72
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 73,
+          "page_end": 74,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 73
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 75,
+          "page_end": 78,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 75
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 78,
+              "content": {
+                "task": "Writing a leaflet for a trip"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-9",
+      "type": "module",
+      "number": 9,
+      "title": "Friendship",
+      "page_start": 79,
+      "page_end": 86,
+      "topic": "Talking about what you know; asking for information",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "whether/if及疑问词引导的宾语从句",
+          "name_en": "Object clauses with whether/if and question words",
+          "details": "whether/if表示是否，疑问词who, what, how, why, where, when等引导宾语从句。宾语从句用陈述语序。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "helpline",
+          "phonetic": "/'help;la!n/",
+          "pos": "n.",
+          "cn": "服务热线",
+          "page": 72
+        },
+        {
+          "word": "separate",
+          "phonetic": "/'sep2;re!t/",
+          "pos": "v.",
+          "cn": "使分开；分隔 /'sep2r2t/ adj. 分开的；单独的",
+          "page": 72
+        },
+        {
+          "word": "explain",
+          "phonetic": "/!k'sple!n/",
+          "pos": "v.",
+          "cn": "解释；说明",
+          "page": 72
+        },
+        {
+          "word": "refuse",
+          "phonetic": "/r!'fjuːz/",
+          "pos": "v.",
+          "cn": "拒绝",
+          "page": 72
+        },
+        {
+          "word": "treat",
+          "phonetic": "/triːt/",
+          "pos": "v.",
+          "cn": "对待；看待",
+          "page": 72
+        },
+        {
+          "word": "herself",
+          "phonetic": "/h2'self; 2'self/",
+          "pos": "pron.",
+          "cn": "她自己",
+          "page": 72
+        },
+        {
+          "word": "whether",
+          "phonetic": "/'weð2/",
+          "pos": "conj.",
+          "cn": "是否",
+          "page": 72
+        },
+        {
+          "word": "lonely",
+          "phonetic": "/'l2%nli/",
+          "pos": "adj.",
+          "cn": "孤独的；寂寞的",
+          "page": 72
+        },
+        {
+          "word": "regret",
+          "phonetic": "/r!'gret/",
+          "pos": "v.",
+          "cn": "懊悔；遗憾",
+          "page": 72
+        },
+        {
+          "word": "patient",
+          "phonetic": "/'pe!1nt/",
+          "pos": "adj.",
+          "cn": "有耐心的；能忍耐的",
+          "page": 72
+        },
+        {
+          "word": "introduce",
+          "phonetic": "/;!ntr2'djuːs/",
+          "pos": "v.",
+          "cn": "介绍；引见",
+          "page": 72
+        },
+        {
+          "word": "silence",
+          "phonetic": "/'sa!l2ns/",
+          "pos": "n.",
+          "cn": "寂静；无声",
+          "page": 74
+        },
+        {
+          "word": "pass",
+          "phonetic": "/p4ːs/",
+          "pos": "v.",
+          "cn": "经过；通过",
+          "page": 74
+        },
+        {
+          "word": "bright",
+          "phonetic": "/bra!t/",
+          "pos": "adj.",
+          "cn": "欢快的；明亮的",
+          "page": 74
+        },
+        {
+          "word": "trust",
+          "phonetic": "/tr7st/",
+          "pos": "v.信任；信赖",
+          "cn": "n.信任；信赖",
+          "page": 74
+        },
+        {
+          "word": "include",
+          "phonetic": "/!n'kluːd/",
+          "pos": "v.",
+          "cn": "包括；把……列为 一部分",
+          "page": 74
+        },
+        {
+          "word": "circle",
+          "phonetic": "/'s^ːkl/",
+          "pos": "n.（",
+          "cn": "熟悉的、相关的人形 成的）圈子",
+          "page": 74
+        },
+        {
+          "word": "stick",
+          "phonetic": "/st!k/",
+          "pos": "v.",
+          "cn": "(stuck /st7k/, stuck)粘；粘贴",
+          "page": 74
+        },
+        {
+          "word": "glue",
+          "phonetic": "/gluː/",
+          "pos": "n.",
+          "cn": "胶水",
+          "page": 74
+        },
+        {
+          "word": "suggestion",
+          "phonetic": "/s2'd3est12n/",
+          "pos": "n.",
+          "cn": "提议；建议",
+          "page": 74
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "join in",
+          "cn": "参加",
+          "page": 72
+        },
+        {
+          "phrase": "in silence",
+          "cn": "安静地；沉默地",
+          "page": 74
+        },
+        {
+          "phrase": "day by day",
+          "cn": "一天天地；渐渐地",
+          "page": 74
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 79
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 80
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 81
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 83
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 86,
+          "content": {
+            "task": "Making a poster about friendship"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 79,
+          "page_end": 80,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 79
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 80
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 81,
+          "page_end": 82,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 81
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 83,
+          "page_end": 86,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 83
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 86,
+              "content": {
+                "task": "Making a poster about friendship"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-10",
+      "type": "module",
+      "number": 10,
+      "title": "On the radio",
+      "page_start": 87,
+      "page_end": 94,
+      "topic": "Giving advice and warnings; talking about memories",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "宾语从句的时态",
+          "name_en": "Tenses in object clauses",
+          "details": "当主句为一般现在时，宾语从句可根据实际情况使用各种时态；当主句为一般过去时，宾语从句通常要用相应的过去时态；当从句表述的是客观真理时，仍用一般现在时。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "director",
+          "phonetic": "/d2'rekt2; da!'rekt2/",
+          "pos": "n.",
+          "cn": "导演； 主管；经理",
+          "page": 80
+        },
+        {
+          "word": "show",
+          "phonetic": "/12%/",
+          "pos": "v.",
+          "cn": "引领；带领",
+          "page": 80
+        },
+        {
+          "word": "around",
+          "phonetic": "/2'ra%nd/",
+          "pos": "adv.",
+          "cn": "到处；向各处 (80) show sb. around 带某人参观；给某 人做向导",
+          "page": 80
+        },
+        {
+          "word": "avoid",
+          "phonetic": "/2'v0!d/",
+          "pos": "v.",
+          "cn": "避免；防止",
+          "page": 80
+        },
+        {
+          "word": "background",
+          "phonetic": "/'bæk;gra%nd/",
+          "pos": "n.",
+          "cn": "背景；后景",
+          "page": 80
+        },
+        {
+          "word": "national",
+          "phonetic": "/'næ1n2l/",
+          "pos": "adj.",
+          "cn": "国家的；国内的",
+          "page": 80
+        },
+        {
+          "word": "international",
+          "phonetic": "/;!nt2'næ1n2l/",
+          "pos": "adj.",
+          "cn": "国际 的；世界的",
+          "page": 80
+        },
+        {
+          "word": "presenter",
+          "phonetic": "/pr!'zent2/",
+          "pos": "n.",
+          "cn": "主持人",
+          "page": 80
+        },
+        {
+          "word": "interview",
+          "phonetic": "/'!nt2;vjuː/",
+          "pos": "n.采访；访谈",
+          "cn": "v.采访；访问",
+          "page": 80
+        },
+        {
+          "word": "seem",
+          "phonetic": "/siːm/",
+          "pos": "v.",
+          "cn": "看来；似乎",
+          "page": 82
+        },
+        {
+          "word": "listener",
+          "phonetic": "/'l!sn2/",
+          "pos": "n.",
+          "cn": "听众；听者",
+          "page": 82
+        },
+        {
+          "word": "part-time",
+          "phonetic": "/;p4ːt'ta!m/",
+          "pos": "adj.",
+          "cn": "兼职的",
+          "page": 82
+        },
+        {
+          "word": "article",
+          "phonetic": "/'4ːt!kl/",
+          "pos": "n.",
+          "cn": "文章；报道",
+          "page": 82
+        },
+        {
+          "word": "studio",
+          "phonetic": "/'stjuːdi2%/",
+          "pos": "n.",
+          "cn": "录制室；录音室",
+          "page": 82
+        },
+        {
+          "word": "purpose",
+          "phonetic": "/'p^ːp2s/",
+          "pos": "n.",
+          "cn": "意图；目的",
+          "page": 82
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "on air",
+          "cn": "（ 广播或电视）播出",
+          "page": 80
+        },
+        {
+          "phrase": "in person",
+          "cn": "亲自；本人",
+          "page": 82
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 87
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 88
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 89
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 91
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 94,
+          "content": {
+            "task": "Making a school radio programme"
+          }
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 87,
+          "page_end": 88,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 87
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 88
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 89,
+          "page_end": 90,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 89
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 91,
+          "page_end": 94,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 91
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 94,
+              "content": {
+                "task": "Making a school radio programme"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revision-b",
+      "type": "revision",
+      "number": "B",
+      "title": "Revision module B",
+      "page_start": 95,
+      "page_end": 101,
+      "topic": null,
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [],
+      "key_vocabulary": [],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "revision",
+          "title": "Grammar and speaking",
+          "page": 95
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": []
+    }
+  ],
+  "appendix": {
+    "language_notes": {
+      "page_start": 102,
+      "page_end": 109,
+      "description": "各单元语言注释"
+    },
+    "grammar_guide": {
+      "page_start": 110,
+      "page_end": 118,
+      "title": "Guide to language use",
+      "topics": [
+        "表示感觉和知觉的系动词",
+        "现在完成时（1）",
+        "现在完成时（2）",
+        "现在完成时（3）",
+        "时态的综合运用",
+        "简单句的基本句型",
+        "并列复合句",
+        "that引导的宾语从句",
+        "whether/if及疑问词引导的宾语从句",
+        "宾语从句的时态"
+      ]
+    },
+    "words_by_unit": {
+      "page_start": 119,
+      "page_end": 123,
+      "description": "按单元排列的单词表（Words and expressions）"
+    },
+    "proper_nouns": {
+      "page_start": 124,
+      "page_end": 125,
+      "description": "专有名词（Proper names）"
+    },
+    "vocabulary_az": {
+      "page_start": 126,
+      "page_end": 131,
+      "description": "A-Z 字母序总词汇表（Vocabulary）"
+    },
+    "pronunciation_guide": {
+      "page_start": 132,
+      "page_end": 132,
+      "description": "发音指南"
+    },
+    "irregular_verbs": {
+      "page_start": 133,
+      "page_end": 139,
+      "description": "不规则动词表"
+    }
+  }
+}
