@@ -8,7 +8,7 @@
 
 ## 1. 架构：词单 + 底座分离
 
-**底座**（`dictionary/`）：ECDICT 70万词条，含 phonetic、pos、zh、definitions、examples、cefr、frequency 等完整数据。按首字母分文件存储（a.json ~ z.json），同时提供 SQL 格式（a.sql ~ z.sql）。
+**底座**（`dictionary/`）：ECDICT 77万词条，含 phonetic、pos、zh、definitions、examples、frequency、collins、oxford、tag、bnc 等完整数据。存储为 SQLite 数据库（`ecdict.db`），通过 `api/data.py` 直接查询。
 
 **词库**（`vocabulary/`）：只有词单——告诉消费端"这个词库包含哪些单词"。不存释义、不存音标，释义由底座统一提供。
 
@@ -78,10 +78,9 @@
 
 ```
 moread-content/
-├── dictionary/              ← 底座（ECDICT 70万词条）
-│   ├── a.json ~ z.json      ← JSON 格式，按首字母分文件
-│   ├── a.sql ~ z.sql        ← SQL 格式（对称）
-│   └── schema.sql           ← PostgreSQL 建表语句
+├── dictionary/              ← 底座（ECDICT 77万词条，SQLite）
+│   ├── ecdict.db            ← SQLite 数据库（完整英汉词典）
+│   └── _meta.json           ← 词典元数据
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
 │   ├── index.json           ← 词库索引（19 个词库）
 │   ├── cefr/                ← CEFR 分级词单（6 个）

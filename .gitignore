@@ -24,3 +24,5 @@ venv/
 dist/
 build/
 *.egg-info/
+# Ignore generated dictionary database
+dictionary/ecdict.db

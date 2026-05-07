@@ -17,10 +17,9 @@
 
 ```
 moread-content/
-├── dictionary/              ← 底座（ECDICT 70万词条）
-│   ├── a.json ~ z.json      ← JSON 格式，按首字母分文件
-│   ├── a.sql ~ z.sql        ← SQL 格式（对称）
-│   └── schema.sql           ← PostgreSQL 建表语句
+├── dictionary/              ← 底座（ECDICT 77万词条，SQLite）
+│   ├── ecdict.db            ← SQLite 数据库（完整英汉词典）
+│   └── _meta.json           ← 词典元数据
 │
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
 │   ├── index.json           ← 词库索引（19 个词库）
