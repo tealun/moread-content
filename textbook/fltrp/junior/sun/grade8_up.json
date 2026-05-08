@@ -109,7 +109,7 @@
         {
           "name": "现在完成时(1)",
           "name_en": "Present perfect tense (1)",
-          "details": ""
+          "details": "表示过去发生的动作对现在造成的影响或结果。结构：have/has + 过去分词。常与 already, yet, just, never 等副词连用。"
         }
       ],
       "key_vocabulary": [
@@ -380,14 +380,30 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "instead of",
+          "cn": "代替；而不是",
+          "page": 5
+        },
+        {
+          "phrase": "the silver screen",
+          "cn": "银幕",
+          "page": 12
+        },
+        {
+          "phrase": "stick to",
+          "cn": "坚持",
+          "page": 12
+        }
+      ],
       "sentence_patterns": [
-        "I was not happy with my…",
-        "For example, …",
-        "… is a good way to…",
-        "I have already …",
-        "What do you t hink of … now?",
-        "One reason for… is …"
+        "I was not happy with my...",
+        "For example, ...",
+        "... is a good way to...",
+        "I have already ...",
+        "What do you t hink of ... now?",
+        "One reason for... is ..."
       ],
       "sections": [
         {
@@ -425,7 +441,7 @@
           "page": null
         },
         {
-          "phrase": "句中burn",
+          "phrase": "burn",
           "meaning": "(脸因窘迫或生气而 )发烫",
           "example_en": "felt my face burning When",
           "example_cn": "talking to him. 我跟他 说话的时候感觉自己的脸烧得发烫。",
@@ -433,7 +449,7 @@
         },
         {
           "phrase": "right",
-          "meaning": "正好(在某个位置或地方 )\"",
+          "meaning": "正好(在某个位置或地方 )",
           "example_en": "He lives right next door. 他就住在隔壁。",
           "example_cn": "",
           "page": null
@@ -454,7 +470,7 @@
         },
         {
           "phrase": "as long as",
-          "meaning": "只要\"",
+          "meaning": "只要",
           "example_en": "As long as you study hard, you can pass the exam. 只要",
           "example_cn": "你努力学习,你就能通过考试。 (2) stick to意为 \"遵守, 信守;  坚持\"。 例如: He decided to stick to his first plan . 他决定坚持他的第一 个计划。",
           "page": null
@@ -476,7 +492,7 @@
         {
           "name": "现在完成时(2)",
           "name_en": "Present perfect tense (2)",
-          "details": ""
+          "details": "表示从过去某一时刻开始一直持续到现在的动作或状态。结构：have/has + 过去分词。常与 for + 时间段、since + 时间点连用。"
         }
       ],
       "key_vocabulary": [
@@ -560,7 +576,7 @@
         {
           "word": "knock down",
           "phonetic": "/nɒk daʊn/",
-          "pos": "",
+          "pos": "phrase",
           "cn": "摧毁，拆毁",
           "page": 21
         },
@@ -763,7 +779,7 @@
         {
           "word": "moo",
           "phonetic": "/mu:/",
-          "pos": "",
+          "pos": "v.",
           "cn": "牛叫声；发哞声",
           "page": null
         },
@@ -783,24 +799,21 @@
         }
       ],
       "sentence_patterns": [
-        "I have shared … with … for I since…",
-        "Sharing really brings…",
+        "I have shared ... with ... for I since...",
+        "Sharing really brings...",
         "How does sharing make you feel?",
-        "Sharing has allowed /shown/ taught me …",
-        "It makes me feel…",
+        "Sharing has allowed /shown/ taught me ...",
+        "It makes me feel...",
         "You should tell your friends that",
         "They'll understand you.",
-        "You can't always hide your 3 ___ _",
-        "You can still do 5 ____ together.",
-        "Just say 6\" ____ \" and explain why.",
         "True friends will respect your feelings.",
-        "Getting along with others is important because …",
-        "You will always live/ study/ work with others, so …",
-        "A common problem is …",
-        "The most important thing is …",
-        "Sometimes you may argue over …",
+        "Getting along with others is important because ...",
+        "You will always live/ study/ work with others, so ...",
+        "A common problem is ...",
+        "The most important thing is ...",
+        "Sometimes you may argue over ...",
         "When having an argument",
-        "If you disagree about…, you",
+        "If you disagree about..., you",
         "We could choose to step back"
       ],
       "sections": [
@@ -833,14 +846,14 @@
       "language_notes": [
         {
           "phrase": "here and there",
-          "meaning": "到处\n各处;  零散地\"",
+          "meaning": "到处\n各处;  零散地",
           "example_en": "She left her toys here and there. 她把玩具丢得四处都是。",
           "example_cn": "",
           "page": null
         },
         {
           "phrase": "hope",
-          "meaning": "希望\n期望\n指望\"",
+          "meaning": "希望\n期望\n指望",
           "example_en": "everything is",
           "example_cn": "我希望一切顺利。 hope 后面也可以接动词不定式。例如: Amy hopes to be a teacher. Amy 希望成为一名教师。 但是春天没有来。夏天也没有来。 nor 用于否定陈述后添加另一个否定陈述 意为 也不\" summer 是省略句,完整的结构应该是nor does summer come。",
           "page": null
@@ -861,7 +874,7 @@
         },
         {
           "phrase": "in return",
-          "meaning": "作为报酬;  作为回报\"",
+          "meaning": "作为报酬;  作为回报",
           "example_en": "helped her move, and in return, she cooked me dinner。",
           "example_cn": "我帮她搬家, 作为回报 她给我做了晚餐。 于是。两家之间便形成了一条六尺宽的小巷。 这句话主语比较长 为防止句子头重脚轻 谓语came提到了主 语the six-chi-wide lane between the two houses 前面。英文 中有些句子没有宾语 且主语较长,可以把状语提前。而把主 语放到谓语后面。例如: On the table stood two glasses and an empty bottle: 桌上有 两个玻璃杯和一个空瓶子。 After the party came a fireworks display in the garden. 聚会 后花园里放起了烟花。 桐城人民的心中仍牢记着这首诗。 in mind 意为 把 放在心里,把 记在心上\"c 例如: Keep in mind to lock the door when you leave. 离开时记得 锁门。 He always keeps her advice in mind . 他总是牢记她的忠告。",
           "page": null
@@ -883,7 +896,7 @@
         {
           "name": "不定式和-ing形式作宾语",
           "name_en": "Infinitive and -ing as object",
-          "details": ""
+          "details": "动词不定式(to do)和动名词(doing)可作某些动词的宾语。如 try to do, enjoy doing, decide to do, hope to do 等。注意部分动词后只能接不定式，部分只能接动名词。"
         }
       ],
       "key_vocabulary": [
@@ -1315,14 +1328,25 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "lend a hand",
+          "cn": "帮忙",
+          "page": 37
+        },
+        {
+          "phrase": "lightning rod",
+          "cn": "避雷针",
+          "page": 44
+        }
+      ],
       "sentence_patterns": [
-        "… was just a(n) … , but it cost…",
-        "I'm going to invent a(n) …",
-        "It will be able to …",
-        "I must lend a hand to …",
-        "The answer was to …",
-        "Using … , … invented"
+        "... was just a(n) ... , but it cost...",
+        "I'm going to invent a(n) ...",
+        "It will be able to ...",
+        "I must lend a hand to ...",
+        "The answer was to ...",
+        "Using ... , ... invented"
       ],
       "sections": [
         {
@@ -1390,7 +1414,7 @@
         {
           "name": "不定式作宾语补足语",
           "name_en": "Infinitive as object complement",
-          "details": ""
+          "details": "动词不定式可作宾语补足语，说明宾语的动作或状态。常用结构：ask sb to do, let sb do, make sb do, allow sb to do, help sb (to) do 等。"
         }
       ],
       "key_vocabulary": [
@@ -1495,7 +1519,7 @@
         {
           "word": "a great deal",
           "phonetic": "/ə ɡreɪt diːl/",
-          "pos": "",
+          "pos": "phrase",
           "cn": "充裕，丰富",
           "page": 55
         },
@@ -1565,7 +1589,7 @@
         {
           "word": "be glued to sth",
           "phonetic": "/biː ɡluːd tuː ˈsʌmθɪŋ/",
-          "pos": "",
+          "pos": "phrase",
           "cn": "盯着某物看",
           "page": 58
         },
@@ -1628,7 +1652,7 @@
         {
           "word": "clear your throat",
           "phonetic": "/klɪə jɔː θrəʊt/",
-          "pos": "",
+          "pos": "phrase",
           "cn": "清清嗓子",
           "page": 69
         },
@@ -1656,7 +1680,7 @@
         {
           "word": "seat belt",
           "phonetic": "/siːt belt/",
-          "pos": "",
+          "pos": "n.",
           "cn": "安全带",
           "page": 71
         },
@@ -1677,7 +1701,7 @@
         {
           "word": "pick up",
           "phonetic": "/pɪk ʌp/",
-          "pos": "",
+          "pos": "phrase",
           "cn": "捡起",
           "page": 71
         },
@@ -1850,14 +1874,14 @@
         }
       ],
       "sentence_patterns": [
-        "It has made me live a(n) … life.",
+        "It has made me live a(n) ... life.",
         "One advantage of apps / the internet/",
-        "Nowadays, instead of … , you can simply …",
-        "Technology saves me time because …",
-        "What effect has … had on your life?",
-        "We believe that …",
-        "Team A I B has said … But in fact, …",
-        "There is no doubt that …"
+        "Nowadays, instead of ... , you can simply ...",
+        "Technology saves me time because ...",
+        "What effect has ... had on your life?",
+        "We believe that ...",
+        "Team A I B has said ... But in fact, ...",
+        "There is no doubt that ..."
       ],
       "sections": [
         {
@@ -1916,15 +1940,15 @@
           "page": null
         },
         {
-          "phrase": "i'$ strange to do sth 这一句型",
-          "meaning": "做\n感觉很奇怪\" ,  其\n中i指代的真正内容是to do sth",
+          "phrase": "It's strange to do sth",
+          "meaning": "做某事感觉很奇怪，其中 it 指代的真正内容是 to do sth",
           "example_en": "It's strange to think that we were once strangers. 想到我们曾",
           "example_cn": "经是陌生人,感觉很奇怪。 It's strange to be back in Paris after so many years. 这么多年 后回到巴黎,感觉真奇怪。",
           "page": null
         },
         {
-          "phrase": "的still 作形容词用 ,",
-          "meaning": "静止的\n不动的\"",
+          "phrase": "still",
+          "meaning": "静止的\n不动的",
           "example_en": "can see the still water of the lake. 我能看到平静的湖水。",
           "example_cn": "take your photo. 别动 我给你拍照。 come closer. 我们伫立在 原地,望着那条狗渐行渐近。 为什么会有人写关于学校的事情?\" Margie 想要读关于那些有趣的学校的事情。 句中两个about用法一致,表示动作的主题或范围。 write about 意为 \"关于 (话题)进行写作\", read about 表示 \"阅 读关于 (主题)的内容\"。例如: He wrote a lot about sports. 他写了很多关于体育的(文章)。 We read about the culture of France in our class. 我们在课上 阅读了关于法国文化的内容。",
           "page": null
@@ -1953,7 +1977,7 @@
         {
           "name": "不定式表目的",
           "name_en": "Infinitive of purpose",
-          "details": ""
+          "details": "动词不定式可作目的状语，表示\"为了……\"。常用结构：to do, in order to do, so as to do。其中 in order to 和 so as to 语气更强，so as to 一般不用于句首。"
         }
       ],
       "key_vocabulary": [
@@ -2224,28 +2248,44 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "clear your throat",
+          "cn": "清清嗓子",
+          "page": 69
+        },
+        {
+          "phrase": "seat belt",
+          "cn": "安全带",
+          "page": 71
+        },
+        {
+          "phrase": "pick up",
+          "cn": "捡起",
+          "page": 71
+        }
+      ],
       "sentence_patterns": [
-        "Last … , I…",
-        "This rule is useful because …",
-        "I love doing … in order to …",
-        "From this experience, I have learnt that …",
-        "People have to …",
-        "The rule is \"Please be … \".",
-        "The aim of this rule is to …",
-        "The rule is \"No … \".",
-        "This rule is about …",
+        "Last ... , I...",
+        "This rule is useful because ...",
+        "I love doing ... in order to ...",
+        "From this experience, I have learnt that ...",
+        "People have to ...",
+        "The rule is \"Please be ... \".",
+        "The aim of this rule is to ...",
+        "The rule is \"No ... \".",
+        "This rule is about ...",
         "The rule is \"Please do /",
         "The school can use this rule",
-        "It brings … to us.",
+        "It brings ... to us.",
         "We think this rule will help",
-        "That way, … can …",
+        "That way, ... can ...",
         "Here are the basic rules for",
-        "It tries to stop …",
+        "It tries to stop ...",
         "With this rule, there won't",
-        "To … , it's important to …",
-        "At the moment … For that",
-        "There will be fewer / less …"
+        "To ... , it's important to ...",
+        "At the moment ... For that",
+        "There will be fewer / less ..."
       ],
       "sections": [
         {
@@ -2291,14 +2331,14 @@
         },
         {
           "phrase": "ask sb to do sth",
-          "meaning": "请求。要求某人做某事\"",
+          "meaning": "请求。要求某人做某事",
           "example_en": "He asked his colleague to keep the secret. 他要求同事保",
           "example_cn": "守秘密 The teacher asked the students to be quiet. 老师要求学生 保持安静。 (2) come on 常用于口语,在此处意为 \"别逗了 算了吧,得了 吧 例如: Oh come on, don't be silly! 哦,得了吧,别犯傻了 !",
           "page": null
         },
         {
           "phrase": "take a breath",
-          "meaning": "吸-口气\"",
+          "meaning": "吸-口气",
           "example_en": "Before giving a speech, it's helpful to take a",
           "example_cn": "calm your nerves. 在演讲之前 深呼吸可以帮助你镇静下来。 breath can help you think more clearly 当遇到具有挑战性的 情况时,深呼吸可以帮助你更清晰地思考。 想想20年前。与遥远的亲人面对面交谈还是一个梦想。 (1) face to face意为 面对面地\"C 例如: stand face to face 面对面地站着",
           "page": null
@@ -2334,7 +2374,7 @@
         {
           "name": "过去进行时",
           "name_en": "Past continuous tense",
-          "details": ""
+          "details": "表示过去某一时刻正在进行的动作。结构：was/were + 现在分词(-ing)。常与 when, while 引导的时间状语从句连用，表示一个动作发生时另一个动作正在进行。"
         }
       ],
       "key_vocabulary": [
@@ -2584,27 +2624,30 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "come out of the shadows",
+          "cn": "走出阴影",
+          "page": 95
+        }
+      ],
       "sentence_patterns": [
-        "It was a terrible …",
-        "A(n) … happened in …",
+        "It was a terrible ...",
+        "A(n) ... happened in ...",
         "The buildings/ roads I trees I animals",
-        "People were …",
-        "The cause of … was …",
-        "… people lost their lives.",
-        "… people were influenced and … homes",
-        "You can 2 ____ your area.",
+        "People were ...",
+        "The cause of ... was ...",
+        "... people lost their lives.",
+        "... people were influenced and ... homes",
         "It will warn you about the upcoming disasters.",
-        "It can also tell you how 3 ____ it might be.",
-        "It can give warnings about 18 disasters, like 6 ___ _",
         "The warning time for earthquakes is very short.",
         "We can learn some knowledge",
-        "There is a new technology that …",
-        "The system works by …",
-        "Technology provides …",
-        "You should / shouldn't … and …",
+        "There is a new technology that ...",
+        "The system works by ...",
+        "Technology provides ...",
+        "You should / shouldn't ... and ...",
         "With the support of family and",
-        "We should always face … with"
+        "We should always face ... with"
       ],
       "sections": [
         {
@@ -2643,7 +2686,7 @@
         },
         {
           "phrase": "refuse to do",
-          "meaning": "拒绝做\"",
+          "meaning": "拒绝做",
           "example_en": "He refused to answer the question. 他拒绝回答那个问题。",
           "example_cn": "(2) leave sb / sth behind 意为 留下某人(物),忘记带走某人 (物)\"。例如= He left the children behind with their mother. 他把孩子们 留给了他们的母亲。 Did anyone leave a cup behind last night? 昨晚有哪位忘 记拿杯子了吗? 一0",
           "page": null
@@ -2657,13 +2700,13 @@
         },
         {
           "phrase": "find oneself",
-          "meaning": "发现自我\"",
+          "meaning": "发现自我",
           "example_en": "After years of soul searching, he finally found himself and his",
           "example_cn": "true passion for art. 经过多年的心灵探索,他终于找到自我, 并发现了自己对艺术真正的热爱。 and gain a sense of independence: 第一次独自旅行帮助她找 到了自我,并获得了独立感。",
           "page": null
         },
         {
-          "phrase": "此处above all",
+          "phrase": "above all",
           "meaning": "最重要的是",
           "example_en": "Jane is",
           "example_cn": "Jane 工作努力 = 性格开朗 最重要的是 ,她为人诚实。 Above all, this answer is correct. 最重要的是,这个答案是 正确的。",

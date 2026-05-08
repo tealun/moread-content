@@ -24,3 +24,5 @@ venv/
 dist/
 build/
 *.egg-info/
+# Ignore local IDE/agent settings
+.claude/settings.local.json

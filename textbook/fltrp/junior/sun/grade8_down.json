@@ -109,7 +109,7 @@
         {
           "name": "一般现在时和一般将来时的被动语态",
           "name_en": "Passive in the simple present and the simple future",
-          "details": ""
+          "details": "表示主语是动作的承受者。一般现在时被动：am/is/are + 过去分词。一般将来时被动：will be + 过去分词。"
         }
       ],
       "key_vocabulary": [
@@ -324,20 +324,31 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "wake up",
+          "cn": "醒来",
+          "page": 4
+        },
+        {
+          "phrase": "grow up",
+          "cn": "成长",
+          "page": 7
+        }
+      ],
       "sentence_patterns": [
-        "… not always considered a good job.",
-        "I found a sense of achievement in …",
-        "The job will make … shine.",
-        "This job is …",
-        "I'd like to report on the job of …",
-        "They usually do …",
+        "... not always considered a good job.",
+        "I found a sense of achievement in ...",
+        "The job will make ... shine.",
+        "This job is ...",
+        "I'd like to report on the job of ...",
+        "They usually do ...",
         "They (don't) make a lot of money,",
-        "They need to …",
-        "They spend a lot of time …",
+        "They need to ...",
+        "They spend a lot of time ...",
         "It's considered a relaxing /",
         "This job will (not) be replaced by",
-        "There may be no … in the future."
+        "There may be no ... in the future."
       ],
       "sections": [
         {
@@ -391,8 +402,8 @@
         {
           "phrase": "be considered sth",
           "meaning": "被认为是\n在句中是被动语态的\n一种使用形式,表示主体(窗户清洁工作 )被外部(这里指其他\nLanguage notes",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "He is considered a great scientist.",
+          "example_cn": "他被认为是一位伟大的科学家。",
           "page": null
         }
       ],
@@ -412,7 +423,7 @@
         {
           "name": "一般过去时的被动语态",
           "name_en": "Passive in the simple past",
-          "details": ""
+          "details": "表示过去某个时间主语是动作的承受者。结构：was/were + 过去分词。注意不规则动词的过去分词变化。"
         }
       ],
       "key_vocabulary": [
@@ -613,24 +624,28 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "fall upon",
+          "cn": "降临到（某人）身上",
+          "page": 29
+        }
+      ],
       "sentence_patterns": [
-        "The problem was caused by…",
-        "In the end, we …",
-        "I promised to … But …",
-        "I'm sorry for …",
-        "My parents thought that…",
-        "After this disagreement, I learnt that…",
-        "Don't let peer pressure 6 ____ you.",
-        "Just 9 ____ your heart.",
-        "I want to share … 's story with you.",
-        "It happened when he/ she was … years old.",
-        "As a … , he/ she faced a lot of problems.",
-        "He/ She was laughed at…",
+        "The problem was caused by...",
+        "In the end, we ...",
+        "I promised to ... But ...",
+        "I'm sorry for ...",
+        "My parents thought that...",
+        "After this disagreement, I learnt that...",
+        "I want to share ... 's story with you.",
+        "It happened when he/ she was ... years old.",
+        "As a ... , he/ she faced a lot of problems.",
+        "He/ She was laughed at...",
         "He/ She believed in himself/ herself.",
-        "He/ She did … to take his/ her mind off things.",
-        "He/ She is now a successful…",
-        "I believe we can all learn a lot from …"
+        "He/ She did ... to take his/ her mind off things.",
+        "He/ She is now a successful...",
+        "I believe we can all learn a lot from ..."
       ],
       "sections": [
         {
@@ -662,28 +677,28 @@
       "language_notes": [
         {
           "phrase": "read",
-          "meaning": "显示,\n指示\"",
+          "meaning": "显示,\n指示",
           "example_en": "My watch reads 3 o'clock. 我的手表显示的时间是三点。",
           "example_cn": "The thermometer reads 46 degrees Celsius. 温度计显示四 十六摄氏度。",
           "page": null
         },
         {
           "phrase": "be cross With sb",
-          "meaning": "对\n生气或不满\"\n其中cross作形容\n词用,\n意为 \"生气的;  恼火的\"",
+          "meaning": "对\n生气或不满\"\n其中cross作形容\n词用,\n意为 \"生气的;  恼火的",
           "example_en": "She was cross with the man for interrupting her speech",
           "example_cn": "frequently. 这个男人频繁打断她的演讲; 这让她很恼火。",
           "page": null
         },
         {
-          "phrase": "pain 本",
+          "phrase": "pain",
           "meaning": "痛苦;  苦恼;  烦恼\",文中指 \"我\" 因为身高不够末能\n加入篮球队而产生的失望情绪;\n以及成长过程中经历的各种挫\n折。 gain 本意为 \" (靠计划或努力得到的 )好处;利益。改进\",\n文中引",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "I have a pain in my back.",
+          "example_cn": "我背部疼痛。",
           "page": null
         },
         {
           "phrase": "be disappointed at",
-          "meaning": "对..\n失望\"",
+          "meaning": "对..\n失望",
           "example_en": "Was",
           "example_cn": "very disappointed at not getting the job. 我对没得 到那份工作感到非常沮丧。 (2) fail to do sth意为 \"未能做到 例如: He failed to keep his promise. 他没有信守诺言",
           "page": null
@@ -719,7 +734,7 @@
         {
           "name": "情态动词(1)",
           "name_en": "Modals (1)",
-          "details": ""
+          "details": "should 表示建议或义务，意为\"应该\"；shouldn't 表示\"不应该\"。have to 表示客观需要，意为\"必须\"；don't have to 表示\"不必\"。"
         }
       ],
       "key_vocabulary": [
@@ -948,16 +963,37 @@
           "page": null
         }
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        {
+          "phrase": "go camping",
+          "cn": "去露营",
+          "page": 42
+        },
+        {
+          "phrase": "roof of the world",
+          "cn": "世界屋脊",
+          "page": 44
+        },
+        {
+          "phrase": "make every effort",
+          "cn": "尽一切努力",
+          "page": 44
+        },
+        {
+          "phrase": "base camp",
+          "cn": "大本营",
+          "page": 45
+        }
+      ],
       "sentence_patterns": [
-        "A good team leader should(n't)…",
-        "For example, …",
-        "He/ She doesn't have to…",
-        "Take … as an example.",
-        "Thank you for giving me the chance to …",
-        "We chose to use … because …",
+        "A good team leader should(n't)...",
+        "For example, ...",
+        "He/ She doesn't have to...",
+        "Take ... as an example.",
+        "Thank you for giving me the chance to ...",
+        "We chose to use ... because ...",
         "At the top I bottom I front of the",
-        "A great team should … , and our team's name and logo show this spirit."
+        "A great team should ... , and our team's name and logo show this spirit."
       ],
       "sections": [
         {
@@ -988,10 +1024,10 @@
       ],
       "language_notes": [
         {
-          "phrase": "请注意freeze 作动词时的多重含义",
+          "phrase": "freeze",
           "meaning": "突然停止。呆\n住\"。请看下面的句子:\nThe lake had frozen overnight. 湖水一夜之间就结了冰。(表示\n\"结冰;冻结\" )\nfroze and listened; someo",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "The lake had frozen overnight.",
+          "example_cn": "湖水一夜之间结了冰。",
           "page": null
         },
         {
@@ -1010,16 +1046,16 @@
         },
         {
           "phrase": "What's more",
-          "meaning": "而且\"",
+          "meaning": "而且",
           "example_en": "love that beach, and What's more;",
           "example_cn": "away from it. 我喜欢那个海滩,而且我住的地方距离那里只有 几分钟路程。",
           "page": null
         },
         {
-          "phrase": "mountaineering 是名词,",
+          "phrase": "mountaineering",
           "meaning": "登山运动\nmountaineer 也是名\n词;\n意为 \"登山家\n登山运动员",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "Mountaineering is a challenging sport.",
+          "example_cn": "登山运动是一项有挑战性的运动。",
           "page": null
         }
       ],
@@ -1039,7 +1075,7 @@
         {
           "name": "情态动词(2)",
           "name_en": "Modals (2)",
-          "details": ""
+          "details": "must 表示肯定推测，意为\"一定\"；may 表示可能推测，意为\"也许\"；can 表示理论上的可能性，意为\"可能\"。注意 can't 表示\"不可能\"。"
         }
       ],
       "key_vocabulary": [
@@ -1235,7 +1271,7 @@
         {
           "word": "excuse",
           "phonetic": "/ik'skju:z/",
-          "pos": "",
+          "pos": "v. / n.",
           "cn": "致歉, 理由, 饶恕, 借口；原谅, 申辩, 做为...的托辞",
           "page": null
         },
@@ -1255,23 +1291,23 @@
         }
       ],
       "sentence_patterns": [
-        "… help … get through …",
-        "… need a helping hand.",
+        "... help ... get through ...",
+        "... need a helping hand.",
         "There must be something for me to",
-        "Perhaps I can/ could …",
+        "Perhaps I can/ could ...",
         "Come and read to the animals.",
         "We aim to help the animals",
         "It gives people a chance to",
-        "There is/ are not enough …",
+        "There is/ are not enough ...",
         "There must be something for us",
         "We could do it next week/",
-        "We plan to …",
-        "We'll meet at…",
-        "It might be difficult to…",
-        "We may need to …",
+        "We plan to ...",
+        "We'll meet at...",
+        "It might be difficult to...",
+        "We may need to ...",
         "The work is by no means easy.",
-        "We can all learn … from…",
-        "It will create/ lead to …"
+        "We can all learn ... from...",
+        "It will create/ lead to ..."
       ],
       "sections": [
         {
@@ -1324,7 +1360,7 @@
         },
         {
           "phrase": "through sth",
-          "meaning": "渡过(难关) ,\n熬过(困难时期 )\"",
+          "meaning": "渡过(难关) ,\n熬过(困难时期 )",
           "example_en": "am sure We Will get through the challenges. 我确信我们能够",
           "example_cn": "克服挑战。",
           "page": null
@@ -1345,7 +1381,7 @@
         },
         {
           "phrase": "give up",
-          "meaning": "放弃\"",
+          "meaning": "放弃",
           "example_en": "Playing sports has taught me never to give up. 体育运动教会",
           "example_cn": "了我永不放弃。",
           "page": null
@@ -1358,8 +1394,8 @@
           "page": null
         },
         {
-          "phrase": "此处的 touch 作动词,",
-          "meaning": "感动,\n触动,打动\"",
+          "phrase": "touch",
+          "meaning": "感动,\n触动,打动",
           "example_en": "Her kindness has touched the hearts of people around",
           "example_cn": "the town. 她的善良打动了镇里居民的心。 She could sense his concern and it touched her. 她能感受 到他的关心; 这让她很感动。 (2) make up one's mind 是一个常见词组; 有多种含义, 请看下 面的句子: Wish she'd hurry up and make up her mind. 我希望她能 快点拿定主意。(表示 \"作出决定; 拿定主意\" ) He had clearly made up his mind to finish the game. 他下 定决心要结束这场比赛。(表示 \"下定决心; 决意\", 同本文 中含义 ) matter. 你也不小了。应该对这件事有自己的想法了(表示 \"确 定对某事或某人的看法\" ) 到我伸出援手的肘候了。 (1)  需注意本句中的 mine指代上文中的helping hands(意为 \"援 手; 援助\" )。offer sb sth 和 offer sth to sb意为 \"提出,提 供; 自愿给某人某物 例如: your diet. 你的医生应该能够在饮食方面给你提供一些建议。 (2)在这个句子中,\"1t + be + time + for sb + to do sth. \" 是一个 常见的句式表示 \"对某人来说, 是时候做某事了\"。例如: It is time for me to perform on stage. 现在到我上台表演 的时间了。 现在到了她对自己的职业生涯做出决定的时候了。",
           "page": null
@@ -1381,7 +1417,7 @@
         {
           "name": "宾语从句(1)",
           "name_en": "Object clauses (1)",
-          "details": ""
+          "details": "that 引导陈述句作宾语，无实际意义，可省略。if/whether 引导一般疑问句作宾语，意为\"是否\"，注意 whether...or not 的用法及与 if 的区别。"
         }
       ],
       "key_vocabulary": [
@@ -1618,18 +1654,18 @@
         }
       ],
       "sentence_patterns": [
-        "For hundreds of years, people believed that…",
-        "It proves that…",
-        "… made an amazing discovery.",
-        "It teaches us that…",
-        "By … , … found / realised I saw that…",
-        "Research shows that…",
+        "For hundreds of years, people believed that...",
+        "It proves that...",
+        "... made an amazing discovery.",
+        "It teaches us that...",
+        "By ... , ... found / realised I saw that...",
+        "Research shows that...",
         "What spirit was needed to achieve it?",
         "The achievement was first made",
         "The person who made the",
-        "Thanks to … , we now know …",
-        "This achievement has changed …",
-        "With … , he / she carried on with",
+        "Thanks to ... , we now know ...",
+        "This achievement has changed ...",
+        "With ... , he / she carried on with",
         "To achieve something, we must be"
       ],
       "sections": [
@@ -1662,14 +1698,14 @@
       "language_notes": [
         {
           "phrase": "sth",
-          "meaning": "寻找某人/某物\"",
+          "meaning": "寻找某人/某物",
           "example_en": "Im looking for my keys。",
           "example_cn": "missing. 我在找我的钥匙, 它们不见了。 She is looking for a new job with better opportunities. 她正 在寻找一份有更好机遇的新工作。",
           "page": null
         },
         {
           "phrase": "longer",
-          "meaning": "不再\"",
+          "meaning": "不再",
           "example_en": "We no longer see each other since",
           "example_cn": "moved away. 自从我搬 走后。我们没再见过面。 It's no longer a secret. 这已经不是秘密了。",
           "page": null
@@ -1683,21 +1719,21 @@
         },
         {
           "phrase": "carry out sth",
-          "meaning": "进行某事\"",
+          "meaning": "进行某事",
           "example_en": "The scientists carried out experiments to test their",
           "example_cn": "hypothesis. 科学家们通过实验验证他们的假设。 matter. 我们需要对这个问题进行彻底的调查。",
           "page": null
         },
         {
           "phrase": "fall i",
-          "meaning": "生病\"",
+          "meaning": "生病",
           "example_en": "She fell il with the flu and had to stay home for a week。",
           "example_cn": "她患上了流感, 不得不在家休息一周 He fell seriously ill and had to be hospitalised . 他病得很重, 不得不住院治疗。",
           "page": null
         },
         {
           "phrase": "get to do sth",
-          "meaning": "有机会做某事\"",
+          "meaning": "有机会做某事",
           "example_en": "We got to meet all the actors after the show . 演出之后我",
           "example_cn": "们见到了所有演员 She gets to travel all over the world with her job. 她做这 个工作可以到世界各地旅行。 (2)路德维希 .范.贝多芬 ( Ludwig van Beethoven, 1770一 出生于德国莱茵河畔的波恩, 维也纳古典乐派代表 人物之一。",
           "page": null
@@ -1719,7 +1755,7 @@
         {
           "name": "宾语从句(2)",
           "name_en": "Object clauses (2)",
-          "details": ""
+          "details": "wh- 疑问词（what, when, where, why, how 等）引导特殊疑问句作宾语，从句用陈述语序。注意主句为过去时，从句通常也用相应的过去时态。"
         }
       ],
       "key_vocabulary": [
@@ -1929,7 +1965,7 @@
         {
           "word": "Snow White",
           "phonetic": "/snəu hwait/",
-          "pos": "",
+          "pos": "n.",
           "cn": "素洁；皑",
           "page": null
         },
@@ -1961,28 +1997,25 @@
         }
       ],
       "sentence_patterns": [
-        "According to…",
-        "It guides …",
-        "… tells us how nature works …",
-        "It's good I harmful for …",
-        "It's common for …",
-        "There can be problems …",
-        "Lots of solar panels 1 ____ the sand.",
+        "According to...",
+        "It guides ...",
+        "... tells us how nature works ...",
+        "It's good I harmful for ...",
+        "It's common for ...",
+        "There can be problems ...",
         "It looks like a shining 2",
         "It covers an area of 3",
-        "It can provide power for more than 4 ____ every",
-        "There are goji berries 5 ____ the panels.",
         "What are the benefits to humans?",
         "How does it respect nature?",
         "What are the benefits to nature?",
-        "It lies/ is built …",
-        "It looks like …",
-        "It's known as …",
-        "It was developed/ built to …",
-        "It includes …",
-        "First, it … Then …",
-        "Thanks to … , people can …",
-        "It was important for … to know …"
+        "It lies/ is built ...",
+        "It looks like ...",
+        "It's known as ...",
+        "It was developed/ built to ...",
+        "It includes ...",
+        "First, it ... Then ...",
+        "Thanks to ... , people can ...",
+        "It was important for ... to know ..."
       ],
       "sections": [
         {
@@ -2015,8 +2048,8 @@
         {
           "phrase": "grain",
           "meaning": "谷物,\n粮食\"; ear\n意为 \"穗\",如: an ear of corn-穗玉米。\n芒种是二十四节气之一,\n在每年6月5。6或7日。《月令七十二候\n集解》: \"谓有芒之种谷可稼种矣。\"指麦类等有芒作",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "We grow grain on the farm.",
+          "example_cn": "我们在农场种植谷物。",
           "page": null
         },
         {
@@ -2027,29 +2060,29 @@
           "page": null
         },
         {
-          "phrase": "the 24 Solar Terms 表示 \"二十四节气\"。solar作形容词,",
-          "meaning": "太\n阳的=\nterms 作名词,\n意为 \"时期,\n期限\"。\n二十四节气:  根据太阳在黄道上的位置(黄经 ) ,\n将全年划分为二\n十四个段落;包括雨水。春分等十二个\"中\"气;立春。惊蛰等十\n二个\"节\"",
-          "example_en": "",
-          "example_cn": "",
+          "phrase": "the 24 Solar Terms",
+          "meaning": "太\n阳的=\nterms 作名词,\n意为 \"时期,\n期限\"。\n二十四节气:  根据太阳在黄道上的位置(黄经 ) ,\n将全年划分为二\n十四个段落;包括雨水。春分等十二个\"中\"气;立春。惊蛰等十\n二个\"节",
+          "example_en": "The 24 Solar Terms reflect the wisdom of ancient Chinese people.",
+          "example_cn": "二十四节气反映了古代中国人的智慧。",
           "page": null
         },
         {
-          "phrase": "long to do sth 中long 作动词,",
-          "meaning": "渴望;\n盼望\"",
+          "phrase": "long to do sth",
+          "meaning": "渴望;\n盼望",
           "example_en": "He longed to see her again . 他盼望再次见到她。",
           "example_cn": "She longed to return home. 她盼望回家。",
           "page": null
         },
         {
-          "phrase": "the Flaming Mountains 在此处指的是 \"火焰山\", flaming 作",
+          "phrase": "the Flaming Mountains",
           "meaning": "燃烧着的,\n被火焰吞噬的\"。火焰山,在维吾\n尔语中意为 \"红山\",在新疆维吾尔自治区吐鲁番盆地中北部。\n(2) Journey to the West 指中国四大名著之一《西游记》,\n长篇\n小说,\n一",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "The Flaming Mountains are famous in Xinjiang.",
+          "example_cn": "火焰山在新疆很有名。",
           "page": null
         },
         {
-          "phrase": "lie在此处作动词,",
-          "meaning": "(问题。答案。责任等 )存在。在\n于\"",
+          "phrase": "lie",
+          "meaning": "(问题。答案。责任等 )存在。在\n于",
           "example_en": "The strength of the book lies in the fact that the material",
           "example_cn": "is from classroom experience. 这本书的优点在于它取材于 课堂经验。 (2) karez system 指的是 \"坎儿井系统\"。坎儿井是干旱 半千旱 地区开发利用浅层地下水进行自流灌溉的一种地下暗渠。 般顺地面坡度布置, 包括竖井。暗渠两部分。具有不需提水 工具 流量稳定。减少蒸发损失和防风沙侵蚀等优点。主要 分布在中国新疆的哈密。吐鲁番等地; 共计2000多条。 那几乎与黄河一样长! (1) that在此处指代上文中 underground canals ( 地下运河 )的 长度c (2) as long as 在此处表示 和 一样长\" 此外;该短语还有 多种含义。例如:",
           "page": null

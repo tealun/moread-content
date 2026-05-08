@@ -118,19 +118,23 @@
       "grammar": [
         {
           "name": "可数名词和不可数名词",
-          "name_en": "Countable and uncountable nouns"
+          "name_en": "Countable and uncountable nouns",
+          "details": "名词分为可数名词和不可数名词。可数名词有单数和复数形式，复数一般加 -s，以 s, x, ch, sh 结尾加 -es，以辅音字母 + y 结尾变 y 为 i 加 -es。不可数名词没有复数形式，如 water, milk, bread，表示数量时需借助量词（a glass of water）。"
         },
         {
           "name": "基数词和冠词",
-          "name_en": "Cardinal numbers and articles"
+          "name_en": "Cardinal numbers and articles",
+          "details": "基数词表示数目，如 one, two, three...twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, a hundred, a thousand。冠词分定冠词 the（表示特指或双方已知）和不定冠词 a/an（表示泛指，a 用于辅音音素前，an 用于元音音素前）。"
         },
         {
           "name": "一般现在时",
-          "name_en": "Simple present tense"
+          "name_en": "Simple present tense",
+          "details": "表示经常性的动作或状态，或客观真理。结构：主语 + 动词原形/第三人称单数形式。主语为第三人称单数时，动词一般加 -s；以 s, x, z, ch, sh 结尾加 -es；以辅音字母 + y 结尾，变 y 为 i 加 -es。不规则变化：have-has, go-goes, do-does, be-is。"
         },
         {
           "name": "基本句型结构",
-          "name_en": "Basic sentence structures"
+          "name_en": "Basic sentence structures",
+          "details": "连词 and 表示并列关系，but 表示转折关系，or 表示选择关系，用于连接语法地位相同的词、短语或句子。基本句型包括：主语 + 系动词 + 表语（如 He is smart.）；主语 + 谓语（不及物动词）（如 The class begins.）。"
         }
       ],
       "key_vocabulary": [
@@ -178,14 +182,14 @@
         },
         {
           "word": "dining",
-          "pos": "",
+          "pos": "n.",
           "phonetic": "/'dainiŋ/",
           "cn": "hall 食堂",
           "page": 6
         },
         {
           "word": "dining hall",
-          "pos": "",
+          "pos": "n.",
           "cn": "食堂",
           "page": 6,
           "phonetic": "/ˈdaɪnɪŋ hɔ:l/"
@@ -269,14 +273,14 @@
         },
         {
           "word": "information",
-          "pos": "",
+          "pos": "n.",
           "phonetic": "/.infә'meiʃәn/",
           "cn": "technology 信息技术",
           "page": 3
         },
         {
           "word": "information technology",
-          "pos": "",
+          "pos": "n.",
           "cn": "信息技术",
           "page": 3,
           "phonetic": "/ˌɪnfəˈmeɪʃn tekˈnɒlədʒi/"
@@ -304,14 +308,14 @@
         },
         {
           "word": "junior",
-          "pos": "",
+          "pos": "adj.",
           "phonetic": "/'dʒu:njә/",
           "cn": "high 初级中学",
           "page": 2
         },
         {
           "word": "junior high",
-          "pos": "",
+          "pos": "n.",
           "cn": "初级中学",
           "page": 2,
           "phonetic": "/ˈdʒu:njə hai/"
@@ -353,28 +357,28 @@
         },
         {
           "word": "red",
-          "pos": "",
+          "pos": "adj.",
           "phonetic": "/red/",
           "cn": "scarf 红领巾",
           "page": 4
         },
         {
           "word": "red scarf",
-          "pos": "",
+          "pos": "n.",
           "cn": "红领巾",
           "page": 4,
           "phonetic": "/red skɑːf/"
         },
         {
           "word": "teaching",
-          "pos": "",
+          "pos": "n.",
           "phonetic": "/'ti:tʃiŋ/",
           "cn": "building 教学楼",
           "page": 6
         },
         {
           "word": "teaching building",
-          "pos": "",
+          "pos": "n.",
           "cn": "教学楼",
           "page": 6,
           "phonetic": "/'tiːtʃɪŋ ˈbɪldɪŋ/"
@@ -424,15 +428,15 @@
         }
       ],
       "sentence_patterns": [
-        "I have …",
-        "Where is your …?",
+        "I have ...",
+        "Where is your ...?",
         "Here it is.",
         "How about you?",
-        "This is …",
-        "There are …",
-        "It has …",
+        "This is ...",
+        "There are ...",
+        "It has ...",
         "You're here.",
-        "We do … here."
+        "We do ... here."
       ],
       "key_phrases": [
         {
@@ -533,14 +537,14 @@
         },
         {
           "word": "in",
-          "pos": "",
+          "pos": "prep.",
           "phonetic": "/in/",
           "cn": "fact 事实上",
           "page": 17
         },
         {
           "word": "in fact",
-          "pos": "",
+          "pos": "phrase",
           "cn": "事实上",
           "page": 17,
           "phonetic": "/ɪn ˈfækt/"
@@ -582,14 +586,14 @@
         },
         {
           "word": "of",
-          "pos": "",
+          "pos": "prep.",
           "phonetic": "/ɒv/",
           "cn": "course 当然，自然",
           "page": 24
         },
         {
           "word": "of course",
-          "pos": "",
+          "pos": "phrase",
           "cn": "当然，自然",
           "page": 24,
           "phonetic": "/əv ˈkɔːs/"
@@ -603,14 +607,14 @@
         },
         {
           "word": "point",
-          "pos": "",
+          "pos": "v.",
           "phonetic": "/pɒint/",
           "cn": "out 指出，指明",
           "page": 17
         },
         {
           "word": "point out",
-          "pos": "",
+          "pos": "phrase",
           "cn": "指出，指明",
           "page": 17,
           "phonetic": "/pɔɪnt aʊt/"
@@ -631,14 +635,14 @@
         },
         {
           "word": "primary",
-          "pos": "",
+          "pos": "adj.",
           "phonetic": "/'praimәri/",
           "cn": "school 小学",
           "page": 25
         },
         {
           "word": "primary school",
-          "pos": "",
+          "pos": "n.",
           "cn": "小学",
           "page": 25,
           "phonetic": "/ˈpraiməri sku:l/"
@@ -802,16 +806,16 @@
         }
       ],
       "sentence_patterns": [
-        "My first lesson at junior high was…",
-        "Mr / Ms… was our… teacher.",
-        "Mr / Ms… told us…",
-        "It's important to…",
-        "That's really a(n)… lesson!",
-        "… is a problem for me.",
-        "It makes me feel…",
-        "What are some solutions for…?",
-        "One way is to…",
-        "Also, you can…"
+        "My first lesson at junior high was...",
+        "Mr / Ms... was our... teacher.",
+        "Mr / Ms... told us...",
+        "It's important to...",
+        "That's really a(n)... lesson!",
+        "... is a problem for me.",
+        "It makes me feel...",
+        "What are some solutions for...?",
+        "One way is to...",
+        "Also, you can..."
       ],
       "key_phrases": [
         {
@@ -822,8 +826,8 @@
       ],
       "language_notes": [
         {
-          "phrase": "protect… from…",
-          "meaning": "保护……避免……",
+          "phrase": "protect... from...",
+          "meaning": "保护......避免......",
           "example_en": "We should protect the city from destruction. 我们应当保",
           "example_cn": "护这座城市免受破坏。",
           "page": null
@@ -1052,7 +1056,7 @@
         },
         {
           "word": "paper-cutting",
-          "pos": "",
+          "pos": "n.",
           "cn": "剪纸",
           "page": 35,
           "phonetic": "/ˈpeɪpə(r) ˈkʌtɪŋ/"
@@ -1073,14 +1077,14 @@
         },
         {
           "word": "rock",
-          "pos": "",
+          "pos": "n.",
           "phonetic": "/rɒk/",
           "cn": "music 摇滚乐",
           "page": 32
         },
         {
           "word": "rock music",
-          "pos": "",
+          "pos": "n.",
           "cn": "摇滚乐",
           "page": 32,
           "phonetic": "/rɒk ˈmjuːzɪk/"
@@ -1115,14 +1119,14 @@
         },
         {
           "word": "social",
-          "pos": "",
+          "pos": "adj.",
           "phonetic": "/'sәuʃәl/",
           "cn": "media 社交媒体，社会化媒体",
           "page": 35
         },
         {
           "word": "social media",
-          "pos": "",
+          "pos": "n.",
           "cn": "社交媒体，社会化媒体",
           "page": 35,
           "phonetic": "/ˈsəʊʃl ˈmiːdiə/"
@@ -1175,13 +1179,6 @@
           "cn": "野生的",
           "page": 37,
           "phonetic": "/waɪld/"
-        },
-        {
-          "word": "Words",
-          "pos": "",
-          "phonetic": "/wә:d/",
-          "cn": "and expressions",
-          "page": 151
         }
       ],
       "sections": [
@@ -1231,13 +1228,13 @@
       ],
       "sentence_patterns": [
         "What's your hobby?",
-        "I like…",
-        "There is so much fun in…",
-        "There are many…",
-        "It feels great to…",
-        "We can learn… because…",
-        "As a result, …",
-        "So…"
+        "I like...",
+        "There is so much fun in...",
+        "There are many...",
+        "It feels great to...",
+        "We can learn... because...",
+        "As a result, ...",
+        "So..."
       ],
       "key_phrases": [
         {
@@ -1478,9 +1475,9 @@
         },
         {
           "word": "race",
-          "pos": "",
+          "pos": "v. / n.",
           "phonetic": "/reis/",
-          "cn": "/reɪs/ \u0007v. 比赛 n. 赛车",
+          "cn": "比赛；赛车",
           "page": 56
         },
         {
@@ -1587,13 +1584,6 @@
           "cn": "拖车，挂车",
           "page": 57,
           "phonetic": "/'treɪlə/"
-        },
-        {
-          "word": "Words",
-          "pos": "",
-          "phonetic": "/wә:d/",
-          "cn": "and expressions",
-          "page": 153
         }
       ],
       "sections": [
@@ -1642,16 +1632,16 @@
         }
       ],
       "sentence_patterns": [
-        "It was in / on / at…",
-        "For years, my father / mother…",
-        "Along the way, we…",
+        "It was in / on / at...",
+        "For years, my father / mother...",
+        "Along the way, we...",
         "We enjoyed our time together.",
-        "I still remember…",
-        "… is / was happy.",
+        "I still remember...",
+        "... is / was happy.",
         "I'd rather not.",
-        "It's a bit difficult to talk about. But…",
-        "I feel… because…",
-        "Yes, but now…",
+        "It's a bit difficult to talk about. But...",
+        "I feel... because...",
+        "Yes, but now...",
         "I hope you're not hurt.",
         "Thank you."
       ],
@@ -1695,14 +1685,14 @@
       "language_notes": [
         {
           "phrase": "serve",
-          "meaning": "为……工作；供职；服役",
+          "meaning": "为......工作；供职；服役",
           "example_en": "She has served as the president of the company for ten",
           "example_cn": "years. 她担任公司总裁有十年了。 In the play, he served as the main character. 在这出戏中，他 担任主角。 This room can serve as a study. 这个房间可以用作书房。",
           "page": null
         },
         {
-          "phrase": "be absent from…",
-          "meaning": "缺席，不在……",
+          "phrase": "be absent from...",
+          "meaning": "缺席，不在......",
           "example_en": "They are absent from the meeting. 他们缺席了会议。",
           "example_cn": "He was absent from the class today due to illness. 由于生病， 他缺席了今天的课程。",
           "page": null
@@ -1723,7 +1713,7 @@
         },
         {
           "phrase": "be more important than",
-          "meaning": "比……更重要",
+          "meaning": "比......更重要",
           "example_en": "Being happy is more important than having a lot of money.",
           "example_cn": "快乐比拥有很多钱更重要。 Being safe is more important than being fast. 安全比速度快 更重要。",
           "page": null
@@ -1744,7 +1734,7 @@
         },
         {
           "phrase": "it is hard to do sth",
-          "meaning": "做……很辛苦",
+          "meaning": "做......很辛苦",
           "example_en": "It is hard to lift stones this size. 把这么大的石头举起来很费力。",
           "example_cn": "It was hard to finish the marathon, but it felt good. 跑完马拉 松很辛苦，但感觉很棒。 refuse to do sth意为“拒绝做某事”。例如： Steve refused to answer any questions. Steve拒绝回答任何 问 题。 雷锋从来没有拒绝过向有困难的人伸出援手。",
           "page": null
@@ -2170,17 +2160,17 @@
         }
       ],
       "sentence_patterns": [
-        "How do you usually celebrate…?",
-        "I often… But I never…",
-        "Sometimes I…",
-        "My family always… for…",
-        "My favourite activities include…",
-        "… is a must for…",
-        "I think… is a new way to celebrate, because…",
-        "I agree. Another idea is to…",
-        "That's a(n)… idea!",
+        "How do you usually celebrate...?",
+        "I often... But I never...",
+        "Sometimes I...",
+        "My family always... for...",
+        "My favourite activities include...",
+        "... is a must for...",
+        "I think... is a new way to celebrate, because...",
+        "I agree. Another idea is to...",
+        "That's a(n)... idea!",
         "I'm not sure about that.",
-        "I see it differently, because…"
+        "I see it differently, because..."
       ],
       "key_phrases": [
         {
@@ -2230,8 +2220,8 @@
           "page": null
         },
         {
-          "phrase": "a break from…",
-          "meaning": "暂时中断……",
+          "phrase": "a break from...",
+          "meaning": "暂时中断......",
           "example_en": "Let’s take a break from the training. 让我们暂停训练，休息一下。",
           "example_cn": "She took a break from her work to go to hospital. 她暂时中 断工作，去了趟医院。",
           "page": null
@@ -2251,14 +2241,14 @@
           "page": null
         },
         {
-          "phrase": "be thankful for…",
-          "meaning": "感激（感谢）……",
+          "phrase": "be thankful for...",
+          "meaning": "感激（感谢）......",
           "example_en": "I’m really thankful for the love and support from my friends.",
           "example_cn": "我非常感激朋友们对我的关爱和支持。",
           "page": null
         },
         {
-          "phrase": "本句中call是名词",
+          "phrase": "call",
           "meaning": "召唤，要求",
           "example_en": "He heard the call of the wild and decided to spend a",
           "example_cn": "week in the mountains. 他听到了大自然的召唤，决定在 山里过一周。",
@@ -2299,14 +2289,14 @@
         },
         {
           "word": "as",
-          "pos": "",
+          "pos": "adv.",
           "phonetic": "/æz/",
           "cn": "happy as a clam 非常高兴的， 相当满足的",
           "page": 89
         },
         {
           "word": "as dead as a dodo",
-          "pos": "",
+          "pos": "phrase",
           "cn": "彻底死亡",
           "page": 88,
           "phonetic": "/əz ded əz ə ˈdəʊdəʊ/"
@@ -2341,14 +2331,14 @@
         },
         {
           "word": "die",
-          "pos": "",
+          "pos": "v.",
           "phonetic": "/dai/",
           "cn": "out 消失；绝迹，灭绝",
           "page": 89
         },
         {
           "word": "die out",
-          "pos": "",
+          "pos": "phrase",
           "cn": "消失；绝迹，灭绝",
           "page": 89,
           "phonetic": "/daɪ aʊt/"
@@ -2383,9 +2373,9 @@
         },
         {
           "word": "enough",
-          "pos": "",
+          "pos": "deter.",
           "phonetic": "/i'nʌf/",
-          "cn": "/ɪˈnʌf/ deter. 足够的， 充足的，充分的",
+          "cn": "足够的，充足的，充分的",
           "page": 81
         },
         {
@@ -2425,14 +2415,14 @@
         },
         {
           "word": "get",
-          "pos": "",
+          "pos": "v.",
           "phonetic": "/get/",
           "cn": "lost 迷路",
           "page": 81
         },
         {
           "word": "get lost",
-          "pos": "",
+          "pos": "phrase",
           "cn": "迷路",
           "page": 81,
           "phonetic": "/ɡet lɒst/"
@@ -2474,7 +2464,7 @@
         },
         {
           "word": "knock",
-          "pos": "",
+          "pos": "v.",
           "phonetic": "/nɒk/",
           "cn": "around （在某处）悠闲地度过",
           "page": 80
@@ -2516,14 +2506,14 @@
         },
         {
           "word": "no",
-          "pos": "",
+          "pos": "det.",
           "phonetic": "/nәu/",
           "cn": "wonder 难怪",
           "page": 83
         },
         {
           "word": "no wonder",
-          "pos": "",
+          "pos": "phrase",
           "cn": "难怪",
           "page": 83,
           "phonetic": "/nəʊ ˈwʌndə(r)/"
@@ -2625,13 +2615,6 @@
           "cn": "观点，意见",
           "page": 80,
           "phonetic": "/vjuː/"
-        },
-        {
-          "word": "Words",
-          "pos": "",
-          "phonetic": "/wә:d/",
-          "cn": "and expressions",
-          "page": 155
         }
       ],
       "sections": [
@@ -2680,18 +2663,18 @@
         }
       ],
       "sentence_patterns": [
-        "It is a…",
-        "It can…",
-        "It eats…",
-        "Look, it's…",
-        "It has long / big…",
-        "… helps it…",
-        "In my opinion, …",
-        "How does… do that?",
-        "… is very touching.",
-        "… acts as…",
-        "… not only…, but also…",
-        "… provide… with…"
+        "It is a...",
+        "It can...",
+        "It eats...",
+        "Look, it's...",
+        "It has long / big...",
+        "... helps it...",
+        "In my opinion, ...",
+        "How does... do that?",
+        "... is very touching.",
+        "... acts as...",
+        "... not only..., but also...",
+        "... provide... with..."
       ],
       "key_phrases": [
         {
@@ -2763,15 +2746,15 @@
           "page": null
         },
         {
-          "phrase": "be wrong about…",
-          "meaning": "搞错……",
+          "phrase": "be wrong about...",
+          "meaning": "搞错......",
           "example_en": "I think I’m wrong about this situation. 我想我对这个局面的判",
           "example_cn": "断是错的。 我把那个新来的工人的情况搞错了，他不是从德国来的。",
           "page": null
         },
         {
-          "phrase": "used to…",
-          "meaning": "过去曾经……",
+          "phrase": "used to...",
+          "meaning": "过去曾经......",
           "example_en": "Jimmy used to live here. Jimmy曾经住在这里。（现在不住",
           "example_cn": "在这里了）",
           "page": null
@@ -2805,17 +2788,17 @@
           "page": null
         },
         {
-          "phrase": "water（涨潮）",
+          "phrase": "as happy as a clam",
           "meaning": "非常高兴的，相当满足的",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "After winning the game, he was as happy as a clam.",
+          "example_cn": "赢得比赛后，他高兴极了。",
           "page": null
         },
         {
-          "phrase": "as dead as a dodo也是一个英文习语",
+          "phrase": "as dead as a dodo",
           "meaning": "彻底死亡；已经失效；不再使用",
-          "example_en": "",
-          "example_cn": "",
+          "example_en": "That old idea is as dead as a dodo.",
+          "example_cn": "那个旧想法已经完全过时了。",
           "page": null
         }
       ]
@@ -2902,14 +2885,14 @@
         },
         {
           "word": "corn",
-          "pos": "",
+          "pos": "n.",
           "phonetic": "/kɒ:n/",
           "cn": "silk 玉米须",
           "page": 103
         },
         {
           "word": "corn silk",
-          "pos": "",
+          "pos": "n.",
           "cn": "玉米须",
           "page": 103,
           "phonetic": "/kɔ:n silk/"
@@ -3153,13 +3136,6 @@
           "page": 96
         },
         {
-          "word": "Words",
-          "pos": "",
-          "phonetic": "/wә:d/",
-          "cn": "and expressions",
-          "page": 157
-        },
-        {
           "word": "workshop",
           "pos": "n.",
           "cn": "车间，工场",
@@ -3220,15 +3196,15 @@
         }
       ],
       "sentence_patterns": [
-        "Without plants, … will / won't…",
-        "… mean a lot to…",
-        "… is useful for…",
-        "… need… to…",
-        "… can make…",
-        "… influence…",
-        "I am hoping to know…, may I?",
-        "What about…?",
-        "Could I know…?",
+        "Without plants, ... will / won't...",
+        "... mean a lot to...",
+        "... is useful for...",
+        "... need... to...",
+        "... can make...",
+        "... influence...",
+        "I am hoping to know..., may I?",
+        "What about...?",
+        "Could I know...?",
         "Yes, of course."
       ],
       "key_phrases": [
@@ -3240,7 +3216,7 @@
       ],
       "language_notes": [
         {
-          "phrase": "though用作副词",
+          "phrase": "though",
           "meaning": "可是，不过，然而",
           "example_en": "It sounds like a lot of fun. Isn’t it very difficult though? 听上",
           "example_cn": "去很有趣，可是这不是很困难吗？ I didn’t get the job. I learnt a lot, though. 我没有得到这个工 作，但是我学到了很多。",
@@ -3261,36 +3237,36 @@
           "page": null
         },
         {
-          "phrase": "one’s cup of tea多用于口语",
+          "phrase": "one's cup of tea",
           "meaning": "某人感兴趣的东西或对胃口的事物",
           "example_en": "Jazz isn’t my cup of tea. 我对爵士乐不感兴趣。",
           "example_cn": "Reading novels is my cup of tea. 我喜欢看小说。",
           "page": null
         },
         {
-          "phrase": "not only… but also…",
-          "meaning": "不仅……而且……",
+          "phrase": "not only... but also...",
+          "meaning": "不仅......而且......",
           "example_en": "Shakespeare was not only a writer but also an actor.",
           "example_cn": "Shakespeare不仅是个作家，还是个演员。 after class. 她不仅课上努力学习，课后还读很多书。",
           "page": null
         },
         {
           "phrase": "as many as",
-          "meaning": "和……一样多",
-          "example_en": "",
-          "example_cn": "",
+          "meaning": "和......一样多",
+          "example_en": "There were as many as fifty people at the party.",
+          "example_cn": "聚会上多达五十人。",
           "page": null
         },
         {
           "phrase": "prefer",
-          "meaning": "更喜欢，喜欢……多于……",
+          "meaning": "更喜欢，喜欢......多于......",
           "example_en": "I prefer milk to coffee in the morning. 相比咖啡，我早上更喜",
           "example_cn": "欢喝牛奶。 She prefers going to the library to staying at home. 相比待在 家里，她更喜欢去图书馆。",
           "page": null
         },
         {
-          "phrase": "it’s no secret that…是固定句型",
-          "meaning": "众所周知……，……不是秘密",
+          "phrase": "it's no secret that...",
+          "meaning": "众所周知......，......不是秘密",
           "example_en": "It’s no secret that exercise is good for our health. 众所周知，",
           "example_cn": "运动对我们的健康有益。 It’s no secret that we live in a digital age. 众所周知，我们生 活在一个数字时代。",
           "page": null
