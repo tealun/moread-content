@@ -1,0 +1,3519 @@
+{
+  "meta": {
+    "publisher": "外研版（FLTRP）",
+    "publisher_code": "fltrp",
+    "editor": "chen",
+    "editor_name": "陈琳",
+    "standard": "2011年版课程标准",
+    "level": "junior",
+    "grade": 8,
+    "semester": "up",
+    "title": "八年级上册",
+    "pages": 163,
+    "source_pdf": "(FLTRP陈琳)义务教育教科书·英语八年级上册.pdf",
+    "extracted_at": "2026-05-18",
+    "confidence": "verified"
+  },
+  "toc": [
+    {
+      "id": "module-1",
+      "type": "module",
+      "number": 1,
+      "title": "How to learn English",
+      "page": 9,
+      "topic": "Talking about problems in English study and giving advice, holding conversations",
+      "grammar_preview": [
+        "一般现在时、一般过去时、一般将来时、现在进行时"
+      ],
+      "around_the_world": "English online"
+    },
+    {
+      "id": "module-2",
+      "type": "module",
+      "number": 2,
+      "title": "My home town and my country",
+      "page": 17,
+      "topic": "Comparing two places, holding conversations",
+      "grammar_preview": [
+        "形容词和副词的比较级"
+      ],
+      "around_the_world": "Washington DC"
+    },
+    {
+      "id": "module-3",
+      "type": "module",
+      "number": 3,
+      "title": "Sports",
+      "page": 25,
+      "topic": "Comparing sports, linking words correctly",
+      "grammar_preview": [
+        "形容词和副词的比较级"
+      ],
+      "around_the_world": "The marathon race"
+    },
+    {
+      "id": "module-4",
+      "type": "module",
+      "number": 4,
+      "title": "Planes, ships and trains",
+      "page": 33,
+      "topic": "Comparing modes of transportation",
+      "grammar_preview": [
+        "形容词和副词的最高级"
+      ],
+      "around_the_world": "The longest railway"
+    },
+    {
+      "id": "module-5",
+      "type": "module",
+      "number": 5,
+      "title": "Lao She Teahouse",
+      "page": 41,
+      "topic": "Talking about intentions and plans, describing intentions and plans in simple language",
+      "grammar_preview": [
+        "动词不定式（1）和双宾语"
+      ],
+      "around_the_world": "Theatres"
+    },
+    {
+      "id": "module-6",
+      "type": "module",
+      "number": 6,
+      "title": "Animals in danger",
+      "page": 49,
+      "topic": "Talking about ways of protecting animals",
+      "grammar_preview": [
+        "动词不定式（2）"
+      ],
+      "around_the_world": "Marwell Wildlife"
+    },
+    {
+      "id": "module-7",
+      "type": "module",
+      "number": 7,
+      "title": "A famous story",
+      "page": 63,
+      "topic": "Telling a story",
+      "grammar_preview": [
+        "过去进行时（1）"
+      ],
+      "around_the_world": "Stories"
+    },
+    {
+      "id": "module-8",
+      "type": "module",
+      "number": 8,
+      "title": "Accidents",
+      "page": 71,
+      "topic": "Talking about what was happening at a specific time",
+      "grammar_preview": [
+        "过去进行时（2）"
+      ],
+      "around_the_world": "An emergency landing"
+    },
+    {
+      "id": "module-9",
+      "type": "module",
+      "number": 9,
+      "title": "Population",
+      "page": 79,
+      "topic": "Talking about population; using large numbers",
+      "grammar_preview": [
+        "冠词和数字"
+      ],
+      "around_the_world": "World population and water"
+    },
+    {
+      "id": "module-10",
+      "type": "module",
+      "number": 10,
+      "title": "The weather",
+      "page": 87,
+      "topic": "Describing the weather",
+      "grammar_preview": [
+        "情态动词 may/might"
+      ],
+      "around_the_world": "The Amazon Rainforest"
+    },
+    {
+      "id": "module-11",
+      "type": "module",
+      "number": 11,
+      "title": "Way of life",
+      "page": 95,
+      "topic": "Talking about customs at school/at the dining table",
+      "grammar_preview": [
+        "情态动词 must, can, need"
+      ],
+      "around_the_world": "Traditional presents"
+    },
+    {
+      "id": "module-12",
+      "type": "module",
+      "number": 12,
+      "title": "Help",
+      "page": 103,
+      "topic": "Talking about safety and first aid",
+      "grammar_preview": [
+        "祈使句和情态动词表示推测"
+      ],
+      "around_the_world": "Special buildings in Japan"
+    },
+    {
+      "id": "revision-a",
+      "type": "revision",
+      "title": "Revision module A",
+      "page": 57,
+      "number": "A",
+      "grammar_preview": [
+        "Review"
+      ]
+    },
+    {
+      "id": "revision-b",
+      "type": "revision",
+      "title": "Revision module B",
+      "page": 111,
+      "number": "B",
+      "grammar_preview": [
+        "Review"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "module-1",
+      "type": "module",
+      "number": 1,
+      "title": "How to learn English",
+      "page_start": 9,
+      "page_end": 16,
+      "topic": "Talking about problems in English study and giving advice, holding conversations",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "一般现在时、一般过去时、一般将来时、现在进行时",
+          "name_en": "Simple present, simple past, simple future, present continuous",
+          "details": "我们已经学习过一般现在时、一般过去时、一般将来时和现在进行时这四种时态。让我 们一起来回顾一下这些时态。首先请看下列句子： A 一般现在时"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "pair",
+          "pos": "n.",
+          "cn": "（ 相关的）两个人，一对",
+          "page": 2,
+          "phonetic": "/pe2/"
+        },
+        {
+          "word": "correct",
+          "pos": "v.",
+          "cn": "改正；纠正 adj. 正确的；对的",
+          "page": 2,
+          "phonetic": "/k2'rekt/"
+        },
+        {
+          "word": "spelling",
+          "pos": "n.",
+          "cn": "拼写",
+          "page": 2,
+          "phonetic": "/'spel!9/"
+        },
+        {
+          "word": "word",
+          "pos": "n.",
+          "cn": "词；单词；字",
+          "page": 2,
+          "phonetic": "/w^ːd/"
+        },
+        {
+          "word": "practise",
+          "pos": "v.",
+          "cn": "练习",
+          "page": 2,
+          "phonetic": "/'prækt!s/"
+        },
+        {
+          "word": "match",
+          "pos": "v.",
+          "cn": "找到与……相配之物， 使相配；使成对",
+          "page": 2,
+          "phonetic": "/mæt1/"
+        },
+        {
+          "word": "meaning",
+          "pos": "n.",
+          "cn": "意义；意思",
+          "page": 2,
+          "phonetic": "/'miːn!9/"
+        },
+        {
+          "word": "complete",
+          "pos": "v.",
+          "cn": "把……填完整； 使完全",
+          "page": 2,
+          "phonetic": "/k2m'pliːt/"
+        },
+        {
+          "word": "sentence",
+          "pos": "n.",
+          "cn": "句子",
+          "page": 2,
+          "phonetic": "/'sent2ns/"
+        },
+        {
+          "word": "dictionary",
+          "pos": "n.",
+          "cn": "词典；字典",
+          "page": 2,
+          "phonetic": "/'d!k12n2ri/"
+        },
+        {
+          "word": "grammar",
+          "pos": "n.",
+          "cn": "语法",
+          "page": 2,
+          "phonetic": "/'græm2/"
+        },
+        {
+          "word": "letter",
+          "pos": "n.",
+          "cn": "字母",
+          "page": 2,
+          "phonetic": "/'let2/"
+        },
+        {
+          "word": "mistake",
+          "pos": "n.",
+          "cn": "错误；过错",
+          "page": 2,
+          "phonetic": "/m!'ste!k/"
+        },
+        {
+          "word": "understand",
+          "pos": "v.",
+          "cn": "(understood /;7nd2'st%d/)理解；明白",
+          "page": 2,
+          "phonetic": "/;7nd2'stænd/"
+        },
+        {
+          "word": "advice",
+          "pos": "n.",
+          "cn": "意见；建议",
+          "page": 2,
+          "phonetic": "/2d'va!s/"
+        },
+        {
+          "word": "should",
+          "pos": "v.",
+          "cn": "aux. 应该",
+          "page": 2,
+          "phonetic": "/1%d/"
+        },
+        {
+          "word": "possible",
+          "pos": "adj.",
+          "cn": "可能的",
+          "page": 2,
+          "phonetic": "/'p=s2bl/"
+        },
+        {
+          "word": "notebook",
+          "pos": "n.",
+          "cn": "笔记本",
+          "page": 2,
+          "phonetic": "/'n2%t;b%k/"
+        },
+        {
+          "word": "forget",
+          "pos": "v.",
+          "cn": "(forgot /f2'g=t/)忘；忘记",
+          "page": 2,
+          "phonetic": "/f2'get/"
+        },
+        {
+          "word": "pronounce",
+          "pos": "v.",
+          "cn": "发……的音",
+          "page": 2,
+          "phonetic": "/pr2'na%ns/"
+        },
+        {
+          "word": "aloud",
+          "pos": "adv.",
+          "cn": "大声地；出声地",
+          "page": 2,
+          "phonetic": "/2'la%d/"
+        },
+        {
+          "word": "radio",
+          "pos": "n.",
+          "cn": "电台；广播",
+          "page": 2,
+          "phonetic": "/'re!di2%/"
+        },
+        {
+          "word": "pronunciation",
+          "pos": "n.",
+          "cn": "发音",
+          "page": 2,
+          "phonetic": "/pr2;n7nsi'e!1n/"
+        },
+        {
+          "word": "key",
+          "pos": "adj.",
+          "cn": "关键性的，非常重要的",
+          "page": 2,
+          "phonetic": "/kiː/"
+        },
+        {
+          "word": "main",
+          "pos": "adj.",
+          "cn": "主要的；最大的",
+          "page": 2,
+          "phonetic": "/me!n/"
+        },
+        {
+          "word": "excellent",
+          "pos": "adj.",
+          "cn": "极好的；优秀的",
+          "page": 2,
+          "phonetic": "/'eks2l2nt/"
+        },
+        {
+          "word": "agree",
+          "pos": "v.",
+          "cn": "赞同",
+          "page": 2,
+          "phonetic": "/2'griː/"
+        },
+        {
+          "word": "vocabulary",
+          "pos": "n.",
+          "cn": "词汇； 词汇量",
+          "page": 4,
+          "phonetic": "/v2%'kæbj%l2ri/"
+        },
+        {
+          "word": "improve",
+          "pos": "v.",
+          "cn": "改进；改善",
+          "page": 4,
+          "phonetic": "/!m'pruːv/"
+        },
+        {
+          "word": "basic",
+          "pos": "adj.",
+          "cn": "主要的；基础的",
+          "page": 4,
+          "phonetic": "/'be!s!k/"
+        },
+        {
+          "word": "time",
+          "pos": "n.",
+          "cn": "次；回",
+          "page": 4,
+          "phonetic": "/ta!m/"
+        },
+        {
+          "word": "advise",
+          "pos": "v.",
+          "cn": "向……提出意见； 忠告；建议",
+          "page": 4,
+          "phonetic": "/2d'va!z/"
+        },
+        {
+          "word": "shy",
+          "pos": "adj.",
+          "cn": "羞怯的；腼腆的",
+          "page": 4,
+          "phonetic": "/1a!/"
+        },
+        {
+          "word": "conversation",
+          "pos": "n.",
+          "cn": "谈话； 交谈",
+          "page": 4,
+          "phonetic": "/;k=nv2'se!1n/"
+        },
+        {
+          "word": "quickly",
+          "pos": "adv.",
+          "cn": "快地；迅速地",
+          "page": 4,
+          "phonetic": "/'kw!kli/"
+        },
+        {
+          "word": "natural",
+          "pos": "adj.",
+          "cn": "合理的；合乎 常情的",
+          "page": 4,
+          "phonetic": "/'næt12r2l/"
+        },
+        {
+          "word": "suggest",
+          "pos": "v.",
+          "cn": "建议；提议",
+          "page": 4,
+          "phonetic": "/s2'd3est/"
+        },
+        {
+          "word": "place",
+          "pos": "v.",
+          "cn": "放置",
+          "page": 4,
+          "phonetic": "/ple!s/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "look up",
+          "cn": "查；查找",
+          "page": 2,
+          "phonetic": ""
+        },
+        {
+          "phrase": "agree with sb.",
+          "cn": "同意某人",
+          "page": 2,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 9
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 10
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 11
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 13
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 16
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 9,
+          "page_end": 10,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 9
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 10
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 11,
+          "page_end": 12,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 13,
+          "page_end": 16,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 13
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 16
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-2",
+      "type": "module",
+      "number": 2,
+      "title": "My home town and my country",
+      "page_start": 17,
+      "page_end": 24,
+      "topic": "Comparing two places, holding conversations",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "形容词比较级（1）",
+          "name_en": "Comparative adjectives (1)",
+          "details": "英语中应该怎样表达比较呢？首先请大家看下面的例句： Shanghai is busier than Hangzhou. 上海比杭州繁华。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "hill",
+          "pos": "n.",
+          "cn": "小山；小丘",
+          "page": 10,
+          "phonetic": "/h!l/"
+        },
+        {
+          "word": "population",
+          "pos": "n.",
+          "cn": "（ 某一地区 的）人口，全体居民",
+          "page": 10,
+          "phonetic": "/;p=pj%'le!1n/"
+        },
+        {
+          "word": "wide",
+          "pos": "adj.",
+          "cn": "宽的；宽阔的",
+          "page": 10,
+          "phonetic": "/wa!d/"
+        },
+        {
+          "word": "million",
+          "pos": "num.",
+          "cn": "百万",
+          "page": 10,
+          "phonetic": "/'m!lj2n/"
+        },
+        {
+          "word": "pretty",
+          "pos": "adv.",
+          "cn": "[主口] 相当地； 非常；很",
+          "page": 10,
+          "phonetic": "/'pr!ti/"
+        },
+        {
+          "word": "than",
+          "pos": "prep.",
+          "cn": "比",
+          "page": 10,
+          "phonetic": "/6æn；62n/"
+        },
+        {
+          "word": "get",
+          "pos": "v.",
+          "cn": "变成；成为",
+          "page": 10,
+          "phonetic": "/get/"
+        },
+        {
+          "word": "north",
+          "pos": "n.",
+          "cn": "北；北方 adj. 在北方的；朝北的",
+          "page": 12,
+          "phonetic": "/n0ː8/"
+        },
+        {
+          "word": "south",
+          "pos": "n.",
+          "cn": "南；南方 adj. 在南方的；朝南的",
+          "page": 12,
+          "phonetic": "/sa%8/"
+        },
+        {
+          "word": "west",
+          "pos": "n.",
+          "cn": "西；西方 adj. 在西方的；朝西的",
+          "page": 12,
+          "phonetic": "/west/"
+        },
+        {
+          "word": "especially",
+          "pos": "adv.",
+          "cn": "尤其",
+          "page": 12,
+          "phonetic": "/!'spe1li/"
+        },
+        {
+          "word": "university",
+          "pos": "n.",
+          "cn": "大学",
+          "page": 12,
+          "phonetic": "/;juːn!'v^ːs2ti/"
+        },
+        {
+          "word": "island",
+          "pos": "n.",
+          "cn": "岛；岛屿",
+          "page": 12,
+          "phonetic": "/'a!l2nd/"
+        },
+        {
+          "word": "area",
+          "pos": "n.",
+          "cn": "地区；区域",
+          "page": 12,
+          "phonetic": "/'e2ri2/"
+        },
+        {
+          "word": "low",
+          "pos": "adj.",
+          "cn": "矮的；低的",
+          "page": 12,
+          "phonetic": "/l2%/"
+        },
+        {
+          "word": "mountain",
+          "pos": "n.",
+          "cn": "山；山岳",
+          "page": 12,
+          "phonetic": "/'ma%nt!n/"
+        },
+        {
+          "word": "countryside",
+          "pos": "n.",
+          "cn": "农村地区； 乡下",
+          "page": 12,
+          "phonetic": "/'k7ntri;sa!d/"
+        },
+        {
+          "word": "umbrella",
+          "pos": "n.",
+          "cn": "雨伞",
+          "page": 12,
+          "phonetic": "/7m'brel2/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "home town",
+          "cn": "故乡；家乡",
+          "page": 12,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 17
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 18
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 19
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 21
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 24
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 17,
+          "page_end": 18,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 17
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 18
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 19,
+          "page_end": 20,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 19
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 21,
+          "page_end": 24,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 21
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 24
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-3",
+      "type": "module",
+      "number": 3,
+      "title": "Sports",
+      "page_start": 25,
+      "page_end": 32,
+      "topic": "Comparing sports, linking words correctly",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "形容词比较级（2）、副词的基本用法和副词比较级",
+          "name_en": "Comparative adjectives (2), adverbs and comparative adverbs",
+          "details": "上一模块我们学习了单音节形容词和部分双音节形容词的比较级的构成形式和比较级句 子的表达方式。 那么，还有部分双音节形容词和多音节形容词，它们的比较级是如何构"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "baseball",
+          "pos": "n.",
+          "cn": "棒球",
+          "page": 18,
+          "phonetic": "/'be!s;b0ːl/"
+        },
+        {
+          "word": "volleyball",
+          "pos": "n.",
+          "cn": "排球",
+          "page": 18,
+          "phonetic": "/'v=li;b0ːl/"
+        },
+        {
+          "word": "boring",
+          "pos": "adj.",
+          "cn": "烦人的；无聊的",
+          "page": 18,
+          "phonetic": "/'b0ːr!9/"
+        },
+        {
+          "word": "exciting",
+          "pos": "adj.",
+          "cn": "令人激动的； 使人兴奋的",
+          "page": 18,
+          "phonetic": "/!k'sa!t!9/"
+        },
+        {
+          "word": "relaxing",
+          "pos": "adj.",
+          "cn": "令人愉悦的； 使人放松的",
+          "page": 18,
+          "phonetic": "/r!'læks!9/"
+        },
+        {
+          "word": "already",
+          "pos": "adv.",
+          "cn": "已经；早已",
+          "page": 18,
+          "phonetic": "/0ːl'redi/"
+        },
+        {
+          "word": "matter",
+          "pos": "n.",
+          "cn": "问题；麻烦",
+          "page": 18,
+          "phonetic": "/'mæt2/"
+        },
+        {
+          "word": "hurt",
+          "pos": "v.",
+          "cn": "(hurt /h^ːt/)（ 使）疼痛； （使）受伤",
+          "page": 18,
+          "phonetic": "/h^ːt/"
+        },
+        {
+          "word": "enjoyable",
+          "pos": "adj.",
+          "cn": "令人愉快的； 有乐趣的",
+          "page": 18,
+          "phonetic": "/!n#d30!2bl/"
+        },
+        {
+          "word": "Olympics",
+          "pos": "n.",
+          "cn": "奥林匹克运动会",
+          "page": 18,
+          "phonetic": "/2'l!mp!ks/"
+        },
+        {
+          "word": "stadium",
+          "pos": "n.",
+          "cn": "体育场",
+          "page": 18,
+          "phonetic": "/'ste!di2m/"
+        },
+        {
+          "word": "miss",
+          "pos": "v.",
+          "cn": "未击中；未达到",
+          "page": 18,
+          "phonetic": "/m!s/"
+        },
+        {
+          "word": "mind",
+          "pos": "v.",
+          "cn": "介意；讨厌；反对",
+          "page": 18,
+          "phonetic": "/ma!nd/"
+        },
+        {
+          "word": "plenty",
+          "pos": "pron.",
+          "cn": "大量；众多",
+          "page": 18,
+          "phonetic": "/'plenti/"
+        },
+        {
+          "word": "beat",
+          "pos": "v.",
+          "cn": "(beat /biːt/) 打败；战胜",
+          "page": 20,
+          "phonetic": "/biːt/"
+        },
+        {
+          "word": "careless",
+          "pos": "adj.",
+          "cn": "粗心的；疏忽的",
+          "page": 20,
+          "phonetic": "/'ke2l2s/"
+        },
+        {
+          "word": "coach",
+          "pos": "n.",
+          "cn": "教练",
+          "page": 20,
+          "phonetic": "/k2%t1/"
+        },
+        {
+          "word": "train",
+          "pos": "v.",
+          "cn": "（ 体育）训练，操练",
+          "page": 20,
+          "phonetic": "/tre!n/"
+        },
+        {
+          "word": "practice",
+          "pos": "n.",
+          "cn": "练习",
+          "page": 20,
+          "phonetic": "/'prækt!s/"
+        },
+        {
+          "word": "warm",
+          "pos": "v.",
+          "cn": "使暖和；使温暖",
+          "page": 20,
+          "phonetic": "/w0ːm/"
+        },
+        {
+          "word": "usual",
+          "pos": "adj.",
+          "cn": "通常的；平常的",
+          "page": 20,
+          "phonetic": "/'juː3%2l/"
+        },
+        {
+          "word": "better",
+          "pos": "adv.",
+          "cn": "更好地 adj. 更好的",
+          "page": 20,
+          "phonetic": "/'bet2/"
+        },
+        {
+          "word": "after-school",
+          "pos": "adj.",
+          "cn": "下午放学 后的；课外的",
+          "page": 20,
+          "phonetic": "/'4ːft2;skuːl/"
+        },
+        {
+          "word": "pleased",
+          "pos": "adj.",
+          "cn": "开心的；满足的",
+          "page": 20,
+          "phonetic": "/pliːzd/"
+        },
+        {
+          "word": "pass",
+          "pos": "v.",
+          "cn": "传递；传送",
+          "page": 20,
+          "phonetic": "/p4ːs/"
+        },
+        {
+          "word": "pity",
+          "pos": "n.",
+          "cn": "可惜；遗憾",
+          "page": 20,
+          "phonetic": "/'p!ti/"
+        },
+        {
+          "word": "chance",
+          "pos": "n.",
+          "cn": "可能性；机会",
+          "page": 20,
+          "phonetic": "/t14ːns/"
+        },
+        {
+          "word": "loudly",
+          "pos": "adv.",
+          "cn": "响亮地；大声地",
+          "page": 20,
+          "phonetic": "/'la%dli/"
+        },
+        {
+          "word": "confident",
+          "pos": "adj.",
+          "cn": "自信的",
+          "page": 20,
+          "phonetic": "/'k=nf!d2nt/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "plenty of",
+          "cn": "大量；众多",
+          "page": 18,
+          "phonetic": ""
+        },
+        {
+          "phrase": "cheer... on",
+          "cn": "用欢呼声激励；为……加油",
+          "page": 20,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 25
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 26
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 27
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 29
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 32
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 25,
+          "page_end": 26,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 25
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 26
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 27,
+          "page_end": 28,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 27
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 29,
+          "page_end": 32,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 29
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 32
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-4",
+      "type": "module",
+      "number": 4,
+      "title": "Planes, ships and trains",
+      "page_start": 33,
+      "page_end": 40,
+      "topic": "Comparing modes of transportation",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "形容词、副词的最高级",
+          "name_en": "Superlative adjectives and adverbs",
+          "details": "当我们要将三个或三个以上的事物进行比较时，可以用形容词或副词的最高级形式来 表达。例如： Lingling’s home is the closest to school. 玲玲家离学校最近。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "road",
+          "pos": "n.",
+          "cn": "路；（尤指）公路",
+          "page": 26,
+          "phonetic": "/r2%d/"
+        },
+        {
+          "word": "accident",
+          "pos": "n.",
+          "cn": "交通事故； 意外事件",
+          "page": 26,
+          "phonetic": "/'æks!d2nt/"
+        },
+        {
+          "word": "except",
+          "pos": "prep.",
+          "cn": "除……之外",
+          "page": 26,
+          "phonetic": "/!k'sept/"
+        },
+        {
+          "word": "choice",
+          "pos": "n.",
+          "cn": "选择",
+          "page": 26,
+          "phonetic": "/t10!s/"
+        },
+        {
+          "word": "classmate",
+          "pos": "n.",
+          "cn": "同班同学",
+          "page": 26,
+          "phonetic": "/'kl4ːs;me!t/"
+        },
+        {
+          "word": "far",
+          "pos": "adv.",
+          "cn": "远；遥远 adj. 远的；遥远的",
+          "page": 26,
+          "phonetic": "/f4ː/"
+        },
+        {
+          "word": "close",
+          "pos": "adj.",
+          "cn": "（ 距离上）近的，接近的 adv（. 距离上）接近地",
+          "page": 26,
+          "phonetic": "/kl2%s/"
+        },
+        {
+          "word": "crowded",
+          "pos": "adj.",
+          "cn": "拥挤的；人数 过多的",
+          "page": 26,
+          "phonetic": "/'kra%d!d/"
+        },
+        {
+          "word": "journey",
+          "pos": "n.",
+          "cn": "旅行；旅程",
+          "page": 28,
+          "phonetic": "/'d3^ːni/"
+        },
+        {
+          "word": "book",
+          "pos": "v.",
+          "cn": "预订",
+          "page": 28,
+          "phonetic": "/b%k/"
+        },
+        {
+          "word": "park",
+          "pos": "v.",
+          "cn": "停放（车）；泊（车）",
+          "page": 28,
+          "phonetic": "/p4ːk/"
+        },
+        {
+          "word": "outside",
+          "pos": "prep.",
+          "cn": "在……之外 adv. 在外面；朝户外 n. 外面；外部 adj. 外部的；外表的",
+          "page": 28,
+          "phonetic": "/;a%t'sa!d/"
+        },
+        {
+          "word": "however",
+          "pos": "adv.",
+          "cn": "然而；但是",
+          "page": 28,
+          "phonetic": "/ha%'ev2/"
+        },
+        {
+          "word": "cost",
+          "pos": "v.",
+          "cn": "(cost /k=st/) 价钱为；花费 n. 价钱；成本；代价",
+          "page": 28,
+          "phonetic": "/k=st/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "all the time",
+          "cn": "一直；不断地",
+          "page": 26,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 33
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 34
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 35
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 37
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 40
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 33,
+          "page_end": 34,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 33
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 34
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 35,
+          "page_end": 36,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 35
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 37,
+          "page_end": 40,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 37
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 40
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-5",
+      "type": "module",
+      "number": 5,
+      "title": "Lao She Teahouse",
+      "page_start": 41,
+      "page_end": 48,
+      "topic": "Talking about intentions and plans, describing intentions and plans in simple language",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "动词不定式（1）和双宾语",
+          "name_en": "Infinitive structures (1) and double objects",
+          "details": "当我们要表示“想做某事、需要做某事或决定做某事”时，就会出现两个动词连用的情况， 这时应如何表达呢？同学们自然会想到want to do sth.，need to do sth. 和decide to do sth."
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "actress",
+          "pos": "n.",
+          "cn": "女演员",
+          "page": 34,
+          "phonetic": "/'æktr2s/"
+        },
+        {
+          "word": "teahouse",
+          "pos": "n.",
+          "cn": "（尤指亚洲的）茶馆",
+          "page": 34,
+          "phonetic": "/'tiː;ha%s/"
+        },
+        {
+          "word": "offer",
+          "pos": "v.",
+          "cn": "提议；提出",
+          "page": 34,
+          "phonetic": "/'=f2/"
+        },
+        {
+          "word": "end",
+          "pos": "n.",
+          "cn": "（ 时间的）最后一段，末尾 v. 结束",
+          "page": 34,
+          "phonetic": "/end/"
+        },
+        {
+          "word": "act",
+          "pos": "n.",
+          "cn": "（ 戏剧、歌剧或芭蕾舞的） 一幕",
+          "page": 36,
+          "phonetic": "/ækt/"
+        },
+        {
+          "word": "show",
+          "pos": "v.",
+          "cn": "展示；显示 n. 演出；表演",
+          "page": 36,
+          "phonetic": "/12%/"
+        },
+        {
+          "word": "common",
+          "pos": "adj.",
+          "cn": "普通的； 一般的",
+          "page": 36,
+          "phonetic": "/'k=m2n/"
+        },
+        {
+          "word": "twentieth",
+          "pos": "num.",
+          "cn": "第二十",
+          "page": 36,
+          "phonetic": "/'twenti28/"
+        },
+        {
+          "word": "describe",
+          "pos": "v.",
+          "cn": "描写；描述",
+          "page": 36,
+          "phonetic": "/d!'skra!b/"
+        },
+        {
+          "word": "society",
+          "pos": "n.",
+          "cn": "社会",
+          "page": 36,
+          "phonetic": "/s2'sa!2ti/"
+        },
+        {
+          "word": "college",
+          "pos": "n.",
+          "cn": "大学；学院",
+          "page": 36,
+          "phonetic": "/'k=l!d3/"
+        },
+        {
+          "word": "novel",
+          "pos": "n.",
+          "cn": "（ 长篇）小说",
+          "page": 36,
+          "phonetic": "/'n=vl/"
+        },
+        {
+          "word": "name",
+          "pos": "v.",
+          "cn": "给……取名；给…… 命名",
+          "page": 36,
+          "phonetic": "/ne!m/"
+        },
+        {
+          "word": "if",
+          "pos": "conj.",
+          "cn": "如果；若",
+          "page": 36,
+          "phonetic": "/!f/"
+        },
+        {
+          "word": "magic",
+          "pos": "adj.",
+          "cn": "魔术的；戏法的",
+          "page": 36,
+          "phonetic": "/'mæd3!k/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "head teacher",
+          "cn": "校长",
+          "page": 36,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 41
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 42
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 43
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 45
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 48
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 41,
+          "page_end": 42,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 41
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 42
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 43,
+          "page_end": 44,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 43
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 45,
+          "page_end": 48,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 45
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 48
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-6",
+      "type": "module",
+      "number": 6,
+      "title": "Animals in danger",
+      "page_start": 49,
+      "page_end": 56,
+      "topic": "Talking about ways of protecting animals",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "动词不定式（2）",
+          "name_en": "Infinitive structures (2)",
+          "details": "在上一个模块，我们学习了动词不定式作宾语的功能，那么，动词不定式的语法功能还 有哪些呢？我们结合本模块出现的相关句子来看一下："
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "snake",
+          "pos": "n.",
+          "cn": "蛇",
+          "page": 42,
+          "phonetic": "/sne!k/"
+        },
+        {
+          "word": "neck",
+          "pos": "n.",
+          "cn": "颈；脖子",
+          "page": 42,
+          "phonetic": "/nek/"
+        },
+        {
+          "word": "thin",
+          "pos": "adj.",
+          "cn": "薄的；细长的",
+          "page": 42,
+          "phonetic": "/8!n/"
+        },
+        {
+          "word": "danger",
+          "pos": "n.",
+          "cn": "危险；危害",
+          "page": 42,
+          "phonetic": "/'de!nd32/"
+        },
+        {
+          "word": "interested",
+          "pos": "adj.",
+          "cn": "关心的； 感兴趣的",
+          "page": 42,
+          "phonetic": "/'!ntr2st!d/"
+        },
+        {
+          "word": "allow",
+          "pos": "v.",
+          "cn": "允许；准许",
+          "page": 42,
+          "phonetic": "/2'la%/"
+        },
+        {
+          "word": "protect",
+          "pos": "v.",
+          "cn": "保护；保卫",
+          "page": 42,
+          "phonetic": "/pr2'tekt/"
+        },
+        {
+          "word": "wild",
+          "pos": "adj.",
+          "cn": "野生的 n.野生环境",
+          "page": 42,
+          "phonetic": "/wa!ld/"
+        },
+        {
+          "word": "grow",
+          "pos": "v.",
+          "cn": "(grew /gruː/)（ 逐渐） 变得；生长",
+          "page": 42,
+          "phonetic": "/gr2%/"
+        },
+        {
+          "word": "enough",
+          "pos": "adj.",
+          "cn": "足够的；充分的",
+          "page": 42,
+          "phonetic": "/!'n7f/"
+        },
+        {
+          "word": "peace",
+          "pos": "n.",
+          "cn": "和平；太平",
+          "page": 42,
+          "phonetic": "/piːs/"
+        },
+        {
+          "word": "notice",
+          "pos": "n.",
+          "cn": "布告；告示",
+          "page": 42,
+          "phonetic": "/'n2%t!s/"
+        },
+        {
+          "word": "raise",
+          "pos": "v.",
+          "cn": "筹集（钱款）；抚养；养育",
+          "page": 42,
+          "phonetic": "/re!z/"
+        },
+        {
+          "word": "research",
+          "pos": "n.",
+          "cn": "研究； 探讨",
+          "page": 44,
+          "phonetic": "/r!'s^ːt1；'riːs^ːt1/"
+        },
+        {
+          "word": "baby",
+          "pos": "n.",
+          "cn": "婴儿；婴孩",
+          "page": 44,
+          "phonetic": "/'be!bi/"
+        },
+        {
+          "word": "situation",
+          "pos": "n.",
+          "cn": "形势；情况",
+          "page": 44,
+          "phonetic": "/;s!t1u'e!1n/"
+        },
+        {
+          "word": "scientist",
+          "pos": "n.",
+          "cn": "科学家",
+          "page": 44,
+          "phonetic": "/'sa!2nt!st/"
+        },
+        {
+          "word": "produce",
+          "pos": "v.",
+          "cn": "生育；繁殖",
+          "page": 44,
+          "phonetic": "/pr2'djuːs/"
+        },
+        {
+          "word": "southwest",
+          "pos": "n.",
+          "cn": "西南 adj. 西南的； 朝西南的",
+          "page": 44,
+          "phonetic": "/;sau8'west/"
+        },
+        {
+          "word": "government",
+          "pos": "n.",
+          "cn": "政府",
+          "page": 44,
+          "phonetic": "/'g7vnm2nt/"
+        },
+        {
+          "word": "set",
+          "pos": "v.",
+          "cn": "设置；设定",
+          "page": 44,
+          "phonetic": "/set/"
+        },
+        {
+          "word": "nature",
+          "pos": "n.",
+          "cn": "大自然；自然界",
+          "page": 44,
+          "phonetic": "/'ne!t12/"
+        },
+        {
+          "word": "develop",
+          "pos": "v.",
+          "cn": "研制；制定",
+          "page": 44,
+          "phonetic": "/d!'vel2p/"
+        },
+        {
+          "word": "feed",
+          "pos": "v.",
+          "cn": "(fed /fed/) 喂养；饲养",
+          "page": 44,
+          "phonetic": "/fiːd/"
+        },
+        {
+          "word": "symbol",
+          "pos": "n.",
+          "cn": "象征；标志",
+          "page": 44,
+          "phonetic": "/'s!mbl/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "think of",
+          "cn": "想到；想出",
+          "page": 42,
+          "phonetic": ""
+        },
+        {
+          "phrase": "in order to",
+          "cn": "为了",
+          "page": 44,
+          "phonetic": ""
+        },
+        {
+          "phrase": "set up",
+          "cn": "开办；设立；创办；建立",
+          "page": 44,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 49
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 50
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 51
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 53
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 56
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 49,
+          "page_end": 50,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 49
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 50
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 51,
+          "page_end": 52,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 51
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 53,
+          "page_end": 56,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 53
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 56
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "revision-a",
+      "type": "revision",
+      "number": "A",
+      "title": "Revision module A",
+      "page_start": 57,
+      "page_end": 62,
+      "topic": null,
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [],
+      "key_vocabulary": [],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "revision",
+          "title": "Grammar and speaking",
+          "page": 57
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": []
+    },
+    {
+      "id": "module-7",
+      "type": "module",
+      "number": 7,
+      "title": "A famous story",
+      "page_start": 63,
+      "page_end": 70,
+      "topic": "Telling a story",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "过去进行时 （1）",
+          "name_en": "Past continuous (1)",
+          "details": "在本书的第一模块中，我们归纳了以前学习过的四种基本时态，那么我们该如何表达“昨 天晚上8点我在看电视”“当时我在操场上打篮球”这样的意思呢？根据时间，我们可以"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "fall",
+          "pos": "v.",
+          "cn": "(fell /fel/)下落；跌落",
+          "page": 56,
+          "phonetic": "/f0ːl/"
+        },
+        {
+          "word": "follow",
+          "pos": "v.",
+          "cn": "跟随；紧跟",
+          "page": 56,
+          "phonetic": "/'f=l2%/"
+        },
+        {
+          "word": "hole",
+          "pos": "n.",
+          "cn": "洞；孔；穴",
+          "page": 56,
+          "phonetic": "/h2%l/"
+        },
+        {
+          "word": "rabbit",
+          "pos": "n.",
+          "cn": "兔；家兔",
+          "page": 56,
+          "phonetic": "/'ræb!t/"
+        },
+        {
+          "word": "ssh",
+          "pos": "int.",
+          "cn": "嘘（示意某人不要说话）",
+          "page": 56,
+          "phonetic": "/1/"
+        },
+        {
+          "word": "ground",
+          "pos": "n.",
+          "cn": "地面",
+          "page": 56,
+          "phonetic": "/gra%nd/"
+        },
+        {
+          "word": "twice",
+          "pos": "adv.",
+          "cn": "两次；两倍",
+          "page": 58,
+          "phonetic": "/twa!s/"
+        },
+        {
+          "word": "suddenly",
+          "pos": "adv.",
+          "cn": "突然地； 出乎意料地",
+          "page": 58,
+          "phonetic": "/'s7dnli/"
+        },
+        {
+          "word": "pink",
+          "pos": "adj.",
+          "cn": "粉红色的 n. 粉红色",
+          "page": 58,
+          "phonetic": "/p!9k/"
+        },
+        {
+          "word": "pocket",
+          "pos": "n.",
+          "cn": "衣袋；口袋",
+          "page": 58,
+          "phonetic": "/'p=k!t/"
+        },
+        {
+          "word": "field",
+          "pos": "n.",
+          "cn": "牧场；田地",
+          "page": 58,
+          "phonetic": "/fiːld/"
+        },
+        {
+          "word": "deep",
+          "pos": "adj.",
+          "cn": "（ 从顶部向下）深的",
+          "page": 58,
+          "phonetic": "/diːp/"
+        },
+        {
+          "word": "while",
+          "pos": "conj.",
+          "cn": "当……的时候",
+          "page": 58,
+          "phonetic": "/wa!l/"
+        },
+        {
+          "word": "land",
+          "pos": "v.",
+          "cn": "降落（或跳落、跌落） 到地面（或水面上）",
+          "page": 58,
+          "phonetic": "/l*nd/"
+        },
+        {
+          "word": "dry",
+          "pos": "adj.",
+          "cn": "干的；干燥的",
+          "page": 58,
+          "phonetic": "/dra!/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "once or twice",
+          "cn": "偶尔；一两次",
+          "page": 58,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 63
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 64
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 65
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 67
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 70
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 63,
+          "page_end": 64,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 63
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 64
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 65,
+          "page_end": 66,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 65
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 67,
+          "page_end": 70,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 67
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 70
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-8",
+      "type": "module",
+      "number": 8,
+      "title": "Accidents",
+      "page_start": 71,
+      "page_end": 78,
+      "topic": "Talking about what was happening at a specific time",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "过去进行时 （2）",
+          "name_en": "Past continuous (2)",
+          "details": "通过上一模块的学习，我们知道过去进行时可以表示过去某一时刻或时段正在进行或持 续的动作，句子常和at... yesterday morning, at that time, at... last night等时间状语连用。其"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "pale",
+          "pos": "adj.",
+          "cn": "（ 肤色）苍白的",
+          "page": 64,
+          "phonetic": "/pe!l/"
+        },
+        {
+          "word": "appear",
+          "pos": "v.",
+          "cn": "出现；显露",
+          "page": 64,
+          "phonetic": "/2'p!2/"
+        },
+        {
+          "word": "round",
+          "pos": "prep.",
+          "cn": "转到（某物的）另一边",
+          "page": 64,
+          "phonetic": "/ra%nd/"
+        },
+        {
+          "word": "corner",
+          "pos": "n.",
+          "cn": "拐角；街角",
+          "page": 64,
+          "phonetic": "/'k0ːn2/"
+        },
+        {
+          "word": "hit",
+          "pos": "v.",
+          "cn": "(hit /h!t/)（使）碰撞",
+          "page": 64,
+          "phonetic": "/h!t/"
+        },
+        {
+          "word": "glad",
+          "pos": "adj.",
+          "cn": "高兴的；欢喜的",
+          "page": 64,
+          "phonetic": "/glæd/"
+        },
+        {
+          "word": "risk",
+          "pos": "n.",
+          "cn": "危险；风险",
+          "page": 64,
+          "phonetic": "/r!sk/"
+        },
+        {
+          "word": "attention",
+          "pos": "n.",
+          "cn": "注意力",
+          "page": 64,
+          "phonetic": "/2'ten1n/"
+        },
+        {
+          "word": "side",
+          "pos": "n.",
+          "cn": "（ 物体或形状的）侧面 side by side 并排地；肩并肩地",
+          "page": 64,
+          "phonetic": "/sa!d/"
+        },
+        {
+          "word": "bite",
+          "pos": "v.",
+          "cn": "(bit /b!t/)咬；叮",
+          "page": 66,
+          "phonetic": "/ba!t/"
+        },
+        {
+          "word": "climb",
+          "pos": "v.",
+          "cn": "爬；攀爬",
+          "page": 66,
+          "phonetic": "/kla!m/"
+        },
+        {
+          "word": "hide",
+          "pos": "v.",
+          "cn": "(hid /h!d/)躲；躲藏",
+          "page": 66,
+          "phonetic": "/ha!d/"
+        },
+        {
+          "word": "throw",
+          "pos": "v.",
+          "cn": "(threw /8ruː/) 扔；掷",
+          "page": 66,
+          "phonetic": "/8r2%/"
+        },
+        {
+          "word": "fridge",
+          "pos": "n.",
+          "cn": "冰箱",
+          "page": 66,
+          "phonetic": "/fr!d3/"
+        },
+        {
+          "word": "pain",
+          "pos": "n.",
+          "cn": "痛；疼痛",
+          "page": 66,
+          "phonetic": "/pe!n/"
+        },
+        {
+          "word": "worse",
+          "pos": "adj.",
+          "cn": "更糟的；更坏的 adv. 更糟；更严重",
+          "page": 66,
+          "phonetic": "/w^ːs/"
+        },
+        {
+          "word": "medicine",
+          "pos": "n.",
+          "cn": "药；药物",
+          "page": 66,
+          "phonetic": "/'medsn/"
+        }
+      ],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 71
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 72
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 73
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 75
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 78
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 71,
+          "page_end": 72,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 71
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 72
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 73,
+          "page_end": 74,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 73
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 75,
+          "page_end": 78,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 75
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 78
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-9",
+      "type": "module",
+      "number": 9,
+      "title": "Population",
+      "page_start": 79,
+      "page_end": 86,
+      "topic": "Talking about population; using large numbers",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "冠词和数字",
+          "name_en": "Articles and large numbers",
+          "details": "冠词 冠词是限定词的一种，不能单独使用，常用于修饰名词。冠词有两种形式：不定冠词a/an， 定冠词the。在很多场合同学们会看到零冠词的提法，所谓零冠词就是不使用冠词。"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "noise",
+          "pos": "n.",
+          "cn": "噪声；杂音",
+          "page": 72,
+          "phonetic": "/n0!z/"
+        },
+        {
+          "word": "prepare",
+          "pos": "v.",
+          "cn": "准备；预备",
+          "page": 72,
+          "phonetic": "/pr!'pe2/"
+        },
+        {
+          "word": "report",
+          "pos": "n.",
+          "cn": "报告；汇报",
+          "page": 72,
+          "phonetic": "/r!'p0ːt/"
+        },
+        {
+          "word": "billion",
+          "pos": "num.",
+          "cn": "十亿",
+          "page": 72,
+          "phonetic": "/'b!lj2n/"
+        },
+        {
+          "word": "huge",
+          "pos": "adj.",
+          "cn": "巨大的；庞大的",
+          "page": 72,
+          "phonetic": "/hjuːd3/"
+        },
+        {
+          "word": "increase",
+          "pos": "n.",
+          "cn": "增大；增长 /!n'kriːs/ v. 增大；增长",
+          "page": 72,
+          "phonetic": "/'!9kriːs/"
+        },
+        {
+          "word": "notes",
+          "pos": "n.",
+          "cn": "(pl.) 笔记；随笔",
+          "page": 72,
+          "phonetic": "/n2%ts/"
+        },
+        {
+          "word": "cause",
+          "pos": "v.",
+          "cn": "造成；引起",
+          "page": 72,
+          "phonetic": "/k0ːz/"
+        },
+        {
+          "word": "problem",
+          "pos": "n.",
+          "cn": "麻烦；问题",
+          "page": 72,
+          "phonetic": "/'pr=bl2m/"
+        },
+        {
+          "word": "grow",
+          "pos": "v.",
+          "cn": "(grew /gruː/) 增长；增大",
+          "page": 72,
+          "phonetic": "/gr2%/"
+        },
+        {
+          "word": "birth",
+          "pos": "n.",
+          "cn": "出生",
+          "page": 72,
+          "phonetic": "/b^ː8/"
+        },
+        {
+          "word": "flat",
+          "pos": "n.",
+          "cn": "套房；公寓",
+          "page": 74,
+          "phonetic": "/flæt/"
+        },
+        {
+          "word": "rubbish",
+          "pos": "n.",
+          "cn": "垃圾；废弃物",
+          "page": 74,
+          "phonetic": "/'r7b!1/"
+        },
+        {
+          "word": "quiet",
+          "pos": "adj.",
+          "cn": "寂静的；安静的",
+          "page": 74,
+          "phonetic": "/'kwa!2t/"
+        },
+        {
+          "word": "local",
+          "pos": "adj.",
+          "cn": "当地的；本地的",
+          "page": 74,
+          "phonetic": "/'l2%kl/"
+        },
+        {
+          "word": "mention",
+          "pos": "v.",
+          "cn": "提及；谈到",
+          "page": 74,
+          "phonetic": "/'men1n/"
+        },
+        {
+          "word": "pollution",
+          "pos": "n.",
+          "cn": "污染",
+          "page": 74,
+          "phonetic": "/p2'luː1n/"
+        },
+        {
+          "word": "solve",
+          "pos": "v.",
+          "cn": "解决问题",
+          "page": 74,
+          "phonetic": "/'s=lv/"
+        },
+        {
+          "word": "public",
+          "pos": "adj.",
+          "cn": "公共的；公众的",
+          "page": 74,
+          "phonetic": "/'p7bl!k/"
+        },
+        {
+          "word": "service",
+          "pos": "n.",
+          "cn": "公共服务；服务",
+          "page": 74,
+          "phonetic": "/'s^ːv!s/"
+        },
+        {
+          "word": "pupil",
+          "pos": "n.",
+          "cn": "学生；（尤指）小学生",
+          "page": 74,
+          "phonetic": "/'pjuːpl/"
+        },
+        {
+          "word": "reduce",
+          "pos": "v.",
+          "cn": "减少；减低；缩小",
+          "page": 74,
+          "phonetic": "/r!'djuːs/"
+        },
+        {
+          "word": "create",
+          "pos": "v.",
+          "cn": "创造",
+          "page": 74,
+          "phonetic": "/kr!'e!t/"
+        },
+        {
+          "word": "convenient",
+          "pos": "adj.",
+          "cn": "方便的， 便利的",
+          "page": 74,
+          "phonetic": "/k2n'viːni2nt/"
+        },
+        {
+          "word": "environment",
+          "pos": "n.",
+          "cn": "环境",
+          "page": 74,
+          "phonetic": "/!n'va!r2nm2nt/"
+        }
+      ],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 79
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 80
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 81
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 83
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 86
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 79,
+          "page_end": 80,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 79
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 80
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 81,
+          "page_end": 82,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 81
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 83,
+          "page_end": 86,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 83
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 86
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-10",
+      "type": "module",
+      "number": 10,
+      "title": "The weather",
+      "page_start": 87,
+      "page_end": 94,
+      "topic": "Describing the weather",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "情态动词 may/might 表示“可能”",
+          "name_en": "Modal verbs: may/might for possibility",
+          "details": "情态动词本身有一定的含义，为谓语动词增添情态色彩，表示说话人对有关行为或事物的 态度和看法，认为其可能、应该或必要等。我们学过的can和may都属于这类词。情态动"
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "cloud",
+          "pos": "n.",
+          "cn": "云；云雾",
+          "page": 80,
+          "phonetic": "/kla%d/"
+        },
+        {
+          "word": "shower",
+          "pos": "n.",
+          "cn": "阵雨",
+          "page": 80,
+          "phonetic": "/'1a%2/"
+        },
+        {
+          "word": "snow",
+          "pos": "n.",
+          "cn": "雪 v. 下雪",
+          "page": 80,
+          "phonetic": "/sn2%/"
+        },
+        {
+          "word": "storm",
+          "pos": "n.",
+          "cn": "暴风雨",
+          "page": 80,
+          "phonetic": "/st0ːm/"
+        },
+        {
+          "word": "cloudy",
+          "pos": "adj.",
+          "cn": "多云的",
+          "page": 80,
+          "phonetic": "/'kla%di/"
+        },
+        {
+          "word": "rainy",
+          "pos": "adj.",
+          "cn": "多雨的；下雨的",
+          "page": 80,
+          "phonetic": "/'re!ni/"
+        },
+        {
+          "word": "snowy",
+          "pos": "adj.",
+          "cn": "多雪的；下雪的",
+          "page": 80,
+          "phonetic": "/'sn2%i/"
+        },
+        {
+          "word": "sunny",
+          "pos": "adj.",
+          "cn": "晴朗的",
+          "page": 80,
+          "phonetic": "/'s7ni/"
+        },
+        {
+          "word": "windy",
+          "pos": "adj.",
+          "cn": "多风的；刮大风的",
+          "page": 80,
+          "phonetic": "/'w!ndi/"
+        },
+        {
+          "word": "skate",
+          "pos": "v.",
+          "cn": "滑冰",
+          "page": 80,
+          "phonetic": "/ske!t/"
+        },
+        {
+          "word": "thick",
+          "pos": "adj.",
+          "cn": "厚的",
+          "page": 80,
+          "phonetic": "/8!k/"
+        },
+        {
+          "word": "ice",
+          "pos": "n.",
+          "cn": "冰",
+          "page": 80,
+          "phonetic": "/a!s/"
+        },
+        {
+          "word": "joke",
+          "pos": "v.",
+          "cn": "说笑话；开玩笑 n. 笑话；玩笑",
+          "page": 80,
+          "phonetic": "/d32%k/"
+        },
+        {
+          "word": "might",
+          "pos": "v.",
+          "cn": "aux. 可能；也许",
+          "page": 80,
+          "phonetic": "/ma!t/"
+        },
+        {
+          "word": "temperature",
+          "pos": "n.",
+          "cn": "温度",
+          "page": 80,
+          "phonetic": "/'tempr!;t12/"
+        },
+        {
+          "word": "minus",
+          "pos": "adj.",
+          "cn": "负的；零下的",
+          "page": 80,
+          "phonetic": "/'ma!n2s/"
+        },
+        {
+          "word": "degree",
+          "pos": "n.",
+          "cn": "度；度数",
+          "page": 80,
+          "phonetic": "/d!'griː/"
+        },
+        {
+          "word": "although",
+          "pos": "conj.",
+          "cn": "然而；尽管",
+          "page": 80,
+          "phonetic": "/0ːl'62%/"
+        },
+        {
+          "word": "wet",
+          "pos": "adj.",
+          "cn": "下雨的；湿的",
+          "page": 80,
+          "phonetic": "/wet/"
+        },
+        {
+          "word": "neither",
+          "pos": "adv.",
+          "cn": "(某人或 某事物) 也不",
+          "page": 80,
+          "phonetic": "/'na!62; 'niː62 /"
+        },
+        {
+          "word": "terrible",
+          "pos": "adj.",
+          "cn": "使人烦恼的； 可怕的",
+          "page": 80,
+          "phonetic": "/'ter2bl/"
+        },
+        {
+          "word": "wish",
+          "pos": "v.",
+          "cn": "但愿；希望",
+          "page": 80,
+          "phonetic": "/w!1/"
+        },
+        {
+          "word": "probably",
+          "pos": "adv.",
+          "cn": "或许；可能",
+          "page": 80,
+          "phonetic": "/'pr=b2bli/"
+        },
+        {
+          "word": "mile",
+          "pos": "n.",
+          "cn": "英里",
+          "page": 82,
+          "phonetic": "/ma!l/"
+        },
+        {
+          "word": "round",
+          "pos": "adv.",
+          "cn": "围绕地",
+          "page": 82,
+          "phonetic": "/ra%nd/"
+        },
+        {
+          "word": "northwest",
+          "pos": "n.",
+          "cn": "西北 adj. 西北的； 朝西北的",
+          "page": 82,
+          "phonetic": "/;n0ː8'west/"
+        },
+        {
+          "word": "southeast",
+          "pos": "n.",
+          "cn": "东南 adj. 东南的； 朝东南的",
+          "page": 82,
+          "phonetic": "/;sa%8'iːst/"
+        }
+      ],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 87
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 88
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 89
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 91
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 94
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 87,
+          "page_end": 88,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 87
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 88
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 89,
+          "page_end": 90,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 89
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 91,
+          "page_end": 94,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 91
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 94
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-11",
+      "type": "module",
+      "number": 11,
+      "title": "Way of life",
+      "page_start": 95,
+      "page_end": 102,
+      "topic": "Talking about customs at school/at the dining table",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "情态动词 must, can, need 等",
+          "name_en": "Modal verbs: must, can, need",
+          "details": "1. must must表示“必须，一定要”，可用于肯定句、否定句和疑问句。否定形式must not (mustn’t) 表示“不能”或“禁止”的意思。例如："
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "cap",
+          "pos": "n.",
+          "cn": "（ 有檐的）帽子",
+          "page": 88,
+          "phonetic": "/kæp/"
+        },
+        {
+          "word": "chess",
+          "pos": "n.",
+          "cn": "国际象棋",
+          "page": 88,
+          "phonetic": "/t1es/"
+        },
+        {
+          "word": "set",
+          "pos": "n.",
+          "cn": "（ 同类事物的）（一）套， （ 一）副，（一）组",
+          "page": 88,
+          "phonetic": "/set/"
+        },
+        {
+          "word": "chopstick",
+          "pos": "n.",
+          "cn": "筷子",
+          "page": 88,
+          "phonetic": "/'t1=p;st!k/"
+        },
+        {
+          "word": "toy",
+          "pos": "n.",
+          "cn": "玩具",
+          "page": 88,
+          "phonetic": "/t0!/"
+        },
+        {
+          "word": "video",
+          "pos": "adj.",
+          "cn": "（ 电子）视频的",
+          "page": 88,
+          "phonetic": "/'v!di2%/"
+        },
+        {
+          "word": "gift",
+          "pos": "n.",
+          "cn": "礼物",
+          "page": 88,
+          "phonetic": "/g!ft/"
+        },
+        {
+          "word": "surprise",
+          "pos": "n.",
+          "cn": "惊奇；意外之事 v. 使（某人）吃惊",
+          "page": 88,
+          "phonetic": "/s2'pra!z/"
+        },
+        {
+          "word": "immediately",
+          "pos": "adv.",
+          "cn": "立刻；当即",
+          "page": 88,
+          "phonetic": "/!'miːdi2tli/"
+        },
+        {
+          "word": "difference",
+          "pos": "n.",
+          "cn": "差别；差异",
+          "page": 88,
+          "phonetic": "/'d!fr2ns/"
+        },
+        {
+          "word": "accept",
+          "pos": "v.",
+          "cn": "收受；接受",
+          "page": 88,
+          "phonetic": "/2k'sept/"
+        },
+        {
+          "word": "tradition",
+          "pos": "n.",
+          "cn": "传统习俗",
+          "page": 88,
+          "phonetic": "/tr2'd!1n/"
+        },
+        {
+          "word": "example",
+          "pos": "n.",
+          "cn": "例子；实例",
+          "page": 88,
+          "phonetic": "/!g'z4ːmpl/"
+        },
+        {
+          "word": "must",
+          "pos": "v.",
+          "cn": "aux. 必须；应该",
+          "page": 88,
+          "phonetic": "/m7st; m2st/"
+        },
+        {
+          "word": "month",
+          "pos": "n.",
+          "cn": "月；月份",
+          "page": 88,
+          "phonetic": "/m7n8/"
+        },
+        {
+          "word": "serious",
+          "pos": "adj.",
+          "cn": "认真严肃的； 不开玩笑的",
+          "page": 88,
+          "phonetic": "/'s!2ri2s/"
+        },
+        {
+          "word": "taste",
+          "pos": "v.",
+          "cn": "有……的味道 n. 味道；滋味",
+          "page": 88,
+          "phonetic": "/te!st/"
+        },
+        {
+          "word": "experience",
+          "pos": "n.",
+          "cn": "经历；经验",
+          "page": 90,
+          "phonetic": "/!k'sp!2ri2ns/"
+        },
+        {
+          "word": "stay",
+          "pos": "n.",
+          "cn": "逗留；停留",
+          "page": 90,
+          "phonetic": "/ste!/"
+        },
+        {
+          "word": "someone",
+          "pos": "pron.",
+          "cn": "某人；有人",
+          "page": 90,
+          "phonetic": "/'s7mw7n/"
+        },
+        {
+          "word": "sandwich",
+          "pos": "n.",
+          "cn": "三明治； 夹心面包片",
+          "page": 90,
+          "phonetic": "/'sændw!d3/"
+        },
+        {
+          "word": "chip",
+          "pos": "n.",
+          "cn": "炸土豆条；炸薯条",
+          "page": 90,
+          "phonetic": "/t1!p/"
+        },
+        {
+          "word": "onto",
+          "pos": "prep.",
+          "cn": "到……之上； 向……之上",
+          "page": 90,
+          "phonetic": "/'=nt2/"
+        },
+        {
+          "word": "gentleman",
+          "pos": "n.",
+          "cn": "先生；男士",
+          "page": 90,
+          "phonetic": "/'d3entlm2n/"
+        },
+        {
+          "word": "shoulder",
+          "pos": "n.",
+          "cn": "肩；肩膀",
+          "page": 90,
+          "phonetic": "/'12%ld2/"
+        }
+      ],
+      "key_phrases": [
+        {
+          "phrase": "a chess set",
+          "cn": "一副国际象棋",
+          "page": 88,
+          "phonetic": ""
+        },
+        {
+          "phrase": "video game",
+          "cn": "电子游戏",
+          "page": 88,
+          "phonetic": ""
+        },
+        {
+          "phrase": "for example",
+          "cn": "例如",
+          "page": 88,
+          "phonetic": ""
+        },
+        {
+          "phrase": "fish and chips",
+          "cn": "炸鱼加炸薯条",
+          "page": 90,
+          "phonetic": ""
+        }
+      ],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 95
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 96
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 97
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 99
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 102
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 95,
+          "page_end": 96,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 95
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 96
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 97,
+          "page_end": 98,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 97
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 99,
+          "page_end": 102,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 99
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 102
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "module-12",
+      "type": "module",
+      "number": 12,
+      "title": "Help",
+      "page_start": 103,
+      "page_end": 110,
+      "topic": "Talking about safety and first aid",
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [
+        {
+          "name": "祈使句和情态动词 must, can, could 表示推测",
+          "name_en": "Imperatives and modal verbs for speculation",
+          "details": "祈使句 祈使句表达说话人对对方的叮嘱、劝告、希望、禁止、建议、请求或命令等。祈使句一 般以动词原形开头，无时态和数的变化。常见的句型如下："
+        }
+      ],
+      "key_vocabulary": [
+        {
+          "word": "broken",
+          "pos": "adj.",
+          "cn": "破碎的",
+          "page": 96,
+          "phonetic": "/'br2%k2n/"
+        },
+        {
+          "word": "glass",
+          "pos": "n.",
+          "cn": "玻璃",
+          "page": 96,
+          "phonetic": "/gl4ːs/"
+        },
+        {
+          "word": "stairs",
+          "pos": "n.",
+          "cn": "(pl.) 楼梯",
+          "page": 96,
+          "phonetic": "/ste2z/"
+        },
+        {
+          "word": "aid",
+          "pos": "n.",
+          "cn": "救助；帮助",
+          "page": 96,
+          "phonetic": "/e!d/"
+        },
+        {
+          "word": "medical",
+          "pos": "adj.",
+          "cn": "医学的；医疗的",
+          "page": 96,
+          "phonetic": "/'med!kl/"
+        },
+        {
+          "word": "imagine",
+          "pos": "v.",
+          "cn": "想象，设想",
+          "page": 96,
+          "phonetic": "/!'mæd3!n/"
+        },
+        {
+          "word": "bottom",
+          "pos": "n.",
+          "cn": "底部；下端",
+          "page": 96,
+          "phonetic": "/'b=t2m/"
+        },
+        {
+          "word": "wrong",
+          "pos": "adj.",
+          "cn": "有毛病的；错误的 adv. 不正确地；错误地",
+          "page": 96,
+          "phonetic": "/r=9/"
+        },
+        {
+          "word": "trouble",
+          "pos": "n.",
+          "cn": "问题；烦恼；困难",
+          "page": 96,
+          "phonetic": "/'tr7bl/"
+        },
+        {
+          "word": "lift",
+          "pos": "v.",
+          "cn": "举起；抬起；提起 n. 电梯",
+          "page": 96,
+          "phonetic": "/l!ft/"
+        },
+        {
+          "word": "harmful",
+          "pos": "adj.",
+          "cn": "有害的",
+          "page": 96,
+          "phonetic": "/'h4ːmfl/"
+        },
+        {
+          "word": "drop",
+          "pos": "v.",
+          "cn": "使落下；投下",
+          "page": 96,
+          "phonetic": "/dr=p/"
+        },
+        {
+          "word": "training",
+          "pos": "n.",
+          "cn": "训练；培训",
+          "page": 96,
+          "phonetic": "/'tre!n!9/"
+        },
+        {
+          "word": "cover",
+          "pos": "v.",
+          "cn": "盖；盖上",
+          "page": 96,
+          "phonetic": "/'k7v2/"
+        },
+        {
+          "word": "earthquake",
+          "pos": "n.",
+          "cn": "地震",
+          "page": 98,
+          "phonetic": "/'^ː8;kwe!k/"
+        },
+        {
+          "word": "warn",
+          "pos": "v.",
+          "cn": "警告；告诫",
+          "page": 98,
+          "phonetic": "/w0ːn/"
+        },
+        {
+          "word": "inside",
+          "pos": "n.",
+          "cn": "内部；里面 adv. 在里面；向室内 prep. 在……里面 adj. 里面的；内部的",
+          "page": 98,
+          "phonetic": "/'!n;sa!d/"
+        },
+        {
+          "word": "under",
+          "pos": "prep.",
+          "cn": "在……正下方； 在……下面",
+          "page": 98,
+          "phonetic": "/'7nd2/"
+        },
+        {
+          "word": "window",
+          "pos": "n.",
+          "cn": "窗；窗户",
+          "page": 98,
+          "phonetic": "/'w!nd2%/"
+        },
+        {
+          "word": "keep",
+          "pos": "v.",
+          "cn": "(kept /kept/) 保持；留在",
+          "page": 98,
+          "phonetic": "/kiːp/"
+        },
+        {
+          "word": "clear",
+          "pos": "adj.",
+          "cn": "不和……接触的； 不挨……太近的 v. 清除；清理；移走",
+          "page": 98,
+          "phonetic": "/kl!2/"
+        },
+        {
+          "word": "calm",
+          "pos": "adj.",
+          "cn": "镇静的；沉着的",
+          "page": 98,
+          "phonetic": "/k4ːm/"
+        },
+        {
+          "word": "brave",
+          "pos": "adj.",
+          "cn": "勇敢的；无畏的",
+          "page": 98,
+          "phonetic": "/bre!v/"
+        },
+        {
+          "word": "helpful",
+          "pos": "adj.",
+          "cn": "有用的；提供帮 助的",
+          "page": 98,
+          "phonetic": "/'helpfl/"
+        },
+        {
+          "word": "power",
+          "pos": "n.",
+          "cn": "电；电力",
+          "page": 98,
+          "phonetic": "/'pau2/"
+        }
+      ],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "listening_vocabulary",
+          "title": "Unit 1 Listening and vocabulary",
+          "page": 103
+        },
+        {
+          "type": "pronunciation_speaking",
+          "title": "Pronunciation and speaking",
+          "page": 104
+        },
+        {
+          "type": "reading_vocabulary",
+          "title": "Unit 2 Reading and vocabulary",
+          "page": 105
+        },
+        {
+          "type": "language_in_use",
+          "title": "Unit 3 Language in use",
+          "page": 107
+        },
+        {
+          "type": "module_task",
+          "title": "Module task",
+          "page": 110
+        }
+      ],
+      "sub_units": [
+        {
+          "number": 1,
+          "title": "Unit 1",
+          "page_start": 103,
+          "page_end": 104,
+          "sections": [
+            {
+              "type": "listening_vocabulary",
+              "title": "Unit 1 Listening and vocabulary",
+              "page": 103
+            },
+            {
+              "type": "pronunciation_speaking",
+              "title": "Pronunciation and speaking",
+              "page": 104
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unit 2",
+          "page_start": 105,
+          "page_end": 106,
+          "sections": [
+            {
+              "type": "reading_vocabulary",
+              "title": "Unit 2 Reading and vocabulary",
+              "page": 105
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Unit 3",
+          "page_start": 107,
+          "page_end": 110,
+          "sections": [
+            {
+              "type": "language_in_use",
+              "title": "Unit 3 Language in use",
+              "page": 107
+            },
+            {
+              "type": "module_task",
+              "title": "Module task",
+              "page": 110
+            }
+          ]
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": []
+    },
+    {
+      "id": "revision-b",
+      "type": "revision",
+      "number": "B",
+      "title": "Revision module B",
+      "page_start": 111,
+      "page_end": 117,
+      "topic": null,
+      "topic_en": null,
+      "cefr_level": null,
+      "grammar": [],
+      "key_vocabulary": [],
+      "key_phrases": [],
+      "sentence_patterns": [],
+      "sections": [
+        {
+          "type": "revision",
+          "title": "Grammar and speaking",
+          "page": 111
+        }
+      ],
+      "language_notes": [],
+      "parallel_articles": [],
+      "sub_units": []
+    }
+  ],
+  "appendix": {
+    "communication_bank": {
+      "page_start": null,
+      "page_end": null,
+      "description": "交际用语汇总"
+    },
+    "language_notes": {
+      "page_start": 118,
+      "page_end": 128,
+      "description": "各单元语言注释"
+    },
+    "grammar_guide": {
+      "page_start": 129,
+      "page_end": 143,
+      "title": "Guide to the language use",
+      "topics": [
+        "一般现在时、一般过去时、一般将来时、现在进行时",
+        "形容词比较级（1）",
+        "形容词比较级（2）、副词的基本用法和副词比较级",
+        "形容词、副词的最高级",
+        "动词不定式（1）和双宾语",
+        "动词不定式（2）",
+        "过去进行时（1）",
+        "过去进行时（2）",
+        "冠词和数字",
+        "情态动词 may/might 表示可能",
+        "情态动词 must, can, need 等",
+        "祈使句和情态动词 must, can, could 表示推测"
+      ]
+    },
+    "words_by_unit": {
+      "page_start": 144,
+      "page_end": 149,
+      "description": "按单元排列的单词表"
+    },
+    "vocabulary_az": {
+      "page_start": 152,
+      "page_end": 156,
+      "description": "A-Z 字母序总词汇表"
+    },
+    "proper_nouns": {
+      "page_start": 150,
+      "page_end": 151,
+      "description": "专有名词"
+    },
+    "pronunciation_guide": {
+      "page_start": null,
+      "page_end": null,
+      "description": "发音指南"
+    }
+  }
+}
