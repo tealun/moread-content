@@ -210,7 +210,14 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     # forms: [{type, form}] → ["type:form"]
     forms = [f"{f.get('type', '?')}:{f['form']}" for f in forms_raw if isinstance(f, dict)]
 
-    return {
+    # AI-enriched fields (v3 schema)
+    synonyms = json.loads(row["synonyms"]) if row["synonyms"] and row["synonyms"] != "[]" else []
+    antonyms = json.loads(row["antonyms"]) if row["antonyms"] and row["antonyms"] != "[]" else []
+    collocations = json.loads(row["collocations"]) if row["collocations"] and row["collocations"] != "[]" else []
+    associations = json.loads(row["associations"]) if row["associations"] and row["associations"] != "[]" else []
+    etymology = json.loads(row["etymology"]) if row["etymology"] and row["etymology"] != "{}" else {}
+
+    result = {
         "phonetic": row["phonetic"] or "",
         "pos": pos_raw,
         "definitions": definitions,
@@ -220,6 +227,20 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
         "forms": forms,
         "source": row["source"] or "overlay",
     }
+
+    # Only include enriched fields if they have data
+    if synonyms:
+        result["synonyms"] = synonyms
+    if antonyms:
+        result["antonyms"] = antonyms
+    if collocations:
+        result["collocations"] = collocations
+    if associations:
+        result["associations"] = associations
+    if etymology:
+        result["etymology"] = etymology
+
+    return result
 
 
 def _lookup_overlay(word: str) -> dict | None:
