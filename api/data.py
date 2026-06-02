@@ -1,25 +1,41 @@
-"""数据加载层 — 索引、词库、词典的 SQLite 查询层"""
+"""数据加载层 — 索引、词库、词典的 SQLite 查询层
+
+查询优先级：overlay.db（主力）→ ecdict.db（兜底）
+"""
 
 import sqlite3
 import re
+import json
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 VOCAB_DIR = BASE_DIR / "vocabulary"
 DICT_DB = BASE_DIR / "dictionary" / "ecdict.db"
+OVERLAY_DB = BASE_DIR / "dictionary" / "overlay.db"
 
 _index_cache = None
 _pack_cache: dict = {}
 _db_conn = None
+_overlay_conn = None
 
 
 def _get_db() -> sqlite3.Connection:
-    """获取 SQLite 数据库连接（单例）"""
+    """获取 ECDICT SQLite 数据库连接（单例）"""
     global _db_conn
     if _db_conn is None:
         _db_conn = sqlite3.connect(str(DICT_DB), check_same_thread=False)
         _db_conn.row_factory = sqlite3.Row
     return _db_conn
+
+
+def _get_overlay() -> sqlite3.Connection | None:
+    """获取 overlay 数据库连接（单例），文件不存在返回 None"""
+    global _overlay_conn
+    if _overlay_conn is None:
+        if OVERLAY_DB.exists():
+            _overlay_conn = sqlite3.connect(str(OVERLAY_DB), check_same_thread=False)
+            _overlay_conn.row_factory = sqlite3.Row
+    return _overlay_conn
 
 
 def _load_json(path: Path):
@@ -184,6 +200,86 @@ def _parse_exchange(exchange_text: str | None) -> list[str]:
     return forms
 
 
+def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
+    """将 overlay.db 的行转换为 API 兼容的 entry 字典"""
+    definitions = json.loads(row["definitions"]) if row["definitions"] else []
+    examples = json.loads(row["examples"]) if row["examples"] else []
+    forms_raw = json.loads(row["forms"]) if row["forms"] else []
+    pos_raw = json.loads(row["pos"]) if row["pos"] else []
+
+    # forms: [{type, form}] → ["type:form"]
+    forms = [f"{f.get('type', '?')}:{f['form']}" for f in forms_raw if isinstance(f, dict)]
+
+    # AI-enriched fields (v3 schema)
+    synonyms = json.loads(row["synonyms"]) if row["synonyms"] and row["synonyms"] != "[]" else []
+    antonyms = json.loads(row["antonyms"]) if row["antonyms"] and row["antonyms"] != "[]" else []
+    collocations = json.loads(row["collocations"]) if row["collocations"] and row["collocations"] != "[]" else []
+    associations = json.loads(row["associations"]) if row["associations"] and row["associations"] != "[]" else []
+    etymology = json.loads(row["etymology"]) if row["etymology"] and row["etymology"] != "{}" else {}
+
+    result = {
+        "phonetic": row["phonetic"] or "",
+        "pos": pos_raw,
+        "definitions": definitions,
+        "examples": examples,
+        "frequency": row["frequency"] or 0,
+        "cefr": row["cefr"] or "",
+        "forms": forms,
+        "source": row["source"] or "overlay",
+    }
+
+    # Only include enriched fields if they have data
+    if synonyms:
+        result["synonyms"] = synonyms
+    if antonyms:
+        result["antonyms"] = antonyms
+    if collocations:
+        result["collocations"] = collocations
+    if associations:
+        result["associations"] = associations
+    if etymology:
+        result["etymology"] = etymology
+
+    return result
+
+
+def _lookup_overlay(word: str) -> dict | None:
+    """从 overlay.db 查词，返回 entry 或 None"""
+    odb = _get_overlay()
+    if odb is None:
+        return None
+    cursor = odb.execute(
+        'SELECT * FROM overlay WHERE word = ? AND audit_pass = 2 COLLATE NOCASE',
+        (word,)
+    )
+    row = cursor.fetchone()
+    if not row:
+        return None
+    return _overlay_row_to_entry(row)
+
+
+def _lookup_overlay_batch(words: list[str]) -> dict:
+    """从 overlay.db 批量查词"""
+    odb = _get_overlay()
+    if odb is None:
+        return {}
+    lower_map = {w.lower(): w for w in words}
+    results = {}
+    BATCH_SIZE = 500
+    for i in range(0, len(words), BATCH_SIZE):
+        batch = words[i:i + BATCH_SIZE]
+        placeholders = ','.join('?' * len(batch))
+        cursor = odb.execute(
+            f'SELECT * FROM overlay WHERE word IN ({placeholders}) AND audit_pass = 2 COLLATE NOCASE',
+            tuple(batch)
+        )
+        for row in cursor.fetchall():
+            entry = _overlay_row_to_entry(row)
+            original_key = lower_map.get(row["word"].lower(), row["word"])
+            results[original_key] = entry
+    return results
+
+
 def _row_to_entry(row: sqlite3.Row) -> dict:
     """将 ECDICT 的 SQLite 行转换为当前 API 兼容的 entry 字典"""
     definitions = _build_definitions(row["definition"], row["translation"])
@@ -213,8 +309,14 @@ def _row_to_entry(row: sqlite3.Row) -> dict:
 
 
 def lookup_word(word: str) -> dict | None:
+    """查词：overlay 优先 → ECDICT 兜底"""
     if not word:
         return None
+    # 优先查 overlay
+    entry = _lookup_overlay(word)
+    if entry:
+        return entry
+    # fallback ECDICT
     db = _get_db()
     cursor = db.execute(
         'SELECT * FROM stardict WHERE word = ? COLLATE NOCASE',
@@ -227,16 +329,23 @@ def lookup_word(word: str) -> dict | None:
 
 
 def lookup_words_batch(words: list[str]) -> dict:
+    """批量查词：overlay 优先 → ECDICT 兜底"""
     if not words:
         return {}
+    # 先从 overlay 批量查
+    overlay_results = _lookup_overlay_batch(words)
+    # 找出 overlay 没覆盖的词
+    overlay_words = {k.lower() for k in overlay_results}
+    missing = [w for w in words if w.lower() not in overlay_words]
+    if not missing:
+        return overlay_results
+    # fallback ECDICT
     db = _get_db()
-    # SQLite 参数上限通常为 999，分批查询
     BATCH_SIZE = 500
-    # 建立小写映射以便快速查找
-    lower_map = {w.lower(): w for w in words}
-    results = {}
-    for i in range(0, len(words), BATCH_SIZE):
-        batch = words[i:i + BATCH_SIZE]
+    lower_map = {w.lower(): w for w in missing}
+    ecdict_results = {}
+    for i in range(0, len(missing), BATCH_SIZE):
+        batch = missing[i:i + BATCH_SIZE]
         placeholders = ','.join('?' * len(batch))
         cursor = db.execute(
             f'SELECT * FROM stardict WHERE word IN ({placeholders}) COLLATE NOCASE',
@@ -244,10 +353,11 @@ def lookup_words_batch(words: list[str]) -> dict:
         )
         for row in cursor.fetchall():
             entry = _row_to_entry(row)
-            # 保持原始输入词的大小写作为 key
             original_key = lower_map.get(row["word"].lower(), row["word"])
-            results[original_key] = entry
-    return results
+            ecdict_results[original_key] = entry
+    # 合并：overlay 覆盖 ECDICT
+    ecdict_results.update(overlay_results)
+    return ecdict_results
 
 
 def search_prefix(q: str, limit: int) -> list[str]:

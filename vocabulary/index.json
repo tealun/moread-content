@@ -5,6 +5,8 @@
     "category": "cefr",
     "difficulty": "A1",
     "word_count": 600,
+    "description": "CEFR A1 入门级词汇，覆盖最基本的日常交流用词",
+    "target": "零基础/A1入门，适合刚开始学英语的学习者",
     "file": "cefr/a1.json"
   },
   {
@@ -13,6 +15,8 @@
     "category": "cefr",
     "difficulty": "A2",
     "word_count": 600,
+    "description": "CEFR A2 初级词汇，能理解和使用日常熟悉表达",
+    "target": "A2初级，适合有基础的学习者",
     "file": "cefr/a2.json"
   },
   {
@@ -21,6 +25,8 @@
     "category": "cefr",
     "difficulty": "B1",
     "word_count": 1298,
+    "description": "CEFR B1 中级词汇，能处理旅行、工作、学习中多数场景",
+    "target": "B1中级，适合能日常交流想进一步提升的学习者",
     "file": "cefr/b1.json"
   },
   {
@@ -29,6 +35,8 @@
     "category": "cefr",
     "difficulty": "B2",
     "word_count": 2500,
+    "description": "CEFR B2 中高级词汇，能与母语者流利交流",
+    "target": "B2中高级，适合能自由表达但想精进的学习者",
     "file": "cefr/b2.json"
   },
   {
@@ -37,6 +45,8 @@
     "category": "cefr",
     "difficulty": "C1",
     "word_count": 1026,
+    "description": "CEFR C1 高级词汇，能在学术和专业场景灵活使用语言",
+    "target": "C1高级，适合接近母语水平的学习者",
     "file": "cefr/c1.json"
   },
   {
@@ -45,6 +55,8 @@
     "category": "cefr",
     "difficulty": "C2",
     "word_count": 999,
+    "description": "CEFR C2 精通级词汇，能理解几乎所有读到和听到的内容",
+    "target": "C2精通级，适合追求母语水平的语言爱好者",
     "file": "cefr/c2.json"
   },
   {
@@ -53,6 +65,8 @@
     "category": "exam",
     "difficulty": "B1-B2",
     "word_count": 5183,
+    "description": "大学英语四级考试大纲词汇，含核心词和派生词",
+    "target": "备考四级的大学生",
     "file": "exam/cet4.json"
   },
   {
@@ -61,6 +75,8 @@
     "category": "exam",
     "difficulty": "B2-C1",
     "word_count": 5974,
+    "description": "大学英语六级考试大纲词汇，在四级基础上扩展",
+    "target": "备考六级的大学生",
     "file": "exam/cet6.json"
   },
   {
@@ -69,6 +85,8 @@
     "category": "exam",
     "difficulty": "A2-B2",
     "word_count": 3837,
+    "description": "全国高考英语考试大纲词汇，覆盖高中阶段核心词汇",
+    "target": "备考高考的高中生",
     "file": "exam/gaokao.json"
   },
   {
@@ -77,6 +95,8 @@
     "category": "exam",
     "difficulty": "C1-C2",
     "word_count": 9468,
+    "description": "GRE 研究生入学考试核心词汇，含学术和高级表达",
+    "target": "备考GRE的留学生",
     "file": "exam/gre.json"
   },
   {
@@ -85,6 +105,8 @@
     "category": "exam",
     "difficulty": "B1-C1",
     "word_count": 3576,
+    "description": "雅思考试核心词汇，覆盖听说读写四大场景",
+    "target": "备考雅思的留学/移民人群",
     "file": "exam/ielts.json"
   },
   {
@@ -93,6 +115,8 @@
     "category": "exam",
     "difficulty": "B2-C1",
     "word_count": 5648,
+    "description": "全国硕士研究生入学考试英语大纲词汇",
+    "target": "备考考研英语的本科生",
     "file": "exam/kaoyan.json"
   },
   {
@@ -101,6 +125,8 @@
     "category": "exam",
     "difficulty": "B2-C2",
     "word_count": 10365,
+    "description": "托福考试核心词汇，含学术场景高频词",
+    "target": "备考托福的留学生",
     "file": "exam/toefl.json"
   },
   {
@@ -109,6 +135,8 @@
     "category": "exam",
     "difficulty": "A1-A2",
     "word_count": 1600,
+    "description": "中考英语考试大纲词汇，覆盖初中阶段核心词汇",
+    "target": "备考中考的初中生",
     "file": "exam/zhongkao.json"
   },
   {
@@ -117,15 +145,9 @@
     "category": "frequency",
     "difficulty": "",
     "word_count": 1000,
+    "description": "英语语料库中出现频率最高的 1000 个单词，覆盖日常文本约 85% 内容",
+    "target": "所有英语学习者，掌握最核心高频词",
     "file": "frequency/top-1000.json"
-  },
-  {
-    "id": "freq-10000",
-    "name": "高频词 Top 10000",
-    "category": "frequency",
-    "difficulty": "",
-    "word_count": 9868,
-    "file": "frequency/top-10000.json"
   },
   {
     "id": "freq-2000",
@@ -133,6 +155,8 @@
     "category": "frequency",
     "difficulty": "",
     "word_count": 2000,
+    "description": "英语语料库中出现频率最高的 2000 个单词，覆盖日常文本约 90% 内容",
+    "target": "初级学习者，在 1000 词基础上进一步扩展",
     "file": "frequency/top-2000.json"
   },
   {
@@ -141,6 +165,8 @@
     "category": "frequency",
     "difficulty": "",
     "word_count": 3000,
+    "description": "英语语料库中出现频率最高的 3000 个单词，覆盖日常文本约 93% 内容",
+    "target": "中级学习者，具备基本阅读能力",
     "file": "frequency/top-3000.json"
   },
   {
@@ -149,6 +175,68 @@
     "category": "frequency",
     "difficulty": "",
     "word_count": 5000,
+    "description": "英语语料库中出现频率最高的 5000 个单词，覆盖日常文本约 95% 内容",
+    "target": "中高级学习者，能流畅阅读英文材料",
     "file": "frequency/top-5000.json"
+  },
+  {
+    "id": "freq-10000",
+    "name": "高频词 Top 10000",
+    "category": "frequency",
+    "difficulty": "",
+    "word_count": 9868,
+    "description": "英语语料库中出现频率最高的 10000 个单词，几乎覆盖所有日常文本",
+    "target": "高级学习者，追求全面词汇覆盖",
+    "file": "frequency/top-10000.json"
+  },
+  {
+    "id": "basic-ogden-850",
+    "name": "基础英语 850 词 (Ogden)",
+    "category": "basic",
+    "difficulty": "A1",
+    "word_count": 849,
+    "description": "Ogden 基础英语核心 850 词 (1930)，分5大类：操作词、一般词、事物词、描述词、反义词。为国际辅助语言设计的最小词汇集",
+    "target": "零基础/A1入门，适合完全初学者建立核心词汇基础",
+    "file": "basic/ogden-850.json"
+  },
+  {
+    "id": "basic-ogden-1000",
+    "name": "基础英语 1000 词",
+    "category": "basic",
+    "difficulty": "A1",
+    "word_count": 994,
+    "description": "基础英语扩展词表，在 Ogden 850 词基础上扩展至约 1000 个常用词",
+    "target": "A1入门，适合初学者在850词基础上扩展",
+    "file": "basic/ogden-1000.json"
+  },
+  {
+    "id": "basic-voa-1500",
+    "name": "VOA 慢速英语 1500 词",
+    "category": "basic",
+    "difficulty": "A1-A2",
+    "word_count": 1496,
+    "description": "美国之音 VOA 慢速英语词表，约 1500 词，含科学术语和器官名称。专为简化英语新闻广播设计",
+    "target": "A1-A2初级，适合听力训练和新闻英语入门",
+    "file": "basic/voa-1500.json"
+  },
+  {
+    "id": "basic-intl-193",
+    "name": "国际通用词 193",
+    "category": "basic",
+    "difficulty": "A1",
+    "word_count": 177,
+    "description": "基础英语国际通用词表，约 193 词，涵盖西方语言共享词汇、外交、科学和国际标准用词",
+    "target": "A1入门，适合有欧洲语言背景的学习者",
+    "file": "basic/international-193.json"
+  },
+  {
+    "id": "basic-combined-2000",
+    "name": "基础英语综合 2000 词",
+    "category": "basic",
+    "difficulty": "A2",
+    "word_count": 1982,
+    "description": "基础英语综合词表，合并 Ogden 850 + 国际词 + 补充词 + 复合词 + 派生词，约 2000 词。从基础英语向标准英语过渡的完整词汇集",
+    "target": "A2初级，适合从基础向标准英语过渡的学习者",
+    "file": "basic/combined-2000.json"
   }
 ]

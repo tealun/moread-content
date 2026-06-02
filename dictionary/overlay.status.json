@@ -1,0 +1,17 @@
+{
+  "status": "stopping",
+  "pid": 850983,
+  "batch_current": 1,
+  "batch_total": 491,
+  "words_done": 0,
+  "words_fail": 0,
+  "ai_calls": 3,
+  "ai_tokens": 9926,
+  "last_word": "aboard",
+  "last_batch_ok": 0,
+  "last_batch_fail": 0,
+  "last_commit": "",
+  "last_update": "2026-06-01T01:58:54.408747",
+  "error": null,
+  "started_at": "2026-06-01T01:54:10.704131"
+}
