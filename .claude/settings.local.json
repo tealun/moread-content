@@ -8,9 +8,7 @@
       "Bash(git push *)",
       "Bash(git commit *)",
       "Bash(npx tsc *)",
-      "Bash(npm run *)",
-      "Bash(node -e \"const s = require\\('/g/Github/Moread/backend/node_modules/@supabase/storage-js/dist/main/packages/StorageFileApi'\\); console.log\\(Object.getOwnPropertyNames\\(s.StorageFileApi.prototype\\).filter\\(m => m.includes\\('remove'\\) || m.includes\\('delete'\\)\\)\\)\")",
-      "Bash(node -e ' *)"
+      "Bash(npm run *)"
     ]
   }
 }
