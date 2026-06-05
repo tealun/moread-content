@@ -200,30 +200,33 @@ def _parse_exchange(exchange_text: str | None) -> list[str]:
     return forms
 
 
+def _jl(raw: str | None, empty_sentinel: str, default):
+    """安全的 json.loads：raw 为空或等于哨兵值时返回 default，解析失败也返回 default。"""
+    if not raw or raw == empty_sentinel:
+        return default
+    try:
+        return json.loads(raw)
+    except (json.JSONDecodeError, ValueError):
+        return default
+
+
 def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     """将 overlay.db 的行转换为 API 兼容的 entry 字典"""
-    definitions = json.loads(row["definitions"]) if row["definitions"] else []
-    examples = json.loads(row["examples"]) if row["examples"] else []
-    forms_raw = json.loads(row["forms"]) if row["forms"] else []
-    pos_raw = json.loads(row["pos"]) if row["pos"] else []
+    definitions  = _jl(row["definitions"],  "[]", [])
+    examples     = _jl(row["examples"],     "[]", [])
+    forms_raw    = _jl(row["forms"],        "[]", [])
+    pos_raw      = _jl(row["pos"],          "[]", [])
 
     # forms: [{type, form}] → ["type:form"]
     forms = [f"{f.get('type', '?')}:{f['form']}" for f in forms_raw if isinstance(f, dict)]
 
     # AI-enriched fields (v3 schema)
-    synonyms = json.loads(row["synonyms"]) if row["synonyms"] and row["synonyms"] != "[]" else []
-    antonyms = json.loads(row["antonyms"]) if row["antonyms"] and row["antonyms"] != "[]" else []
-    collocations = json.loads(row["collocations"]) if row["collocations"] and row["collocations"] != "[]" else []
-    associations = json.loads(row["associations"]) if row["associations"] and row["associations"] != "[]" else []
-    try:
-        _etym_raw = row["etymology"]
-        if _etym_raw and _etym_raw != "{}":
-            _etym_parsed = json.loads(_etym_raw)
-            etymology = _etym_parsed if isinstance(_etym_parsed, dict) else {}
-        else:
-            etymology = {}
-    except (json.JSONDecodeError, ValueError):
-        etymology = {}
+    synonyms     = _jl(row["synonyms"],     "[]", [])
+    antonyms     = _jl(row["antonyms"],     "[]", [])
+    collocations = _jl(row["collocations"], "[]", [])
+    associations = _jl(row["associations"], "[]", [])
+    etym_parsed  = _jl(row["etymology"],    "{}", {})
+    etymology    = etym_parsed if isinstance(etym_parsed, dict) else {}
 
     result = {
         "phonetic": row["phonetic"] or "",
@@ -265,7 +268,7 @@ def _lookup_overlay(word: str) -> dict | None:
     if odb is None:
         return None
     cursor = odb.execute(
-        'SELECT * FROM overlay WHERE word = ? AND audit_pass = 2 COLLATE NOCASE',
+        'SELECT * FROM overlay WHERE word = ? COLLATE NOCASE AND audit_pass = 2',
         (word,)
     )
     row = cursor.fetchone()
@@ -286,8 +289,8 @@ def _lookup_overlay_batch(words: list[str]) -> dict:
         batch = words[i:i + BATCH_SIZE]
         placeholders = ','.join('?' * len(batch))
         cursor = odb.execute(
-            f'SELECT * FROM overlay WHERE word IN ({placeholders}) AND audit_pass = 2 COLLATE NOCASE',
-            tuple(batch)
+            f'SELECT * FROM overlay WHERE word IN ({placeholders}) AND audit_pass = 2',
+            tuple(w.lower() for w in batch)
         )
         for row in cursor.fetchall():
             entry = _overlay_row_to_entry(row)
