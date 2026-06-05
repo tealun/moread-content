@@ -215,7 +215,15 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     antonyms = json.loads(row["antonyms"]) if row["antonyms"] and row["antonyms"] != "[]" else []
     collocations = json.loads(row["collocations"]) if row["collocations"] and row["collocations"] != "[]" else []
     associations = json.loads(row["associations"]) if row["associations"] and row["associations"] != "[]" else []
-    etymology = json.loads(row["etymology"]) if row["etymology"] and row["etymology"] != "{}" else {}
+    try:
+        _etym_raw = row["etymology"]
+        if _etym_raw and _etym_raw != "{}":
+            _etym_parsed = json.loads(_etym_raw)
+            etymology = _etym_parsed if isinstance(_etym_parsed, dict) else {}
+        else:
+            etymology = {}
+    except (json.JSONDecodeError, ValueError):
+        etymology = {}
 
     result = {
         "phonetic": row["phonetic"] or "",
@@ -239,6 +247,14 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
         result["associations"] = associations
     if etymology:
         result["etymology"] = etymology
+
+    # field_meta: per-field repair status ("filled" | "confirmed_empty" | "pending")
+    # allows consumers to distinguish legitimately-empty fields from unrepaired ones
+    keys = row.keys() if hasattr(row, "keys") else []
+    if "field_meta" in keys:
+        raw = row["field_meta"]
+        if raw and raw != "{}":
+            result["_field_coverage"] = json.loads(raw)
 
     return result
 

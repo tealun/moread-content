@@ -804,13 +804,24 @@ def main():
                         batch_fail += 1
                         continue
 
+                    # 构建 field_meta：每个字段经过两轮审计处理，空值为 confirmed_empty
+                    _EMPTY = {
+                        "phonetic": "", "pos": [], "definitions": [], "examples": [],
+                        "synonyms": [], "antonyms": [], "collocations": [], "associations": [],
+                        "etymology": {}, "cefr": "", "forms": [],
+                    }
+                    field_meta = {
+                        f: ("filled" if entry.get(f) and entry.get(f) != ev else "confirmed_empty")
+                        for f, ev in _EMPTY.items()
+                    }
+
                     # 写入 overlay.db
                     overlay_conn.execute("""
                         INSERT OR REPLACE INTO overlay
                         (word, phonetic, pos, definitions, examples,
                          synonyms, antonyms, collocations, associations, etymology,
-                         cefr, forms, frequency, source, updated_at, audit_pass)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 2)
+                         cefr, forms, frequency, source, updated_at, audit_pass, field_meta)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 2, ?)
                     """, (
                         entry["word"],
                         entry["phonetic"],
@@ -827,6 +838,7 @@ def main():
                         entry["frequency"],
                         entry["source"],
                         datetime.datetime.now().isoformat(),
+                        json.dumps(field_meta, ensure_ascii=False),
                     ))
                     overlay_conn.commit()
                     batch_ok += 1

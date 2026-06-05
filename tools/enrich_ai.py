@@ -200,10 +200,19 @@ def main():
     conn = sqlite3.connect(str(OVERLAY_DB))
     conn.row_factory = sqlite3.Row
 
-    # Find words needing AI enrichment (empty examples)
-    rows = conn.execute(
-        "SELECT word, pos, definitions FROM overlay WHERE examples = '[]' OR examples IS NULL OR examples = ''"
-    ).fetchall()
+    # Find words with any AI-enrichable field still pending in field_meta.
+    # Falls back to the legacy empty-value check when field_meta is absent or all-default,
+    # so existing records enriched before field_meta was introduced are still caught.
+    rows = conn.execute("""
+        SELECT word, pos, definitions, field_meta FROM overlay
+        WHERE json_extract(field_meta, '$.examples')     = 'pending'
+           OR json_extract(field_meta, '$.synonyms')     = 'pending'
+           OR json_extract(field_meta, '$.antonyms')     = 'pending'
+           OR json_extract(field_meta, '$.collocations') = 'pending'
+           OR json_extract(field_meta, '$.associations') = 'pending'
+           OR json_extract(field_meta, '$.etymology')    = 'pending'
+           OR field_meta = '{}'
+    """).fetchall()
 
     pending = []
     for r in rows:
@@ -211,6 +220,7 @@ def main():
             "word": r["word"],
             "pos": json.loads(r["pos"]) if r["pos"] else [],
             "definitions": json.loads(r["definitions"]) if r["definitions"] else [],
+            "field_meta": json.loads(r["field_meta"]) if r["field_meta"] and r["field_meta"] != "{}" else {},
         })
 
     if MAX_WORDS > 0:
@@ -261,11 +271,27 @@ def main():
                 antonyms = ai.get("antonyms", [])
                 collocations = ai.get("collocations", [])
                 associations = ai.get("associations", [])
-                etymology = ai.get("etymology", "")
+                etymology_raw = ai.get("etymology", "")
+                # Normalize to dict so it's valid JSON in the DB (consistent with build_overlay.py)
+                if isinstance(etymology_raw, dict):
+                    etymology = etymology_raw
+                elif etymology_raw and isinstance(etymology_raw, str):
+                    etymology = {"summary": etymology_raw}
+                else:
+                    etymology = {}
 
                 if not examples:
                     fail_count += 1
                     continue
+
+                # Update field_meta: mark each processed field as filled or confirmed_empty
+                meta = dict(w.get("field_meta") or {})
+                for field, val in [
+                    ("examples", examples), ("synonyms", synonyms),
+                    ("antonyms", antonyms), ("collocations", collocations),
+                    ("associations", associations), ("etymology", etymology),
+                ]:
+                    meta[field] = "filled" if val else "confirmed_empty"
 
                 try:
                     conn.execute("""
@@ -276,6 +302,7 @@ def main():
                             collocations = ?,
                             associations = ?,
                             etymology = ?,
+                            field_meta = ?,
                             source = 'ecdict+ai',
                             updated_at = ?
                         WHERE word = ?
@@ -285,7 +312,8 @@ def main():
                         json.dumps(antonyms, ensure_ascii=False),
                         json.dumps(collocations, ensure_ascii=False),
                         json.dumps(associations, ensure_ascii=False),
-                        etymology,
+                        json.dumps(etymology, ensure_ascii=False),
+                        json.dumps(meta, ensure_ascii=False),
                         time.strftime("%Y-%m-%dT%H:%M:%S"),
                         word,
                     ))
