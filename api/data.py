@@ -7,6 +7,9 @@ import sqlite3
 import re
 import json
 from pathlib import Path
+import pyphen
+
+_hyphen_dic = pyphen.Pyphen(lang='en_US')
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 VOCAB_DIR = BASE_DIR / "vocabulary"
@@ -230,6 +233,7 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
 
     result = {
         "phonetic": row["phonetic"] or "",
+        "syllables": row["syllables"] or "",
         "pos": pos_raw,
         "definitions": definitions,
         "examples": examples,
@@ -311,8 +315,10 @@ def _row_to_entry(row: sqlite3.Row) -> dict:
         if d["pos"]:
             pos_set.add(d["pos"])
 
+    word_str = row["word"] or ""
     return {
         "phonetic": row["phonetic"] or "",
+        "syllables": _hyphen_dic.inserted(word_str.lower(), hyphen='-') if word_str else "",
         "pos": sorted(pos_set),
         "definitions": definitions,
         "examples": [],  # ECDICT detail 字段含例句，暂不解析
