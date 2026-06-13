@@ -65,14 +65,18 @@ def get_pack_words(
 def stats():
     """词库统计"""
     index = get_index()
-    total_words = sum(p.get("word_count", 0) for p in index)
+    unique_words: set[str] = set()
+    for p in index:
+        pack = get_pack(p["id"])
+        if pack:
+            unique_words.update(pack.get("words", []))
     categories = {}
     for p in index:
         cat = p["category"]
         categories[cat] = categories.get(cat, 0) + 1
     return {
         "total_packs": len(index),
-        "total_words": total_words,
+        "total_words": len(unique_words),
         "categories": categories,
         "packs": index,
     }
