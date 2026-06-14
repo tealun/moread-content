@@ -4,13 +4,15 @@
   1. pyphen en_US (left=1, right=2) — TeX 连字符模式，辅音群准确
   2. NLTK SSP SyllableTokenizer — 元音核探测，修复 pyphen 漏切
   3. CMU Pronouncing Dictionary — 音节数仲裁
+  4. _post_process — 三类系统性错误修复（腭化尾缀/ism/法语借词）
 
 已知限制:
   - 缩略词/专有名词（abs, ac, aaa...）CMU 数量可能与拼写不符，忽略
   - CMU 语音缩读（basically=3音）与拼写音节（ba-sic-al-ly=4）不同时，保留拼写音节
-  - 少量法语借词（analogue, baroque）末尾静音-e 无法自动识别，留 review CSV 人工修正
+  - 约 5% 的边界位置与某些权威词典有细微差异，见 syllables_review.csv 人工校对
 """
 
+import re
 import sqlite3
 import csv
 from pathlib import Path
@@ -79,6 +81,33 @@ def _build_cmu_dict() -> dict[str, int]:
 
 _CMU: dict[str, int] = _build_cmu_dict()
 
+_PALATAL_IO = re.compile(r"(t|c|g|sc|x)io$", re.I)   # -tious/-cious/-gious/-xious
+_PALATAL_EO = re.compile(r"(g|r)eo$", re.I)            # -geous/-reous
+
+
+def _post_process(parts: list[str]) -> list[str]:
+    """三类系统性错误的统一后处理，适用于 pyphen 和 SSP 的所有输出。"""
+    # 1. 腭化尾缀：Cio+us / Ceo+us → Cious / Ceous
+    #    con-ten-tio-us → con-ten-tious, cou-ra-geo-us → cou-ra-geous
+    if len(parts) >= 2 and parts[-1].lower() == "us":
+        prev = parts[-2].lower()
+        if _PALATAL_IO.search(prev) or _PALATAL_EO.search(prev):
+            parts = parts[:-2] + [parts[-2] + "us"]
+
+    # 2. -ism 少切：末尾片段含多元音时拆出 ism
+    #    he-roism → he-ro-ism, cro-nyism → cro-ny-ism
+    if parts and len(parts[-1]) > 3 and parts[-1].lower().endswith("ism"):
+        stem = parts[-1][:-3]
+        if _has_vowel(stem):
+            parts = parts[:-1] + [stem, "ism"]
+
+    # 3. 法语借词静音末尾：-gue/-que 末段合并
+    #    ba-ro-que → ba-roque, a-na-lo-gue → a-na-logue
+    if len(parts) >= 2 and parts[-1].lower() in ("gue", "que"):
+        parts = parts[:-2] + [parts[-2] + parts[-1]]
+
+    return parts
+
 
 def _syl_one(part: str) -> str:
     """对单个无连字符词段做音节切分"""
@@ -92,7 +121,7 @@ def _syl_one(part: str) -> str:
 
     # CMU 无条目 或 pyphen 数量匹配 → 直接用 pyphen
     if cmu_n is None or pyph_n == cmu_n:
-        return "-".join(pyph_parts)
+        return "-".join(_post_process(pyph_parts))
 
     # pyphen 少切 → SSP 补救，CMU 验证静音-e 修复
     if pyph_n < cmu_n:
@@ -100,11 +129,11 @@ def _syl_one(part: str) -> str:
         ssp_parts = _try_silent_e(ssp_raw, cmu_n)
         ssp_n     = len(ssp_parts)
         if abs(ssp_n - cmu_n) <= abs(pyph_n - cmu_n):
-            return "-".join(ssp_parts)
-        return "-".join(pyph_parts)
+            return "-".join(_post_process(ssp_parts))
+        return "-".join(_post_process(pyph_parts))
 
     # pyphen 多切（通常是 CMU 缩读导致；拼写音节数更适合教学）→ 保留 pyphen
-    return "-".join(pyph_parts)
+    return "-".join(_post_process(pyph_parts))
 
 
 def syllabify(word: str) -> str:

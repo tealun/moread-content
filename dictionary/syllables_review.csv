@@ -524,7 +524,7 @@ agape,a-gape,2
 age,age,1
 aged,aged,1
 ageing,age-ing,2
-ageism,ageism,1
+ageism,age-ism,2
 agencies,a-gen-cies,3
 agency,a-gen-cy,3
 agenda,a-gen-da,3
@@ -625,7 +625,7 @@ albino,al-bi-no,3
 albite,al-bite,2
 album,al-bum,2
 albums,al-bums,2
-albuquerque,al-bu-quer-que,4
+albuquerque,al-bu-querque,3
 alchemist,alc-he-mist,3
 alchemy,alc-he-my,3
 alcohol,al-co-hol,3
@@ -865,7 +865,7 @@ analgesia,anal-ge-sia,3
 analgesic,a-nal-ge-sic,4
 analog,a-na-log,3
 analogous,a-na-lo-gous,4
-analogue,a-na-lo-gue,4
+analogue,a-na-logue,3
 analogy,a-na-lo-gy,4
 analyse,an-a-lyse,3
 analyses,a-na-ly-ses,4
@@ -1250,7 +1250,7 @@ archaeologist,ar-chae-ol-o-gist,5
 archaeology,ar-chae-ol-o-gy,5
 archaeopteryx,ar-chaeopteryx,2
 archaic,ar-cha-ic,3
-archaism,ar-chaism,2
+archaism,ar-cha-ism,3
 archangel,arc-han-gel,3
 archbishop,arch-bish-op,3
 archdeacon,archdea-con,2
@@ -1282,7 +1282,7 @@ argentina,ar-gen-ti-na,4
 argon,ar-gon,2
 argot,ar-got,2
 arguable,ar-gua-ble,3
-argue,ar-gue,2
+argue,argue,1
 argued,ar-gued,2
 argument,ar-gu-ment,3
 argumentation,ar-gu-men-ta-tion,5
@@ -1519,7 +1519,7 @@ ata,a-ta,2
 atavism,a-ta-vism,3
 ate,ate,1
 atelier,ate-lier,2
-atheism,at-heism,2
+atheism,at-he-ism,3
 atheist,at-heist,2
 atheistic,at-heis-tic,3
 athenian,a-the-ni-an,4
@@ -1904,7 +1904,7 @@ barnes,barnes,1
 barograph,baro-graph,2
 barometer,ba-ro-me-ter,4
 baron,ba-ron,2
-baroque,ba-ro-que,3
+baroque,ba-roque,2
 barracks,bar-racks,2
 barrage,bar-rage,2
 barrel,bar-rel,2
@@ -3127,7 +3127,7 @@ capitalist,cap-i-tal-ist,4
 capitol,ca-pi-tol,3
 capitulate,ca-pit-u-late,4
 caprice,ca-price,2
-capricious,ca-pri-cio-us,4
+capricious,ca-pri-cious,3
 caps,caps,1
 capsize,cap-size,2
 capsule,cap-sule,2
@@ -4633,7 +4633,7 @@ contender,con-ten-der,3
 content,con-tent,2
 contented,con-tent-ed,3
 contention,con-ten-tion,3
-contentious,con-ten-tio-us,4
+contentious,con-ten-tious,3
 contents,con-tents,2
 contest,con-test,2
 contestant,con-tes-tant,3
@@ -4872,7 +4872,7 @@ cosmogony,cos-mogony,2
 cosmography,cos-mog-ra-phy,4
 cosmology,cos-mol-o-gy,4
 cosmopolitan,co-smo-po-li-tan,5
-cosmopolitanism,cos-mopoli-tanism,3
+cosmopolitanism,cos-mopoli-tan-ism,4
 cosmos,cos-mos,2
 cosset,cos-set,2
 cosseted,cos-set-ed,3
@@ -4939,7 +4939,7 @@ couples,cou-ples,2
 coupon,cou-pon,2
 coupons,cou-pons,2
 courage,cou-rage,2
-courageous,cou-ra-geo-us,4
+courageous,cou-ra-geous,3
 courier,cou-rier,2
 course,course,1
 courser,cours-er,2
@@ -5092,7 +5092,7 @@ crockery,croc-ke-ry,3
 crocodile,croc-o-dile,3
 crone,crone,1
 crony,cro-ny,2
-cronyism,cro-nyism,2
+cronyism,cro-ny-ism,3
 crook,crook,1
 crooked,croo-ked,2
 croon,croon,1
@@ -6888,7 +6888,7 @@ economist,e-con-o-mist,4
 economize,e-con-o-mize,4
 economy,e-con-o-my,4
 ecosystem,e-co-sys-tem,4
-ecotourism,e-co-tourism,3
+ecotourism,e-co-tour-ism,4
 ecstasy,ec-sta-sy,3
 ecstatic,ec-stat-ic,3
 ecstatically,ec-stat-i-cal-ly,5
@@ -7432,7 +7432,7 @@ epicycloid,epicy-cloid,2
 epidemic,e-pi-de-mic,4
 epidermis,e-pi-der-mis,4
 epigram,e-pi-gram,3
-epilogue,e-pi-lo-gue,4
+epilogue,e-pi-logue,3
 epinions,epin-ions,2
 epiphany,e-pip-ha-ny,4
 episode,e-pi-sode,3
@@ -8000,7 +8000,7 @@ faced,faced,1
 facelift,fa-ce-lift,3
 faces,fa-ces,2
 facet,fa-cet,2
-facetious,fa-ce-tio-us,4
+facetious,fa-ce-tious,3
 facial,fa-cial,2
 facile,fa-ci-le,3
 facilitate,fa-cil-i-tate,4
@@ -9078,7 +9078,7 @@ gallop,gal-lop,2
 gallows,gal-lows,2
 galore,ga-lore,2
 galvanic,gal-van-ic,3
-galvanism,gal-vanism,2
+galvanism,gal-van-ism,3
 galvanize,gal-va-nize,3
 gambit,gam-bit,2
 gamble,gam-ble,2
@@ -9631,7 +9631,7 @@ groom,groom,1
 groove,groove,1
 grope,grope,1
 gross,gross,1
-grotesque,gro-tes-que,3
+grotesque,gro-tesque,2
 grotto,grot-to,2
 grouch,grouch,1
 ground,ground,1
@@ -10104,7 +10104,7 @@ heroes,he-roes,2
 heroic,he-roic,2
 heroin,he-roin,2
 heroine,he-roi-ne,3
-heroism,he-roism,2
+heroism,he-ro-ism,3
 herpetologist,her-petol-o-gist,4
 herring,her-ring,2
 hers,hers,1
@@ -12777,7 +12777,7 @@ lithuania,lit-hua-nia,3
 litigant,lit-i-gant,3
 litigate,lit-i-gate,3
 litigation,lit-i-ga-tion,4
-litigious,li-ti-gio-us,4
+litigious,li-ti-gious,3
 litotes,litotes,1
 litre,litre,1
 litter,lit-ter,2
@@ -14045,13 +14045,13 @@ monograph,mo-no-graph,3
 monoid,mon-oid,2
 monolith,mo-no-lith,3
 monolithic,mo-no-lit-hic,4
-monologue,mo-no-lo-gue,4
+monologue,mo-no-logue,3
 monomania,mono-ma-nia,3
 monopolise,mo-nop-o-lise,4
 monopolize,mo-nop-o-lize,4
 monopoly,mo-no-po-ly,4
 monosyllable,mono-syl-la-ble,4
-monotheism,mo-not-heism,3
+monotheism,mo-not-he-ism,4
 monotone,mo-no-tone,3
 monotonous,mo-not-o-nous,4
 monotonously,monotonous-ly,2
@@ -14191,7 +14191,7 @@ movie,mo-vie,2
 movies,mo-vies,2
 moving,mov-ing,2
 mow,mow,1
-mozambique,mo-zam-bi-que,4
+mozambique,mo-zam-bique,3
 mozilla,mozil-la,2
 mp,mp,1
 mpeg,mpeg,1
@@ -14642,7 +14642,7 @@ noisy,noi-sy,2
 nokia,no-kia,2
 nomad,no-mad,2
 nomadic,no-ma-dic,3
-nomadism,no-madism,2
+nomadism,no-mad-ism,3
 nomenclature,no-men-cla-ture,4
 nomic,nom-ic,2
 nominal,nom-i-nal,3
@@ -14879,7 +14879,7 @@ obligatory,o-bli-ga-to-ry,5
 oblige,o-blige,2
 obliged,o-bli-ged,3
 obliging,o-bli-ging,3
-oblique,o-bli-que,3
+oblique,o-blique,2
 obliquity,obliq-ui-ty,3
 obliterate,o-bli-te-rate,4
 oblivion,o-bli-vion,3
@@ -15100,7 +15100,7 @@ opacity,o-pa-ci-ty,4
 opal,o-pal,2
 opalescence,opales-cence,2
 opalescent,opales-cent,2
-opaque,o-pa-que,3
+opaque,o-paque,2
 open,o-pen,2
 opened,o-pe-ned,3
 opener,o-pe-ner,3
@@ -15633,7 +15633,7 @@ paraphernalia,pa-rap-her-na-lia,5
 paraphrase,pa-rap-hrase,3
 parasite,par-a-site,3
 parasitic,pa-ra-si-tic,4
-parasitism,par-a-sitism,3
+parasitism,par-a-sit-ism,4
 parcel,par-cel,2
 parch,parch,1
 parched,parched,1
@@ -15799,7 +15799,7 @@ paucity,pau-ci-ty,3
 paul,paul,1
 paunchy,paunc-hy,2
 pauper,pau-per,2
-pauperism,pau-perism,2
+pauperism,pau-per-ism,3
 pause,pause,1
 pave,pave,1
 pavement,pave-ment,2
@@ -16248,7 +16248,7 @@ physiography,phys-iog-ra-phy,4
 physiological,phys-i-o-log-i-cal,6
 physiologically,phys-i-o-log-i-cal-ly,7
 physiology,phys-i-ol-o-gy,5
-physique,phy-si-que,3
+physique,phy-sique,2
 phytoremediation,phy-tore-me-di-a-tion,6
 pi,pi,1
 pianist,pia-nist,2
@@ -16270,7 +16270,7 @@ pics,pics,1
 pictorial,pic-to-ri-al,4
 picture,pic-ture,2
 pictures,pic-tures,2
-picturesque,pic-tu-res-que,4
+picturesque,pic-tu-resque,3
 piddling,pid-dling,2
 pie,pie,1
 piebald,pie-bald,2
@@ -16600,7 +16600,7 @@ polyphony,po-lyp-ho-ny,4
 polysyllabic,po-ly-syl-la-bic,5
 polysyllable,poly-syl-la-ble,4
 polytechnic,po-ly-tec-hnic,4
-polytheism,po-lyt-heism,3
+polytheism,po-lyt-he-ism,4
 pomegranate,pome-gran-ate,3
 pommel,pom-mel,2
 pomp,pomp,1
@@ -17109,7 +17109,7 @@ procure,pro-cure,2
 procurement,pro-cure-ment,3
 prod,prod,1
 prodigal,pro-di-gal,3
-prodigious,pro-di-gio-us,4
+prodigious,pro-di-gious,3
 prodigy,pro-di-gy,3
 produce,pro-duce,2
 produced,pro-duced,2
@@ -19058,7 +19058,7 @@ sailor,sai-lor,2
 saint,saint,1
 saints,saints,1
 sake,sake,1
-salacious,sa-la-cio-us,4
+salacious,sa-la-cious,3
 salad,sal-ad,2
 salal,salal,1
 salamander,sa-la-man-der,4
@@ -19293,7 +19293,7 @@ scientists,sci-en-tists,3
 scintilla,scin-til-la,3
 scintillate,scin-til-late,3
 scintillating,scin-til-lat-ing,4
-sciolism,sci-olism,2
+sciolism,sci-ol-ism,3
 scion,scion,1
 scission,scis-sion,2
 scissor,scis-sor,2
@@ -19467,7 +19467,7 @@ sediment,sed-i-ment,3
 sedimentary,sed-i-men-ta-ry,5
 sedimentation,sed-i-men-ta-tion,5
 sedition,se-di-tion,3
-seditious,se-di-tio-us,4
+seditious,se-di-tious,3
 seduce,se-duce,2
 seduction,se-duc-tion,3
 seductive,se-duc-tive,3
@@ -20376,7 +20376,7 @@ soonest,soon-est,2
 soothe,soothe,1
 soothsayer,sooth-say-er,3
 sop,sop,1
-sophism,sophism,1
+sophism,soph-ism,2
 sophist,sophist,1
 sophisticate,so-phis-ti-cate,4
 sophisticated,so-phis-ti-cat-ed,5
@@ -20787,7 +20787,7 @@ statistics,sta-tis-tics,3
 stats,stats,1
 statuary,sta-tua-ry,3
 statue,stat-ue,2
-statuesque,sta-tues-que,3
+statuesque,sta-tuesque,2
 statuette,sta-tuet-te,3
 stature,sta-ture,2
 status,sta-tus,2
@@ -21812,7 +21812,7 @@ tempter,tempter,1
 tempting,tempt-ing,2
 ten,ten,1
 tenable,te-na-ble,3
-tenacious,te-na-cio-us,4
+tenacious,te-na-cious,3
 tenaciously,te-na-cio-u-sly,5
 tenacity,te-na-ci-ty,4
 tenancy,ten-an-cy,3
@@ -22261,7 +22261,7 @@ totally,to-tal-ly,3
 totals,to-tals,2
 totem,to-tem,2
 totemic,totemic,1
-totemism,totemism,1
+totemism,totem-ism,2
 totter,tot-ter,2
 touch,touch,1
 touched,touched,1
