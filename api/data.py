@@ -213,6 +213,40 @@ def _jl(raw: str | None, empty_sentinel: str, default):
         return default
 
 
+_IPA_VOWELS = "aeiouæɑɒɔəɜɪiʊuɛɐɚɝeøœɶɘɵɞɤɯyɨ"
+
+
+def _normalize_ipa_stress(phonetic: str | None) -> str:
+    """Fix stress marks placed after an initial consonant cluster."""
+    if not phonetic:
+        return ""
+
+    text = phonetic.strip()
+    prefix = ""
+    suffix = ""
+    body = text
+    if body and body[0] in "/[":
+        prefix = body[0]
+        body = body[1:]
+    if body and body[-1] in "/]":
+        suffix = body[-1]
+        body = body[:-1]
+
+    stress_idx = body.find("ˈ")
+    if stress_idx <= 0:
+        return text
+
+    before_stress = body[:stress_idx]
+    if (
+        len(before_stress) <= 4
+        and not any(ch in _IPA_VOWELS for ch in before_stress)
+    ):
+        body = "ˈ" + before_stress + body[stress_idx + 1:]
+        return f"{prefix}{body}{suffix}"
+
+    return text
+
+
 def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     """将 overlay.db 的行转换为 API 兼容的 entry 字典"""
     definitions  = _jl(row["definitions"],  "[]", [])
@@ -232,7 +266,7 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     etymology    = etym_parsed if isinstance(etym_parsed, dict) else {}
 
     result = {
-        "phonetic": row["phonetic"] or "",
+        "phonetic": _normalize_ipa_stress(row["phonetic"]),
         "syllables": row["syllables"] or "",
         "pos": pos_raw,
         "definitions": definitions,
