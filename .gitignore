@@ -31,4 +31,3 @@ dictionary/ecdict.db
 # SQLite WAL mode temp files
 dictionary/overlay.db-shm
 dictionary/overlay.db-wal
-textbook\pdfs\
