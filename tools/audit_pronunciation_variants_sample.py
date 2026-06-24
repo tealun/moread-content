@@ -69,6 +69,12 @@ def audit_one(row: dict, cmu: dict[str, list[list[str]]]) -> dict:
     current_uk = normalize_ipa(row.get("phonetic_uk", "") or "")
     current_us = normalize_ipa(row.get("phonetic_us", "") or "")
     current_status = row.get("phonetic_variant_status", "") or "legacy_single"
+    if current_status in {"same", "verified", "us_only"} and current_us:
+        effective_phonetic = current_us
+    elif current_status == "uk_only" and current_uk:
+        effective_phonetic = current_uk
+    else:
+        effective_phonetic = current_phonetic
 
     external_values = flatten_candidates(expected_sources)
     variant_mismatches: list[str] = []
@@ -77,7 +83,7 @@ def audit_one(row: dict, cmu: dict[str, list[list[str]]]) -> dict:
     if expected_us and current_us and current_us != expected_us:
         variant_mismatches.append("us")
 
-    if not current_phonetic:
+    if not effective_phonetic:
         verdict = "fail_missing_phonetic"
     elif variant_mismatches:
         verdict = "fail_variant_mismatch"
@@ -85,7 +91,7 @@ def audit_one(row: dict, cmu: dict[str, list[list[str]]]) -> dict:
         verdict = "review_no_external_evidence"
     elif expected_status == "conflict":
         verdict = "review_external_conflict"
-    elif external_values and current_phonetic not in external_values and not (current_phonetic in {expected_uk, expected_us}):
+    elif external_values and effective_phonetic not in external_values and not (effective_phonetic in {expected_uk, expected_us}):
         verdict = "review_legacy_not_in_external"
     elif expected_status in {"verified", "same"} and (not current_uk or not current_us):
         verdict = "gap_missing_verified_variant_fields"
@@ -100,6 +106,7 @@ def audit_one(row: dict, cmu: dict[str, list[list[str]]]) -> dict:
         "word": word,
         "frequency": row.get("frequency", 0),
         "current_phonetic": current_phonetic,
+        "effective_phonetic": effective_phonetic,
         "current_uk": current_uk,
         "current_us": current_us,
         "current_status": current_status,
@@ -144,6 +151,7 @@ def write_report(results: list[dict]) -> None:
         "word",
         "frequency",
         "current_phonetic",
+        "effective_phonetic",
         "current_uk",
         "current_us",
         "current_status",
