@@ -122,7 +122,19 @@ def audit_one(row: dict, cmu: dict[str, list[list[str]]]) -> dict:
     }
 
 
-def load_rows(seed: int, sample_rate: float, sample_size: int | None) -> tuple[int, list[dict]]:
+def load_excluded_words(path: Path | None) -> set[str]:
+    if not path:
+        return set()
+    with path.open(encoding="utf-8", newline="") as f:
+        return {row["word"].lower() for row in csv.DictReader(f) if row.get("word")}
+
+
+def load_rows(
+    seed: int,
+    sample_rate: float,
+    sample_size: int | None,
+    excluded_words: set[str],
+) -> tuple[int, list[dict]]:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     ensure_columns(conn)
@@ -140,13 +152,14 @@ def load_rows(seed: int, sample_rate: float, sample_size: int | None) -> tuple[i
     ]
     conn.close()
 
+    eligible_rows = [row for row in rows if row["word"].lower() not in excluded_words]
     rng = random.Random(seed)
     target = sample_size if sample_size is not None else math.ceil(len(rows) * sample_rate)
-    target = min(len(rows), max(1, target))
-    return len(rows), rng.sample(rows, target)
+    target = min(len(eligible_rows), max(1, target))
+    return len(rows), rng.sample(eligible_rows, target)
 
 
-def write_report(results: list[dict]) -> None:
+def write_report(results: list[dict], report_path: Path) -> None:
     fieldnames = [
         "word",
         "frequency",
@@ -165,7 +178,7 @@ def write_report(results: list[dict]) -> None:
         "candidate_count_us",
         "sources_json",
     ]
-    with REPORT_PATH.open("w", encoding="utf-8", newline="") as f:
+    with report_path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
@@ -186,13 +199,19 @@ def main() -> int:
     parser.add_argument("--seed", type=int, default=20260624)
     parser.add_argument("--workers", type=int, default=12)
     parser.add_argument("--progress-every", type=int, default=50)
+    parser.add_argument("--exclude-report", type=Path)
+    parser.add_argument("--report-path", type=Path, default=REPORT_PATH)
     args = parser.parse_args()
 
     if args.sample_rate < 0.10 and args.sample_size is None:
         raise SystemExit("--sample-rate must be at least 0.10 unless --sample-size is explicit")
 
-    total, sample = load_rows(args.seed, args.sample_rate, args.sample_size)
-    print(f"total_rows={total} sample_rows={len(sample)} sample_rate={len(sample) / total:.4f} seed={args.seed}")
+    excluded_words = load_excluded_words(args.exclude_report)
+    total, sample = load_rows(args.seed, args.sample_rate, args.sample_size, excluded_words)
+    print(
+        f"total_rows={total} sample_rows={len(sample)} sample_rate={len(sample) / total:.4f} "
+        f"seed={args.seed} excluded_words={len(excluded_words)}"
+    )
 
     cmu = build_cmu()
     results: list[dict] = []
@@ -224,10 +243,11 @@ def main() -> int:
                 print(f"progress={index}/{len(sample)}")
 
     results.sort(key=lambda item: item["word"])
-    write_report(results)
+    report_path = args.report_path if args.report_path.is_absolute() else ROOT / args.report_path
+    write_report(results, report_path)
     summary = summarize(results)
     print("summary:", json.dumps(summary, ensure_ascii=False, sort_keys=True))
-    print(f"report={REPORT_PATH}")
+    print(f"report={report_path}")
     return 1 if any(k.startswith("fail_") or k == "audit_error" for k in summary) else 0
 
 
