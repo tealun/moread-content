@@ -263,8 +263,24 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     etym_parsed  = _jl(row["etymology"],    "{}", {})
     etymology    = etym_parsed if isinstance(etym_parsed, dict) else {}
 
+    keys = row.keys() if hasattr(row, "keys") else []
+    legacy_phonetic = _normalize_ipa_stress(row["phonetic"])
+    phonetic_uk = _normalize_ipa_stress(row["phonetic_uk"]) if "phonetic_uk" in keys else ""
+    phonetic_us = _normalize_ipa_stress(row["phonetic_us"]) if "phonetic_us" in keys else ""
+    phonetic_variant_status = row["phonetic_variant_status"] if "phonetic_variant_status" in keys else ""
+    phonetic_sources = _jl(row["phonetic_sources"], "{}", {}) if "phonetic_sources" in keys else {}
+    if phonetic_variant_status in {"same", "verified", "us_only"} and phonetic_us:
+        phonetic = phonetic_us
+    elif phonetic_variant_status == "uk_only" and phonetic_uk:
+        phonetic = phonetic_uk
+    else:
+        phonetic = legacy_phonetic
+
     result = {
-        "phonetic": _normalize_ipa_stress(row["phonetic"]),
+        "phonetic": phonetic,
+        "phonetic_uk": phonetic_uk,
+        "phonetic_us": phonetic_us,
+        "phonetic_variant_status": phonetic_variant_status or "legacy_single",
         "syllables": row["syllables"] or "",
         "pos": pos_raw,
         "definitions": definitions,
@@ -273,6 +289,13 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
         "cefr": row["cefr"] or "",
         "forms": forms,
         "source": row["source"] or "overlay",
+    }
+    result["pronunciations"] = {
+        "uk": phonetic_uk,
+        "us": phonetic_us,
+        "default": phonetic,
+        "status": result["phonetic_variant_status"],
+        "sources": phonetic_sources if isinstance(phonetic_sources, dict) else {},
     }
 
     # Only include enriched fields if they have data
@@ -289,7 +312,6 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
 
     # field_meta: per-field repair status ("filled" | "confirmed_empty" | "pending")
     # allows consumers to distinguish legitimately-empty fields from unrepaired ones
-    keys = row.keys() if hasattr(row, "keys") else []
     if "field_meta" in keys:
         raw = row["field_meta"]
         if raw and raw != "{}":
@@ -350,6 +372,16 @@ def _row_to_entry(row: sqlite3.Row) -> dict:
     word_str = row["word"] or ""
     return {
         "phonetic": row["phonetic"] or "",
+        "phonetic_uk": "",
+        "phonetic_us": "",
+        "phonetic_variant_status": "legacy_single",
+        "pronunciations": {
+            "uk": "",
+            "us": "",
+            "default": row["phonetic"] or "",
+            "status": "legacy_single",
+            "sources": {},
+        },
         "syllables": _hyphen_dic.inserted(word_str.lower(), hyphen='-') if word_str else "",
         "pos": sorted(pos_set),
         "definitions": definitions,

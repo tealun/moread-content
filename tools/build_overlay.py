@@ -259,6 +259,21 @@ def extract_phonetic_from_free_dict(fd: dict) -> str:
     return ""
 
 
+def ensure_pronunciation_variant_columns(conn: sqlite3.Connection) -> None:
+    """Add UK/US pronunciation columns without rebuilding existing overlay data."""
+    columns = {row[1] for row in conn.execute("PRAGMA table_info(overlay)")}
+    additions = {
+        "phonetic_uk": "TEXT NOT NULL DEFAULT ''",
+        "phonetic_us": "TEXT NOT NULL DEFAULT ''",
+        "phonetic_variant_status": "TEXT NOT NULL DEFAULT 'legacy_single'",
+        "phonetic_sources": "TEXT NOT NULL DEFAULT '{}'",
+    }
+    for name, ddl in additions.items():
+        if name not in columns:
+            conn.execute(f"ALTER TABLE overlay ADD COLUMN {name} {ddl}")
+    conn.commit()
+
+
 def extract_synant_from_free_dict(fd: dict) -> tuple[list, list]:
     """从 Free Dictionary API 提取同义词和反义词"""
     synonyms = []
@@ -502,6 +517,10 @@ def build_base_entry(word: str, ecdict_db: sqlite3.Connection,
     entry = {
         "word": word,
         "phonetic": "",
+        "phonetic_uk": "",
+        "phonetic_us": "",
+        "phonetic_variant_status": "legacy_single",
+        "phonetic_sources": {},
         "pos": [],
         "definitions": [],
         "examples": [],
@@ -690,6 +709,7 @@ def main():
     ecdict_db = sqlite3.connect(str(ECDICT_DB))
     ecdict_db.row_factory = sqlite3.Row
     overlay_conn = sqlite3.connect(str(OVERLAY_DB))
+    ensure_pronunciation_variant_columns(overlay_conn)
 
     # 收集词单
     all_words, word_cefr_map = collect_all_words()
@@ -818,13 +838,18 @@ def main():
                     # 写入 overlay.db
                     overlay_conn.execute("""
                         INSERT OR REPLACE INTO overlay
-                        (word, phonetic, pos, definitions, examples,
+                        (word, phonetic, phonetic_uk, phonetic_us, phonetic_variant_status, phonetic_sources,
+                         pos, definitions, examples,
                          synonyms, antonyms, collocations, associations, etymology,
                          cefr, forms, frequency, source, updated_at, audit_pass, field_meta)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 2, ?)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 2, ?)
                     """, (
                         entry["word"],
                         entry["phonetic"],
+                        entry["phonetic_uk"],
+                        entry["phonetic_us"],
+                        entry["phonetic_variant_status"],
+                        json.dumps(entry["phonetic_sources"], ensure_ascii=False),
                         json.dumps(entry["pos"], ensure_ascii=False),
                         json.dumps(entry["definitions"], ensure_ascii=False),
                         json.dumps(entry["examples"], ensure_ascii=False),
