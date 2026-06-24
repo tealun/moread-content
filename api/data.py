@@ -245,6 +245,30 @@ def _normalize_ipa_stress(phonetic: str | None) -> str:
     return text
 
 
+def _pronunciation_source_summary(sources: dict) -> dict:
+    if not isinstance(sources, dict):
+        return {}
+    candidates = sources.get("candidates", {})
+    summary = {
+        "source_policy": sources.get("source_policy", {}),
+        "source_variants": sources.get("source_variants", []),
+        "conflict_dialects": sources.get("conflict_dialects", []),
+        "status_reason": sources.get("status_reason", ""),
+        "candidate_counts": {},
+        "sources": {},
+    }
+    if isinstance(candidates, dict):
+        for dialect in ("uk", "us"):
+            items = candidates.get(dialect, [])
+            if not isinstance(items, list):
+                continue
+            summary["candidate_counts"][dialect] = len(items)
+            names = sorted({item.get("source", "") for item in items if isinstance(item, dict) and item.get("source")})
+            if names:
+                summary["sources"][dialect] = names
+    return summary
+
+
 def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
     """将 overlay.db 的行转换为 API 兼容的 entry 字典"""
     definitions  = _jl(row["definitions"],  "[]", [])
@@ -295,7 +319,7 @@ def _overlay_row_to_entry(row: sqlite3.Row) -> dict:
         "us": phonetic_us,
         "default": phonetic,
         "status": result["phonetic_variant_status"],
-        "sources": phonetic_sources if isinstance(phonetic_sources, dict) else {},
+        "source_summary": _pronunciation_source_summary(phonetic_sources),
     }
 
     # Only include enriched fields if they have data
