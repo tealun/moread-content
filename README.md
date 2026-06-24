@@ -120,7 +120,7 @@ GitHub Actions 提供 `.github/workflows/deploy-content.yml`，参考 Moread 后
 
 - Secrets: `SSH_HOST`, `SSH_USER`, `SSH_PASSWORD`
 - 可选 Secrets / Variables: `SSH_PORT`
-- Variables: `CONTENT_DEPLOY_PATH`，默认 `/www/wwwroot/moread-content`
+- Variables: `CONTENT_DEPLOY_PATH`，默认 `/www/wwwroot/moread_content`
 - 可选 Variables: `CONTENT_POST_DEPLOY_COMMAND`
 
 部署会同步仓库内容和 `dictionary/overlay.db`，但不会同步本地源库 `dictionary/ecdict.db`、`.env`、缓存、日志和审计报告。
