@@ -29,6 +29,14 @@ build/
 # Ignore generated dictionary database
 dictionary/ecdict.db
 dictionary/.kaikki_cache/
+# Ignore generated dictionary audit/review reports
+dictionary/*_audit.csv
+dictionary/*_review.csv
+dictionary/*_mismatches.csv
+dictionary/pronunciation_conflict_summary.csv
+dictionary/pronunciation_variant_sample_audit*.csv
+dictionary/syllables_review.csv
+dictionary/overlay.status.json
 # SQLite WAL mode temp files
 dictionary/overlay.db-shm
 dictionary/overlay.db-wal
