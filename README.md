@@ -17,8 +17,11 @@
 
 ```
 moread-content/
-├── dictionary/              ← 底座（ECDICT 77万词条，SQLite）
-│   ├── ecdict.db            ← SQLite 数据库（完整英汉词典）
+├── dictionary/              ← 词典底座（SQLite）
+│   ├── overlay.db           ← 部署主库（词库消费端优先查询）
+│   ├── ecdict.db            ← 本地兜底源库（被 .gitignore 忽略，不提交）
+│   ├── pronunciation_golden.json
+│   ├── pronunciation_sources.md
 │   └── _meta.json           ← 词典元数据
 │
 ├── vocabulary/              ← 词单（轻量，只有单词列表）
@@ -108,6 +111,19 @@ uvicorn main:app --host 0.0.0.0 --port 8900
 ```
 
 消费端通过 HTTP 接口获取所有数据，详见 `DATA_API_SPEC.md` §6。
+
+### 部署
+
+GitHub Actions 提供 `.github/workflows/deploy-content.yml`，参考 Moread 后端的 rsync 部署方式。
+
+需要在 GitHub Actions 中配置：
+
+- Secrets: `SSH_HOST`, `SSH_USER`, `SSH_PASSWORD`
+- 可选 Secrets / Variables: `SSH_PORT`
+- Variables: `CONTENT_DEPLOY_PATH`，默认 `/www/wwwroot/moread-content`
+- 可选 Variables: `CONTENT_POST_DEPLOY_COMMAND`
+
+部署会同步仓库内容和 `dictionary/overlay.db`，但不会同步本地源库 `dictionary/ecdict.db`、`.env`、缓存、日志和审计报告。
 
 ### 方式二：直接读 JSON
 

@@ -1,0 +1,119 @@
+# ════════════════════════════════════════════════════════════════
+# 内容端自动部署（rsync 模式）
+# 触发：push 到 main，或手动触发
+#
+# 部署策略：
+#   1. rsync --delete 同步仓库内容到服务器目标目录
+#   2. 不同步本地源库、环境变量、缓存、日志、审计临时产物
+#   3. 可通过 CONTENT_POST_DEPLOY_COMMAND 在服务器执行可选后置命令
+#
+# 必需 GitHub Secrets（Settings → Secrets and variables → Actions → Secrets）：
+#   SSH_HOST       服务器 IP 或域名
+#   SSH_USER       登录用户名，例：root
+#   SSH_PASSWORD   SSH 登录密码
+#
+# 可选 GitHub Secrets / Variables：
+#   SSH_PORT                    SSH 端口，默认 22
+#   CONTENT_DEPLOY_PATH         服务器目标目录，默认 /www/wwwroot/moread-content
+#   CONTENT_POST_DEPLOY_COMMAND 部署后在目标目录执行的命令，例如：
+#                               source .venv/bin/activate && pip install -r requirements.txt && supervisorctl restart moread-content
+#
+# 服务器上永不删除（rsync exclude + --delete 保护）：
+#   dictionary/overlay.db     部署主库，会随仓库同步到服务器
+#   .env / .env.*             环境变量
+#   dictionary/ecdict.db      本地兜底源库，不入版本库
+#   dictionary/*.db-shm/wal   SQLite 临时文件
+#   dictionary/*_audit.csv    审计报告
+#   dictionary/*_review.csv   审计报告
+#   dictionary/*_mismatches.csv 审计报告
+#   __pycache__/ *.pyc        Python 缓存
+#   logs/ *.log               运行日志
+# ════════════════════════════════════════════════════════════════
+
+name: Deploy Content
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-content
+  cancel-in-progress: false
+
+env:
+  SSH_PORT: ${{ secrets.SSH_PORT || vars.SSH_PORT || 22 }}
+  DEPLOY_PATH: ${{ vars.CONTENT_DEPLOY_PATH || '/www/wwwroot/moread-content' }}
+  POST_DEPLOY_COMMAND: ${{ vars.CONTENT_POST_DEPLOY_COMMAND }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 安装 sshpass
+        run: sudo apt-get update && sudo apt-get install -y sshpass rsync
+
+      - name: 确认部署配置
+        run: |
+          test -n "${{ secrets.SSH_HOST }}" || (echo "Missing secret SSH_HOST" && exit 1)
+          test -n "${{ secrets.SSH_USER }}" || (echo "Missing secret SSH_USER" && exit 1)
+          test -n "${{ secrets.SSH_PASSWORD }}" || (echo "Missing secret SSH_PASSWORD" && exit 1)
+          test -n "${DEPLOY_PATH}" || (echo "Missing CONTENT_DEPLOY_PATH" && exit 1)
+          echo "Deploy target: ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${DEPLOY_PATH}"
+
+      - name: 创建服务器目标目录
+        env:
+          SSHPASS: ${{ secrets.SSH_PASSWORD }}
+        run: |
+          sshpass -e ssh -p "${SSH_PORT}" -o StrictHostKeyChecking=accept-new \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "mkdir -p '${DEPLOY_PATH}'"
+
+      - name: rsync 同步内容端到服务器
+        env:
+          SSHPASS: ${{ secrets.SSH_PASSWORD }}
+        run: |
+          sshpass -e rsync -avz --delete \
+            -e "ssh -p ${SSH_PORT} -o StrictHostKeyChecking=accept-new" \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='.env' \
+            --exclude='.env.*' \
+            --exclude='__pycache__/' \
+            --exclude='*.pyc' \
+            --exclude='*.log' \
+            --exclude='logs/' \
+            --exclude='coverage/' \
+            --exclude='htmlcov/' \
+            --exclude='.pytest_cache/' \
+            --exclude='.mypy_cache/' \
+            --exclude='venv/' \
+            --exclude='.venv/' \
+            --exclude='dictionary/ecdict.db' \
+            --exclude='dictionary/.kaikki_cache/' \
+            --exclude='dictionary/*.db-shm' \
+            --exclude='dictionary/*.db-wal' \
+            --exclude='dictionary/*_audit.csv' \
+            --exclude='dictionary/*_review.csv' \
+            --exclude='dictionary/*_mismatches.csv' \
+            --exclude='dictionary/pronunciation_conflict_summary.csv' \
+            --exclude='dictionary/pronunciation_variant_sample_audit*.csv' \
+            --exclude='dictionary/syllables_review.csv' \
+            --exclude='dictionary/overlay.status.json' \
+            ./ \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${DEPLOY_PATH}/"
+
+      - name: 执行部署后命令
+        if: env.POST_DEPLOY_COMMAND != ''
+        env:
+          SSHPASS: ${{ secrets.SSH_PASSWORD }}
+        run: |
+          sshpass -e ssh -p "${SSH_PORT}" -o StrictHostKeyChecking=accept-new \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "cd '${DEPLOY_PATH}' && ${POST_DEPLOY_COMMAND}"
+
+      - name: 完成
+        run: echo "✅ moread-content 部署完成：${DEPLOY_PATH}"
