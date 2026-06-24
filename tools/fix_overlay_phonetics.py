@@ -182,13 +182,14 @@ def normalize_initial_stress(phonetic: str) -> str:
         suffix = body[-1]
         body = body[:-1]
 
-    stress_idx = body.find("ˈ")
-    if stress_idx <= 0:
+    stress_positions = [(idx, mark) for mark in ("ˈ", "ˌ") if (idx := body.find(mark)) > 0]
+    if not stress_positions:
         return text
 
+    stress_idx, mark = min(stress_positions)
     before_stress = body[:stress_idx]
     if len(before_stress) <= 4 and not any(ch in IPA_VOWELS for ch in before_stress):
-        body = "ˈ" + before_stress + body[stress_idx + 1 :]
+        body = mark + before_stress + body[stress_idx + 1 :]
         return f"{prefix}{body}{suffix}"
     return text
 

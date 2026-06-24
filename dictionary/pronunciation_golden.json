@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "purpose": "High-confidence pronunciation and syllable gate for dictionary overlay changes.",
+    "phonetic_note": "Multiple IPA transcriptions can be correct. These samples accept learner broad and CMU-style US forms when stress placement and segment order are correct.",
+    "sources": [
+      "Cambridge Dictionary / Oxford Learner's Dictionaries for learner IPA conventions",
+      "Merriam-Webster for syllable and stress notation",
+      "CMU Pronouncing Dictionary for US ARPABET-derived pronunciation checks"
+    ]
+  },
+  "entries": [
+    {
+      "word": "recommend",
+      "accepted_phonetics": ["/ˌɹɛkəˈmɛnd/", "/ˌrekəˈmend/", "/ˌrɛkəˈmɛnd/"],
+      "rejected_phonetics": ["/ɹˌɛkəmˈɛnd/"],
+      "syllables": "rec-om-mend",
+      "syllable_count": 3
+    },
+    {
+      "word": "everybody",
+      "accepted_phonetics": ["/ˈɛvɹiˌbɑdi/", "/ˈevrɪbɒdi/", "/ˈevribɒdi/"],
+      "syllables": "ev-ery-bod-y",
+      "syllable_count": 4
+    },
+    {
+      "word": "comfortable",
+      "accepted_phonetics": ["/ˈkʌmfɚtəbəl/", "/ˈkʌmfətəbl/"],
+      "syllables": "com-for-ta-ble",
+      "syllable_count": 4
+    },
+    {
+      "word": "interesting",
+      "accepted_phonetics": ["/ˈɪntɹɛstɪŋ/", "/ˈɪntrɪstɪŋ/"],
+      "syllables": "in-ter-est-ing",
+      "syllable_count": 4
+    },
+    {
+      "word": "vegetable",
+      "accepted_phonetics": ["/ˈvɛdʒtəbəl/", "/ˈvedʒətəbl/"],
+      "syllables": "veg-e-ta-ble",
+      "syllable_count": 4
+    },
+    {
+      "word": "medicine",
+      "accepted_phonetics": ["/ˈmɛdəsən/", "/ˈmedɪsɪn/"],
+      "syllables": "med-i-cine",
+      "syllable_count": 3
+    },
+    {
+      "word": "temperature",
+      "accepted_phonetics": ["/ˈtɛmpɹɪtʃə/", "/ˈtemprətʃə/"],
+      "syllables": "tem-per-a-ture",
+      "syllable_count": 4
+    },
+    {
+      "word": "about",
+      "accepted_phonetics": ["/əˈbaʊt/"],
+      "syllables": "a-bout",
+      "syllable_count": 2
+    },
+    {
+      "word": "you",
+      "accepted_phonetics": ["/juː/", "/jʊ/", "/ˈjuː/"],
+      "syllables": "you",
+      "syllable_count": 1
+    },
+    {
+      "word": "abandon",
+      "syllables": "a-ban-don",
+      "syllable_count": 3
+    },
+    {
+      "word": "ability",
+      "syllables": "a-bil-i-ty",
+      "syllable_count": 4
+    },
+    {
+      "word": "able",
+      "syllables": "a-ble",
+      "syllable_count": 2
+    },
+    {
+      "word": "above",
+      "syllables": "a-bove",
+      "syllable_count": 2
+    },
+    {
+      "word": "accept",
+      "syllables": "ac-cept",
+      "syllable_count": 2
+    },
+    {
+      "word": "accident",
+      "syllables": "ac-ci-dent",
+      "syllable_count": 3
+    },
+    {
+      "word": "action",
+      "syllables": "ac-tion",
+      "syllable_count": 2
+    },
+    {
+      "word": "animal",
+      "syllables": "an-i-mal",
+      "syllable_count": 3
+    },
+    {
+      "word": "answer",
+      "syllables": "an-swer",
+      "syllable_count": 2
+    },
+    {
+      "word": "banana",
+      "syllables": "ba-na-na",
+      "syllable_count": 3
+    },
+    {
+      "word": "beautiful",
+      "syllables": "beau-ti-ful",
+      "syllable_count": 3
+    },
+    {
+      "word": "because",
+      "syllables": "be-cause",
+      "syllable_count": 2
+    },
+    {
+      "word": "business",
+      "syllables": "busi-ness",
+      "syllable_count": 2
+    },
+    {
+      "word": "children",
+      "syllables": "chil-dren",
+      "syllable_count": 2
+    },
+    {
+      "word": "computer",
+      "syllables": "com-put-er",
+      "syllable_count": 3
+    },
+    {
+      "word": "country",
+      "syllables": "coun-try",
+      "syllable_count": 2
+    },
+    {
+      "word": "dictionary",
+      "syllables": "dic-tio-na-ry",
+      "syllable_count": 4
+    },
+    {
+      "word": "different",
+      "syllables": "dif-fer-ent",
+      "syllable_count": 3
+    },
+    {
+      "word": "difficult",
+      "syllables": "dif-fi-cult",
+      "syllable_count": 3
+    },
+    {
+      "word": "education",
+      "syllables": "ed-u-ca-tion",
+      "syllable_count": 4
+    },
+    {
+      "word": "family",
+      "syllables": "fam-i-ly",
+      "syllable_count": 3
+    },
+    {
+      "word": "favorite",
+      "syllables": "fa-vo-rite",
+      "syllable_count": 3
+    },
+    {
+      "word": "information",
+      "syllables": "in-for-ma-tion",
+      "syllable_count": 4
+    },
+    {
+      "word": "language",
+      "syllables": "lan-guage",
+      "syllable_count": 2
+    },
+    {
+      "word": "mountain",
+      "syllables": "moun-tain",
+      "syllable_count": 2
+    },
+    {
+      "word": "national",
+      "syllables": "na-tion-al",
+      "syllable_count": 3
+    },
+    {
+      "word": "necessary",
+      "syllables": "ne-ces-sa-ry",
+      "syllable_count": 4
+    },
+    {
+      "word": "orange",
+      "syllables": "or-ange",
+      "syllable_count": 2
+    },
+    {
+      "word": "people",
+      "syllables": "peo-ple",
+      "syllable_count": 2
+    },
+    {
+      "word": "person",
+      "syllables": "per-son",
+      "syllable_count": 2
+    },
+    {
+      "word": "picture",
+      "syllables": "pic-ture",
+      "syllable_count": 2
+    },
+    {
+      "word": "problem",
+      "syllables": "prob-lem",
+      "syllable_count": 2
+    },
+    {
+      "word": "pronunciation",
+      "syllables": "pro-nun-ci-a-tion",
+      "syllable_count": 5
+    },
+    {
+      "word": "question",
+      "syllables": "ques-tion",
+      "syllable_count": 2
+    },
+    {
+      "word": "school",
+      "syllables": "school",
+      "syllable_count": 1
+    },
+    {
+      "word": "student",
+      "syllables": "stu-dent",
+      "syllable_count": 2
+    },
+    {
+      "word": "syllable",
+      "syllables": "syl-la-ble",
+      "syllable_count": 3
+    },
+    {
+      "word": "teacher",
+      "syllables": "teach-er",
+      "syllable_count": 2
+    },
+    {
+      "word": "together",
+      "syllables": "to-geth-er",
+      "syllable_count": 3
+    },
+    {
+      "word": "tomorrow",
+      "syllables": "to-mor-row",
+      "syllable_count": 3
+    },
+    {
+      "word": "yesterday",
+      "syllables": "yes-ter-day",
+      "syllable_count": 3
+    },
+    {
+      "word": "achieve",
+      "syllables": "a-chieve",
+      "syllable_count": 2
+    },
+    {
+      "word": "achievement",
+      "syllables": "a-chieve-ment",
+      "syllable_count": 3
+    },
+    {
+      "word": "anything",
+      "syllables": "an-y-thing",
+      "syllable_count": 3
+    },
+    {
+      "word": "biochemical",
+      "syllables": "bi-o-chem-i-cal",
+      "syllable_count": 5
+    },
+    {
+      "word": "chemical",
+      "syllables": "chem-i-cal",
+      "syllable_count": 3
+    },
+    {
+      "word": "technology",
+      "syllables": "tech-nol-o-gy",
+      "syllable_count": 4
+    },
+    {
+      "word": "psychology",
+      "syllables": "psy-chol-o-gy",
+      "syllable_count": 4
+    },
+    {
+      "word": "telephone",
+      "syllables": "tel-e-phone",
+      "syllable_count": 3
+    },
+    {
+      "word": "amorphous",
+      "syllables": "a-mor-phous",
+      "syllable_count": 3
+    }
+  ]
+}

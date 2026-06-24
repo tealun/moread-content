@@ -1,0 +1,589 @@
+word,syllables,actual_count,cmu_counts,category,phonetic,decision,reviewed_syllables,reason
+aboveboard,above-board,2,3,other,/əˈbʌvˌbɔɹd/,needs_human_source,above-board,no high-confidence automatic boundary rule
+absenteeism,a-bsen-tee-ism,4,5,suffix_ism,/ˌæbsənˈtiːɪzəm/,needs_human_source,a-bsen-tee-ism,-ism boundary needs dictionary-specific policy
+academically,a-ca-dem-i-cal-ly,6,5,adverb_ically_ally,/ˌækəˈdɛmɪkli/,accepted_standard_difference,a-ca-dem-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+accompaniment,ac-com-pa-ni-ment,5,4,other,/əˈkʌmpənɪmənt/,accepted_standard_difference,ac-com-pa-ni-ment,orthographic spelling split has more parts than CMU pronunciation
+acoustically,a-cous-ti-cal-ly,5,4,adverb_ically_ally,/əˈkuːstɪkli/,accepted_standard_difference,a-cous-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+activism,ac-ti-vism,3,4,suffix_ism,/ˈæktɪˌvɪzəm/,needs_human_source,ac-ti-vism,-ism boundary needs dictionary-specific policy
+actuary,ac-tu-ary,3,4,other,/ˈæktʃuˈɛˌɹiː/,needs_human_source,ac-tu-ary,no high-confidence automatic boundary rule
+adrian,adri-an,2,3,vowel_sequence_suffix,/ˈeɪdɹiən/,needs_human_source,adri-an,no high-confidence automatic boundary rule
+aerial,aeri-al,2,3,other,/ˈɛɹiəl/,needs_human_source,aeri-al,no high-confidence automatic boundary rule
+aesthetically,aes-thet-i-cal-ly,5,4,adverb_ically_ally,/ɛsˈθɛtɪkli/,accepted_standard_difference,aes-thet-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+aforesaid,afore-said,2,3,other,/əˈfɔɹˌsɛd/,needs_human_source,afore-said,no high-confidence automatic boundary rule
+albeit,al-beit,2,3,other,/ɔlˈbiːɪt/,needs_human_source,al-beit,no high-confidence automatic boundary rule
+albuquerque,al-bu-querque,3,4,other,/ˈælbəkɚki/,needs_human_source,al-bu-querque,no high-confidence automatic boundary rule
+alcoholism,al-co-ho-lism,4,5,suffix_ism,/ˈælkəˌhɔˌlɪzəm/,needs_human_source,al-co-ho-lism,-ism boundary needs dictionary-specific policy
+algorithm,al-go-rithm,3,4,other,/ˈælɡɚˌɪðəm/,needs_human_source,al-go-rithm,no high-confidence automatic boundary rule
+algorithms,al-go-rithms,3,4,other,/ˈælɡɚˌɪðəmz/,needs_human_source,al-go-rithms,no high-confidence automatic boundary rule
+alphabetically,al-pha-bet-i-cal-ly,6,5,adverb_ically_ally,/ˌælfəˈbɛtɪkli/,accepted_standard_difference,al-pha-bet-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+altruism,al-tru-ism,3,4,suffix_ism,/ˈæltɹuˌɪzəm/,needs_human_source,al-tru-ism,-ism boundary needs dictionary-specific policy
+americanism,a-me-ri-ca-nism,5,6,suffix_ism,/əˈmɛɹɪkəˌnɪzəm/,needs_human_source,a-me-ri-ca-nism,-ism boundary needs dictionary-specific policy
+amphibian,am-phib-ian,3,4,vowel_sequence_suffix,/æmˈfɪbiən/,needs_human_source,am-phib-ian,no high-confidence automatic boundary rule
+amphitheater,amp-hit-hea-ter,4,5,other,/ˈæmfəθiˈeɪtɚ/,needs_human_source,amp-hit-hea-ter,no high-confidence automatic boundary rule
+anachronism,a-nac-hro-nism,4,5,suffix_ism,/əˈnækɹəˌnɪzəm/,needs_human_source,a-nac-hro-nism,-ism boundary needs dictionary-specific policy
+analogue,ana-logue,2,3,other,/ˈænəˌlɔɡ/,needs_human_source,ana-logue,no high-confidence automatic boundary rule
+annuity,an-nu-ity,3,4,suffix_ity_ety,/ɐnjˈuːtɪ/,needs_human_source,an-nu-ity,no high-confidence automatic boundary rule
+antagonism,an-tag-o-nism,4,5,suffix_ism,/ænˈtæɡəˌnɪzəm/,needs_human_source,an-tag-o-nism,-ism boundary needs dictionary-specific policy
+antemeridian,an-te-merid-i-an,5,6,vowel_sequence_suffix,/ˌæntəmɛˈɹɪdiən/,needs_human_source,an-te-merid-i-an,no high-confidence automatic boundary rule
+anthropomorphism,an-thro-po-mor-phism,5,6,suffix_ism,/ˌænθɹəpəˈmɔɹfɪzəm/,needs_human_source,an-thro-po-mor-phism,-ism boundary needs dictionary-specific policy
+antibiotic,an-tibi-ot-ic,4,5,other,/ˌæntɪbaɪˈɒtɪk/,needs_human_source,an-tibi-ot-ic,no high-confidence automatic boundary rule
+anxiety,anx-i-ety,3,4,suffix_ity_ety,/æŋˈzaɪəti/,needs_human_source,anx-i-ety,no high-confidence automatic boundary rule
+aphorism,ap-ho-rism,3,4,suffix_ism,/ˈæfɚˌɪzəm/,needs_human_source,ap-ho-rism,-ism boundary needs dictionary-specific policy
+apotheosis,apoth-e-o-sis,4,5,other,/əˌpɑθiˈoʊsəs/,needs_human_source,apoth-e-o-sis,no high-confidence automatic boundary rule
+appliances,ap-pli-ances,3,4,other,/ɐplˈaɪənsɪz/,needs_human_source,ap-pli-ances,no high-confidence automatic boundary rule
+aqueous,aque-ous,2,3,vowel_sequence_suffix,/ˈeɪkwiəs/,needs_human_source,aque-ous,no high-confidence automatic boundary rule
+arabian,ara-bi-an,3,4,vowel_sequence_suffix,/əˈɹeɪbiən/,needs_human_source,ara-bi-an,no high-confidence automatic boundary rule
+archeology,arche-ol-o-gy,4,5,other,/ˌɑɹkiˈɑlədʒi/,needs_human_source,arche-ol-o-gy,no high-confidence automatic boundary rule
+archetypal,ar-che-typ-al,4,3,other,/ˈɑɹkˈtaɪpəl/,accepted_standard_difference,ar-che-typ-al,orthographic spelling split has more parts than CMU pronunciation
+archived,archived,1,2,other,/ˈɑɹˌkaɪvd/,needs_human_source,archived,no high-confidence automatic boundary rule
+areas,ar-eas,2,3,other,/ˈɛɹiəz/,needs_human_source,ar-eas,no high-confidence automatic boundary rule
+argue,argue,1,2,other,/ˈɑɹɡju/,needs_human_source,argue,no high-confidence automatic boundary rule
+arthurian,art-hu-rian,3,4,vowel_sequence_suffix,/ɑɹˈθʊɹiən/,needs_human_source,art-hu-rian,no high-confidence automatic boundary rule
+artistically,ar-tis-ti-cal-ly,5,4,adverb_ically_ally,/ɑɹˈtɪstɪkli/,accepted_standard_difference,ar-tis-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+ashamed,ashamed,1,2,other,/əˈʃeɪmd/,needs_human_source,ashamed,no high-confidence automatic boundary rule
+assiduous,as-sid-u-ous,4,3,vowel_sequence_suffix,/əˈsɪdwəs/,accepted_standard_difference,as-sid-u-ous,orthographic spelling split has more parts than CMU pronunciation
+assiduously,as-sid-u-ous-ly,5,4,other,/əˈsɪdwəsli/,accepted_standard_difference,as-sid-u-ous-ly,orthographic spelling split has more parts than CMU pronunciation
+astigmatism,as-ti-gma-tism,4,5,suffix_ism,/əˈstɪɡməˌtɪzəm/,needs_human_source,as-ti-gma-tism,-ism boundary needs dictionary-specific policy
+atavism,a-ta-vism,3,4,suffix_ism,/ˈætəvɪzəm/,needs_human_source,a-ta-vism,-ism boundary needs dictionary-specific policy
+atheism,athe-ism,2,3/4,suffix_ism,/ˈeɪθɪˌɪzəm/,needs_human_source,athe-ism,-ism boundary needs dictionary-specific policy
+atheist,athe-ist,2,3,other,/ˈeɪθiəst/,needs_human_source,athe-ist,no high-confidence automatic boundary rule
+atheistic,athe-is-tic,3,4,other,/ˌeɪθiˈɪstɪk/,needs_human_source,athe-is-tic,no high-confidence automatic boundary rule
+athleticism,at-hle-ti-cism,4,5,suffix_ism,/æθˈlɛtɪˌsɪzəm/,needs_human_source,at-hle-ti-cism,-ism boundary needs dictionary-specific policy
+attributes,at-tributes,2,3,other,/ˈatɹɪbjˌuːts/,needs_human_source,at-tributes,no high-confidence automatic boundary rule
+aug,aug,1,2,other,/ˈɔɡəst/,needs_human_source,aug,no high-confidence automatic boundary rule
+automatically,au-to-mat-i-cal-ly,6,5,adverb_ically_ally,/ˌɒːtəˈmætɪklɪ/,accepted_standard_difference,au-to-mat-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+aviator,avi-a-tor,3,4,other,/ˈeɪviˌeɪtɚ/,needs_human_source,avi-a-tor,no high-confidence automatic boundary rule
+awareness,aware-ness,2,3,other,/əˈwɛɹnəs/,needs_human_source,aware-ness,no high-confidence automatic boundary rule
+awhile,awhile,1,2,other,/əˈwaɪl/,needs_human_source,awhile,no high-confidence automatic boundary rule
+axiom,ax-iom,2,3,other,/ˈæksiəm/,needs_human_source,ax-iom,no high-confidence automatic boundary rule
+babylonian,baby-lo-ni-an,4,5,vowel_sequence_suffix,/ˌbæbəˈloʊniən/,needs_human_source,baby-lo-ni-an,no high-confidence automatic boundary rule
+bacterium,bac-teri-um,3,4,vowel_sequence_suffix,/bækˈtɪɹiəm/,needs_human_source,bac-teri-um,no high-confidence automatic boundary rule
+baroque,baroque,1,2,other,/bɚˈoʊk/,needs_human_source,baroque,no high-confidence automatic boundary rule
+basically,ba-si-cal-ly,4,3,adverb_ically_ally,/ˈbeɪsɪkli/,accepted_standard_difference,ba-si-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+beautifully,beau-ti-ful-ly,4,3,other,/ˈbjuːtəfli/,accepted_standard_difference,beau-ti-ful-ly,orthographic spelling split has more parts than CMU pronunciation
+beloved,beloved,1,2/3,other,/bɪˈlʌvd/,needs_human_source,beloved,no high-confidence automatic boundary rule
+biochemist,bioc-he-mist,3,4,other,/ˌbaɪoʊˈkɛməst/,needs_human_source,bioc-he-mist,no high-confidence automatic boundary rule
+biochemistry,bioc-he-mis-try,4,5,other,/ˌbaɪoʊˈkɛməstɹi/,needs_human_source,bioc-he-mis-try,no high-confidence automatic boundary rule
+biologically,bi-o-log-i-cal-ly,6,5,adverb_ically_ally,/baɪəˈlɑdʒɪkli/,accepted_standard_difference,bi-o-log-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+biotechnology,bio-tec-hno-lo-gy,5,6,other,/ˌbaɪoʊˌtɛkˈnɑlədʒi/,needs_human_source,bio-tec-hno-lo-gy,no high-confidence automatic boundary rule
+blvd,blvd,1,3,other,/ˈbʊləˌvɑɹd/,needs_human_source,blvd,no high-confidence automatic boundary rule
+bmw,bmw,1,5,other,/ˈbiːˌɛmˈdʌbəlju/,needs_human_source,bmw,no high-confidence automatic boundary rule
+bohemian,bo-hemi-an,3,4,vowel_sequence_suffix,/boʊˈhiːmiən/,needs_human_source,bo-hemi-an,no high-confidence automatic boundary rule
+boolean,bool-ean,2,3,other,/buˈliːən/,needs_human_source,bool-ean,no high-confidence automatic boundary rule
+bracelet,bracelet,1,2,other,/ˈbɹeɪslət/,needs_human_source,bracelet,no high-confidence automatic boundary rule
+bracelets,bracelets,1,2,other,/ˈbɹeɪslɪts/,needs_human_source,bracelets,no high-confidence automatic boundary rule
+brochures,brochures,1,2,other,/bɹoʊˈʃʊɹz/,needs_human_source,brochures,no high-confidence automatic boundary rule
+bryan,bryan,1,2,other,/ˈbɹaɪən/,needs_human_source,bryan,no high-confidence automatic boundary rule
+bryant,bryant,1,2,other,/ˈbɹaɪənt/,needs_human_source,bryant,no high-confidence automatic boundary rule
+buddhism,bud-dhism,2,3,suffix_ism,/ˈbuːdɪzəm/,needs_human_source,bud-dhism,-ism boundary needs dictionary-specific policy
+bulgaria,bul-gar-ia,3,4,vowel_sequence_suffix,/bəlˈɡɛɹiə/,needs_human_source,bul-gar-ia,no high-confidence automatic boundary rule
+burial,buri-al,2,3,other,/ˈbɛɹiəl/,needs_human_source,buri-al,no high-confidence automatic boundary rule
+californian,cal-i-for-ni-an,5,4,vowel_sequence_suffix,/ˌkælɪˈfɔɹnjən/,accepted_standard_difference,cal-i-for-ni-an,orthographic spelling split has more parts than CMU pronunciation
+canadian,cana-di-an,3,4,vowel_sequence_suffix,/kəˈneɪdiən/,needs_human_source,cana-di-an,no high-confidence automatic boundary rule
+cannibalism,can-ni-bal-ism,4,5,suffix_ism,/ˈkænəbəˌlɪzəm/,needs_human_source,can-ni-bal-ism,-ism boundary needs dictionary-specific policy
+capitalism,cap-i-tal-ism,4,5,suffix_ism,/ˈkæpɪtəˌlɪzəm/,needs_human_source,cap-i-tal-ism,-ism boundary needs dictionary-specific policy
+cataclysm,cat-a-clysm,3,4,other,/ˈkætəˌklɪsəm/,needs_human_source,cat-a-clysm,no high-confidence automatic boundary rule
+catechism,cat-e-chism,3,4,suffix_ism,/ˈkætəˌkɪzəm/,needs_human_source,cat-e-chism,-ism boundary needs dictionary-specific policy
+categorically,cat-e-gor-i-cal-ly,6,5,adverb_ically_ally,/ˌkatɪɡˈɒɹɪklɪ/,accepted_standard_difference,cat-e-gor-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+catholic,catholic,1,2,other,/ˈkæθlɪk/,needs_human_source,catholic,no high-confidence automatic boundary rule
+catholicism,cat-ho-li-cism,4,5,suffix_ism,/kəˈθɔləˌsɪzəm/,needs_human_source,cat-ho-li-cism,-ism boundary needs dictionary-specific policy
+cds,cds,1,2,other,/ˌsiːˈdiːz/,needs_human_source,cds,no high-confidence automatic boundary rule
+celsius,cel-sius,2,3,other,/ˈsɛlsiəs/,needs_human_source,cel-sius,no high-confidence automatic boundary rule
+cenozoic,ce-no-zoic,3,4,other,/ˌsiːnəˈzoʊɪk/,needs_human_source,ce-no-zoic,no high-confidence automatic boundary rule
+certificates,cer-tifi-cates,3,4,other,/sɚˈtɪfɪkəts/,needs_human_source,cer-tifi-cates,no high-confidence automatic boundary rule
+championship,cham-pi-onship,3,4,other,/ˈtʃæmpiənˌʃɪp/,needs_human_source,cham-pi-onship,no high-confidence automatic boundary rule
+championships,cham-pi-onships,3,4,other,/ˈtʃæmpiənˌʃɪps/,needs_human_source,cham-pi-onships,no high-confidence automatic boundary rule
+chaos,chaos,1,2,other,/ˈkeɪɑs/,needs_human_source,chaos,no high-confidence automatic boundary rule
+chaotic,chaot-ic,2,3,other,/keɪˈɑtɪk/,needs_human_source,chaot-ic,no high-confidence automatic boundary rule
+chasm,chasm,1,2,other,/ˈkæzəm/,needs_human_source,chasm,no high-confidence automatic boundary rule
+chauvinism,chau-vin-ism,3,4,suffix_ism,/ˈʃoʊvəˌnɪzəm/,needs_human_source,chau-vin-ism,-ism boundary needs dictionary-specific policy
+chemically,chem-i-cal-ly,4,3,adverb_ically_ally,/ˈkɛməkli/,accepted_standard_difference,chem-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+choir,choir,1,2,other,/ˈkwaɪɚ/,needs_human_source,choir,no high-confidence automatic boundary rule
+choreograph,chore-o-graph,3,4,other,/ˈkɔɹiəˌɡɹæf/,needs_human_source,chore-o-graph,no high-confidence automatic boundary rule
+choreographer,chore-og-ra-pher,4,5,other,/ˌkɔɹiˈɑɡɹəfɚ/,needs_human_source,chore-og-ra-pher,no high-confidence automatic boundary rule
+choreography,chore-og-ra-phy,4,5,other,/ˌkɔɹiˈɑɡɹəfi/,needs_human_source,chore-og-ra-phy,no high-confidence automatic boundary rule
+circumference,cir-cum-fer-ence,4,3,other,/ˌsɝˈkʌmfɹəns/,accepted_standard_difference,cir-cum-fer-ence,orthographic spelling split has more parts than CMU pronunciation
+classicism,clas-si-cism,3,4,suffix_ism,/ˈklæsɪˌsɪzəm/,needs_human_source,clas-si-cism,-ism boundary needs dictionary-specific policy
+cnet,cnet,1,2,other,/ˈsiːˌnɛt/,needs_human_source,cnet,no high-confidence automatic boundary rule
+colonel,colonel,1,2,other,/ˈkɝnəl/,needs_human_source,colonel,no high-confidence automatic boundary rule
+colorfully,col-or-ful-ly,4,3,other,/ˈkʌlɚfli/,accepted_standard_difference,col-or-ful-ly,orthographic spelling split has more parts than CMU pronunciation
+colosseum,colos-se-um,3,4,other,/ˌkɑləˈsiːəm/,needs_human_source,colos-se-um,no high-confidence automatic boundary rule
+communism,com-mu-nism,3,4,suffix_ism,/ˈkɑmjəˌnɪzəm/,needs_human_source,com-mu-nism,-ism boundary needs dictionary-specific policy
+compendium,com-pen-dium,3,4,vowel_sequence_suffix,/kəmˈpɛndiəm/,needs_human_source,com-pen-dium,no high-confidence automatic boundary rule
+conferencing,con-fer-enc-ing,4,3,other,/ˈkɑnfɹənsɪŋ/,accepted_standard_difference,con-fer-enc-ing,orthographic spelling split has more parts than CMU pronunciation
+conservatism,con-ser-va-tism,4,5,suffix_ism,/kənˈsɝvəˌtɪzəm/,needs_human_source,con-ser-va-tism,-ism boundary needs dictionary-specific policy
+constituency,cons-ti-tuen-cy,4,5,other,/kənˈstɪtʃuənsi/,needs_human_source,cons-ti-tuen-cy,no high-confidence automatic boundary rule
+constituent,cons-ti-tuent,3,4,other,/kənˈstɪtʃuənt/,needs_human_source,cons-ti-tuent,no high-confidence automatic boundary rule
+contemptuously,con-temp-tu-ous-ly,5,4,other,/kənˈtɛmptʃwəsli/,accepted_standard_difference,con-temp-tu-ous-ly,orthographic spelling split has more parts than CMU pronunciation
+continuity,con-ti-nu-ity,4,5,suffix_ity_ety,/ˌkɑntəˈnuːəti/,needs_human_source,con-ti-nu-ity,no high-confidence automatic boundary rule
+copying,copy-ing,2,3,other,/ˈkɑpiɪŋ/,needs_human_source,copy-ing,no high-confidence automatic boundary rule
+courier,couri-er,2,3,other,/ˈkɝiɚ/,needs_human_source,couri-er,no high-confidence automatic boundary rule
+creativity,cre-ativ-i-ty,4,5,suffix_ity_ety,/ˌkɹiːeɪˈtɪvəti/,needs_human_source,cre-ativ-i-ty,no high-confidence automatic boundary rule
+creator,cre-ator,2,3,other,/kɹiˈeɪtɚ/,needs_human_source,cre-ator,no high-confidence automatic boundary rule
+criticism,crit-i-cism,3,4,suffix_ism,/ˈkɹɪtɪˌsɪzəm/,needs_human_source,crit-i-cism,-ism boundary needs dictionary-specific policy
+croatia,croat-ia,2,3,vowel_sequence_suffix,/kɹoʊˈeɪʃə/,needs_human_source,croat-ia,no high-confidence automatic boundary rule
+cronyism,crony-ism,2,4,suffix_ism,/ˈkɹoʊniˌɪzəm/,needs_human_source,crony-ism,-ism boundary needs dictionary-specific policy
+cubism,cu-bism,2,3,suffix_ism,/ˈkjuːbɪzəm/,needs_human_source,cu-bism,-ism boundary needs dictionary-specific policy
+cuneiform,cu-nei-form,3,4,other,/ˈkjuːniəˌfɔɹm/,needs_human_source,cu-nei-form,no high-confidence automatic boundary rule
+cyan,cyan,1,2,other,/saɪˈæn/,needs_human_source,cyan,no high-confidence automatic boundary rule
+cynicism,cyn-i-cism,3,4,suffix_ism,/ˈsɪnɪˌsɪzəm/,needs_human_source,cyn-i-cism,-ism boundary needs dictionary-specific policy
+darwinism,dar-win-ism,3,4,suffix_ism,/ˈdɑɹwɪˌnɪzəm/,needs_human_source,dar-win-ism,-ism boundary needs dictionary-specific policy
+decades,decades,1,2,other,/ˈdekeɪdz/,needs_human_source,decades,no high-confidence automatic boundary rule
+decorative,dec-o-ra-tive,4,3,other,/ˈdɛkɹətɪv/,accepted_standard_difference,dec-o-ra-tive,orthographic spelling split has more parts than CMU pronunciation
+definitively,de-fi-ni-ti-ve-ly,6,5,other,/dɪˈfɪnɪtɪvli/,accepted_standard_difference,de-fi-ni-ti-ve-ly,orthographic spelling split has more parts than CMU pronunciation
+deify,de-ify,2,3,other,/ˈdiːəˌfaɪ/,needs_human_source,de-ify,no high-confidence automatic boundary rule
+deist,deist,1,2,other,/ˈdiːɪst/,needs_human_source,deist,no high-confidence automatic boundary rule
+deity,de-ity,2,3,suffix_ity_ety,/ˈdiːəti/,needs_human_source,de-ity,no high-confidence automatic boundary rule
+delirium,delir-i-um,3,4,vowel_sequence_suffix,/dɪˈlɪɹiəm/,needs_human_source,delir-i-um,no high-confidence automatic boundary rule
+demographically,de-mo-graph-i-cal-ly,6,5,adverb_ically_ally,/ˌdɛməˈɡɹæfɪkli/,accepted_standard_difference,de-mo-graph-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+demonstrates,demon-strates,2,3,other,/ˈdɛmənˌstɹeɪts/,needs_human_source,demon-strates,no high-confidence automatic boundary rule
+despotism,des-po-tism,3,4,suffix_ism,/ˈdɛspəˌtɪzəm/,needs_human_source,des-po-tism,-ism boundary needs dictionary-specific policy
+devour,de-vour,2,3,other,/dɪˈvaʊɚ/,needs_human_source,de-vour,no high-confidence automatic boundary rule
+diabetes,di-a-betes,3,4,other,/ˌdaɪəˈbiːtiz/,needs_human_source,di-a-betes,no high-confidence automatic boundary rule
+dialect,di-alect,2,3,other,/ˈdaɪəˌlɛkt/,needs_human_source,di-alect,no high-confidence automatic boundary rule
+dialectical,di-alec-ti-cal,4,5,other,/ˌdaɪəˈlɛktɪkəl/,needs_human_source,di-alec-ti-cal,no high-confidence automatic boundary rule
+diamond,di-a-mond,3,2,other,/ˈdaɪmənd/,accepted_standard_difference,di-a-mond,orthographic spelling split has more parts than CMU pronunciation
+diamonds,di-a-monds,3,2,other,/ˈdaɪməndz/,accepted_standard_difference,di-a-monds,orthographic spelling split has more parts than CMU pronunciation
+diana,di-ana,2,3,other,/daɪˈænə/,needs_human_source,di-ana,no high-confidence automatic boundary rule
+diaphanous,diap-ha-nous,3,4,other,/daɪˈæfənɪs/,needs_human_source,diap-ha-nous,no high-confidence automatic boundary rule
+diatomic,di-atom-ic,3,4,other,/ˌdaɪəˈtɑmɪk/,needs_human_source,di-atom-ic,no high-confidence automatic boundary rule
+discontinuity,dis-con-ti-nu-ity,5,6,suffix_ity_ety,/dɪˌskɑntɪˈnuːɪti/,needs_human_source,dis-con-ti-nu-ity,no high-confidence automatic boundary rule
+disheveled,di-sheveled,2,3,other,/dɪˈʃɛvəld/,needs_human_source,di-sheveled,no high-confidence automatic boundary rule
+disinterested,dis-in-ter-est-ed,5,4,other,/ˌdɪsˈɪntɹɛstɪd/,accepted_standard_difference,dis-in-ter-est-ed,orthographic spelling split has more parts than CMU pronunciation
+disobedient,dis-obe-di-ent,4,5,other,/dɪsəʊbˈiːdɪənt/,needs_human_source,dis-obe-di-ent,no high-confidence automatic boundary rule
+disorient,dis-ori-ent,3,4,other,/dɪˈsɔɹiˌɛnt/,needs_human_source,dis-ori-ent,no high-confidence automatic boundary rule
+docile,docile,1,2,other,/ˈdɑsəl/,needs_human_source,docile,no high-confidence automatic boundary rule
+domestically,do-mes-ti-cal-ly,5,4,adverb_ically_ally,/dəˈmɛstɪkli/,accepted_standard_difference,do-mes-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+drastically,dras-ti-cal-ly,4,3,adverb_ically_ally,/ˈdɹæstɪkli/,accepted_standard_difference,dras-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+drawer,draw-er,2,1,other,/ˈdɹɔɹ/,accepted_standard_difference,draw-er,orthographic spelling split has more parts than CMU pronunciation
+duet,duet,1,2,other,/djuːˈɛt/,needs_human_source,duet,no high-confidence automatic boundary rule
+duo,duo,1,2,other,/ˈduːoʊ/,needs_human_source,duo,no high-confidence automatic boundary rule
+dvds,dvds,1,3,other,/ˌdiːˌviːˈdiːz/,needs_human_source,dvds,no high-confidence automatic boundary rule
+dwarfism,dwar-fism,2,3,suffix_ism,/ˈdwɔɹfɪzəm/,needs_human_source,dwar-fism,-ism boundary needs dictionary-specific policy
+dynamically,dy-nam-i-cal-ly,5,4,adverb_ically_ally,/daɪˈnæmɪˌkliː/,accepted_standard_difference,dy-nam-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+easygoing,easy-go-ing,3,4,other,/ˈiːziˈɡoʊɪŋ/,needs_human_source,easy-go-ing,no high-confidence automatic boundary rule
+economically,e-co-nom-i-cal-ly,6,5,adverb_ically_ally,/iːkəˈnɔmɪkəlɪ/,accepted_standard_difference,e-co-nom-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+ecstatically,ec-stat-i-cal-ly,5,4,adverb_ically_ally,/ɛkˈstætɪkli/,accepted_standard_difference,ec-stat-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+edinburgh,ed-in-burgh,3,4,other,/ˈɛdənbɚoʊ/,needs_human_source,ed-in-burgh,no high-confidence automatic boundary rule
+egoism,e-go-ism,3,4,suffix_ism,/ˈiːɡoʊˌɪzəm/,needs_human_source,e-go-ism,-ism boundary needs dictionary-specific policy
+egotism,e-go-tism,3,4,suffix_ism,/ˈiːɡəˌtɪzəm/,needs_human_source,e-go-tism,-ism boundary needs dictionary-specific policy
+elaborately,e-lab-o-rate-ly,5,4,other,/ɪˈlæbɹətli/,accepted_standard_difference,e-lab-o-rate-ly,orthographic spelling split has more parts than CMU pronunciation
+elysium,ely-si-um,3,4,vowel_sequence_suffix,/ɪˈlɪziəm/,needs_human_source,ely-si-um,no high-confidence automatic boundary rule
+emaciated,ema-ci-at-ed,4,5,other,/ɪˈmeɪʃiˌeɪtɪd/,needs_human_source,ema-ci-at-ed,no high-confidence automatic boundary rule
+embolism,em-bo-lism,3,4,suffix_ism,/ˈɛmboʊˌlɪzəm/,needs_human_source,em-bo-lism,-ism boundary needs dictionary-specific policy
+embryo,em-bryo,2,3,other,/ˈɛmbɹiˌoʊ/,needs_human_source,em-bryo,no high-confidence automatic boundary rule
+emirates,emi-rates,2,3,other,/əˈmɪrets/,needs_human_source,emi-rates,no high-confidence automatic boundary rule
+emotionally,e-mo-tion-al-ly,5,4,adverb_ically_ally,/ɪmˈəʊʃənəlɪ/,accepted_standard_difference,e-mo-tion-al-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+empiricism,em-pi-ri-cism,4,5,suffix_ism,/ɛmˈpɪɹəˌsɪzəm/,needs_human_source,em-pi-ri-cism,-ism boundary needs dictionary-specific policy
+emulsifier,emul-si-fi-er,4,5,other,/ɪˈmʌlsəˌfaɪɚ/,needs_human_source,emul-si-fi-er,no high-confidence automatic boundary rule
+encomium,en-comi-um,3,4,vowel_sequence_suffix,/ɛnˈkɔˌmɪəm/,needs_human_source,en-comi-um,no high-confidence automatic boundary rule
+energetically,en-er-get-i-cal-ly,6,5,adverb_ically_ally,/ˌɛnɚˈdʒɛtɪkli/,accepted_standard_difference,en-er-get-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+enthusiasm,en-thu-si-asm,4,5,other,/ɪnˈθuːziˌæzəm/,needs_human_source,en-thu-si-asm,no high-confidence automatic boundary rule
+enthusiastically,en-thu-si-as-ti-cal-ly,7,6,adverb_ically_ally,/ɪnˌθuːziˈæstɪkli/,accepted_standard_difference,en-thu-si-as-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+entrepreneurial,en-tre-pre-neur-ial,5,6,other,/ˌɑntɹəpɹəˈnɝiəl/,needs_human_source,en-tre-pre-neur-ial,no high-confidence automatic boundary rule
+enviable,en-vi-able,3,4,suffix_able_ible,/ˈɛnviəbəl/,needs_human_source,en-vi-able,no high-confidence automatic boundary rule
+eohippus,eo-hip-pus,3,4,other,/ˌiːoʊˈhɪpəs/,needs_human_source,eo-hip-pus,no high-confidence automatic boundary rule
+eon,eon,1,2,other,/ˈiːɒn/,needs_human_source,eon,no high-confidence automatic boundary rule
+eos,eos,1,2,other,/ˈiːɑs/,needs_human_source,eos,no high-confidence automatic boundary rule
+epilogue,epi-logue,2,3,other,/ˈɛpəˌlɔɡ/,needs_human_source,epi-logue,no high-confidence automatic boundary rule
+episodes,e-pi-so-des,4,3,other,/ˈɛpɪsˌəʊdz/,accepted_standard_difference,e-pi-so-des,orthographic spelling split has more parts than CMU pronunciation
+estuary,es-tu-ary,3,4,other,/ˈɛstʃuˌɛɹi/,needs_human_source,es-tu-ary,no high-confidence automatic boundary rule
+etc,etc,1,4,other,/ˌɛtˈsɛtɚə/,needs_human_source,etc,no high-confidence automatic boundary rule
+ethereal,ethe-re-al,3,4,other,/ɪˈθɪɹiəl/,needs_human_source,ethe-re-al,no high-confidence automatic boundary rule
+ethiopia,et-hio-pia,3,5,vowel_sequence_suffix,/ˌiːθiˈoʊpiə/,needs_human_source,et-hio-pia,no high-confidence automatic boundary rule
+euphony,e-u-pho-ny,4,3,other,/ˈjuːfəni/,accepted_standard_difference,e-u-pho-ny,orthographic spelling split has more parts than CMU pronunciation
+evening,evening,1,2,other,/ˈiːvnɪŋ/,needs_human_source,evening,no high-confidence automatic boundary rule
+eventual,even-tu-al,3,4,other,/ɪvˈɛntʃuːəl/,needs_human_source,even-tu-al,no high-confidence automatic boundary rule
+eventuality,even-tu-al-i-ty,5,6,suffix_ity_ety,/ɪˌventʃuˈælɪtɪ/,needs_human_source,even-tu-al-i-ty,no high-confidence automatic boundary rule
+excellency,ex-cel-len-cy,4,3,other,/ˈɛkˈslɛnsi/,accepted_standard_difference,ex-cel-len-cy,orthographic spelling split has more parts than CMU pronunciation
+exorcism,ex-or-cism,3,4,suffix_ism,/ˈɛksɚˌsɪzəm/,needs_human_source,ex-or-cism,-ism boundary needs dictionary-specific policy
+experiences,ex-pe-ri-ences,4,5,other,/ɪkˈspɪɹiənsɪz/,needs_human_source,ex-pe-ri-ences,no high-confidence automatic boundary rule
+facelift,facelift,1,2,other,/ˈfeɪˌslɪft/,needs_human_source,facelift,no high-confidence automatic boundary rule
+facile,facile,1,2,other,/ˈfæsəl/,needs_human_source,facile,no high-confidence automatic boundary rule
+fanaticism,fa-na-ti-cism,4,5,suffix_ism,/fəˈnætəˌsɪzəm/,needs_human_source,fa-na-ti-cism,-ism boundary needs dictionary-specific policy
+fancier,fanci-er,2,3,other,/ˈfænsiɚ/,needs_human_source,fanci-er,no high-confidence automatic boundary rule
+farewell,farewell,1,2,other,/ˌfɛɹˈwɛl/,needs_human_source,farewell,no high-confidence automatic boundary rule
+fascism,fas-cism,2,3,suffix_ism,/ˈfæˌʃɪzəm/,needs_human_source,fas-cism,-ism boundary needs dictionary-specific policy
+fatalism,fa-tal-ism,3,4,suffix_ism,/ˈfeɪtəˌlɪzəm/,needs_human_source,fa-tal-ism,-ism boundary needs dictionary-specific policy
+favoritism,fa-vo-ri-tism,4,5,suffix_ism,/ˈfeɪvɚɪˌtɪzəm/,needs_human_source,fa-vo-ri-tism,-ism boundary needs dictionary-specific policy
+feb,feb,1,4,other,/ˈfɛbjəˌwɛɹi/,needs_human_source,feb,no high-confidence automatic boundary rule
+february,feb-ru-ary,3,4,other,/ˈfɛbɹuːəɹɪ/,needs_human_source,feb-ru-ary,no high-confidence automatic boundary rule
+feminism,fem-i-nism,3,4,suffix_ism,/ˈfɛmɪˌnɪzəm/,needs_human_source,fem-i-nism,-ism boundary needs dictionary-specific policy
+feudalism,feu-dal-ism,3,4,suffix_ism,/ˈfjuːdəˌlɪzəm/,needs_human_source,feu-dal-ism,-ism boundary needs dictionary-specific policy
+filial,fil-ial,2,3,other,/ˈfɪliəl/,needs_human_source,fil-ial,no high-confidence automatic boundary rule
+flickr,flickr,1,2,other,/ˈflɪkɚ/,needs_human_source,flickr,no high-confidence automatic boundary rule
+fluorescent,flu-o-res-cent,4,3,other,/flʊəɹˈɛsənt/,accepted_standard_difference,flu-o-res-cent,orthographic spelling split has more parts than CMU pronunciation
+forego,forego,1,2,other,/fɔɹˈɡoʊ/,needs_human_source,forego,no high-confidence automatic boundary rule
+foreseeable,fore-see-able,3,4,suffix_able_ible,/fɔɹˈsiːəbəl/,needs_human_source,fore-see-able,no high-confidence automatic boundary rule
+fortuitous,for-tu-itous,3,4,other,/fɔɹˈtuːɪtəs/,needs_human_source,for-tu-itous,no high-confidence automatic boundary rule
+freudian,freudi-an,2,3,vowel_sequence_suffix,/ˈfɹuːdiən/,needs_human_source,freudi-an,no high-confidence automatic boundary rule
+fs,fs,1,0/2,other,/ˌɛfˈɛs/,accepted_standard_difference,fs,orthographic spelling split has more parts than CMU pronunciation
+gazelle,gazelle,1,2,other,/ɡəˈzɛl/,needs_human_source,gazelle,no high-confidence automatic boundary rule
+genetically,ge-net-i-cal-ly,5,4,adverb_ically_ally,/dʒəˈnɛtɪkli/,accepted_standard_difference,ge-net-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+geometrically,ge-o-met-ri-cal-ly,6,5,adverb_ically_ally,/ˌdʒiːəˈmɛtɹɪkli/,accepted_standard_difference,ge-o-met-ri-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+graphically,graph-i-cal-ly,4,3,adverb_ically_ally,/ˈɡɹæfɪkli/,accepted_standard_difference,graph-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+gratuitous,gra-tu-itous,3,4,other,/ɡɹəˈtuːətəs/,needs_human_source,gra-tu-itous,no high-confidence automatic boundary rule
+gratuity,gra-tu-ity,3,4,suffix_ity_ety,/ɡɹəˈtuːɪti/,needs_human_source,gra-tu-ity,no high-confidence automatic boundary rule
+gravitationally,grav-i-ta-tion-al-ly,6,5,adverb_ically_ally,/ˌɡɹævəˈteɪʃnəli/,accepted_standard_difference,grav-i-ta-tion-al-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+grotesque,grotesque,1,2,other,/ɡɹoʊˈtɛsk/,needs_human_source,grotesque,no high-confidence automatic boundary rule
+hawaiian,hawai-ian,2,3,vowel_sequence_suffix,/həˈwaɪən/,needs_human_source,hawai-ian,no high-confidence automatic boundary rule
+hedonism,he-do-nism,3,4,suffix_ism,/ˈhiːdəˌnɪzəm/,needs_human_source,he-do-nism,-ism boundary needs dictionary-specific policy
+herbarium,herbar-i-um,3,4,vowel_sequence_suffix,/hɜːbˈeəɹɪəm/,needs_human_source,herbar-i-um,no high-confidence automatic boundary rule
+heroic,hero-ic,2,3,other,/hɪˈɹoʊɪk/,needs_human_source,hero-ic,no high-confidence automatic boundary rule
+heroin,hero-in,2,3,other,/ˈhɛɹoʊən/,needs_human_source,hero-in,no high-confidence automatic boundary rule
+heroism,hero-ism,2,4,suffix_ism,/ˈhɛɹoʊˌɪzəm/,needs_human_source,hero-ism,-ism boundary needs dictionary-specific policy
+heterogeneity,he-te-ro-ge-nei-ty,6,7,suffix_ity_ety,/ˈhɛtɹədʒˌɛneɪtɪ/,needs_human_source,he-te-ro-ge-nei-ty,no high-confidence automatic boundary rule
+hierarchical,hi-er-ar-chi-cal,5,4,other,/ˌhaɪˈɹɑɹkəkəl/,accepted_standard_difference,hi-er-ar-chi-cal,orthographic spelling split has more parts than CMU pronunciation
+histrionic,histri-on-ic,3,4,other,/ˌhɪstɹiˈɑnɪk/,needs_human_source,histri-on-ic,no high-confidence automatic boundary rule
+hmm,hmm,1,0,other,/hm/,accepted_standard_difference,hmm,orthographic spelling split has more parts than CMU pronunciation
+homogeneity,ho-mo-ge-nei-ty,5,6,suffix_ity_ety,/ˌhɑmədʒəˈniːəti/,needs_human_source,ho-mo-ge-nei-ty,no high-confidence automatic boundary rule
+hopewell,hopewell,1,2,other,/ˈhoʊpˌwɛl/,needs_human_source,hopewell,no high-confidence automatic boundary rule
+hourglass,hour-glass,2,3,other,/ˈaʊɚˌɡlæs/,needs_human_source,hour-glass,no high-confidence automatic boundary rule
+hughes,hugh-es,2,1,other,/ˈhjuːz/,accepted_standard_difference,hugh-es,orthographic spelling split has more parts than CMU pronunciation
+humanism,hu-man-ism,3,4,suffix_ism,/ˈhjuːməˌnɪzəm/,needs_human_source,hu-man-ism,-ism boundary needs dictionary-specific policy
+hydroelectric,hy-dro-elec-tric,4,5,other,/ˌhaɪdɹoʊɪˈlɛktɹɪk/,needs_human_source,hy-dro-elec-tric,no high-confidence automatic boundary rule
+hyena,hye-na,2,3,other,/haɪˈiːnə/,needs_human_source,hye-na,no high-confidence automatic boundary rule
+hyperborean,hy-per-bore-an,4,5,other,/ˌhaɪpɚˈbɔɹiən/,needs_human_source,hy-per-bore-an,no high-confidence automatic boundary rule
+hypnotism,hyp-no-tism,3,4,suffix_ism,/ˈhɪpnəˌtɪzəm/,needs_human_source,hyp-no-tism,-ism boundary needs dictionary-specific policy
+hypochondriac,hy-poc-hon-driac,4,5,other,/ˌhaɪpəˈkɑndɹiæk/,needs_human_source,hy-poc-hon-driac,no high-confidence automatic boundary rule
+hysterically,hys-ter-i-cal-ly,5,4,adverb_ically_ally,/ˌhɪˈstɛɹɪkli/,accepted_standard_difference,hys-ter-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+ian,ian,1,2,vowel_sequence_suffix,/ˈiːən/,needs_human_source,ian,no high-confidence automatic boundary rule
+idealism,ide-al-ism,3,4,suffix_ism,/aɪˈdiːlɪzəm/,needs_human_source,ide-al-ism,-ism boundary needs dictionary-specific policy
+idealistic,ide-al-is-tic,4,5,other,/aɪˌdiːəˈlɪstɪk/,needs_human_source,ide-al-is-tic,no high-confidence automatic boundary rule
+identifiable,i-den-ti-fi-able,5,6,suffix_able_ible,/aɪˈdɛntəˌfaɪəbəl/,needs_human_source,i-den-ti-fi-able,no high-confidence automatic boundary rule
+ideological,ide-o-log-i-cal,5,6,other,/ˌaɪdiəˈlɑdʒɪkəl/,needs_human_source,ide-o-log-i-cal,no high-confidence automatic boundary rule
+ideology,ide-ol-o-gy,4,5,other,/ˌaɪdiˈɑlədʒi/,needs_human_source,ide-ol-o-gy,no high-confidence automatic boundary rule
+idiom,id-iom,2,3,other,/ˈɪdiəm/,needs_human_source,id-iom,no high-confidence automatic boundary rule
+idiot,id-iot,2,3,other,/ˈɪˌdiːət/,needs_human_source,id-iot,no high-confidence automatic boundary rule
+ids,ids,1,2,other,/ˈaɪˈdiːz/,needs_human_source,ids,no high-confidence automatic boundary rule
+imagery,im-agery,2,3,other,/ˈɪmɪdʒɹɪ/,needs_human_source,im-agery,no high-confidence automatic boundary rule
+immemorial,im-memo-ri-al,4,5,other,/ˌɪməˈmɔɹiəl/,needs_human_source,im-memo-ri-al,no high-confidence automatic boundary rule
+imperialism,im-pe-ri-al-ism,5,6,suffix_ism,/ˌɪmˈpɪɹiəˌlɪzəm/,needs_human_source,im-pe-ri-al-ism,-ism boundary needs dictionary-specific policy
+impoverish,im-pov-er-ish,4,3,other,/ˌɪmˈpɑvɹɪʃ/,accepted_standard_difference,im-pov-er-ish,orthographic spelling split has more parts than CMU pronunciation
+impoverished,im-pov-er-ished,4,3,other,/ˌɪmˈpɑvɹɪʃt/,accepted_standard_difference,im-pov-er-ished,orthographic spelling split has more parts than CMU pronunciation
+impropriety,im-pro-pri-ety,4,5,suffix_ity_ety,/ˌɪmpɹəˈpɹaɪəti/,needs_human_source,im-pro-pri-ety,no high-confidence automatic boundary rule
+incendiary,in-cen-di-ary,4,5,other,/ˌɪnˈsɛndiɛɹi/,needs_human_source,in-cen-di-ary,no high-confidence automatic boundary rule
+inconspicuous,in-con-spic-u-ous,5,4,vowel_sequence_suffix,/ˌɪŋˈkɑnspɪkwəs/,accepted_standard_difference,in-con-spic-u-ous,orthographic spelling split has more parts than CMU pronunciation
+indiana,in-di-ana,3,4,other,/ˌɪndiˈænə/,needs_human_source,in-di-ana,no high-confidence automatic boundary rule
+individualism,in-di-vid-u-al-ism,6,7,suffix_ism,/ˌɪndɪvɪˈduːəˌlɪzəm/,needs_human_source,in-di-vid-u-al-ism,-ism boundary needs dictionary-specific policy
+inebriated,ine-bri-at-ed,4,5,other,/ˌɪˈnɛbɹiˌeɪtəd/,needs_human_source,ine-bri-at-ed,no high-confidence automatic boundary rule
+influences,in-flu-ences,3,4,other,/ˈɪnˌfluːənsɪz/,needs_human_source,in-flu-ences,no high-confidence automatic boundary rule
+influenza,in-fluen-za,3,4,other,/ˌɪnfluˈɛnzə/,needs_human_source,in-fluen-za,no high-confidence automatic boundary rule
+ingenuity,in-ge-nu-ity,4,5,suffix_ity_ety,/ˌɪndʒəˈnuːəˌtiː/,needs_human_source,in-ge-nu-ity,no high-confidence automatic boundary rule
+initiated,ini-ti-at-ed,4,5,other,/ɪˈnɪʃɪeɪtɪd/,needs_human_source,ini-ti-at-ed,no high-confidence automatic boundary rule
+intermediary,in-ter-me-di-ary,5,6,other,/ˌɪntəmˈiːdiːəɹɪ/,needs_human_source,in-ter-me-di-ary,no high-confidence automatic boundary rule
+intestines,in-testines,2,3,other,/ˌɪnˈtɛstənz/,needs_human_source,in-testines,no high-confidence automatic boundary rule
+inuit,i-nu-it,3,2,other,/ˈɪnut/,accepted_standard_difference,i-nu-it,orthographic spelling split has more parts than CMU pronunciation
+inviolable,in-vi-o-lable,4,5,suffix_able_ible,/ˌɪnˈvaɪələbəl/,needs_human_source,in-vi-o-lable,no high-confidence automatic boundary rule
+ion,ion,1,2,other,/ˈaɪɒn/,needs_human_source,ion,no high-confidence automatic boundary rule
+iota,io-ta,2,3,other,/ˌaɪˈoʊtə/,needs_human_source,io-ta,no high-confidence automatic boundary rule
+iowa,io-wa,2,3,other,/ˈaɪəwə/,needs_human_source,io-wa,no high-confidence automatic boundary rule
+iridium,irid-i-um,3,4,vowel_sequence_suffix,/ˌɪˈɹɪdiəm/,needs_human_source,irid-i-um,no high-confidence automatic boundary rule
+iroquois,iro-quois,2,3,other,/ˈɪɹəˌkwɔɪ/,needs_human_source,iro-quois,no high-confidence automatic boundary rule
+jacksonville,jack-sonville,2,3,other,/ˈdʒæksənˌvɪl/,needs_human_source,jack-sonville,no high-confidence automatic boundary rule
+january,jan-u-ary,3,4,other,/ˈdʒænjuˌɛɹi/,needs_human_source,jan-u-ary,no high-confidence automatic boundary rule
+jingoism,jin-go-ism,3,4,suffix_ism,/ˈdʒɪŋˌɡoʊɪzəm/,needs_human_source,jin-go-ism,-ism boundary needs dictionary-specific policy
+joel,joel,1,2,other,/ˈdʒoʊəl/,needs_human_source,joel,no high-confidence automatic boundary rule
+joshua,jos-hua,2,3,other,/ˈdʒɑˌʃuːə/,needs_human_source,jos-hua,no high-confidence automatic boundary rule
+journalism,jour-nal-ism,3,4,suffix_ism,/ˈdʒɝnəˌlɪzəm/,needs_human_source,jour-nal-ism,-ism boundary needs dictionary-specific policy
+justifiable,jus-ti-fi-able,4,5,suffix_able_ible,/ˈdʒʌstəˌfaɪəbəl/,needs_human_source,jus-ti-fi-able,no high-confidence automatic boundary rule
+karaoke,ka-rao-ke,3,4,other,/ˌkɛɹiˈoʊki/,needs_human_source,ka-rao-ke,no high-confidence automatic boundary rule
+kier,ki-er,2,1,other,/ˈkɪɹ/,accepted_standard_difference,ki-er,orthographic spelling split has more parts than CMU pronunciation
+laboratories,lab-o-ra-to-ries,5,4,other,/ˈlæbɹəˌtɔɹiz/,accepted_standard_difference,lab-o-ra-to-ries,orthographic spelling split has more parts than CMU pronunciation
+laboratory,lab-o-ra-to-ry,5,4,other,/ˈlæbɹəˌtɔɹi/,accepted_standard_difference,lab-o-ra-to-ry,orthographic spelling split has more parts than CMU pronunciation
+laity,lai-ty,2,3,suffix_ity_ety,/ˈleɪəti/,needs_human_source,lai-ty,no high-confidence automatic boundary rule
+lauderdale,laud-erdale,2,3,other,/ˈlɔdɚˌdeɪl/,needs_human_source,laud-erdale,no high-confidence automatic boundary rule
+leisurely,leisure-ly,2,3,other,/ˈliːzɚli/,needs_human_source,leisure-ly,no high-confidence automatic boundary rule
+leviathan,le-viat-han,3,4,other,/ləˈvaɪəθən/,needs_human_source,le-viat-han,no high-confidence automatic boundary rule
+liable,li-able,2,3,suffix_able_ible,/ˈlaɪəbəl/,needs_human_source,li-able,no high-confidence automatic boundary rule
+liberalism,lib-er-al-ism,4,5,suffix_ism,/ˈlɪˌbɝəˌlɪzəm/,needs_human_source,lib-er-al-ism,-ism boundary needs dictionary-specific policy
+lifeblood,lifeblood,1,2,other,/ˈlaɪfˌblʌd/,needs_human_source,lifeblood,no high-confidence automatic boundary rule
+linear,lin-ear,2,3,other,/ˈlɪniɚ/,needs_human_source,lin-ear,no high-confidence automatic boundary rule
+linearly,lin-ear-ly,3,4,other,/ˈlɪniɚli/,needs_human_source,lin-ear-ly,no high-confidence automatic boundary rule
+linoleum,li-no-leum,3,4,other,/ləˈnoʊliəm/,needs_human_source,li-no-leum,no high-confidence automatic boundary rule
+liqueur,liqueur,1,2,other,/lɪˈkɝ/,needs_human_source,liqueur,no high-confidence automatic boundary rule
+lithuania,lit-hua-nia,3,5,vowel_sequence_suffix,/ˌlɪθəˈweɪniə/,needs_human_source,lit-hua-nia,no high-confidence automatic boundary rule
+livelihood,liveli-hood,2,3,other,/ˈlaɪvliˌhʊd/,needs_human_source,liveli-hood,no high-confidence automatic boundary rule
+loess,loess,1,2,other,/ˈloʊəs/,needs_human_source,loess,no high-confidence automatic boundary rule
+logically,log-i-cal-ly,4,3,adverb_ically_ally,/ˈlɑdʒɪkli/,accepted_standard_difference,log-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+louisiana,lou-i-si-ana,4,5,other,/luˌiːziˈænə/,needs_human_source,lou-i-si-ana,no high-confidence automatic boundary rule
+louisville,lou-is-vil-le,4,3,other,/ˈluːiˌvɪl/,accepted_standard_difference,lou-is-vil-le,orthographic spelling split has more parts than CMU pronunciation
+machiavellian,mac-hia-vel-lian,4,5/6,vowel_sequence_suffix,/ˌmækɪəˈvelɪən/,needs_human_source,mac-hia-vel-lian,no high-confidence automatic boundary rule
+magnesium,mag-ne-sium,3,4,vowel_sequence_suffix,/mæɡˈniːziəm/,needs_human_source,mag-ne-sium,no high-confidence automatic boundary rule
+magnetism,ma-gne-tism,3,4,suffix_ism,/ˈmæɡnəˌtɪzəm/,needs_human_source,ma-gne-tism,-ism boundary needs dictionary-specific policy
+makeshift,makeshift,1,2,other,/ˈmeɪkˌʃɪft/,needs_human_source,makeshift,no high-confidence automatic boundary rule
+managerial,man-age-ri-al,4,5,other,/ˌmænɪˈdʒɪɹiəl/,needs_human_source,man-age-ri-al,no high-confidence automatic boundary rule
+mannerism,man-ner-ism,3,4,suffix_ism,/ˈmænɚˌɪzəm/,needs_human_source,man-ner-ism,-ism boundary needs dictionary-specific policy
+mariah,mari-ah,2,3,other,/mɚˈaɪə/,needs_human_source,mari-ah,no high-confidence automatic boundary rule
+marxism,marx-ism,2,3,suffix_ism,/ˈmɑɹksɪzəm/,needs_human_source,marx-ism,-ism boundary needs dictionary-specific policy
+materialism,ma-te-ri-al-ism,5,6,suffix_ism,/məˈtɪɹiəˌlɪzəm/,needs_human_source,ma-te-ri-al-ism,-ism boundary needs dictionary-specific policy
+mauritius,mau-ri-tius,3,4,other,/mɔˈɹɪtiəs/,needs_human_source,mau-ri-tius,no high-confidence automatic boundary rule
+mausoleum,mau-so-leum,3,4,other,/ˌmɔsəˈliːəm/,needs_human_source,mau-so-leum,no high-confidence automatic boundary rule
+mcdonald,mcdon-ald,2,3,other,/məkˈdɑnəld/,needs_human_source,mcdon-ald,no high-confidence automatic boundary rule
+mechanically,me-chan-i-cal-ly,5,4,adverb_ically_ally,/məˈkænɪkli/,accepted_standard_difference,me-chan-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+mechanism,mech-a-nism,3,4,suffix_ism,/ˈmɛkəˌnɪzəm/,needs_human_source,mech-a-nism,-ism boundary needs dictionary-specific policy
+mechanisms,mech-a-nisms,3,4,other,/ˈmɛkəˌnɪzəmz/,needs_human_source,mech-a-nisms,no high-confidence automatic boundary rule
+medicines,me-di-ci-nes,4,3,other,/ˈmɛdəsənz/,accepted_standard_difference,me-di-ci-nes,orthographic spelling split has more parts than CMU pronunciation
+medium,medi-um,2,3,vowel_sequence_suffix,/ˈmiːdiəm/,needs_human_source,medi-um,no high-confidence automatic boundary rule
+memorial,memo-ri-al,3,4,other,/məˈmɔɹiəl/,needs_human_source,memo-ri-al,no high-confidence automatic boundary rule
+meridian,merid-i-an,3,4,vowel_sequence_suffix,/mɚˈɪdiən/,needs_human_source,merid-i-an,no high-confidence automatic boundary rule
+mesmerism,me-sme-rism,3,4,suffix_ism,/ˈmɛsmɚˌɪzəm/,needs_human_source,me-sme-rism,-ism boundary needs dictionary-specific policy
+mesozoic,me-so-zoic,3,4,other,/ˌmɛsəˈzoʊɪk/,needs_human_source,me-so-zoic,no high-confidence automatic boundary rule
+metabolism,me-tab-o-lism,4,5,suffix_ism,/məˈtæbəˌlɪzəm/,needs_human_source,me-tab-o-lism,-ism boundary needs dictionary-specific policy
+meteoric,me-te-oric,3,4,other,/ˌmiːtiˈɔɹɪk/,needs_human_source,me-te-oric,no high-confidence automatic boundary rule
+michelle,michelle,1,2,other,/mɪˈʃɛl/,needs_human_source,michelle,no high-confidence automatic boundary rule
+microcosm,mi-cro-cosm,3,4,other,/ˈmaɪkɹəˌkɑzəm/,needs_human_source,mi-cro-cosm,no high-confidence automatic boundary rule
+militarism,mi-li-ta-rism,4,5,suffix_ism,/ˈmɪlətɚˌɪzəm/,needs_human_source,mi-li-ta-rism,-ism boundary needs dictionary-specific policy
+miniscule,minis-cule,2,3,other,/ˈmɪnɪskjul/,needs_human_source,minis-cule,no high-confidence automatic boundary rule
+minutely,minute-ly,2,3,other,/ˈmɪnətli/,needs_human_source,minute-ly,no high-confidence automatic boundary rule
+mm,mm,1,0,other,/m/,accepted_standard_difference,mm,orthographic spelling split has more parts than CMU pronunciation
+modernism,mo-der-nism,3,4,suffix_ism,/ˈmɑdɚˌnɪzəm/,needs_human_source,mo-der-nism,-ism boundary needs dictionary-specific policy
+monologue,mono-logue,2,3,other,/ˈmɑnəˌlɔɡ/,needs_human_source,mono-logue,no high-confidence automatic boundary rule
+monotheism,mo-not-he-ism,4,5,suffix_ism,/ˈmɑnəˌθiːɪzəm/,needs_human_source,mo-not-he-ism,-ism boundary needs dictionary-specific policy
+montgomery,mont-gomery,2,3,other,/mɑntˈɡʌmɹi/,needs_human_source,mont-gomery,no high-confidence automatic boundary rule
+morale,morale,1,2,other,/mɚˈæl/,needs_human_source,morale,no high-confidence automatic boundary rule
+moralism,mo-ra-lism,3,4,suffix_ism,/ˈmɔɹəˌlɪzəm/,needs_human_source,mo-ra-lism,-ism boundary needs dictionary-specific policy
+moratorium,mora-to-ri-um,4,5,vowel_sequence_suffix,/ˌmɔɹəˈtɔɹiəm/,needs_human_source,mora-to-ri-um,no high-confidence automatic boundary rule
+motile,motile,1,2,other,/ˈmoʊtəl/,needs_human_source,motile,no high-confidence automatic boundary rule
+mozambique,mozam-bique,2,3,other,/ˌmɒzɐmbˈiːk/,needs_human_source,mozam-bique,no high-confidence automatic boundary rule
+mpeg,mpeg,1,2,other,/ˈɛmˌpɛɡ/,needs_human_source,mpeg,no high-confidence automatic boundary rule
+mrs,mrs,1,2,other,/ˈmɪsɪz/,needs_human_source,mrs,no high-confidence automatic boundary rule
+mutualism,mu-tu-al-ism,4,5,suffix_ism,/ˈmjuːtʃuˌʌˌlɪzəm/,needs_human_source,mu-tu-al-ism,-ism boundary needs dictionary-specific policy
+myopic,my-opic,2,3,other,/maɪˈɑpɪk/,needs_human_source,my-opic,no high-confidence automatic boundary rule
+naivete,nai-ve-te,3,4,other,/nɑˌiːvəˈteɪ/,needs_human_source,nai-ve-te,no high-confidence automatic boundary rule
+narcissism,nar-cis-sism,3,4,suffix_ism,/ˈnɑɹsɪˌsɪzəm/,needs_human_source,nar-cis-sism,-ism boundary needs dictionary-specific policy
+neanderthal,ne-an-derthal,3,4,other,/niˈændɚˌθɔl/,needs_human_source,ne-an-derthal,no high-confidence automatic boundary rule
+neolithic,ne-olith-ic,3,4,other,/ˈniːoʊˌlɪθɪk/,needs_human_source,ne-olith-ic,no high-confidence automatic boundary rule
+nepotism,ne-po-tism,3,4,suffix_ism,/ˈnɛpəˌtɪzəm/,needs_human_source,ne-po-tism,-ism boundary needs dictionary-specific policy
+nicole,nicole,1,2,other,/nɪˈkoʊl/,needs_human_source,nicole,no high-confidence automatic boundary rule
+nihilism,ni-hi-lism,3,4,suffix_ism,/ˈnaɪəˌlɪzəm/,needs_human_source,ni-hi-lism,-ism boundary needs dictionary-specific policy
+notoriety,no-to-ri-ety,4,5,suffix_ity_ety,/ˌnoʊtɚˈaɪəti/,needs_human_source,no-to-ri-ety,no high-confidence automatic boundary rule
+oasis,oa-sis,2,3,other,/oʊˈeɪsɪs/,needs_human_source,oa-sis,no high-confidence automatic boundary rule
+obedient,obe-di-ent,3,4,other,/oʊˈbiːdiənt/,needs_human_source,obe-di-ent,no high-confidence automatic boundary rule
+obituary,o-bit-u-ary,4,5,other,/oʊˈbɪtʃuˌɛɹi/,needs_human_source,o-bit-u-ary,no high-confidence automatic boundary rule
+obliged,obliged,1,2,other,/əˈblaɪdʒd/,needs_human_source,obliged,no high-confidence automatic boundary rule
+oblique,oblique,1,2,other,/əˈbliːk/,needs_human_source,oblique,no high-confidence automatic boundary rule
+omelet,omelet,1,2,other,/ˈɑmlət/,needs_human_source,omelet,no high-confidence automatic boundary rule
+opaque,opaque,1,2,other,/oʊˈpeɪk/,needs_human_source,opaque,no high-confidence automatic boundary rule
+opened,opened,1,2,other,/ˈoʊpənd/,needs_human_source,opened,no high-confidence automatic boundary rule
+opera,opera,1,2,other,/ˈɑpɹə/,needs_human_source,opera,no high-confidence automatic boundary rule
+opium,opi-um,2,3,vowel_sequence_suffix,/ˈoʊpiəm/,needs_human_source,opi-um,no high-confidence automatic boundary rule
+opportunism,op-por-tu-nism,4,5,suffix_ism,/ˌɑpɚˈtuːˌnɪzəm/,needs_human_source,op-por-tu-nism,-ism boundary needs dictionary-specific policy
+optimism,op-ti-mism,3,4,suffix_ism,/ˈɑptəˌmɪzəm/,needs_human_source,op-ti-mism,-ism boundary needs dictionary-specific policy
+organically,or-gan-i-cal-ly,5,4,adverb_ically_ally,/ɔɹˈɡænɪkli/,accepted_standard_difference,or-gan-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+organism,or-gan-ism,3,4,suffix_ism,/ˈɔɹɡəˌnɪzəm/,needs_human_source,or-gan-ism,-ism boundary needs dictionary-specific policy
+organisms,or-gan-isms,3,4,other,/ˈɔɹɡəˌnɪzəmz/,needs_human_source,or-gan-isms,no high-confidence automatic boundary rule
+orient,ori-ent,2,3,other,/ˈɔɹiˌɛnt/,needs_human_source,ori-ent,no high-confidence automatic boundary rule
+oriental,ori-en-tal,3,4,other,/ˌɔːɹɪˈɛntəl/,needs_human_source,ori-en-tal,no high-confidence automatic boundary rule
+oriented,ori-ent-ed,3,4,other,/ˈɔːɹɪəntɪd/,needs_human_source,ori-ent-ed,no high-confidence automatic boundary rule
+ostracism,os-tra-cism,3,4,suffix_ism,/ˈɔstɹəˌsɪzəm/,needs_human_source,os-tra-cism,-ism boundary needs dictionary-specific policy
+overseer,o-ver-seer,3,4,other,/ˈoʊvɚˈsiːɚ/,needs_human_source,o-ver-seer,no high-confidence automatic boundary rule
+overstatement,over-state-ment,3,4,other,/ˈoʊvɚˌsteɪtmənt/,needs_human_source,over-state-ment,no high-confidence automatic boundary rule
+overtaxed,over-taxed,2,3,other,/ˌoʊvɚˈtækst/,needs_human_source,over-taxed,no high-confidence automatic boundary rule
+overturned,over-turned,2,3,other,/ˈoʊvɚˌtɝnd/,needs_human_source,over-turned,no high-confidence automatic boundary rule
+pacifier,paci-fi-er,3,4,other,/ˈpæsəˌfaɪɚ/,needs_human_source,paci-fi-er,no high-confidence automatic boundary rule
+paraguay,pa-ra-gua-y,4,3,other,/ˈpɛɹəˌɡweɪ/,accepted_standard_difference,pa-ra-gua-y,orthographic spelling split has more parts than CMU pronunciation
+parallelism,par-al-lel-ism,4,5,suffix_ism,/ˈpɛɹəˌlɛˌlɪzəm/,needs_human_source,par-al-lel-ism,-ism boundary needs dictionary-specific policy
+pariah,pari-ah,2,3,other,/pɚˈaɪə/,needs_human_source,pari-ah,no high-confidence automatic boundary rule
+parochial,pa-roc-hial,3,4,other,/pɚˈoʊkiəl/,needs_human_source,pa-roc-hial,no high-confidence automatic boundary rule
+pastoralism,pas-to-ra-lism,4,5,suffix_ism,/ˈpæstɚəˌlɪzəm/,needs_human_source,pas-to-ra-lism,-ism boundary needs dictionary-specific policy
+patriarchy,pa-tri-archy,3,4,other,/ˈpeɪtɹiˌɑɹki/,needs_human_source,pa-tri-archy,no high-confidence automatic boundary rule
+patriotism,pa-tri-o-tism,4,5,suffix_ism,/ˈpeɪtɹiəˌtɪzəm/,needs_human_source,pa-tri-o-tism,-ism boundary needs dictionary-specific policy
+pcs,pcs,1,2,other,/ˈpiːˈsiːz/,needs_human_source,pcs,no high-confidence automatic boundary rule
+pedestrian,pedes-tri-an,3,4,vowel_sequence_suffix,/pəˈdɛstɹiən/,needs_human_source,pedes-tri-an,no high-confidence automatic boundary rule
+pediatric,pe-di-atric,3,4,other,/ˌpiːdiˈætɹɪk/,needs_human_source,pe-di-atric,no high-confidence automatic boundary rule
+pediatrics,pe-di-atrics,3,4,other,/ˌpiːdiˈætɹɪks/,needs_human_source,pe-di-atrics,no high-confidence automatic boundary rule
+pentium,pen-tium,2,3,vowel_sequence_suffix,/ˈpɛntiəm/,needs_human_source,pen-tium,no high-confidence automatic boundary rule
+perennial,peren-ni-al,3,4,other,/pɚˈɛniəl/,needs_human_source,peren-ni-al,no high-confidence automatic boundary rule
+peristyle,peri-style,2,3,other,/ˈpɛɹəˌstaɪl/,needs_human_source,peri-style,no high-confidence automatic boundary rule
+permeability,per-me-abil-i-ty,5,6,suffix_ity_ety,/pɚˌmiːəˈbɪlɪti/,needs_human_source,per-me-abil-i-ty,no high-confidence automatic boundary rule
+permeable,per-me-able,3,4,suffix_able_ible,/ˈpɝˌmiːəbəl/,needs_human_source,per-me-able,no high-confidence automatic boundary rule
+pessimism,pes-si-mism,3,4,suffix_ism,/ˈpɛsəˌmɪzəm/,needs_human_source,pes-si-mism,-ism boundary needs dictionary-specific policy
+pete,pe-te,2,1,other,/ˈpiːt/,accepted_standard_difference,pe-te,orthographic spelling split has more parts than CMU pronunciation
+philippines,philip-pines,2,3,other,/ˈfɪləˌpiːnz/,needs_human_source,philip-pines,no high-confidence automatic boundary rule
+photoelectric,pho-to-elec-tric,4,5,other,/ˌfoʊtoʊɪˈlɛktɹɪk/,needs_human_source,pho-to-elec-tric,no high-confidence automatic boundary rule
+physiologically,phys-i-o-log-i-cal-ly,7,6,adverb_ically_ally,/ˌfɪziəˈlɑdʒɪkli/,accepted_standard_difference,phys-i-o-log-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+physique,physique,1,2,other,/fəˈziːk/,needs_human_source,physique,no high-confidence automatic boundary rule
+pianist,pi-anist,2,3,other,/ˈpɪənɪst/,needs_human_source,pi-anist,no high-confidence automatic boundary rule
+piano,pi-ano,2,3,other,/pɪˈɑːnəʊ/,needs_human_source,pi-ano,no high-confidence automatic boundary rule
+picaresque,pi-caresque,2,3,other,/ˌpɪkəˈɹɛsk/,needs_human_source,pi-caresque,no high-confidence automatic boundary rule
+picturesque,pic-turesque,2,3,other,/ˈpɪktʃɚəsk/,needs_human_source,pic-turesque,no high-confidence automatic boundary rule
+platelet,platelet,1,2,other,/ˈpleɪtlət/,needs_human_source,platelet,no high-confidence automatic boundary rule
+pliable,pli-able,2,3,suffix_able_ible,/ˈplaɪəbəl/,needs_human_source,pli-able,no high-confidence automatic boundary rule
+pluralism,plu-ral-ism,3,4,suffix_ism,/ˈplʊɹəˌlɪzəm/,needs_human_source,plu-ral-ism,-ism boundary needs dictionary-specific policy
+podium,podi-um,2,3,vowel_sequence_suffix,/ˈpoʊdiəm/,needs_human_source,podi-um,no high-confidence automatic boundary rule
+polyester,po-lyes-ter,3,4,other,/ˌpɑˌliːˈɛstɚ/,needs_human_source,po-lyes-ter,no high-confidence automatic boundary rule
+polytheism,poly-the-ism,3,5,suffix_ism,/ˈpɑˌliːθiɪzəm/,needs_human_source,poly-the-ism,-ism boundary needs dictionary-specific policy
+posterior,pos-te-ri-or,4,3,other,/ˌpɔˈstɪɹjɚ/,accepted_standard_difference,pos-te-ri-or,orthographic spelling split has more parts than CMU pronunciation
+potassium,potas-si-um,3,4,vowel_sequence_suffix,/pəˈtæsiəm/,needs_human_source,potas-si-um,no high-confidence automatic boundary rule
+powerfully,pow-er-ful-ly,4,3,other,/ˈpaʊɚfli/,accepted_standard_difference,pow-er-ful-ly,orthographic spelling split has more parts than CMU pronunciation
+preponderance,pre-pon-der-ance,4,3,other,/pɹiˈpɑndɹəns/,accepted_standard_difference,pre-pon-der-ance,orthographic spelling split has more parts than CMU pronunciation
+principally,prin-ci-pal-ly,4,3,adverb_ically_ally,/ˈpɹɪnsɪpli/,accepted_standard_difference,prin-ci-pal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+prism,prism,1,2,suffix_ism,/ˈpɹɪzəm/,needs_human_source,prism,-ism boundary needs dictionary-specific policy
+prolifically,pro-lif-i-cal-ly,5,4,adverb_ically_ally,/pɹoʊˈlɪfɪkli/,accepted_standard_difference,pro-lif-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+promised,promised,1,2,other,/ˈpɹɑməst/,needs_human_source,promised,no high-confidence automatic boundary rule
+proprietor,pro-pri-etor,3,4,other,/pɹəˈpɹaɪətɚ/,needs_human_source,pro-pri-etor,no high-confidence automatic boundary rule
+proprietorship,pro-pri-etor-ship,4,5,other,/pɹəˈpɹaɪətɚˌʃɪp/,needs_human_source,pro-pri-etor-ship,no high-confidence automatic boundary rule
+propriety,pro-pri-ety,3,4,suffix_ity_ety,/pɹəˈpɹaɪəti/,needs_human_source,pro-pri-ety,no high-confidence automatic boundary rule
+provocatively,pro-vo-ca-ti-ve-ly,6,5,other,/pɹoʊˈvɑkətɪvli/,accepted_standard_difference,pro-vo-ca-ti-ve-ly,orthographic spelling split has more parts than CMU pronunciation
+prurient,pruri-ent,2,3,other,/ˈpɹʊɹiənt/,needs_human_source,pruri-ent,no high-confidence automatic boundary rule
+psychiatric,psy-chi-atric,3,4,other,/ˌsaɪkiˈætɹɪk/,needs_human_source,psy-chi-atric,no high-confidence automatic boundary rule
+psychoanalysis,psy-cho-anal-y-sis,5,6,other,/ˌsaɪkəʊəˈnæləsɪs/,needs_human_source,psy-cho-anal-y-sis,no high-confidence automatic boundary rule
+psychologically,psy-cho-log-i-cal-ly,6,5,adverb_ically_ally,/ˌsaɪkəˈlɑdʒɪkli/,accepted_standard_difference,psy-cho-log-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+puerile,puerile,1,2,other,/pjuˈɹiːl/,needs_human_source,puerile,no high-confidence automatic boundary rule
+pugilism,pu-gi-lism,3,4,suffix_ism,/ˈpjuːdʒəlɪzəm/,needs_human_source,pu-gi-lism,-ism boundary needs dictionary-specific policy
+racism,ra-cism,2,3,suffix_ism,/ˈɹeɪˌsɪzəm/,needs_human_source,ra-cism,-ism boundary needs dictionary-specific policy
+radically,rad-i-cal-ly,4,3,adverb_ically_ally,/ˈɹædɪkli/,accepted_standard_difference,rad-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+radius,ra-dius,2,3,other,/ˈɹeɪdiəs/,needs_human_source,ra-dius,no high-confidence automatic boundary rule
+rarely,rarely,1,2,other,/ˈɹɛɹli/,needs_human_source,rarely,no high-confidence automatic boundary rule
+real,re-al,2,1,other,/ˈɹiːl/,accepted_standard_difference,re-al,orthographic spelling split has more parts than CMU pronunciation
+realisation,re-al-i-sa-tion,5,4,suffix_tion_sion_cian,/ˈɹiːləˈzeɪʃən/,accepted_standard_difference,re-al-i-sa-tion,orthographic spelling split has more parts than CMU pronunciation
+realism,re-al-ism,3,4,suffix_ism,/ˈɹiːəlɪzəm/,needs_human_source,re-al-ism,-ism boundary needs dictionary-specific policy
+realistically,re-al-is-ti-cal-ly,6,5,adverb_ically_ally,/ˌɹiːəˈlɪstɪkli/,accepted_standard_difference,re-al-is-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+really,re-al-ly,3,2,adverb_ically_ally,/ˈɹɪəlɪ/,accepted_standard_difference,re-al-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+reassess,re-assess,2,3,other,/ɹiəˈsɛs/,needs_human_source,re-assess,no high-confidence automatic boundary rule
+recidivism,re-ci-di-vism,4,5,suffix_ism,/ɹəˈsɪdɪˌvɪzəm/,needs_human_source,re-ci-di-vism,-ism boundary needs dictionary-specific policy
+recognised,recog-nised,2,3,other,/ˈɹɛkəɡˌnaɪzd/,needs_human_source,recog-nised,no high-confidence automatic boundary rule
+reelect,re-elect,2,3,other,/ɹiɪˈlɛkt/,needs_human_source,re-elect,no high-confidence automatic boundary rule
+reenact,reen-act,2,3,other,/ɹiɪˈnækt/,needs_human_source,reen-act,no high-confidence automatic boundary rule
+reenter,reen-ter,2,3,other,/ɹiˈɪntɚ/,needs_human_source,reen-ter,no high-confidence automatic boundary rule
+reestablish,rees-ta-blish,3,4,other,/ɹiɪˈstæblɪʃ/,needs_human_source,rees-ta-blish,no high-confidence automatic boundary rule
+reissue,reis-sue,2,3,other,/ɹiˈɪʃu/,needs_human_source,reis-sue,no high-confidence automatic boundary rule
+reliable,re-li-able,3,4,suffix_able_ible,/ɹɪlˈaɪəbəl/,needs_human_source,re-li-able,no high-confidence automatic boundary rule
+renowned,renowned,1,2,other,/ɹɪˈnaʊnd/,needs_human_source,renowned,no high-confidence automatic boundary rule
+reopen,re-open,2,3,other,/ɹiˈoʊpən/,needs_human_source,re-open,no high-confidence automatic boundary rule
+reorient,re-ori-ent,3,4,other,/ɹiˈɔɹiɛnt/,needs_human_source,re-ori-ent,no high-confidence automatic boundary rule
+reschedule,resched-ule,2,3,other,/ɹiˈskɛdʒul/,needs_human_source,resched-ule,no high-confidence automatic boundary rule
+residual,resid-u-al,3,4,other,/ɹɪˈzɪdʒuəl/,needs_human_source,resid-u-al,no high-confidence automatic boundary rule
+rheumatism,rheu-ma-tism,3,4,suffix_ism,/ˈɹuːməˌtɪzəm/,needs_human_source,rheu-ma-tism,-ism boundary needs dictionary-specific policy
+rhythm,rhythm,1,2,other,/ˈɹɪðəm/,needs_human_source,rhythm,no high-confidence automatic boundary rule
+rhythmically,rhyth-mi-cal-ly,4,3,adverb_ically_ally,/ˈɹɪðmɪkli/,accepted_standard_difference,rhyth-mi-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+ridicule,ri-di-cu-le,4,3,other,/ˈɹɪdəˌkjuːl/,accepted_standard_difference,ri-di-cu-le,orthographic spelling split has more parts than CMU pronunciation
+riotous,ri-otous,2,3,other,/ˈɹaɪətəs/,needs_human_source,ri-otous,no high-confidence automatic boundary rule
+romanticism,ro-man-ti-cism,4,5,suffix_ism,/ɹoʊˈmæntəˌsɪzəm/,needs_human_source,ro-man-ti-cism,-ism boundary needs dictionary-specific policy
+ruinous,ru-inous,2,3,other,/ˈɹuːənəs/,needs_human_source,ru-inous,no high-confidence automatic boundary rule
+rwanda,rwan-da,2,3,other,/ˈrjændə/,needs_human_source,rwan-da,no high-confidence automatic boundary rule
+ryan,ryan,1,2,other,/ˈɹaɪən/,needs_human_source,ryan,no high-confidence automatic boundary rule
+saleswoman,sales-woman,2,3,other,/ˈseɪlˌzwʊmən/,needs_human_source,sales-woman,no high-confidence automatic boundary rule
+samoa,sa-moa,2,3,other,/səˈmoʊə/,needs_human_source,sa-moa,no high-confidence automatic boundary rule
+sanctuary,sanc-tu-ary,3,4,other,/ˈsæŋktʃuˌɛɹi/,needs_human_source,sanc-tu-ary,no high-confidence automatic boundary rule
+sapiens,sapi-ens,2,3,other,/ˈseɪpiənz/,needs_human_source,sapi-ens,no high-confidence automatic boundary rule
+sarcasm,sar-casm,2,3,other,/ˈsɑɹˌkæzəm/,needs_human_source,sar-casm,no high-confidence automatic boundary rule
+sarcastically,sar-cas-ti-cal-ly,5,4,adverb_ically_ally,/sɑɹˈkæstɪkli/,accepted_standard_difference,sar-cas-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+satisfactorily,sat-is-fac-to-ri-ly,6,5,other,/ˌsætɪˈsfæktɹəli/,accepted_standard_difference,sat-is-fac-to-ri-ly,orthographic spelling split has more parts than CMU pronunciation
+scenarios,sce-nar-ios,3,4,other,/sɪˈnɛɹioʊz/,needs_human_source,sce-nar-ios,no high-confidence automatic boundary rule
+schism,schism,1,2,suffix_ism,/ˈskɪzəm/,needs_human_source,schism,-ism boundary needs dictionary-specific policy
+sciences,sci-ences,2,3,other,/ˈsaɪənsɪz/,needs_human_source,sci-ences,no high-confidence automatic boundary rule
+scsi,scsi,1,2,other,/ˈskʊˌziː/,needs_human_source,scsi,no high-confidence automatic boundary rule
+secretariat,sec-re-tar-iat,4,5,other,/ˌsɛkɹɪˈtɛɹiət/,needs_human_source,sec-re-tar-iat,no high-confidence automatic boundary rule
+semiannual,semi-an-nu-al,4,5,other,/ˈsemɪˈænjʊəl/,needs_human_source,semi-an-nu-al,no high-confidence automatic boundary rule
+servile,servile,1,2,other,/ˈsɝvəl/,needs_human_source,servile,no high-confidence automatic boundary rule
+sexism,sex-ism,2,3,suffix_ism,/ˈsɛksɪzəm/,needs_human_source,sex-ism,-ism boundary needs dictionary-specific policy
+sh,sh,1,0,other,/ʃ/,accepted_standard_difference,sh,orthographic spelling split has more parts than CMU pronunciation
+shh,shh,1,0,other,/ʃ/,accepted_standard_difference,shh,orthographic spelling split has more parts than CMU pronunciation
+simian,simi-an,2,3,vowel_sequence_suffix,/ˈsɪmiən/,needs_human_source,simi-an,no high-confidence automatic boundary rule
+sinuous,sin-u-ous,3,2,vowel_sequence_suffix,/ˈsɪnwəs/,accepted_standard_difference,sin-u-ous,orthographic spelling split has more parts than CMU pronunciation
+skepticism,skep-ti-cism,3,4,suffix_ism,/ˈskɛptɪˌsɪzəm/,needs_human_source,skep-ti-cism,-ism boundary needs dictionary-specific policy
+sobriety,so-bri-ety,3,4,suffix_ity_ety,/səˈbɹaɪəti/,needs_human_source,so-bri-ety,no high-confidence automatic boundary rule
+society,so-ci-ety,3,4,suffix_ity_ety,/səˈsaɪəti/,needs_human_source,so-ci-ety,no high-confidence automatic boundary rule
+sodium,sodi-um,2,3,vowel_sequence_suffix,/ˈsoʊdiəm/,needs_human_source,sodi-um,no high-confidence automatic boundary rule
+soloist,so-loist,2,3,other,/ˈsəʊləʊˌɪst/,needs_human_source,so-loist,no high-confidence automatic boundary rule
+somebody,some-body,2,3,other,/ˈsʌmbɒdɪ/,needs_human_source,some-body,no high-confidence automatic boundary rule
+sovereign,sov-er-eign,3,2,other,/ˈsɑvɹən/,accepted_standard_difference,sov-er-eign,orthographic spelling split has more parts than CMU pronunciation
+sovereignty,sovereign-ty,2,3,other,/ˈsɑvɹənti/,needs_human_source,sovereign-ty,no high-confidence automatic boundary rule
+spasm,spasm,1,2,other,/ˈspæzəm/,needs_human_source,spasm,no high-confidence automatic boundary rule
+spokesman,spokesman,1,2,other,/ˈspoʊksmən/,needs_human_source,spokesman,no high-confidence automatic boundary rule
+spokesperson,spokesper-son,2,3,other,/ˈspoʊkspɚsən/,needs_human_source,spokesper-son,no high-confidence automatic boundary rule
+spokeswoman,spokes-woman,2,3,other,/ˈspoʊkˌswʊmən/,needs_human_source,spokes-woman,no high-confidence automatic boundary rule
+spontaneity,spon-ta-nei-ty,4,5,suffix_ity_ety,/ˌspɑntəˈniːəti/,needs_human_source,spon-ta-nei-ty,no high-confidence automatic boundary rule
+sporadically,spo-rad-i-cal-ly,5,4,adverb_ically_ally,/spɚˈædɪkli/,accepted_standard_difference,spo-rad-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+sql,sql,1,2/3,other,/ˌɛskjˌuːˈɛl/,needs_human_source,sql,no high-confidence automatic boundary rule
+statewide,statewide,1,2,other,/ˈsteɪˌtwaɪd/,needs_human_source,statewide,no high-confidence automatic boundary rule
+statuary,stat-u-ary,3,4,other,/ˈstætʃuˌɛɹi/,needs_human_source,stat-u-ary,no high-confidence automatic boundary rule
+statuesque,sta-tuesque,2,3,other,/ˌstætʃuˈɛsk/,needs_human_source,sta-tuesque,no high-confidence automatic boundary rule
+statutes,statutes,1,2,other,/ˈstætʃuts/,needs_human_source,statutes,no high-confidence automatic boundary rule
+stoicism,sto-ic-ism,3,4,suffix_ism,/ˈstoʊəˌsɪzəm/,needs_human_source,sto-ic-ism,-ism boundary needs dictionary-specific policy
+stonewall,stonewall,1,2,other,/ˈstoʊnˌwɔl/,needs_human_source,stonewall,no high-confidence automatic boundary rule
+stoneware,stoneware,1,2,other,/ˈstoʊnˌwɛɹ/,needs_human_source,stoneware,no high-confidence automatic boundary rule
+studying,study-ing,2,3,other,/ˈstʌdiɪŋ/,needs_human_source,study-ing,no high-confidence automatic boundary rule
+subtly,sub-tly,2,3,other,/ˈsʌtəli/,needs_human_source,sub-tly,no high-confidence automatic boundary rule
+sundial,sun-di-al,3,2,other,/ˈsʌnˌdaɪl/,accepted_standard_difference,sun-di-al,orthographic spelling split has more parts than CMU pronunciation
+superfluous,su-per-flu-ous,4,3,vowel_sequence_suffix,/ˈsuːpɚflˌwʌs/,accepted_standard_difference,su-per-flu-ous,orthographic spelling split has more parts than CMU pronunciation
+symbolism,sym-bol-ism,3,4,suffix_ism,/ˈsɪmbəˌlɪzəm/,needs_human_source,sym-bol-ism,-ism boundary needs dictionary-specific policy
+symposium,sym-po-sium,3,4,vowel_sequence_suffix,/sɪmˈpoʊziəm/,needs_human_source,sym-po-sium,no high-confidence automatic boundary rule
+synthetically,syn-thet-i-cal-ly,5,4,adverb_ically_ally,/sɪnˈθɛtɪkli/,accepted_standard_difference,syn-thet-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+syria,syr-ia,2,3,vowel_sequence_suffix,/ˈsɪɹiə/,needs_human_source,syr-ia,no high-confidence automatic boundary rule
+systematically,sys-tem-at-i-cal-ly,6,5,adverb_ically_ally,/ˌsɪstəˈmætɪkli/,accepted_standard_difference,sys-tem-at-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+teleology,tele-ol-o-gy,4,5,other,/ˈtiːliˌɔləˌdʒiː/,needs_human_source,tele-ol-o-gy,no high-confidence automatic boundary rule
+tellurium,tel-luri-um,3,4,vowel_sequence_suffix,/tɛˈlʊɹiəm/,needs_human_source,tel-luri-um,no high-confidence automatic boundary rule
+temperament,tem-per-a-ment,4,3,other,/ˈtɛmpɹəmənt/,accepted_standard_difference,tem-per-a-ment,orthographic spelling split has more parts than CMU pronunciation
+temperamental,tem-per-a-men-tal,5,4,other,/ˌtɛmpɹəmˈɛntəl/,accepted_standard_difference,tem-per-a-men-tal,orthographic spelling split has more parts than CMU pronunciation
+temperamentally,tem-per-a-men-tal-ly,6,5,adverb_ically_ally,/ˌtemprəˈmentəlɪ/,accepted_standard_difference,tem-per-a-men-tal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+terrorism,ter-ror-ism,3,4,suffix_ism,/ˈtɛɹɚˌɪzəm/,needs_human_source,ter-ror-ism,-ism boundary needs dictionary-specific policy
+theater,the-ater,2,3,other,/ˈθiːətɚ/,needs_human_source,the-ater,no high-confidence automatic boundary rule
+theaters,the-aters,2,3,other,/ˈθiːətɚz/,needs_human_source,the-aters,no high-confidence automatic boundary rule
+theatre,the-atre,2,3,other,/ˈθiːətɚ/,needs_human_source,the-atre,no high-confidence automatic boundary rule
+theatrical,the-atri-cal,3,4,other,/θiˈætɹɪkəl/,needs_human_source,the-atri-cal,no high-confidence automatic boundary rule
+theism,the-ism,2,3,suffix_ism,/ˈθiːɪzəm/,needs_human_source,the-ism,-ism boundary needs dictionary-specific policy
+theorem,the-o-rem,3,2,other,/ˈθɪɹəm/,accepted_standard_difference,the-o-rem,orthographic spelling split has more parts than CMU pronunciation
+ticklish,tick-lish,2,3,other,/ˈtɪkəlɪʃ/,needs_human_source,tick-lish,no high-confidence automatic boundary rule
+timetable,ti-me-ta-ble,4,3,suffix_able_ible,/ˈtaɪmˌteɪbəl/,accepted_standard_difference,ti-me-ta-ble,orthographic spelling split has more parts than CMU pronunciation
+tokyo,to-kyo,2,3,other,/ˈtoʊkiˌoʊ/,needs_human_source,to-kyo,no high-confidence automatic boundary rule
+tourism,tou-rism,2,3,suffix_ism,/ˈtʊˌɹɪzəm/,needs_human_source,tou-rism,-ism boundary needs dictionary-specific policy
+tragically,trag-i-cal-ly,4,3,adverb_ically_ally,/ˈtɹædʒɪkli/,accepted_standard_difference,trag-i-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+triumphant,tri-umphant,2,3,other,/tɹaɪˈʌmfənt/,needs_human_source,tri-umphant,no high-confidence automatic boundary rule
+trivia,triv-ia,2,3,vowel_sequence_suffix,/ˈtɹɪviə/,needs_human_source,triv-ia,no high-confidence automatic boundary rule
+trivial,triv-ial,2,3,other,/ˈtɹɪviəl/,needs_human_source,triv-ial,no high-confidence automatic boundary rule
+truism,tru-ism,2,3,suffix_ism,/ˈtɹuːɪzəm/,needs_human_source,tru-ism,-ism boundary needs dictionary-specific policy
+turquoise,turquoise,1,2,other,/ˈtɝkwɔɪz/,needs_human_source,turquoise,no high-confidence automatic boundary rule
+tvs,tvs,1,2,other,/ˈtiːˈviːz/,needs_human_source,tvs,no high-confidence automatic boundary rule
+unadorned,un-adorned,2,3,other,/ˌʌnəˈdɔɹnd/,needs_human_source,un-adorned,no high-confidence automatic boundary rule
+unctuous,unc-tu-ous,3,2,vowel_sequence_suffix,/ˈʌŋtʃwəs/,accepted_standard_difference,unc-tu-ous,orthographic spelling split has more parts than CMU pronunciation
+undeniable,un-de-ni-able,4,5,suffix_able_ible,/ˌʌndɪˈnaɪəbəl/,needs_human_source,un-de-ni-able,no high-confidence automatic boundary rule
+undiscovered,undis-cov-ered,3,4,other,/ˌʌndɪˈskʌvɚd/,needs_human_source,undis-cov-ered,no high-confidence automatic boundary rule
+undisturbed,undis-turbed,2,3,other,/ˌʌndɪˈstɝbd/,needs_human_source,undis-turbed,no high-confidence automatic boundary rule
+unenviable,un-en-vi-able,4,5,suffix_able_ible,/əˈnɛnˌviːəbəl/,needs_human_source,un-en-vi-able,no high-confidence automatic boundary rule
+uninteresting,un-in-ter-est-ing,5,4,other,/əˈnɪntɹəstɪŋ/,accepted_standard_difference,un-in-ter-est-ing,orthographic spelling split has more parts than CMU pronunciation
+unreal,un-re-al,3,2,other,/ənˈɹiːl/,accepted_standard_difference,un-re-al,orthographic spelling split has more parts than CMU pronunciation
+unrealistic,un-re-al-is-tic,5,4,other,/ənˌɹiːˈlɪstɪk/,accepted_standard_difference,un-re-al-is-tic,orthographic spelling split has more parts than CMU pronunciation
+unreliable,un-re-li-able,4,5,suffix_able_ible,/ˌʌnrɪˈlaɪəbl/,needs_human_source,un-re-li-able,no high-confidence automatic boundary rule
+urbanism,ur-ban-ism,3,4,suffix_ism,/ˈɝbənɪzəm/,needs_human_source,ur-ban-ism,-ism boundary needs dictionary-specific policy
+urls,urls,1,3,other,/ˈjuːˈɑˈɹɛlz/,needs_human_source,urls,no high-confidence automatic boundary rule
+usual,usu-al,2,3,other,/ˈjuːʒuːəl/,needs_human_source,usu-al,no high-confidence automatic boundary rule
+utopian,u-topi-an,3,4,vowel_sequence_suffix,/juˈtoʊpiən/,needs_human_source,u-topi-an,no high-confidence automatic boundary rule
+vacuum,vac-u-um,3,2,other,/ˈvækjum/,accepted_standard_difference,vac-u-um,orthographic spelling split has more parts than CMU pronunciation
+valedictorian,vale-dic-to-ri-an,5,6,vowel_sequence_suffix,/ˌvæləˌdɪkˈtɔɹiən/,needs_human_source,vale-dic-to-ri-an,no high-confidence automatic boundary rule
+variant,vari-ant,2,3,other,/ˈvɛɹiənt/,needs_human_source,vari-ant,no high-confidence automatic boundary rule
+variety,va-ri-ety,3,4,suffix_ity_ety,/vɚˈaɪəti/,needs_human_source,va-ri-ety,no high-confidence automatic boundary rule
+varying,vary-ing,2,3,other,/ˈvɛɹiɪŋ/,needs_human_source,vary-ing,no high-confidence automatic boundary rule
+vegetable,veg-e-ta-ble,4,3,suffix_able_ible,/ˈvɛdʒtəbəl/,accepted_standard_difference,veg-e-ta-ble,orthographic spelling split has more parts than CMU pronunciation
+venereal,vene-re-al,3,4,other,/vəˈnɪɹiəl/,needs_human_source,vene-re-al,no high-confidence automatic boundary rule
+verifiable,ver-i-fi-able,4,5,suffix_able_ible,/ˈvɛɹəˌfaɪəbəl/,needs_human_source,ver-i-fi-able,no high-confidence automatic boundary rule
+vertically,ver-ti-cal-ly,4,3,adverb_ically_ally,/ˈvɝtɪkli/,accepted_standard_difference,ver-ti-cal-ly,orthographic -ical-ly spelling split differs from reduced pronunciation
+veterinary,vet-eri-nary,3,4,other,/ˈvɛtɹəˌnɛɹi/,needs_human_source,vet-eri-nary,no high-confidence automatic boundary rule
+viable,vi-able,2,3,suffix_able_ible,/ˈvaɪəbəl/,needs_human_source,vi-able,no high-confidence automatic boundary rule
+viceroy,viceroy,1,2,other,/ˈvaɪsɹɔɪ/,needs_human_source,viceroy,no high-confidence automatic boundary rule
+virtuoso,vir-tu-oso,3,4,other,/vɚtʃuˈoʊsoʊ/,needs_human_source,vir-tu-oso,no high-confidence automatic boundary rule
+visual,vis-ual,2,3,other,/ˈvɪʒəwəl/,needs_human_source,vis-ual,no high-confidence automatic boundary rule
+visualize,vi-su-al-ize,4,3,other,/ˈvɪʒwəˌlaɪz/,accepted_standard_difference,vi-su-al-ize,orthographic spelling split has more parts than CMU pronunciation
+vitriolic,vit-ri-olic,3,4,other,/ˌvɪtɹiˈɑlɪk/,needs_human_source,vit-ri-olic,no high-confidence automatic boundary rule
+volatile,vo-la-ti-le,4,3,other,/ˈvɑlətəl/,accepted_standard_difference,vo-la-ti-le,orthographic spelling split has more parts than CMU pronunciation
+wholesaler,whole-saler,2,3,other,/ˈhoʊlˌseɪlɚ/,needs_human_source,whole-saler,no high-confidence automatic boundary rule
+ws,ws,1,3/4,other,/ˌdʌbəljˌuːˈɛs/,needs_human_source,ws,no high-confidence automatic boundary rule
+wyoming,wyo-ming,2,3,other,/ˌwaɪˈoʊmɪŋ/,needs_human_source,wyo-ming,no high-confidence automatic boundary rule
+xbox,xbox,1,2,other,/ˈɛksˌbɑks/,needs_human_source,xbox,no high-confidence automatic boundary rule
+xenophobia,xe-nop-ho-bia,4,5,vowel_sequence_suffix,/ˌzɛnəˈfoʊbiə/,needs_human_source,xe-nop-ho-bia,no high-confidence automatic boundary rule
+yacht,y-acht,2,1,other,/ˈjɑt/,accepted_standard_difference,y-acht,orthographic spelling split has more parts than CMU pronunciation
+yolk,y-olk,2,1,other,/ˈjoʊk/,accepted_standard_difference,y-olk,orthographic spelling split has more parts than CMU pronunciation
+yore,y-ore,2,1,other,/ˈjɔɹ/,accepted_standard_difference,y-ore,orthographic spelling split has more parts than CMU pronunciation
+york,y-ork,2,1,other,/ˈjɔɹk/,accepted_standard_difference,y-ork,orthographic spelling split has more parts than CMU pronunciation
+yorkshire,y-ork-shire,3,2,other,/ˈjɔɹkʃɚ/,accepted_standard_difference,y-ork-shire,orthographic spelling split has more parts than CMU pronunciation
+young,y-oung,2,1,other,/ˈjʌŋ/,accepted_standard_difference,y-oung,orthographic spelling split has more parts than CMU pronunciation
+youngster,y-oung-ster,3,2,other,/ˈjʌŋstɚ/,accepted_standard_difference,y-oung-ster,orthographic spelling split has more parts than CMU pronunciation
+your,y-our,2,1,other,/ˈjɔː/,accepted_standard_difference,y-our,orthographic spelling split has more parts than CMU pronunciation
+yours,y-ours,2,1,other,/ˈjɔːz/,accepted_standard_difference,y-ours,orthographic spelling split has more parts than CMU pronunciation
+yourself,y-our-self,3,2,other,/jɔːsˈɛlf/,accepted_standard_difference,y-our-self,orthographic spelling split has more parts than CMU pronunciation
+yourselves,y-our-selves,3,2,other,/jʊɹsˈɛlvz/,accepted_standard_difference,y-our-selves,orthographic spelling split has more parts than CMU pronunciation
+youth,y-outh,2,1,other,/ˈjuːθ/,accepted_standard_difference,y-outh,orthographic spelling split has more parts than CMU pronunciation
+youthful,y-outh-ful,3,2,other,/ˈjuːθfəl/,accepted_standard_difference,y-outh-ful,orthographic spelling split has more parts than CMU pronunciation
+zoological,zo-o-log-i-cal,5,4,other,/ˌzuːˈlɑdʒɪkəl/,accepted_standard_difference,zo-o-log-i-cal,orthographic spelling split has more parts than CMU pronunciation

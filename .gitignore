@@ -28,6 +28,7 @@ build/
 .claude/settings.local.json
 # Ignore generated dictionary database
 dictionary/ecdict.db
+dictionary/.kaikki_cache/
 # SQLite WAL mode temp files
 dictionary/overlay.db-shm
 dictionary/overlay.db-wal

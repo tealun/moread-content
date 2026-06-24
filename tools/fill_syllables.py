@@ -19,7 +19,7 @@ from pathlib import Path
 
 import pyphen
 from nltk.tokenize import SyllableTokenizer
-from nltk.corpus import cmudict
+import cmudict
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DB_PATH  = BASE_DIR / "dictionary" / "overlay.db"
@@ -28,6 +28,22 @@ CSV_PATH = BASE_DIR / "dictionary" / "syllables_review.csv"
 _dic     = pyphen.Pyphen(lang="en_US", left=1, right=2)
 _SSP     = SyllableTokenizer()
 _VOWELS  = set("aeiouy")
+_HARD_FIXES = {
+    "achievable": "a-chiev-a-ble",
+    "achieve": "a-chieve",
+    "achieved": "a-chieved",
+    "achievement": "a-chieve-ment",
+    "achievements": "a-chieve-ments",
+    "achieving": "a-chiev-ing",
+    "amorphous": "a-mor-phous",
+    "anything": "an-y-thing",
+    "biochemical": "bi-o-chem-i-cal",
+    "everybody": "ev-ery-bod-y",
+    "medicine": "med-i-cine",
+    "telephone": "tel-e-phone",
+    "vegetable": "veg-e-ta-ble",
+    "you": "you",
+}
 
 
 def _has_vowel(s: str) -> bool:
@@ -113,6 +129,9 @@ def _syl_one(part: str) -> str:
     """对单个无连字符词段做音节切分"""
     if not part or len(part) <= 1:
         return part
+    hard_fix = _HARD_FIXES.get(part.lower())
+    if hard_fix:
+        return hard_fix
 
     raw        = _dic.inserted(part, hyphen="-").split("-")
     pyph_parts = _clean(raw)
@@ -128,7 +147,7 @@ def _syl_one(part: str) -> str:
         ssp_raw   = _clean(_SSP.tokenize(part))
         ssp_parts = _try_silent_e(ssp_raw, cmu_n)
         ssp_n     = len(ssp_parts)
-        if abs(ssp_n - cmu_n) <= abs(pyph_n - cmu_n):
+        if abs(ssp_n - cmu_n) < abs(pyph_n - cmu_n):
             return "-".join(_post_process(ssp_parts))
         return "-".join(_post_process(pyph_parts))
 
