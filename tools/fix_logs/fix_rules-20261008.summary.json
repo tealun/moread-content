@@ -1,0 +1,2496 @@
+{
+ "generated_at": "2026-10-08T12:56:51",
+ "dry_run": false,
+ "entries_changed": 18766,
+ "columns_changed": {
+  "definitions": 13295,
+  "forms": 9852,
+  "phonetic": 3784,
+  "phonetic_sources": 5198,
+  "phonetic_uk": 185,
+  "phonetic_us": 3603,
+  "pos": 10591
+ },
+ "rule_counts": {
+  "en_prefix_strip": 18626,
+  "def_pos_filled_from_prefix": 13206,
+  "pos_canonical": 10591,
+  "forms_string_to_dict": 10485,
+  "def_pos_canonical": 7445,
+  "phonetic_sources_dedupe": 5198,
+  "ipa_strip_monosyllable_stress:phonetic": 3784,
+  "ipa_strip_monosyllable_stress:phonetic_us": 3603,
+  "forms_drop_code_or_junk": 3087,
+  "en_prefix_skip_mixed": 1319,
+  "forms_drop_plural_on_non_noun": 1123,
+  "forms_drop_double_s": 383,
+  "en_pos_conflict_recorded": 358,
+  "ipa_strip_monosyllable_stress:phonetic_uk": 172,
+  "forms_drop_unknown_type_duplicate": 168,
+  "ipa_strip_aspiration:phonetic_uk": 13,
+  "forms_unknown_type_to_inflection": 6,
+  "readme_counts": 1
+ },
+ "examples": {
+  "en_prefix_strip": [
+   {
+    "word": "aaa",
+    "rule": "en_prefix_strip",
+    "before": "n an aneurysm of the abdominal aorta associated with old age and hypertension",
+    "after": "an aneurysm of the abdominal aorta associated with old age and hypertension"
+   },
+   {
+    "word": "aah",
+    "rule": "en_prefix_strip",
+    "before": "v express admiration and pleasure by uttering `ooh' or `aah'",
+    "after": "express admiration and pleasure by uttering `ooh' or `aah'"
+   },
+   {
+    "word": "abase",
+    "rule": "en_prefix_strip",
+    "before": "v cause to feel shame; hurt the pride of",
+    "after": "cause to feel shame; hurt the pride of"
+   },
+   {
+    "word": "abash",
+    "rule": "en_prefix_strip",
+    "before": "v cause to be embarrassed; cause to feel self-conscious",
+    "after": "cause to be embarrassed; cause to feel self-conscious"
+   },
+   {
+    "word": "abc",
+    "rule": "en_prefix_strip",
+    "before": "n the elementary stages of any subject (usually plural)",
+    "after": "the elementary stages of any subject (usually plural)"
+   },
+   {
+    "word": "abide",
+    "rule": "en_prefix_strip",
+    "before": "v dwell",
+    "after": "dwell"
+   },
+   {
+    "word": "abide",
+    "rule": "en_prefix_strip",
+    "before": "v put up with something or somebody unpleasant",
+    "after": "put up with something or somebody unpleasant"
+   },
+   {
+    "word": "abilities",
+    "rule": "en_prefix_strip",
+    "before": "n the quality of being able to perform; a quality that permits or facilitates ac",
+    "after": "the quality of being able to perform; a quality that permits or facilitates achi"
+   },
+   {
+    "word": "abilities",
+    "rule": "en_prefix_strip",
+    "before": "n possession of the qualities (especially mental qualities) required to do somet",
+    "after": "possession of the qualities (especially mental qualities) required to do somethi"
+   },
+   {
+    "word": "abode",
+    "rule": "en_prefix_strip",
+    "before": "n any address at which you dwell more than temporarily",
+    "after": "any address at which you dwell more than temporarily"
+   },
+   {
+    "word": "abode",
+    "rule": "en_prefix_strip",
+    "before": "n housing that someone is living in",
+    "after": "housing that someone is living in"
+   },
+   {
+    "word": "abode",
+    "rule": "en_prefix_strip",
+    "before": "v dwell",
+    "after": "dwell"
+   },
+   {
+    "word": "abode",
+    "rule": "en_prefix_strip",
+    "before": "v put up with something or somebody unpleasant",
+    "after": "put up with something or somebody unpleasant"
+   },
+   {
+    "word": "abominate",
+    "rule": "en_prefix_strip",
+    "before": "v find repugnant",
+    "after": "find repugnant"
+   },
+   {
+    "word": "aborigines",
+    "rule": "en_prefix_strip",
+    "before": "n an indigenous person who was born in a particular place",
+    "after": "an indigenous person who was born in a particular place"
+   },
+   {
+    "word": "aborigines",
+    "rule": "en_prefix_strip",
+    "before": "n a dark-skinned member of a race of people living in Australia when Europeans a",
+    "after": "a dark-skinned member of a race of people living in Australia when Europeans arr"
+   },
+   {
+    "word": "abridgment",
+    "rule": "en_prefix_strip",
+    "before": "n a shortened version of a written work",
+    "after": "a shortened version of a written work"
+   },
+   {
+    "word": "abs",
+    "rule": "en_prefix_strip",
+    "before": "n any of a class of composite plastics used to make car bodies and cases for com",
+    "after": "any of a class of composite plastics used to make car bodies and cases for compu"
+   },
+   {
+    "word": "abs",
+    "rule": "en_prefix_strip",
+    "before": "n a bachelor's degree in arts and sciences",
+    "after": "a bachelor's degree in arts and sciences"
+   },
+   {
+    "word": "abs",
+    "rule": "en_prefix_strip",
+    "before": "n the eleventh month of the civil year; the fifth month of the ecclesiastical ye",
+    "after": "the eleventh month of the civil year; the fifth month of the ecclesiastical year"
+   }
+  ],
+  "def_pos_filled_from_prefix": [
+   {
+    "word": "aaa",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "aah",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abase",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abash",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abc",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abide",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abide",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abilities",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abilities",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abode",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abode",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abode",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abode",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "abominate",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "v."
+   },
+   {
+    "word": "aborigines",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "aborigines",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abridgment",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abs",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abs",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   },
+   {
+    "word": "abs",
+    "rule": "def_pos_filled_from_prefix",
+    "before": "",
+    "after": "n."
+   }
+  ],
+  "pos_canonical": [
+   {
+    "word": "aah",
+    "rule": "pos_canonical",
+    "before": [
+     "u."
+    ],
+    "after": [
+     "int."
+    ]
+   },
+   {
+    "word": "abandoned",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abdominal",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abed",
+    "rule": "pos_canonical",
+    "before": [
+     "r."
+    ],
+    "after": [
+     "adv."
+    ]
+   },
+   {
+    "word": "aberrant",
+    "rule": "pos_canonical",
+    "before": [
+     "j.",
+     "n."
+    ],
+    "after": [
+     "adj.",
+     "n."
+    ]
+   },
+   {
+    "word": "abhorrent",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abiding",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abject",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "ablaze",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "able",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abnormal",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abnormally",
+    "rule": "pos_canonical",
+    "before": [
+     "r."
+    ],
+    "after": [
+     "adv."
+    ]
+   },
+   {
+    "word": "aboard",
+    "rule": "pos_canonical",
+    "before": [
+     "i.",
+     "r."
+    ],
+    "after": [
+     "prep.",
+     "adv."
+    ]
+   },
+   {
+    "word": "abominable",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "aboriginal",
+    "rule": "pos_canonical",
+    "before": [
+     "j.",
+     "n."
+    ],
+    "after": [
+     "adj.",
+     "n."
+    ]
+   },
+   {
+    "word": "abortive",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "about",
+    "rule": "pos_canonical",
+    "before": [
+     "i.",
+     "r."
+    ],
+    "after": [
+     "prep.",
+     "adv."
+    ]
+   },
+   {
+    "word": "above",
+    "rule": "pos_canonical",
+    "before": [
+     "i.",
+     "r.",
+     "j."
+    ],
+    "after": [
+     "prep.",
+     "adv.",
+     "adj."
+    ]
+   },
+   {
+    "word": "abrasive",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   },
+   {
+    "word": "abreast",
+    "rule": "pos_canonical",
+    "before": [
+     "j."
+    ],
+    "after": [
+     "adj."
+    ]
+   }
+  ],
+  "forms_drop_plural_on_non_noun": [
+   {
+    "word": "aah",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "aahs"
+    },
+    "after": null
+   },
+   {
+    "word": "abase",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abases"
+    },
+    "after": null
+   },
+   {
+    "word": "abash",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abashes"
+    },
+    "after": null
+   },
+   {
+    "word": "abate",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abates"
+    },
+    "after": null
+   },
+   {
+    "word": "abdicate",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abdicates"
+    },
+    "after": null
+   },
+   {
+    "word": "abet",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abets"
+    },
+    "after": null
+   },
+   {
+    "word": "abjure",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abjures"
+    },
+    "after": null
+   },
+   {
+    "word": "abnormal",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abnormals"
+    },
+    "after": null
+   },
+   {
+    "word": "abound",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abounds"
+    },
+    "after": null
+   },
+   {
+    "word": "abridge",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abridges"
+    },
+    "after": null
+   },
+   {
+    "word": "abrogate",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abrogates"
+    },
+    "after": null
+   },
+   {
+    "word": "abscond",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "absconds"
+    },
+    "after": null
+   },
+   {
+    "word": "absolve",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "absolves"
+    },
+    "after": null
+   },
+   {
+    "word": "abstain",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abstains"
+    },
+    "after": null
+   },
+   {
+    "word": "abysmal",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "abysmals"
+    },
+    "after": null
+   },
+   {
+    "word": "accompanying",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "accompanyings"
+    },
+    "after": null
+   },
+   {
+    "word": "accomplish",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "accomplishes"
+    },
+    "after": null
+   },
+   {
+    "word": "according",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "accordings"
+    },
+    "after": null
+   },
+   {
+    "word": "accredit",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "accredits"
+    },
+    "after": null
+   },
+   {
+    "word": "accrete",
+    "rule": "forms_drop_plural_on_non_noun",
+    "before": {
+     "type": "plural",
+     "form": "accretes"
+    },
+    "after": null
+   }
+  ],
+  "phonetic_sources_dedupe": [
+   {
+    "word": "abandon",
+    "rule": "phonetic_sources_dedupe",
+    "before": 2,
+    "after": 1
+   },
+   {
+    "word": "abandoned",
+    "rule": "phonetic_sources_dedupe",
+    "before": 2,
+    "after": 1
+   },
+   {
+    "word": "abate",
+    "rule": "phonetic_sources_dedupe",
+    "before": 5,
+    "after": 1
+   },
+   {
+    "word": "abdominal",
+    "rule": "phonetic_sources_dedupe",
+    "before": 4,
+    "after": 2
+   },
+   {
+    "word": "aberrant",
+    "rule": "phonetic_sources_dedupe",
+    "before": 4,
+    "after": 2
+   },
+   {
+    "word": "abject",
+    "rule": "phonetic_sources_dedupe",
+    "before": 3,
+    "after": 2
+   },
+   {
+    "word": "able",
+    "rule": "phonetic_sources_dedupe",
+    "before": 6,
+    "after": 2
+   },
+   {
+    "word": "abnormal",
+    "rule": "phonetic_sources_dedupe",
+    "before": 2,
+    "after": 1
+   },
+   {
+    "word": "aboard",
+    "rule": "phonetic_sources_dedupe",
+    "before": 2,
+    "after": 1
+   },
+   {
+    "word": "abode",
+    "rule": "phonetic_sources_dedupe",
+    "before": 4,
+    "after": 1
+   },
+   {
+    "word": "abort",
+    "rule": "phonetic_sources_dedupe",
+    "before": 2,
+    "after": 1
+   },
+   {
+    "word": "abortive",
+    "rule": "phonetic_sources_dedupe",
+    "before": 3,
+    "after": 1
+   },
+   {
+    "word": "about",
+    "rule": "phonetic_sources_dedupe",
+    "before": 4,
+    "after": 1
+   },
+   {
+    "word": "above",
+    "rule": "phonetic_sources_dedupe",
+    "before": 8,
+    "after": 2
+   },
+   {
+    "word": "abrade",
+    "rule": "phonetic_sources_dedupe",
+    "before": 2,
+    "after": 1
+   },
+   {
+    "word": "abroad",
+    "rule": "phonetic_sources_dedupe",
+    "before": 8,
+    "after": 2
+   },
+   {
+    "word": "absent",
+    "rule": "phonetic_sources_dedupe",
+    "before": 4,
+    "after": 2
+   },
+   {
+    "word": "absolute",
+    "rule": "phonetic_sources_dedupe",
+    "before": 8,
+    "after": 4
+   },
+   {
+    "word": "absolutely",
+    "rule": "phonetic_sources_dedupe",
+    "before": 4,
+    "after": 2
+   },
+   {
+    "word": "abstract",
+    "rule": "phonetic_sources_dedupe",
+    "before": 5,
+    "after": 3
+   }
+  ],
+  "def_pos_canonical": [
+   {
+    "word": "abandoned",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abandoned",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abdominal",
+    "rule": "def_pos_canonical",
+    "before": "a.",
+    "after": "adj."
+   },
+   {
+    "word": "abed",
+    "rule": "def_pos_canonical",
+    "before": "r.",
+    "after": "adv."
+   },
+   {
+    "word": "aberrant",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abhorrent",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abiding",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abject",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abject",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abject",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abject",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "ablaze",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "ablaze",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "ablaze",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "ablaze",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "able",
+    "rule": "def_pos_canonical",
+    "before": "a.",
+    "after": "adj."
+   },
+   {
+    "word": "able",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "able",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "able",
+    "rule": "def_pos_canonical",
+    "before": "s.",
+    "after": "adj."
+   },
+   {
+    "word": "abnormal",
+    "rule": "def_pos_canonical",
+    "before": "a.",
+    "after": "adj."
+   }
+  ],
+  "forms_drop_code_or_junk": [
+   {
+    "word": "abandoned",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "dp"
+    },
+    "after": null
+   },
+   {
+    "word": "abiding",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "i"
+    },
+    "after": null
+   },
+   {
+    "word": "abilities",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s"
+    },
+    "after": null
+   },
+   {
+    "word": "abode",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "pd"
+    },
+    "after": null
+   },
+   {
+    "word": "aborigines",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s3"
+    },
+    "after": null
+   },
+   {
+    "word": "abstracts",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s3"
+    },
+    "after": null
+   },
+   {
+    "word": "academics",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s"
+    },
+    "after": null
+   },
+   {
+    "word": "accepted",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "dp"
+    },
+    "after": null
+   },
+   {
+    "word": "accepting",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "i"
+    },
+    "after": null
+   },
+   {
+    "word": "accepts",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "3"
+    },
+    "after": null
+   },
+   {
+    "word": "accessed",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "dp"
+    },
+    "after": null
+   },
+   {
+    "word": "accessing",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "i"
+    },
+    "after": null
+   },
+   {
+    "word": "accessories",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s"
+    },
+    "after": null
+   },
+   {
+    "word": "accidents",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s"
+    },
+    "after": null
+   },
+   {
+    "word": "accommodations",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "s"
+    },
+    "after": null
+   },
+   {
+    "word": "accompanied",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "dp"
+    },
+    "after": null
+   },
+   {
+    "word": "accompanying",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "i"
+    },
+    "after": null
+   },
+   {
+    "word": "accomplished",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "dp"
+    },
+    "after": null
+   },
+   {
+    "word": "according",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "i"
+    },
+    "after": null
+   },
+   {
+    "word": "accounting",
+    "rule": "forms_drop_code_or_junk",
+    "before": {
+     "type": "variant",
+     "form": "i"
+    },
+    "after": null
+   }
+  ],
+  "forms_drop_double_s": [
+   {
+    "word": "abs",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "abss"
+    },
+    "after": null
+   },
+   {
+    "word": "acoustics",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "acousticss"
+    },
+    "after": null
+   },
+   {
+    "word": "acres",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "acress"
+    },
+    "after": null
+   },
+   {
+    "word": "acrobatics",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "acrobaticss"
+    },
+    "after": null
+   },
+   {
+    "word": "acts",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "actss"
+    },
+    "after": null
+   },
+   {
+    "word": "adams",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "adamss"
+    },
+    "after": null
+   },
+   {
+    "word": "aerobics",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "aerobicss"
+    },
+    "after": null
+   },
+   {
+    "word": "aeronautics",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "aeronauticss"
+    },
+    "after": null
+   },
+   {
+    "word": "aesthetics",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "aestheticss"
+    },
+    "after": null
+   },
+   {
+    "word": "affairs",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "affairss"
+    },
+    "after": null
+   },
+   {
+    "word": "afflatus",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "afflatuss"
+    },
+    "after": null
+   },
+   {
+    "word": "aids",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "aidss"
+    },
+    "after": null
+   },
+   {
+    "word": "alms",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "almss"
+    },
+    "after": null
+   },
+   {
+    "word": "alumnus",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "alumnuss"
+    },
+    "after": null
+   },
+   {
+    "word": "amenities",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "amenitiess"
+    },
+    "after": null
+   },
+   {
+    "word": "andrews",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "andrewss"
+    },
+    "after": null
+   },
+   {
+    "word": "animus",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "animuss"
+    },
+    "after": null
+   },
+   {
+    "word": "annals",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "annalss"
+    },
+    "after": null
+   },
+   {
+    "word": "antics",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "anticss"
+    },
+    "after": null
+   },
+   {
+    "word": "antipodes",
+    "rule": "forms_drop_double_s",
+    "before": {
+     "type": "plural",
+     "form": "antipodess"
+    },
+    "after": null
+   }
+  ],
+  "forms_drop_unknown_type_duplicate": [
+   {
+    "word": "ace",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "aces"
+    },
+    "after": null
+   },
+   {
+    "word": "action",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "actions"
+    },
+    "after": null
+   },
+   {
+    "word": "ad-lib",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "ad-libs"
+    },
+    "after": null
+   },
+   {
+    "word": "alligator",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "alligators"
+    },
+    "after": null
+   },
+   {
+    "word": "ambition",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "ambitions"
+    },
+    "after": null
+   },
+   {
+    "word": "anagram",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "anagrams"
+    },
+    "after": null
+   },
+   {
+    "word": "antic",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "antics"
+    },
+    "after": null
+   },
+   {
+    "word": "archive",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "archives"
+    },
+    "after": null
+   },
+   {
+    "word": "ash",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "ashes"
+    },
+    "after": null
+   },
+   {
+    "word": "author",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "authors"
+    },
+    "after": null
+   },
+   {
+    "word": "automobile",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "automobiles"
+    },
+    "after": null
+   },
+   {
+    "word": "autopsy",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "autopsies"
+    },
+    "after": null
+   },
+   {
+    "word": "ax",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "axes"
+    },
+    "after": null
+   },
+   {
+    "word": "bachelor",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "bachelors"
+    },
+    "after": null
+   },
+   {
+    "word": "background",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "backgrounds"
+    },
+    "after": null
+   },
+   {
+    "word": "badge",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "badges"
+    },
+    "after": null
+   },
+   {
+    "word": "bald",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "b",
+     "form": "balder"
+    },
+    "after": null
+   },
+   {
+    "word": "bald",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "z",
+     "form": "baldest"
+    },
+    "after": null
+   },
+   {
+    "word": "bank",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "banks"
+    },
+    "after": null
+   },
+   {
+    "word": "barb",
+    "rule": "forms_drop_unknown_type_duplicate",
+    "before": {
+     "type": "f",
+     "form": "barbs"
+    },
+    "after": null
+   }
+  ],
+  "ipa_strip_monosyllable_stress:phonetic": [
+   {
+    "word": "ace",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪs/",
+    "after": "/eɪs/"
+   },
+   {
+    "word": "ache",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪk/",
+    "after": "/eɪk/"
+   },
+   {
+    "word": "act",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈækt/",
+    "after": "/ækt/"
+   },
+   {
+    "word": "acts",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈakts/",
+    "after": "/akts/"
+   },
+   {
+    "word": "ad",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈæd/",
+    "after": "/æd/"
+   },
+   {
+    "word": "add",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈæd/",
+    "after": "/æd/"
+   },
+   {
+    "word": "adds",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈædz/",
+    "after": "/ædz/"
+   },
+   {
+    "word": "ads",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈædz/",
+    "after": "/ædz/"
+   },
+   {
+    "word": "ae",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪ/",
+    "after": "/eɪ/"
+   },
+   {
+    "word": "age",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪdʒ/",
+    "after": "/eɪdʒ/"
+   },
+   {
+    "word": "ah",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈɑ/",
+    "after": "/ɑ/"
+   },
+   {
+    "word": "ahh",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈɑ/",
+    "after": "/ɑ/"
+   },
+   {
+    "word": "aid",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪd/",
+    "after": "/eɪd/"
+   },
+   {
+    "word": "aide",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪd/",
+    "after": "/eɪd/"
+   },
+   {
+    "word": "aids",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪdz/",
+    "after": "/eɪdz/"
+   },
+   {
+    "word": "ail",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪl/",
+    "after": "/eɪl/"
+   },
+   {
+    "word": "aim",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪm/",
+    "after": "/eɪm/"
+   },
+   {
+    "word": "aimed",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪmd/",
+    "after": "/eɪmd/"
+   },
+   {
+    "word": "aims",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈeɪmz/",
+    "after": "/eɪmz/"
+   },
+   {
+    "word": "air",
+    "rule": "ipa_strip_monosyllable_stress:phonetic",
+    "before": "/ˈɛɹ/",
+    "after": "/ɛɹ/"
+   }
+  ],
+  "ipa_strip_monosyllable_stress:phonetic_us": [
+   {
+    "word": "ace",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪs/",
+    "after": "/eɪs/"
+   },
+   {
+    "word": "ache",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪk/",
+    "after": "/eɪk/"
+   },
+   {
+    "word": "act",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈækt/",
+    "after": "/ækt/"
+   },
+   {
+    "word": "ad",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈæd/",
+    "after": "/æd/"
+   },
+   {
+    "word": "add",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈæd/",
+    "after": "/æd/"
+   },
+   {
+    "word": "adds",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈædz/",
+    "after": "/ædz/"
+   },
+   {
+    "word": "ads",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈædz/",
+    "after": "/ædz/"
+   },
+   {
+    "word": "ae",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪ/",
+    "after": "/eɪ/"
+   },
+   {
+    "word": "age",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪdʒ/",
+    "after": "/eɪdʒ/"
+   },
+   {
+    "word": "ah",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈɑ/",
+    "after": "/ɑ/"
+   },
+   {
+    "word": "ahh",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈɑ/",
+    "after": "/ɑ/"
+   },
+   {
+    "word": "aid",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪd/",
+    "after": "/eɪd/"
+   },
+   {
+    "word": "aide",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪd/",
+    "after": "/eɪd/"
+   },
+   {
+    "word": "aids",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪdz/",
+    "after": "/eɪdz/"
+   },
+   {
+    "word": "ail",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪl/",
+    "after": "/eɪl/"
+   },
+   {
+    "word": "aim",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪm/",
+    "after": "/eɪm/"
+   },
+   {
+    "word": "aimed",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪmd/",
+    "after": "/eɪmd/"
+   },
+   {
+    "word": "aims",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈeɪmz/",
+    "after": "/eɪmz/"
+   },
+   {
+    "word": "air",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈɛɹ/",
+    "after": "/ɛɹ/"
+   },
+   {
+    "word": "al",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_us",
+    "before": "/ˈæl/",
+    "after": "/æl/"
+   }
+  ],
+  "ipa_strip_monosyllable_stress:phonetic_uk": [
+   {
+    "word": "an",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈan/",
+    "after": "/an/"
+   },
+   {
+    "word": "and",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈand/",
+    "after": "/and/"
+   },
+   {
+    "word": "ar",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈɑː/",
+    "after": "/ɑː/"
+   },
+   {
+    "word": "ban",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈban/",
+    "after": "/ban/"
+   },
+   {
+    "word": "bank",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbæŋk/",
+    "after": "/bæŋk/"
+   },
+   {
+    "word": "barge",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɑːd͡ʒ/",
+    "after": "/bɑːd͡ʒ/"
+   },
+   {
+    "word": "barn",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɑːn/",
+    "after": "/bɑːn/"
+   },
+   {
+    "word": "bay",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbeɪ̯/",
+    "after": "/beɪ̯/"
+   },
+   {
+    "word": "beau",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbəʊ̯/",
+    "after": "/bəʊ̯/"
+   },
+   {
+    "word": "bed",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɛd/",
+    "after": "/bɛd/"
+   },
+   {
+    "word": "best",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɛst/",
+    "after": "/bɛst/"
+   },
+   {
+    "word": "blouse",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈblaʊ̯z/",
+    "after": "/blaʊ̯z/"
+   },
+   {
+    "word": "blurt",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈblɜːt/",
+    "after": "/blɜːt/"
+   },
+   {
+    "word": "boat",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbəʊ̯t/",
+    "after": "/bəʊ̯t/"
+   },
+   {
+    "word": "bought",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɔːt/",
+    "after": "/bɔːt/"
+   },
+   {
+    "word": "bound",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbaʊ̯nd/",
+    "after": "/baʊ̯nd/"
+   },
+   {
+    "word": "brain",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɹeɪ̯n/",
+    "after": "/bɹeɪ̯n/"
+   },
+   {
+    "word": "brand",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɹand/",
+    "after": "/bɹand/"
+   },
+   {
+    "word": "bright",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɹaɪ̯t/",
+    "after": "/bɹaɪ̯t/"
+   },
+   {
+    "word": "brine",
+    "rule": "ipa_strip_monosyllable_stress:phonetic_uk",
+    "before": "/ˈbɹaɪ̯n/",
+    "after": "/bɹaɪ̯n/"
+   }
+  ],
+  "ipa_strip_aspiration:phonetic_uk": [
+   {
+    "word": "better",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/ˈbɛtʰə/",
+    "after": "/ˈbɛtə/"
+   },
+   {
+    "word": "curl",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/kʰəːɫ/",
+    "after": "/kəːɫ/"
+   },
+   {
+    "word": "dismantle",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/dɪsˈmæntʰəɫ/",
+    "after": "/dɪsˈmæntəɫ/"
+   },
+   {
+    "word": "keep",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/kʰɪjp/",
+    "after": "/kɪjp/"
+   },
+   {
+    "word": "parcel",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/ˈpʰɑːsəɫ/",
+    "after": "/ˈpɑːsəɫ/"
+   },
+   {
+    "word": "pearl",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/pʰəːɫ/",
+    "after": "/pəːɫ/"
+   },
+   {
+    "word": "prism",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/ˈpʰɹ̠̊ɪzm̩/",
+    "after": "/ˈpɹ̠̊ɪzm̩/"
+   },
+   {
+    "word": "pulchritude",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/ˈpʰʌɫkɹəˌtjuːd/",
+    "after": "/ˈpʌɫkɹəˌtjuːd/"
+   },
+   {
+    "word": "punctuate",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/ˈpʰʌŋktjuːeɪt/",
+    "after": "/ˈpʌŋktjuːeɪt/"
+   },
+   {
+    "word": "purl",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/pʰəːɫ/",
+    "after": "/pəːɫ/"
+   },
+   {
+    "word": "quote",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/kʰwəwt/",
+    "after": "/kwəwt/"
+   },
+   {
+    "word": "tea",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/tʰɪj~tʰiː/",
+    "after": "/tɪj~tiː/"
+   },
+   {
+    "word": "to",
+    "rule": "ipa_strip_aspiration:phonetic_uk",
+    "before": "/tʰʊw/",
+    "after": "/tʊw/"
+   }
+  ],
+  "forms_unknown_type_to_inflection": [
+   {
+    "word": "christmas",
+    "rule": "forms_unknown_type_to_inflection",
+    "before": {
+     "type": "f",
+     "form": "Christmases"
+    },
+    "after": {
+     "type": "inflection",
+     "form": "Christmases"
+    }
+   },
+   {
+    "word": "dj",
+    "rule": "forms_unknown_type_to_inflection",
+    "before": {
+     "type": "f",
+     "form": "DJs"
+    },
+    "after": {
+     "type": "inflection",
+     "form": "DJs"
+    }
+   },
+   {
+    "word": "french",
+    "rule": "forms_unknown_type_to_inflection",
+    "before": {
+     "type": "f",
+     "form": "Frenches"
+    },
+    "after": {
+     "type": "inflection",
+     "form": "Frenches"
+    }
+   },
+   {
+    "word": "fresco",
+    "rule": "forms_unknown_type_to_inflection",
+    "before": {
+     "type": "f",
+     "form": "frescos"
+    },
+    "after": {
+     "type": "inflection",
+     "form": "frescos"
+    }
+   },
+   {
+    "word": "motley",
+    "rule": "forms_unknown_type_to_inflection",
+    "before": {
+     "type": "b",
+     "form": "motlier"
+    },
+    "after": {
+     "type": "inflection",
+     "form": "motlier"
+    }
+   },
+   {
+    "word": "motley",
+    "rule": "forms_unknown_type_to_inflection",
+    "before": {
+     "type": "z",
+     "form": "motliest"
+    },
+    "after": {
+     "type": "inflection",
+     "form": "motliest"
+    }
+   }
+  ],
+  "forms_string_to_dict": [
+   {
+    "word": "prairies",
+    "rule": "forms_string_to_dict",
+    "before": "prairy",
+    "after": [
+     {
+      "type": "base",
+      "form": "prairy"
+     }
+    ]
+   },
+   {
+    "word": "praise",
+    "rule": "forms_string_to_dict",
+    "before": "praised",
+    "after": [
+     {
+      "type": "past_tense",
+      "form": "praised"
+     },
+     {
+      "type": "past_participle",
+      "form": "praised"
+     }
+    ]
+   },
+   {
+    "word": "praise",
+    "rule": "forms_string_to_dict",
+    "before": "praises",
+    "after": [
+     {
+      "type": "plural",
+      "form": "praises"
+     },
+     {
+      "type": "third_person",
+      "form": "praises"
+     }
+    ]
+   },
+   {
+    "word": "praise",
+    "rule": "forms_string_to_dict",
+    "before": "praising",
+    "after": [
+     {
+      "type": "present_participle",
+      "form": "praising"
+     }
+    ]
+   },
+   {
+    "word": "pram",
+    "rule": "forms_string_to_dict",
+    "before": "prams",
+    "after": [
+     {
+      "type": "plural",
+      "form": "prams"
+     }
+    ]
+   },
+   {
+    "word": "prance",
+    "rule": "forms_string_to_dict",
+    "before": "pranced",
+    "after": [
+     {
+      "type": "past_tense",
+      "form": "pranced"
+     },
+     {
+      "type": "past_participle",
+      "form": "pranced"
+     }
+    ]
+   },
+   {
+    "word": "prance",
+    "rule": "forms_string_to_dict",
+    "before": "prances",
+    "after": [
+     {
+      "type": "plural",
+      "form": "prances"
+     },
+     {
+      "type": "third_person",
+      "form": "prances"
+     }
+    ]
+   },
+   {
+    "word": "prance",
+    "rule": "forms_string_to_dict",
+    "before": "prancing",
+    "after": [
+     {
+      "type": "present_participle",
+      "form": "prancing"
+     }
+    ]
+   },
+   {
+    "word": "prank",
+    "rule": "forms_string_to_dict",
+    "before": "pranked",
+    "after": [
+     {
+      "type": "past_tense",
+      "form": "pranked"
+     },
+     {
+      "type": "past_participle",
+      "form": "pranked"
+     }
+    ]
+   },
+   {
+    "word": "prank",
+    "rule": "forms_string_to_dict",
+    "before": "pranking",
+    "after": [
+     {
+      "type": "present_participle",
+      "form": "pranking"
+     }
+    ]
+   },
+   {
+    "word": "prank",
+    "rule": "forms_string_to_dict",
+    "before": "pranks",
+    "after": [
+     {
+      "type": "plural",
+      "form": "pranks"
+     }
+    ]
+   },
+   {
+    "word": "prate",
+    "rule": "forms_string_to_dict",
+    "before": "prated",
+    "after": [
+     {
+      "type": "past_tense",
+      "form": "prated"
+     },
+     {
+      "type": "past_participle",
+      "form": "prated"
+     }
+    ]
+   },
+   {
+    "word": "prate",
+    "rule": "forms_string_to_dict",
+    "before": "prater",
+    "after": [
+     {
+      "type": "inflection",
+      "form": "prater"
+     }
+    ]
+   },
+   {
+    "word": "prate",
+    "rule": "forms_string_to_dict",
+    "before": "prates",
+    "after": [
+     {
+      "type": "third_person",
+      "form": "prates"
+     }
+    ]
+   },
+   {
+    "word": "prate",
+    "rule": "forms_string_to_dict",
+    "before": "pratest",
+    "after": [
+     {
+      "type": "inflection",
+      "form": "pratest"
+     }
+    ]
+   },
+   {
+    "word": "prate",
+    "rule": "forms_string_to_dict",
+    "before": "prating",
+    "after": [
+     {
+      "type": "present_participle",
+      "form": "prating"
+     }
+    ]
+   },
+   {
+    "word": "prattle",
+    "rule": "forms_string_to_dict",
+    "before": "prattled",
+    "after": [
+     {
+      "type": "past_tense",
+      "form": "prattled"
+     },
+     {
+      "type": "past_participle",
+      "form": "prattled"
+     }
+    ]
+   },
+   {
+    "word": "prattle",
+    "rule": "forms_string_to_dict",
+    "before": "prattles",
+    "after": [
+     {
+      "type": "plural",
+      "form": "prattles"
+     },
+     {
+      "type": "third_person",
+      "form": "prattles"
+     }
+    ]
+   },
+   {
+    "word": "prattle",
+    "rule": "forms_string_to_dict",
+    "before": "prattling",
+    "after": [
+     {
+      "type": "present_participle",
+      "form": "prattling"
+     }
+    ]
+   },
+   {
+    "word": "pray",
+    "rule": "forms_string_to_dict",
+    "before": "prayed",
+    "after": [
+     {
+      "type": "past_tense",
+      "form": "prayed"
+     },
+     {
+      "type": "past_participle",
+      "form": "prayed"
+     }
+    ]
+   }
+  ],
+  "en_prefix_skip_mixed": [
+   {
+    "word": "praise",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. an expression of approval and commendation\nn. offering words of homage as an ",
+    "after": null
+   },
+   {
+    "word": "prattle",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n idle or foolish and irrelevant talk\nv speak (about unimportant matters) rapidl",
+    "after": null
+   },
+   {
+    "word": "preamble",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. a preliminary introduction to a statute or constitution (usually explaining i",
+    "after": null
+   },
+   {
+    "word": "precedent",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. an example that is used to justify similar occurrences at a later time\nn. a s",
+    "after": null
+   },
+   {
+    "word": "precious",
+    "rule": "en_prefix_skip_mixed",
+    "before": "s. of high worth or cost\nr. extremely",
+    "after": null
+   },
+   {
+    "word": "precipitate",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. a precipitated solid substance in suspension or after settling or filtering\nv",
+    "after": null
+   },
+   {
+    "word": "predetermined",
+    "rule": "en_prefix_skip_mixed",
+    "before": "v determine beforehand\nv cause to be biased\ns set in advance",
+    "after": null
+   },
+   {
+    "word": "predicate",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. (logic) what is predicated of the subject of a proposition; the second term i",
+    "after": null
+   },
+   {
+    "word": "preface",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n a short introductory essay preceding the text of a book\nv furnish with a prefa",
+    "after": null
+   },
+   {
+    "word": "preferred",
+    "rule": "en_prefix_skip_mixed",
+    "before": "v like better; value more highly\nv select as an alternative over another\nv promo",
+    "after": null
+   },
+   {
+    "word": "prefix",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. an affix that is added in front of the word\nv. attach a prefix to",
+    "after": null
+   },
+   {
+    "word": "preliminary",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. a minor match preceding the main event\nn. something that serves as a precedin",
+    "after": null
+   },
+   {
+    "word": "prelude",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. music that precedes a fugue or introduces an act in an opera\nv. serve as a pr",
+    "after": null
+   },
+   {
+    "word": "premier",
+    "rule": "en_prefix_skip_mixed",
+    "before": "v. be performed for the first time\nv. perform a work for the first time\ns. first",
+    "after": null
+   },
+   {
+    "word": "premise",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. a statement that is assumed to be true and from which a conclusion can be dra",
+    "after": null
+   },
+   {
+    "word": "premium",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. payment for insurance\nn. the amount that something in scarce supply is valued",
+    "after": null
+   },
+   {
+    "word": "preoccupied",
+    "rule": "en_prefix_skip_mixed",
+    "before": "v engage or engross the interest or attention of beforehand or occupy urgently o",
+    "after": null
+   },
+   {
+    "word": "prepaid",
+    "rule": "en_prefix_skip_mixed",
+    "before": "v pay for something before receiving it\ns used especially of mail; paid in advan",
+    "after": null
+   },
+   {
+    "word": "prerequisite",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. something that is required in advance\ns. required as a prior condition or cou",
+    "after": null
+   },
+   {
+    "word": "prescription",
+    "rule": "en_prefix_skip_mixed",
+    "before": "n. directions prescribed beforehand; the action of prescribing authoritative rul",
+    "after": null
+   }
+  ],
+  "en_pos_conflict_recorded": [
+   {
+    "word": "prance",
+    "rule": "en_pos_conflict_recorded",
+    "before": "n.",
+    "after": "v."
+   },
+   {
+    "word": "prank",
+    "rule": "en_pos_conflict_recorded",
+    "before": "n.",
+    "after": "v."
+   },
+   {
+    "word": "prate",
+    "rule": "en_pos_conflict_recorded",
+    "before": "vi.",
+    "after": "n."
+   },
+   {
+    "word": "precipitant",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "n."
+   },
+   {
+    "word": "precis",
+    "rule": "en_pos_conflict_recorded",
+    "before": "n.",
+    "after": "v."
+   },
+   {
+    "word": "prejudice",
+    "rule": "en_pos_conflict_recorded",
+    "before": "n.",
+    "after": "v."
+   },
+   {
+    "word": "premiere",
+    "rule": "en_pos_conflict_recorded",
+    "before": "v.",
+    "after": "n."
+   },
+   {
+    "word": "preparing",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   },
+   {
+    "word": "preschool",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "n."
+   },
+   {
+    "word": "preset",
+    "rule": "en_pos_conflict_recorded",
+    "before": "vt.",
+    "after": "adj."
+   },
+   {
+    "word": "priced",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   },
+   {
+    "word": "prickle",
+    "rule": "en_pos_conflict_recorded",
+    "before": "n.",
+    "after": "v."
+   },
+   {
+    "word": "prim",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   },
+   {
+    "word": "prima",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "n."
+   },
+   {
+    "word": "printed",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   },
+   {
+    "word": "prior",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "n."
+   },
+   {
+    "word": "proboscidean",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "n."
+   },
+   {
+    "word": "producing",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   },
+   {
+    "word": "promoted",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   },
+   {
+    "word": "proposed",
+    "rule": "en_pos_conflict_recorded",
+    "before": "adj.",
+    "after": "v."
+   }
+  ],
+  "readme_counts": [
+   {
+    "word": "README.md",
+    "rule": "readme_counts",
+    "before": "README -> 24 packs / 79040",
+    "after": null
+   }
+  ]
+ }
+}
