@@ -340,7 +340,9 @@ def audit_dictionary(db: Path, cmu, sample_n: int, seed: int):
             flag(w, "forms_string_items_dropped_by_api", forms[:4])
         for f in forms if isinstance(forms, list) else []:
             ff = f.get("form", "") if isinstance(f, dict) else str(f)
-            if (isinstance(f, dict) and f.get("type") == "variant") or CODE_ONLY_RE.match(ff) \
+            code_junk = (len(ff) == 1 and ff.lower() not in ("a", "i")) or \
+                (bool(CODE_ONLY_RE.match(ff.lower())) and (cmu is None or ff.lower() not in cmu))
+            if (isinstance(f, dict) and f.get("type") == "variant") or code_junk \
                     or not re.fullmatch(r"[a-z][a-z'\- ]*", ff.lower()):
                 flag(w, "forms_junk_value", f)
                 break
