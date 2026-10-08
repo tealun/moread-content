@@ -74,3 +74,17 @@ jobs:
         if: always()
         run: test -f "$RUNNER_TEMP/audit.md" && head -c 900000 "$RUNNER_TEMP/audit.md" >> "$GITHUB_STEP_SUMMARY" || true
 ```
+
+## 规则修复 `tools/fix_rules.py`
+
+确定性、幂等、无网络、无 AI、不 commit/push。只做格式修复（词性规范化、去 WordNet 词性前缀、词形垃圾值清理与结构化、IPA 送气符/单音节重音、音标来源去重、README 计数），不改 CEFR、不重配义项、不删词条、不动词库词表。
+
+```bash
+pip install cmudict
+python tools/fix_rules.py --dry-run                                   # 只统计
+python tools/fix_rules.py --log /tmp/fix.jsonl \
+       --summary tools/fix_logs/fix_rules-YYYYMMDD.summary.json       # 写库 + 变更日志
+python tools/audit_content.py --update-baseline                       # 计数下降后更新基线
+```
+
+完整逐条变更日志（JSONL，约 9MB）不入库；摘要（规则计数 + 每条规则前 20 例）提交在 `tools/fix_logs/`。
