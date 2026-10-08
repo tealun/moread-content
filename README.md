@@ -154,3 +154,4 @@ import gaokao from 'moread-content/vocabulary/exam/gaokao.json'
 
 - `DATA_API_SPEC.md` — 数据端完整规格（架构、词库格式、API 文档、消费端集成方式）
 - `textbook/SPEC.md` — 教材同步数据设计（JSON Schema、学段隔离原则）
+- `docs/04_content_audit.md` — 内容质量审计（`python tools/audit_content.py`，问题计数不得高于 `tools/audit_baseline.json`）
